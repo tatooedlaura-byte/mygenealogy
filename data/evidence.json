@@ -1,0 +1,633 @@
+{
+  "$schema": "Each evidence record describes a single source document. 'proves' lists what the record establishes; 'doesNotProve' is what it CANNOT establish (so future claims don't overstate).",
+  "evidence": {
+
+    "ev-1775-nc-deed-boston-best": {
+      "id": "ev-1775-nc-deed-boston-best",
+      "type": "deed",
+      "date": "1775",
+      "location": "North Carolina",
+      "extract": "Names Boston Best with wife Catron Best.",
+      "citation": "1775 North Carolina deed (Boston Best Sr. and wife Catron).",
+      "proves": ["Boston Best Sr. existed and was married", "Wife's recorded name was Catron"],
+      "doesNotProve": ["Catron's full given name (likely Catherine variant — not certain)", "Catron's maiden name", "Their children"]
+    },
+
+    "ev-1779-marriage-peter-cristina": {
+      "id": "ev-1779-marriage-peter-cristina",
+      "type": "marriage",
+      "date": "13 Oct 1779",
+      "location": "North Carolina",
+      "extract": "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best.",
+      "citation": "1779 North Carolina marriage record.",
+      "proves": ["Peter Best and Cristina Whitenbarger married 13 Oct 1779", "Boston Best stood as bondsman (close associate, often kin)"],
+      "doesNotProve": ["Peter is Boston's son (only that they were close enough for Boston to bond)", "Children of this marriage"]
+    },
+
+    "ev-1809-boston-best-estate": {
+      "id": "ev-1809-boston-best-estate",
+      "type": "estate",
+      "date": "1809",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Estate of Boston Best Sr. administered.",
+      "citation": "1809 Lincoln County, NC estate records.",
+      "proves": ["Boston Best Sr. died by 1809", "Estate was administered in Lincoln County, NC"],
+      "doesNotProve": ["Heirs (no named list survives in this record)", "Specific date of death"]
+    },
+
+    "ev-1809-boston-estate-peter-account": {
+      "id": "ev-1809-boston-estate-peter-account",
+      "type": "estate-account",
+      "date": "1809",
+      "location": "Lincoln County, North Carolina",
+      "extract": "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'",
+      "citation": "1809 Boston Best Sr. estate account.",
+      "proves": ["Peter Best had direct financial involvement in Boston Best Sr.'s estate consistent with immediate family/heir"],
+      "doesNotProve": ["Peter is explicitly named as son or heir", "Exact relationship — could be creditor, agent, or kin"]
+    },
+
+    "ev-1809-eve-bess-petition": {
+      "id": "ev-1809-eve-bess-petition",
+      "type": "court",
+      "date": "1809",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Petition involving Eve Bess; sister of Elizabeth Line; children include John Bess and Polly Bess.",
+      "citation": "1809 Lincoln County, NC petition.",
+      "proves": ["Eve Bess existed in Lincoln Co. NC 1809", "Sister to Elizabeth Line", "Children John and Polly Bess"],
+      "doesNotProve": ["Connection to Missouri Bess line"]
+    },
+
+    "ev-1832-peter-bess-will": {
+      "id": "ev-1832-peter-bess-will",
+      "type": "will",
+      "date": "1832",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed).",
+      "citation": "1832 Peter Bess will, Lincoln County, NC.",
+      "proves": ["Peter Bess existed in Lincoln Co. NC, died ~1832", "Wife Leannah", "Had children (unnamed)"],
+      "doesNotProve": ["Identity of children", "Whether this is the same Peter Best who married Cristina Whitenbarger 1779"]
+    },
+
+    "ev-1822-tax-list-jacob-bess": {
+      "id": "ev-1822-tax-list-jacob-bess",
+      "type": "tax",
+      "date": "1822",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Jacob Bess listed.",
+      "citation": "1822 Cape Girardeau County, MO tax list.",
+      "proves": ["Jacob Bess present in Cape Girardeau Co. MO by 1822"],
+      "doesNotProve": ["Birthplace", "Family", "Prior residence"]
+    },
+
+    "ev-1830-census-jacob-bess": {
+      "id": "ev-1830-census-jacob-bess",
+      "type": "census",
+      "date": "1830",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Male age 30–39 (born ~1790–1800); household with multiple children.",
+      "citation": "1830 U.S. Census, Cape Girardeau Co., MO.",
+      "proves": ["Jacob Bess head of household 1830", "Birth range ~1790–1800", "Had multiple children in household"],
+      "doesNotProve": ["Children's names", "Wife's identity (only tally marks)", "Birthplace (not asked in 1830)"]
+    },
+
+    "ev-1850-census-jacob-bess": {
+      "id": "ev-1850-census-jacob-bess",
+      "type": "census",
+      "date": "1850",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel.",
+      "citation": "1850 U.S. Census, Cape Girardeau Co., MO.",
+      "proves": ["Jacob Bess age ~52 in 1850 (born ~1798)", "Reported NC birthplace", "Household members named"],
+      "doesNotProve": ["Birthplace independently (census birthplace is self-reported)", "Exact relationships within household (1850 census did not record relationship to head)", "Wife's identity (no adult woman matching wife age in this household)"]
+    },
+
+    "ev-jacob-bess-probate": {
+      "id": "ev-jacob-bess-probate",
+      "type": "probate",
+      "date": "by Feb 1864",
+      "location": "Bollinger County, Missouri",
+      "extract": "Jacob Bess deceased; Matilda Bess administratrix.",
+      "citation": "Bollinger Co., MO probate records.",
+      "proves": ["Jacob Bess died before Feb 1864 in Bollinger Co. MO", "Matilda Bess served as administratrix"],
+      "doesNotProve": ["Matilda's exact relationship to Jacob (administratrix is often a relative but not always)", "Widow status"]
+    },
+
+    "ev-jacob-bess-partition-1868": {
+      "id": "ev-jacob-bess-partition-1868",
+      "type": "partition",
+      "date": "~1868",
+      "location": "Bollinger County, Missouri",
+      "extract": "Heirs listed: Sarah (m. James Bess), Catherine, Adaline (m. Rhodes), Barbara/Barbary (m. Blaylock), Mary A., Jacob Jr., Edward, Daniel, Emanuel, Levi, James.",
+      "citation": "Jacob Bess Sr. partition/distribution case, Bollinger Co., MO ~1868.",
+      "proves": ["These individuals are Jacob Bess Sr.'s legal heirs", "Married names of daughters (Sarah-James Bess, Adaline-Rhodes, Barbara-Blaylock)"],
+      "doesNotProve": ["Birth order", "Whether these are all biological children (heirs can include grandchildren by representation)"]
+    },
+
+    "ev-1859-jacob-bess-deed": {
+      "id": "ev-1859-jacob-bess-deed",
+      "type": "deed",
+      "date": "1859",
+      "location": "Bollinger County, Missouri",
+      "extract": "Jacob Bess appears alone (no wife joining in dower).",
+      "citation": "1859 Bollinger Co., MO deed.",
+      "proves": ["By 1859 Jacob Bess transacted property without a wife joining"],
+      "doesNotProve": ["That he had never had a wife (dower customs and missing women in deeds vary)", "Wife's identity or fate"]
+    },
+
+    "ev-1857-edward-bess-deed": {
+      "id": "ev-1857-edward-bess-deed",
+      "type": "deed",
+      "date": "1857",
+      "location": "Bollinger County, Missouri",
+      "extract": "Edward B. Bess and Jane Bess his wife; Jane relinquishes dower.",
+      "citation": "1857 Bollinger Co., MO deed.",
+      "proves": ["Edward B. Bess married to a Jane by 1857"],
+      "doesNotProve": ["Jane's maiden name"]
+    },
+
+    "ev-1866-edward-bess-deed": {
+      "id": "ev-1866-edward-bess-deed",
+      "type": "deed",
+      "date": "1866",
+      "location": "Bollinger County, Missouri",
+      "extract": "Edward and Jane as husband/wife.",
+      "citation": "1866 Bollinger Co., MO deed.",
+      "proves": ["Continuing marriage of Edward B. Bess and Jane in 1866"],
+      "doesNotProve": ["Jane's maiden name"]
+    },
+
+    "ev-1872-edward-bess-deed": {
+      "id": "ev-1872-edward-bess-deed",
+      "type": "deed",
+      "date": "1872",
+      "location": "Madison County, Missouri",
+      "extract": "Edward and Jane as husband/wife.",
+      "citation": "1872 Madison Co., MO deed.",
+      "proves": ["Edward and Jane resided in Madison Co. MO by 1872"],
+      "doesNotProve": ["Jane's maiden name"]
+    },
+
+    "ev-1857-levi-bess-deed": {
+      "id": "ev-1857-levi-bess-deed",
+      "type": "deed",
+      "date": "1857",
+      "location": "Bollinger County, Missouri",
+      "extract": "Levi Bess and Barbary Bess his wife; dower released.",
+      "citation": "1857 Bollinger Co., MO deed.",
+      "proves": ["Levi Bess married to a Barbary by 1857"],
+      "doesNotProve": ["Barbary's maiden name", "That this Barbary is the same as any other Barbara/Barbary in the file"]
+    },
+
+    "ev-1880-census-roddi-bess": {
+      "id": "ev-1880-census-roddi-bess",
+      "type": "census",
+      "date": "1880",
+      "location": "Missouri",
+      "extract": "'Roddi Bess,' daughter of Edward and Jane.",
+      "citation": "1880 U.S. Census.",
+      "proves": ["Roddi Bess is daughter of Edward and Jane Bess in 1880"],
+      "doesNotProve": ["Roddi = Rhoda (treated as same person by later records — supported but technically a name match)"]
+    },
+
+    "ev-albert-ransom-bess-death": {
+      "id": "ev-albert-ransom-bess-death",
+      "type": "death-record",
+      "date": "31 Jan 1935",
+      "location": "Granite City, Illinois",
+      "extract": "Albert Ransom Bess; born 11 May 1862, Bessville, MO; parents: Edward Bess and Jane Sanders.",
+      "citation": "1935 Illinois death record for Albert Ransom Bess.",
+      "proves": ["Birth/death dates and places of Albert Ransom Bess", "Strongest source for Jane's maiden name = Sanders"],
+      "doesNotProve": ["Maiden name with absolute certainty (death-record informant could be wrong; spelling Sanders/Saunders varies)"]
+    },
+
+    "ev-1847-hiram-bess-will": {
+      "id": "ev-1847-hiram-bess-will",
+      "type": "will",
+      "date": "1847",
+      "location": "North Carolina",
+      "extract": "Hiram Bess; wife Eliza; children John Franklin, Catherine, Margaret Elizabeth, Susan Adeline, Mary Ann.",
+      "citation": "1847 will of Hiram Bess.",
+      "proves": ["Hiram Bess's wife Eliza and named children"],
+      "doesNotProve": ["Connection to Missouri Bess line"]
+    },
+
+    "ev-1855-boston-bess-guardian-bond": {
+      "id": "ev-1855-boston-bess-guardian-bond",
+      "type": "guardian",
+      "date": "1855",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Bess guardian bond for Hiram's minor children.",
+      "citation": "1855 Lincoln Co., NC guardian bond.",
+      "proves": ["Boston Bess (1869) acted as guardian for Hiram Bess's minor children in 1855"],
+      "doesNotProve": ["Specific kinship to Hiram"]
+    },
+
+    "ev-1869-boston-bess-letters": {
+      "id": "ev-1869-boston-bess-letters",
+      "type": "letters-testamentary",
+      "date": "1869",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Letters testamentary; widow Elizabeth Bess; executor Thomas Bess.",
+      "citation": "1869 Lincoln Co., NC letters testamentary, Boston Bess.",
+      "proves": ["Boston Bess (1869) died with widow Elizabeth and executor Thomas Bess"],
+      "doesNotProve": ["This is NOT the same Boston as Boston Best Sr. (d. 1809)"]
+    },
+
+    "ev-1869-boston-estate-cluster": {
+      "id": "ev-1869-boston-estate-cluster",
+      "type": "estate",
+      "date": "1869",
+      "location": "Missouri",
+      "extract": "1869 Boston Bess estate event includes Jacob, Lawson, and Peter Bess together.",
+      "citation": "1869 Boston Bess estate-related record.",
+      "proves": ["Jacob, Lawson, and Peter Bess associated in Missouri ~1869"],
+      "doesNotProve": ["Exact relationships among them"]
+    },
+
+    "ev-frederick-slinker-nc-patents": {
+      "id": "ev-frederick-slinker-nc-patents",
+      "type": "land-patent",
+      "date": "1768, 1775",
+      "location": "Lincoln County, North Carolina",
+      "extract": "NC land patents to Frederick Slinker.",
+      "citation": "1768 and 1775 NC land patents.",
+      "proves": ["Frederick Slinker held land in NC by 1768"],
+      "doesNotProve": ["Family details"]
+    },
+
+    "ev-frederick-slinker-1777-deed": {
+      "id": "ev-frederick-slinker-1777-deed",
+      "type": "deed",
+      "date": "1777",
+      "location": "North Carolina",
+      "extract": "Frederick Slinker deed chain.",
+      "citation": "1777 NC deed.",
+      "proves": ["Frederick Slinker continued landholding"],
+      "doesNotProve": ["Family"]
+    },
+
+    "ev-frederick-slinker-1794-deed": {
+      "id": "ev-frederick-slinker-1794-deed",
+      "type": "deed",
+      "date": "1794",
+      "location": "Lincoln County, North Carolina (Flat Rock / Catawba region)",
+      "extract": "Frederick Slinker deed.",
+      "citation": "1794 Lincoln Co., NC deed.",
+      "proves": ["Frederick Slinker present in NC 1794"],
+      "doesNotProve": []
+    },
+
+    "ev-1788-jacob-slinkard-heir-deed": {
+      "id": "ev-1788-jacob-slinkard-heir-deed",
+      "type": "deed",
+      "date": "1788",
+      "location": "Lincoln County, North Carolina",
+      "extract": "'…descended… to Jacob… heir at law' (referring to land of Frederick Slinker).",
+      "citation": "1788 Lincoln Co., NC deed.",
+      "proves": ["A Jacob Slinkard was 'heir at law' of Frederick Slinker per inheritance language"],
+      "doesNotProve": ["That Jacob is explicitly Frederick's son (heir-at-law can be other relations)", "That this Jacob is the same as MO Jacob Slinkard"]
+    },
+
+    "ev-1818-jacob-slinkard-mo-deed": {
+      "id": "ev-1818-jacob-slinkard-mo-deed",
+      "type": "deed",
+      "date": "1818",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Jacob Slinkard sells town lot.",
+      "citation": "1818 Cape Girardeau Co., MO deed.",
+      "proves": ["Jacob Slinkard owned and sold land in Cape Girardeau Co. MO 1818"],
+      "doesNotProve": ["Connection to NC Jacob Slinkard"]
+    },
+
+    "ev-1823-jacob-slinkard-deceased-deed": {
+      "id": "ev-1823-jacob-slinkard-deceased-deed",
+      "type": "deed",
+      "date": "1823",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "'…land confirmed to Jacob Slinkard deceased and owned by him in his life time…' Includes Barbary Best wife of Jacob Best as party.",
+      "citation": "1823 Cape Girardeau Co., MO deed.",
+      "proves": ["Jacob Slinkard (MO) died before 1 Oct 1823", "Barbara/Barbary identified as wife of Jacob Best", "Land cluster involves John Best & Catherine, Daniel Slinkard & wife Hannah, David Kinder"],
+      "doesNotProve": ["Exact relationships among the cluster"]
+    },
+
+    "ev-jacob-miller-guardianship-barbara": {
+      "id": "ev-jacob-miller-guardianship-barbara",
+      "type": "guardian",
+      "date": "(undated probate distribution, post-1816)",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "'Jacob Miller, guardian of Barbara Slinkard… paid her share to her husband Jacob Best…'",
+      "citation": "Probate / guardian distribution, Cape Girardeau Co., MO.",
+      "proves": ["Barbara Slinkard had a guardian (her father deceased)", "Barbara Slinkard married Jacob Best", "Identification of Jacob Best as Barbara's husband"],
+      "doesNotProve": ["Identity of Barbara's father by name in this record alone (must combine with 1823 deed)"]
+    },
+
+    "ev-1820-best-slinkard-deed": {
+      "id": "ev-1820-best-slinkard-deed",
+      "type": "deed",
+      "date": "1820",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "John Best & Catharine convey land to Daniel Slinkard.",
+      "citation": "1820 Cape Girardeau Co., MO deed.",
+      "proves": ["John Best transacted land with Daniel Slinkard 1820"],
+      "doesNotProve": ["Family relationship between Best and Slinkard"]
+    },
+
+    "ev-1838-daniel-slinkard-probate": {
+      "id": "ev-1838-daniel-slinkard-probate",
+      "type": "probate",
+      "date": "2–3 Nov 1838",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Estate of Daniel Slinkard opened; widow Eve Slinkard; heirs: John, Jacob, Catharine, Polly, David, Emanuel, Denney (Denny), Ramon (Ransom), Nancy, Nora, Daniel (Jr.), Rosey.",
+      "citation": "1838 Daniel Slinkard probate, Cape Girardeau Co., MO.",
+      "proves": ["Daniel Slinkard died before Nov 1838", "Widow Eve", "Named heirs"],
+      "doesNotProve": ["Birth order", "Heirs' birthdates"]
+    },
+
+    "ev-marriage-index-daniel-eve-morrison": {
+      "id": "ev-marriage-index-daniel-eve-morrison",
+      "type": "marriage-index",
+      "date": "(undated entry)",
+      "location": "Missouri",
+      "extract": "Daniel Slinkard — Eve Morrison.",
+      "citation": "Missouri marriage index.",
+      "proves": ["Marriage index entry exists for Daniel Slinkard and Eve Morrison"],
+      "doesNotProve": ["Date or place of marriage", "That this Daniel is the same Daniel who d. 1838 (probable but not certain)"]
+    },
+
+    "ev-1818-frederick-slinker-mo-deed": {
+      "id": "ev-1818-frederick-slinker-mo-deed",
+      "type": "deed",
+      "date": "1818",
+      "location": "Missouri",
+      "extract": "Land bordering Mathias Bollinger.",
+      "citation": "1818 Missouri deed, Frederick Slinker.",
+      "proves": ["A Frederick Slinker held land in MO 1818 adjacent to Mathias Bollinger"],
+      "doesNotProve": ["This is the same Frederick Slinker who held NC land"]
+    },
+
+    "ev-1833-frederick-slinker-bond": {
+      "id": "ev-1833-frederick-slinker-bond",
+      "type": "court",
+      "date": "1833",
+      "location": "Missouri",
+      "extract": "Security on guardian bond.",
+      "citation": "1833 court record.",
+      "proves": ["Frederick Slinker active in MO court matters 1833"],
+      "doesNotProve": []
+    },
+
+    "ev-1818-william-louise-best-marriage": {
+      "id": "ev-1818-william-louise-best-marriage",
+      "type": "marriage",
+      "date": "1818",
+      "location": "Missouri",
+      "extract": "William Best m. Louise Best.",
+      "citation": "1818 marriage record.",
+      "proves": ["Marriage of William Best and Louise Best 1818"],
+      "doesNotProve": ["Their relationship to John or Jacob Best"]
+    },
+
+    "ev-1829-joseph-hannah-best-marriage": {
+      "id": "ev-1829-joseph-hannah-best-marriage",
+      "type": "marriage",
+      "date": "1829",
+      "location": "Missouri",
+      "extract": "Joseph Best m. Hannah (Barks?/Parks?).",
+      "citation": "1829 marriage record.",
+      "proves": ["Joseph Best married Hannah 1829"],
+      "doesNotProve": ["Hannah's maiden surname (transcription unclear)"]
+    },
+
+    "ev-1814-henry-rebecca-marriage": {
+      "id": "ev-1814-henry-rebecca-marriage",
+      "type": "marriage",
+      "date": "1814",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Henry Slinkard m. Rebecca.",
+      "citation": "1814 Lincoln Co., NC marriage.",
+      "proves": ["Henry Slinkard married Rebecca 1814 in NC"],
+      "doesNotProve": ["Rebecca's maiden name", "Connection to MO Slinkards"]
+    },
+
+    "ev-1816-peter-critz-guardian-settlement": {
+      "id": "ev-1816-peter-critz-guardian-settlement",
+      "type": "guardian",
+      "date": "6 Dec 1816",
+      "location": "Missouri",
+      "extract": "Peter Critz guardian of David & Jacob Slinkard (minors); settlement.",
+      "citation": "1816 guardianship index.",
+      "proves": ["Two minor Slinkards (David, Jacob) had Peter Critz as guardian as of 1816"],
+      "doesNotProve": ["Their father's identity", "Connection to main Slinkard line"]
+    },
+
+    "ev-1827-elizabeth-gross-marriage": {
+      "id": "ev-1827-elizabeth-gross-marriage",
+      "type": "marriage",
+      "date": "20 May 1827",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Elizabeth Slinkard m. William Gross (also Grass).",
+      "citation": "1827 Cape Girardeau Co., MO marriage.",
+      "proves": ["Elizabeth Slinkard married William Gross 20 May 1827"],
+      "doesNotProve": ["Her parents"]
+    },
+
+    "ev-1828-catharine-smith-marriage": {
+      "id": "ev-1828-catharine-smith-marriage",
+      "type": "marriage",
+      "date": "29 Jan 1828",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Catharine Slinkard m. Ruben Smith.",
+      "citation": "1828 Cape Girardeau Co., MO marriage.",
+      "proves": ["A Catharine Slinkard married Ruben Smith 29 Jan 1828"],
+      "doesNotProve": ["Her parents", "Whether same as Catharine in Daniel's 1838 probate"]
+    },
+
+    "ev-1830-olly-crump-marriage": {
+      "id": "ev-1830-olly-crump-marriage",
+      "type": "marriage",
+      "date": "27 Apr 1830",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "'Olly' Slinkard m. Zachariah Crump.",
+      "citation": "1830 Cape Girardeau Co., MO marriage.",
+      "proves": ["A Slinkard recorded as 'Olly' married Zachariah Crump 27 Apr 1830"],
+      "doesNotProve": ["That 'Olly' = Polly", "Her parents"]
+    },
+
+    "ev-1834-katherine-link-marriage": {
+      "id": "ev-1834-katherine-link-marriage",
+      "type": "marriage",
+      "date": "1834",
+      "location": "Missouri",
+      "extract": "Katherine Slinkard m. Aaron Link.",
+      "citation": "1834 Missouri marriage record.",
+      "proves": ["A Katherine Slinkard married Aaron Link 1834"],
+      "doesNotProve": ["Whether same as Catharine of 1828 marriage or 1838 probate"]
+    },
+
+    "ev-1836-joseph-shrum-marriage": {
+      "id": "ev-1836-joseph-shrum-marriage",
+      "type": "marriage",
+      "date": "11 Dec 1836",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Joseph Slinkerd m. Alley Shrum.",
+      "citation": "1836 Cape Girardeau Co., MO marriage.",
+      "proves": ["Joseph Slinkerd married Alley Shrum 11 Dec 1836"],
+      "doesNotProve": ["His parents", "Whether same as other Josephs in file"]
+    },
+
+    "ev-1837-jacob-phebe-marriage": {
+      "id": "ev-1837-jacob-phebe-marriage",
+      "type": "marriage",
+      "date": "1 Apr 1837",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Jacob Slinkard m. Phebe Hubble.",
+      "citation": "1837 Cape Girardeau Co., MO marriage.",
+      "proves": ["Jacob Slinkard married Phebe Hubble 1 Apr 1837"],
+      "doesNotProve": ["His parents directly (though identification as Daniel's son is supported by 1838 probate)"]
+    },
+
+    "ev-1839-john-viney-marriage": {
+      "id": "ev-1839-john-viney-marriage",
+      "type": "marriage",
+      "date": "8 Dec 1839",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "John Slinkard m. Viney Stroder.",
+      "citation": "1839 Cape Girardeau Co., MO marriage.",
+      "proves": ["A John Slinkard married Viney Stroder 8 Dec 1839"],
+      "doesNotProve": ["His parents", "Whether same as John in marriage index entry naming Nancy Stroder"]
+    },
+
+    "ev-marriage-index-joseph-anna-green": {
+      "id": "ev-marriage-index-joseph-anna-green",
+      "type": "marriage-index",
+      "date": "(undated)",
+      "location": "Missouri",
+      "extract": "Joseph Slinkard — Anna Green.",
+      "citation": "Missouri marriage index.",
+      "proves": ["Marriage index entry exists for Joseph Slinkard and Anna Green"],
+      "doesNotProve": ["Date or place", "Whether same as Joseph–Alley Shrum 1836 or Joseph–Tennessee Estes"]
+    },
+
+    "ev-marriage-index-john-nancy-stroder": {
+      "id": "ev-marriage-index-john-nancy-stroder",
+      "type": "marriage-index",
+      "date": "(undated)",
+      "location": "Missouri",
+      "extract": "John Slinkard — Nancy Stroder.",
+      "citation": "Missouri marriage index.",
+      "proves": ["Marriage index entry exists for John Slinkard and Nancy Stroder"],
+      "doesNotProve": ["Whether same as John–Viney Stroder 1839 (Nancy/Viney could be transcription variants — or two different Johns)"]
+    },
+
+    "ev-1850-jacob-slinkard-1812-census": {
+      "id": "ev-1850-jacob-slinkard-1812-census",
+      "type": "census",
+      "date": "1850",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Jacob Slinkard household; Phebe; children William J, Daniel M (age 11), Ebenezer, Eliza C, Araminta C.",
+      "citation": "1850 U.S. Census, Cape Girardeau Co., MO.",
+      "proves": ["Jacob Slinkard (~1812) and Phebe with named children in 1850"],
+      "doesNotProve": ["Continuity to other Jacob Slinkards"]
+    },
+
+    "ev-1860-jacob-slinkard-1812-census": {
+      "id": "ev-1860-jacob-slinkard-1812-census",
+      "type": "census",
+      "date": "1860",
+      "location": "Byrd Township, Cape Girardeau County, Missouri",
+      "extract": "Same Jacob/Phebe family; adds John M, George W, Jacob L (infant); Daniel M now age 19.",
+      "citation": "1860 U.S. Census, Byrd Twp., Cape Girardeau Co., MO.",
+      "proves": ["Continuity of Jacob (~1812)/Phebe family 1850→1860 with additional children"],
+      "doesNotProve": []
+    },
+
+    "ev-1867-daniel-m-estate-inventory": {
+      "id": "ev-1867-daniel-m-estate-inventory",
+      "type": "estate",
+      "date": "1867",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Estate inventory of Daniel M. Slinkard.",
+      "citation": "1867 Cape Girardeau Co., MO estate.",
+      "proves": ["Daniel M. Slinkard died by 1867"],
+      "doesNotProve": []
+    },
+
+    "ev-1876-mo-state-census-slinkard-cluster": {
+      "id": "ev-1876-mo-state-census-slinkard-cluster",
+      "type": "census",
+      "date": "1876",
+      "location": "Bollinger / Cape Girardeau region, Missouri",
+      "extract": "Phoebe Slinkard, Araminta Slinkard, George W Slinkard, John M Slinkard, Jacob L Slinkard, Robert L Slinkard, Marion B Slinkard.",
+      "citation": "1876 Missouri state census.",
+      "proves": ["These Slinkards present in same township 1876"],
+      "doesNotProve": ["Relationships among them (cluster only)"]
+    },
+
+    "ev-1881-bollinger-tax-book-slinkards": {
+      "id": "ev-1881-bollinger-tax-book-slinkards",
+      "type": "tax-list",
+      "date": "1881",
+      "location": "Bollinger County, Missouri",
+      "extract": "Slinkards listed: Sarah, J.F., M.B., Elizabeth, B.H., Joseph W., P.G., Daniel, Peter, Wm R., J.M., John F., James C.",
+      "citation": "1881 Bollinger Co., MO tax book.",
+      "proves": ["These individuals owned taxable property in Bollinger Co. 1881"],
+      "doesNotProve": ["Relationships among them"]
+    },
+
+    "ev-1852-joseph-slinkard-land-patent": {
+      "id": "ev-1852-joseph-slinkard-land-patent",
+      "type": "land-patent",
+      "date": "1852",
+      "location": "Bollinger County, Missouri",
+      "extract": "80 acres, Sec 27, T31N, R9E.",
+      "citation": "1852 Bollinger Co., MO land patent.",
+      "proves": ["Joseph Slinkard received federal land patent 1852 in Bollinger Co."],
+      "doesNotProve": ["Family"]
+    },
+
+    "ev-joseph-slinkard-bollinger-probate": {
+      "id": "ev-joseph-slinkard-bollinger-probate",
+      "type": "probate",
+      "date": "(post-patent, before later distribution)",
+      "location": "Bollinger County, Missouri",
+      "extract": "Estate of Joseph Slinkard (deceased); real estate ordered sold; creditor: N. W. Slinkard.",
+      "citation": "Bollinger Co., MO probate.",
+      "proves": ["Joseph Slinkard (Bollinger) died with estate sold", "N. W. Slinkard was a creditor"],
+      "doesNotProve": ["Relationship of N.W. to Joseph"]
+    },
+
+    "ev-ransom-estes-will": {
+      "id": "ev-ransom-estes-will",
+      "type": "will",
+      "date": "(undated in source)",
+      "location": "Missouri",
+      "extract": "'…daughter Tennessee Slinkard… married to Joseph Slinkard.'",
+      "citation": "Will of Ransom B. Estes.",
+      "proves": ["Tennessee Estes was Ransom B. Estes's daughter and married Joseph Slinkard"],
+      "doesNotProve": []
+    },
+
+    "ev-marriage-index-elizabeth-bess-spencer": {
+      "id": "ev-marriage-index-elizabeth-bess-spencer",
+      "type": "marriage-index",
+      "date": "(undated)",
+      "location": "Missouri",
+      "extract": "Elizabeth Bess — Israel Spencer.",
+      "citation": "Missouri marriage index.",
+      "proves": ["Elizabeth Bess married Israel Spencer per index"],
+      "doesNotProve": ["Her family / connection to direct line"]
+    },
+
+    "ev-1850-jacob-bess-cluster-analysis": {
+      "id": "ev-1850-jacob-bess-cluster-analysis",
+      "type": "analysis",
+      "date": "(derived)",
+      "location": "—",
+      "extract": "Jacob Bess Sr. fits chronologically (~1798) as second-generation son of Peter Best (b. ~1765–1775); migration timing aligns with NC→MO ~1815–1822; no conflicting candidate.",
+      "citation": "Working analysis combining the above sources.",
+      "proves": [],
+      "doesNotProve": ["Direct parent-child relationship between Peter Best and Jacob Bess Sr."],
+      "notes": "Analytical record only; supports SUPPORTED status, never PROVEN."
+    }
+  }
+}

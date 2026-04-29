@@ -1,0 +1,789 @@
+{
+  "$schema": "Each person has identity info plus a 'claims' array. A claim is a single assertion (born, died, resided, child-of, spouse-of, role, etc.) with its own status and evidence references. Claims with status REJECTED/DISPROVEN/REPLACED are kept (not deleted) per the no-delete rule.",
+  "directLine": [
+    "boston-best-sr",
+    "peter-best",
+    "jacob-bess-sr",
+    "edward-b-bess",
+    "rhoda-b-bess",
+    "joseph-labrot",
+    "virginia-labrot",
+    "robert-stokes",
+    "you"
+  ],
+  "groups": {
+    "direct-line": "Direct ancestors",
+    "bess-mo-children": "Jacob Bess Sr.'s children (Missouri)",
+    "bess-edward-children": "Edward B. Bess's children",
+    "bess-nc-cluster": "North Carolina Bess cluster (reference only)",
+    "bess-mo-cluster": "Missouri Bess cluster (reference only)",
+    "slinkard-direct": "Slinkard line (via Barbara, Jacob Bess Sr.'s wife)",
+    "slinkard-daniel-heirs": "Daniel Slinkard's heirs (1838 probate)",
+    "slinkard-jacob-1812-children": "Jacob Slinkard (~1812) and Phoebe Hubble's children",
+    "slinkard-marriage-cluster": "Slinkard marriages, Cape Girardeau 1827–1839",
+    "slinkard-other": "Other Slinkard individuals",
+    "slinkard-1881-tax": "1881 Bollinger County tax list Slinkards (presence proven; relationships unknown)",
+    "best-cluster": "Best family (Cape Girardeau 1818–1829)",
+    "other": "Other individuals"
+  },
+  "people": {
+
+    "you": {
+      "id": "you", "name": "(You)", "tags": ["direct-line"], "group": "direct-line",
+      "claims": [
+        {"predicate": "child-of", "object": "robert-stokes", "status": "PROVEN", "evidence": []}
+      ],
+      "notes": ["Placeholder for the tree owner. Fill in or remove as desired."]
+    },
+
+    "robert-stokes": {
+      "id": "robert-stokes", "name": "Robert Stokes", "tags": ["direct-line", "stokes"], "group": "direct-line",
+      "claims": [
+        {"predicate": "child-of", "object": "virginia-labrot", "status": "PROVEN", "evidence": [], "notes": "Direct-line descendant of Virginia Labrot — PROVEN per user's research file."}
+      ]
+    },
+
+    "virginia-labrot": {
+      "id": "virginia-labrot", "name": "Virginia Labrot", "tags": ["direct-line", "labrot"], "group": "direct-line",
+      "claims": [
+        {"predicate": "child-of", "object": "joseph-labrot", "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "rhoda-b-bess", "status": "PROVEN", "evidence": []}
+      ]
+    },
+
+    "joseph-labrot": {
+      "id": "joseph-labrot", "name": "Joseph Labrot", "tags": ["direct-line", "labrot"], "group": "direct-line",
+      "claims": [
+        {"predicate": "spouse-of", "object": "rhoda-b-bess", "status": "SUPPORTED", "evidence": [], "notes": "Documented in research file as direct-line connector. Supporting evidence to be added when Labrot file is built."}
+      ]
+    },
+
+    "rhoda-b-bess": {
+      "id": "rhoda-b-bess", "name": "Rhoda B. Bess", "aka": ["Roddi Bess"], "tags": ["direct-line", "bess"], "group": "direct-line",
+      "claims": [
+        {"predicate": "born", "value": {"place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1880-census-roddi-bess"]},
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": ["ev-1880-census-roddi-bess"]},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "PROVEN", "evidence": ["ev-1880-census-roddi-bess"]},
+        {"predicate": "spouse-of", "object": "joseph-labrot", "status": "SUPPORTED", "evidence": [], "notes": "Direct-link person between Bess and Labrot lines."},
+        {"predicate": "aka", "value": "Roddi Bess (1880 census name)", "status": "PROVEN", "evidence": ["ev-1880-census-roddi-bess"]}
+      ]
+    },
+
+    "edward-b-bess": {
+      "id": "edward-b-bess", "name": "Edward B. Bess", "tags": ["direct-line", "bess"], "group": "direct-line",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1835–1836", "place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "died", "value": {"date": "after 1880"}, "status": "SUPPORTED", "evidence": ["ev-1880-census-roddi-bess"]},
+        {"predicate": "resided", "value": {"place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1857-edward-bess-deed", "ev-1866-edward-bess-deed"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1872"}, "status": "PROVEN", "evidence": ["ev-1872-edward-bess-deed"]},
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-partition-1868"]},
+        {"predicate": "spouse-of", "object": "jane-sanders", "status": "PROVEN", "evidence": ["ev-1857-edward-bess-deed", "ev-1866-edward-bess-deed", "ev-1872-edward-bess-deed"]},
+        {"predicate": "father-of", "object": "rosanna-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "father-of", "object": "mary-f-bess", "status": "STRONGLY SUPPORTED", "evidence": []},
+        {"predicate": "father-of", "object": "catherine-bess-edward-daughter", "status": "SUPPORTED", "evidence": []},
+        {"predicate": "father-of", "object": "albert-ransom-bess", "status": "PROVEN", "evidence": ["ev-albert-ransom-bess-death"]},
+        {"predicate": "father-of", "object": "caroline-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "father-of", "object": "rhoda-b-bess", "status": "PROVEN", "evidence": ["ev-1880-census-roddi-bess"]},
+        {"predicate": "father-of", "object": "hugh-kidd-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "father-of", "object": "edward-bess-jr", "status": "PROVEN", "evidence": []},
+        {"predicate": "father-of", "object": "nelly-bess", "status": "PROVEN", "evidence": []}
+      ],
+      "summary": "Securely documented son of Jacob Bess Sr. Multiple deeds prove marriage to Jane. Strongest evidence for Jane's maiden name is the death record of son Albert Ransom Bess."
+    },
+
+    "jane-sanders": {
+      "id": "jane-sanders", "name": "Jane Sanders", "aka": ["Jane Saunders", "Jane Bess"], "tags": ["bess", "sanders"], "group": "direct-line",
+      "claims": [
+        {"predicate": "spouse-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": ["ev-1857-edward-bess-deed", "ev-1866-edward-bess-deed", "ev-1872-edward-bess-deed"]},
+        {"predicate": "aka", "value": "maiden name Sanders/Saunders", "status": "STRONGLY SUPPORTED", "evidence": ["ev-albert-ransom-bess-death"], "notes": "Sourced from son Albert Ransom Bess's death record."}
+      ]
+    },
+
+    "jacob-bess-sr": {
+      "id": "jacob-bess-sr", "name": "Jacob Bess Sr.", "aka": ["Jacob Best"], "tags": ["direct-line", "bess", "best"], "group": "direct-line",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1798", "yearRange": "~1790–1800", "place": "North Carolina"}, "status": "SUPPORTED", "evidence": ["ev-1830-census-jacob-bess", "ev-1850-census-jacob-bess"], "notes": "Birth range PROVEN from census; NC origin SUPPORTED only (census birthplace is self-reported)."},
+        {"predicate": "died", "value": {"date": "before Feb 1864", "place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-jacob-bess-probate"]},
+        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri", "year": "1822"}, "status": "PROVEN", "evidence": ["ev-1822-tax-list-jacob-bess"]},
+        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri", "year": "1830"}, "status": "PROVEN", "evidence": ["ev-1830-census-jacob-bess"]},
+        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "resided", "value": {"place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1859-jacob-bess-deed", "ev-jacob-bess-probate"]},
+
+        {"predicate": "child-of", "object": "peter-best", "status": "SUPPORTED", "evidence": ["ev-1809-boston-estate-peter-account", "ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "Working hypothesis — see review/proof_arguments/jacob-bess-parentage.md. No record explicitly states the relationship."},
+
+        {"predicate": "spouse-of", "object": "barbara-slinkard", "marriageYear": "1814", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"], "notes": "Identification of Jacob Best (1814) = Jacob Bess Sr. is VERY STRONGLY SUPPORTED. Surname appears as Best in early records (1814, 1823) and Bess in later Missouri records — phonetic spelling variation."},
+
+        {"predicate": "spouse-of", "object": "unknown-wife-implied", "status": "REPLACED", "evidence": ["ev-1859-jacob-bess-deed", "ev-jacob-bess-probate"], "replacedBy": "spouse-of barbara-slinkard", "notes": "Earlier hypothesis: spouse UNKNOWN, with conclusion 'wife likely deceased before 1859' (1859 deed shows Jacob alone; no widow in probate). REPLACED by identification with Barbara Slinkard via Jacob Miller guardianship record. Barbara could still have predeceased Jacob — that fits both the absence of dower in 1859 AND the marriage proof."},
+
+        {"predicate": "father-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "daniel-bess", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "father-of", "object": "emanuel-bess", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "father-of", "object": "levi-bess", "status": "SUPPORTED", "evidence": ["ev-1857-levi-bess-deed", "ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "jacob-bess-jr", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "matilda-bess", "status": "STRONGLY SUPPORTED", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-probate"], "notes": "1850 in Jacob's household; later 1880 listed as 'sister' in Daniel Bess household."},
+        {"predicate": "father-of", "object": "sarah-bess", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "catherine-bess-jacob-daughter", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "adaline-bess", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "barbara-bess-blaylock", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "mary-a-bess", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "father-of", "object": "james-bess-son", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+
+        {"predicate": "spouse-of", "object": "matilda-bess", "status": "REJECTED", "evidence": [], "notes": "Past hypothesis treating Matilda as Jacob's wife. REJECTED — Matilda is best understood as Jacob's daughter (1850 in his household; 1880 listed as 'sister' in Daniel Bess household). Kept here per no-delete rule."}
+      ],
+      "openQuestions": [
+        "Who are Jacob Bess's parents? (Working hypothesis: Peter Best/Bess — SUPPORTED only.)",
+        "Can a North Carolina record name Jacob as a son/heir?"
+      ],
+      "summary": "Firmly established in Missouri through census, probate, partition, and deed evidence. NC birthplace is supported by census only. Identification with 'Jacob Best' (1814 marriage to Barbara Slinkard) is VERY STRONGLY SUPPORTED."
+    },
+
+    "unknown-wife-implied": {
+      "id": "unknown-wife-implied", "name": "(Unknown wife — implied, replaced)", "tags": ["bess", "rejected"], "group": "other",
+      "claims": [
+        {"predicate": "spouse-of", "object": "jacob-bess-sr", "status": "REPLACED", "evidence": [], "replacedBy": "barbara-slinkard", "notes": "Placeholder for the hypothesis that Jacob Bess Sr.'s wife was an unidentified woman. Replaced by identification with Barbara Slinkard. Kept per no-delete rule."}
+      ]
+    },
+
+    "peter-best": {
+      "id": "peter-best", "name": "Peter Best (Bess)", "tags": ["direct-line", "bess", "best", "north-carolina"], "group": "direct-line",
+      "claims": [
+        {"predicate": "spouse-of", "object": "cristina-whitenbarger", "marriageDate": "13 Oct 1779", "status": "PROVEN", "evidence": ["ev-1779-marriage-peter-cristina"]},
+        {"predicate": "child-of", "object": "boston-best-sr", "status": "STRONGLY SUPPORTED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"], "notes": "1779 bondsman role + direct involvement in Boston's 1809 estate strongly support immediate-family relationship; not explicitly stated."},
+        {"predicate": "father-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "1832 will leaves to 'my children' (unnamed). Jacob fits chronologically and clusters appropriately."}
+      ],
+      "notes": [
+        "POSSIBLY same person as 'Peter Bess (elder)' (1832 will, wife Leannah). Per do-not-merge rule, kept as a distinct candidate — see review/possible_duplicates.md."
+      ]
+    },
+
+    "cristina-whitenbarger": {
+      "id": "cristina-whitenbarger", "name": "Cristina Whitenbarger", "tags": ["whitenbarger", "north-carolina"], "group": "direct-line",
+      "claims": [
+        {"predicate": "spouse-of", "object": "peter-best", "marriageDate": "13 Oct 1779", "status": "PROVEN", "evidence": ["ev-1779-marriage-peter-cristina"]}
+      ]
+    },
+
+    "boston-best-sr": {
+      "id": "boston-best-sr", "name": "Boston Best (Bess) Sr.", "tags": ["direct-line", "bess", "best", "north-carolina"], "group": "direct-line",
+      "claims": [
+        {"predicate": "died", "value": {"date": "by 1809", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1809-boston-best-estate"]},
+        {"predicate": "spouse-of", "object": "catron-best", "status": "PROVEN", "evidence": ["ev-1775-nc-deed-boston-best"]},
+        {"predicate": "father-of", "object": "peter-best", "status": "STRONGLY SUPPORTED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"]}
+      ],
+      "notes": ["DO NOT confuse with 'Boston Bess (1869, NC)' — different person."]
+    },
+
+    "catron-best": {
+      "id": "catron-best", "name": "Catron Best", "tags": ["direct-line", "best", "north-carolina"], "group": "direct-line",
+      "claims": [
+        {"predicate": "spouse-of", "object": "boston-best-sr", "status": "PROVEN", "evidence": ["ev-1775-nc-deed-boston-best"]},
+        {"predicate": "aka", "value": "Catron likely a Catherine variant", "status": "SUPPORTED", "evidence": ["ev-1775-nc-deed-boston-best"], "notes": "Inference from common period naming, not from a record."}
+      ]
+    },
+
+    "daniel-bess": {
+      "id": "daniel-bess", "name": "Daniel Bess", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1838", "place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "resided", "value": {"place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]}
+      ]
+    },
+
+    "emanuel-bess": {
+      "id": "emanuel-bess", "name": "Emanuel Bess", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1822", "place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "resided", "value": {"place": "Cape Girardeau / Bollinger County, Missouri"}, "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]}
+      ]
+    },
+
+    "levi-bess": {
+      "id": "levi-bess", "name": "Levi Bess", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1830", "place": "Missouri"}, "status": "SUPPORTED", "evidence": []},
+        {"predicate": "resided", "value": {"place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1857-levi-bess-deed"]},
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "spouse-of", "object": "barbary-levi-wife", "status": "PROVEN", "evidence": ["ev-1857-levi-bess-deed"]}
+      ],
+      "notes": ["Levi's wife Barbary is DIFFERENT from Barbara Slinkard and from Jacob Bess Sr.'s daughter Barbara Bess (Blaylock)."]
+    },
+
+    "barbary-levi-wife": {
+      "id": "barbary-levi-wife", "name": "Barbary Bess (wife of Levi)", "tags": ["bess"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "spouse-of", "object": "levi-bess", "status": "PROVEN", "evidence": ["ev-1857-levi-bess-deed"]}
+      ],
+      "notes": ["Maiden name unknown."]
+    },
+
+    "jacob-bess-jr": {
+      "id": "jacob-bess-jr", "name": "Jacob Bess Jr.", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1830", "place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "resided", "value": {"place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-partition-1868"]}
+      ]
+    },
+
+    "matilda-bess": {
+      "id": "matilda-bess", "name": "Matilda Bess", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1820", "place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "resided", "value": {"place": "Cape Girardeau / Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "STRONGLY SUPPORTED", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-probate"], "notes": "1850 in Jacob's household; 1880 listed as 'sister' in Daniel Bess household."},
+        {"predicate": "role", "value": "Administratrix of Jacob Bess Sr.'s estate", "status": "PROVEN", "evidence": ["ev-jacob-bess-probate"]},
+        {"predicate": "spouse-of", "object": "jacob-bess-sr", "status": "REJECTED", "evidence": [], "notes": "Past hypothesis treating Matilda as Jacob's wife rather than daughter. Daughter interpretation is much better supported. Kept per no-delete rule."}
+      ]
+    },
+
+    "sarah-bess": {
+      "id": "sarah-bess", "name": "Sarah Bess", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "spouse-of", "value": "James Bess", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"], "notes": "Surname collision with Jacob Bess Sr.'s son James — could be cousin marriage or common name. Do not merge without proof."}
+      ]
+    },
+
+    "catherine-bess-jacob-daughter": {
+      "id": "catherine-bess-jacob-daughter", "name": "Catherine Bess (Jacob's daughter)", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]}
+      ],
+      "notes": ["Distinct from Catherine Bess (Edward's daughter). See review/possible_duplicates.md."]
+    },
+
+    "adaline-bess": {
+      "id": "adaline-bess", "name": "Adaline Bess", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "spouse-of", "value": "Mr. Rhodes", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"], "notes": "Given name unknown."}
+      ]
+    },
+
+    "barbara-bess-blaylock": {
+      "id": "barbara-bess-blaylock", "name": "Barbara (Barbary) Bess", "aka": ["Barbara Blaylock"], "tags": ["bess", "bess-mo-children", "blaylock"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1830", "place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
+        {"predicate": "spouse-of", "value": "Mr. Blaylock", "status": "SUPPORTED", "evidence": ["ev-jacob-bess-partition-1868"], "notes": "Given name unknown."}
+      ],
+      "notes": ["Distinct from Barbara Slinkard (Jacob Bess Sr.'s wife) and from Barbary Bess (Levi's wife)."]
+    },
+
+    "mary-a-bess": {
+      "id": "mary-a-bess", "name": "Mary A. Bess (Jacob's daughter)", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]}
+      ],
+      "notes": ["Distinct from Mary F./Mary Ann Bess (Edward's daughter)."]
+    },
+
+    "james-bess-son": {
+      "id": "james-bess-son", "name": "James Bess (Jacob's son)", "tags": ["bess", "bess-mo-children"], "group": "bess-mo-children",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]}
+      ],
+      "notes": ["Distinct from James Bess (husband of Sarah Bess) unless proven otherwise."]
+    },
+
+    "rosanna-bess": {
+      "id": "rosanna-bess", "name": "Rosanna Bess", "aka": ["Rosy Bess", "Rose Ann Bess"], "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "PROVEN", "evidence": []}
+      ]
+    },
+
+    "mary-f-bess": {
+      "id": "mary-f-bess", "name": "Mary F. Bess", "aka": ["Mary Ann Bess", "Mary A. Bess (Edward's daughter)"], "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "STRONGLY SUPPORTED", "evidence": []},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "STRONGLY SUPPORTED", "evidence": []}
+      ]
+    },
+
+    "catherine-bess-edward-daughter": {
+      "id": "catherine-bess-edward-daughter", "name": "Catherine Bess (Edward's daughter)", "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "SUPPORTED", "evidence": []},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "SUPPORTED", "evidence": []}
+      ]
+    },
+
+    "albert-ransom-bess": {
+      "id": "albert-ransom-bess", "name": "Albert Ransom Bess", "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "born", "value": {"date": "11 May 1862", "place": "Bessville, Missouri"}, "status": "PROVEN", "evidence": ["ev-albert-ransom-bess-death"]},
+        {"predicate": "died", "value": {"date": "31 Jan 1935", "place": "Granite City, Illinois"}, "status": "PROVEN", "evidence": ["ev-albert-ransom-bess-death"]},
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": ["ev-albert-ransom-bess-death"]},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "STRONGLY SUPPORTED", "evidence": ["ev-albert-ransom-bess-death"]}
+      ],
+      "summary": "Best current documentation for Jane Sanders' maiden name (via Albert's death record)."
+    },
+
+    "caroline-bess": {
+      "id": "caroline-bess", "name": "Caroline Bess", "aka": ["Carline Bess"], "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "PROVEN", "evidence": []}
+      ]
+    },
+
+    "hugh-kidd-bess": {
+      "id": "hugh-kidd-bess", "name": "Hugh Bess", "aka": ["Kidd Bess"], "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "PROVEN", "evidence": []}
+      ]
+    },
+
+    "edward-bess-jr": {
+      "id": "edward-bess-jr", "name": "Edward Bess Jr.", "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "PROVEN", "evidence": []}
+      ]
+    },
+
+    "nelly-bess": {
+      "id": "nelly-bess", "name": "Nelly Bess", "tags": ["bess", "bess-edward-children"], "group": "bess-edward-children",
+      "claims": [
+        {"predicate": "child-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "child-of", "object": "jane-sanders", "status": "PROVEN", "evidence": []}
+      ]
+    },
+
+    "eve-bess": {
+      "id": "eve-bess", "name": "Eve Bess", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1809"}, "status": "PROVEN", "evidence": ["ev-1809-eve-bess-petition"]},
+        {"predicate": "mother-of", "value": "John Bess", "status": "PROVEN", "evidence": ["ev-1809-eve-bess-petition"]},
+        {"predicate": "mother-of", "value": "Polly Bess", "status": "PROVEN", "evidence": ["ev-1809-eve-bess-petition"]}
+      ],
+      "notes": ["NC cluster — REFERENCE ONLY. Connection to MO line not proven."]
+    },
+
+    "peter-bess-elder": {
+      "id": "peter-bess-elder", "name": "Peter Bess (elder, 1832 will)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "died", "value": {"date": "by 1832", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
+        {"predicate": "spouse-of", "object": "leannah-bess", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+      ],
+      "notes": ["POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule."]
+    },
+
+    "leannah-bess": {
+      "id": "leannah-bess", "name": "Leannah Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "object": "peter-bess-elder", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+      ]
+    },
+
+    "hiram-bess": {
+      "id": "hiram-bess", "name": "Hiram Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "died", "value": {"date": "by 1847"}, "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "spouse-of", "object": "eliza-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "John Franklin Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "Catherine Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "Margaret Elizabeth Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "Susan Adeline Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "Mary Ann Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ]
+    },
+
+    "eliza-bess": {
+      "id": "eliza-bess", "name": "Eliza Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "object": "hiram-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ]
+    },
+
+    "boston-bess-1869": {
+      "id": "boston-bess-1869", "name": "Boston Bess (1869)", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Elizabeth Bess (widow)", "status": "PROVEN", "evidence": ["ev-1869-boston-bess-letters"]},
+        {"predicate": "role", "value": "Guardian of Hiram Bess's minor children (1855)", "status": "PROVEN", "evidence": ["ev-1855-boston-bess-guardian-bond"]}
+      ],
+      "notes": ["DO NOT confuse with Boston Best Sr. (d. 1809) — different person."]
+    },
+
+    "lawson-bess": {
+      "id": "lawson-bess", "name": "Lawson Bess", "tags": ["bess", "bess-mo-cluster"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "member-of", "value": "Missouri Bess cluster (1869 estate event)", "status": "PROVEN", "evidence": ["ev-1869-boston-estate-cluster"]}
+      ],
+      "notes": ["Track together; relationship to Jacob Bess Sr. UNKNOWN."]
+    },
+
+    "barbara-slinkard": {
+      "id": "barbara-slinkard", "name": "Barbara Slinkard", "aka": ["Barbary Best", "Barbary Bess"], "tags": ["direct-line", "slinkard", "best", "bess"], "group": "direct-line",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"]},
+        {"predicate": "spouse-of", "object": "jacob-bess-sr", "marriageYear": "1814", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"]}
+      ],
+      "notes": [
+        "Distinct from Barbara Bess (m. Blaylock — Jacob Bess Sr.'s daughter) and from Barbary Bess (Levi's wife)."
+      ]
+    },
+
+    "jacob-slinkard-mo": {
+      "id": "jacob-slinkard-mo", "name": "Jacob Slinkard (MO, d. <1823)", "tags": ["direct-line", "slinkard"], "group": "slinkard-direct",
+      "claims": [
+        {"predicate": "died", "value": {"date": "before 1 Oct 1823", "place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1823-jacob-slinkard-deceased-deed"]},
+        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1818-jacob-slinkard-mo-deed"]},
+        {"predicate": "child-of", "object": "jacob-slinkard-nc-1788", "status": "SUPPORTED", "evidence": ["ev-1788-jacob-slinkard-heir-deed"], "notes": "NC→MO connection SUPPORTED only — timeline + migration pattern, no direct record."},
+        {"predicate": "father-of", "object": "barbara-slinkard", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"]},
+        {"predicate": "father-of", "object": "polly-slinkard-a", "status": "PROVEN", "evidence": []}
+      ],
+      "notes": ["DO NOT MERGE with Jacob Slinkard (NC 1788) or Jacob Slinkard (~1812, m. Phebe Hubble)."]
+    },
+
+    "jacob-slinkard-nc-1788": {
+      "id": "jacob-slinkard-nc-1788", "name": "Jacob Slinkard (NC, 1788 heir)", "tags": ["slinkard", "north-carolina"], "group": "slinkard-direct",
+      "claims": [
+        {"predicate": "child-of", "object": "frederick-slinker-sr", "status": "SUPPORTED", "evidence": ["ev-1788-jacob-slinkard-heir-deed"], "notes": "'Heir at law' language is strong but not explicit 'son'."}
+      ],
+      "notes": ["Connection to MO Jacob (d. <1823): SUPPORTED. DO NOT MERGE with other Jacobs."]
+    },
+
+    "frederick-slinker-sr": {
+      "id": "frederick-slinker-sr", "name": "Frederick Slinker Sr.", "tags": ["slinkard", "north-carolina"], "group": "slinkard-direct",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina (Flat Rock / Catawba region)"}, "status": "PROVEN", "evidence": ["ev-frederick-slinker-nc-patents", "ev-frederick-slinker-1777-deed", "ev-frederick-slinker-1794-deed"]},
+        {"predicate": "father-of", "object": "jacob-slinkard-nc-1788", "status": "SUPPORTED", "evidence": ["ev-1788-jacob-slinkard-heir-deed"]}
+      ],
+      "notes": ["Possibly same as Frederick Slinker (Missouri). SUPPORTED, not proven."]
+    },
+
+    "frederick-slinker-mo": {
+      "id": "frederick-slinker-mo", "name": "Frederick Slinker (Missouri)", "tags": ["slinkard"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Missouri", "year": "1818–1833"}, "status": "PROVEN", "evidence": ["ev-1818-frederick-slinker-mo-deed", "ev-1833-frederick-slinker-bond"]}
+      ],
+      "notes": ["Possibly same as Frederick Slinker Sr. (NC). SUPPORTED, not proven."]
+    },
+
+    "daniel-slinkard": {
+      "id": "daniel-slinkard", "name": "Daniel Slinkard (d. 1838)", "tags": ["slinkard"], "group": "slinkard-direct",
+      "claims": [
+        {"predicate": "died", "value": {"date": "before Nov 1838", "place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1820-best-slinkard-deed", "ev-1823-jacob-slinkard-deceased-deed"]},
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-1823-jacob-slinkard-deceased-deed"], "notes": "Heir in 1823 deed."},
+        {"predicate": "spouse-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-marriage-index-daniel-eve-morrison", "ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "spouse-of", "value": "Hannah (1823 deed reference)", "status": "REJECTED", "evidence": ["ev-1823-jacob-slinkard-deceased-deed"], "notes": "1823 deed cluster lists 'Daniel Slinkard & wife Hannah' — conflicts with Eve. Possible explanations: prior wife (then died/divorced), transcription error, or different Daniel. Held as REJECTED for the d.-1838 Daniel pending review. See review/conflicts.md."},
+        {"predicate": "father-of", "object": "john-slinkard-b", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "catharine-slinkard-b", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "polly-slinkard-b", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "denney-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "david-slinkard-b", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "ramon-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "nancy-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "nora-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "daniel-slinkard-jr", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "rosey-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "father-of", "object": "emanuel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}
+      ]
+    },
+
+    "eve-morrison-slinkard": {
+      "id": "eve-morrison-slinkard", "name": "Eve Morrison", "aka": ["Eve Slinkard"], "tags": ["slinkard", "morrison"], "group": "slinkard-direct",
+      "claims": [
+        {"predicate": "spouse-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-marriage-index-daniel-eve-morrison", "ev-1838-daniel-slinkard-probate"]}
+      ]
+    },
+
+    "john-slinkard-b": {
+      "id": "john-slinkard-b", "name": "John Slinkard (Daniel's heir)", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs",
+      "claims": [
+        {"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}
+      ],
+      "notes": ["Spouse identification involves a conflict — see review/conflicts.md (Nancy Stroder vs. Viney Stroder). Whether John (Daniel's heir) = John (1839 marriage) = John (Nancy Stroder index) is UNKNOWN."]
+    },
+
+    "jacob-slinkard-1812": {
+      "id": "jacob-slinkard-1812", "name": "Jacob Slinkard (~1812)", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1812"}, "status": "SUPPORTED", "evidence": []},
+        {"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "spouse-of", "object": "phebe-hubble", "marriageDate": "1 Apr 1837", "status": "PROVEN", "evidence": ["ev-1837-jacob-phebe-marriage"]},
+        {"predicate": "father-of", "object": "william-j-slinkard", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]},
+        {"predicate": "father-of", "object": "daniel-m-slinkard", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census", "ev-1860-jacob-slinkard-1812-census"]},
+        {"predicate": "father-of", "object": "ebenezer-slinkard", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]},
+        {"predicate": "father-of", "object": "eliza-c-slinkard", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]},
+        {"predicate": "father-of", "object": "araminta-c-slinkard", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]},
+        {"predicate": "father-of", "object": "john-m-slinkard", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census"]},
+        {"predicate": "father-of", "object": "george-w-slinkard", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census"]},
+        {"predicate": "father-of", "object": "jacob-l-slinkard", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census"]}
+      ],
+      "notes": ["DO NOT MERGE with Jacob Slinkard (MO d. <1823) or Jacob Slinkard (NC 1788)."]
+    },
+
+    "phebe-hubble": {
+      "id": "phebe-hubble", "name": "Phoebe Hubble", "aka": ["Phebe Slinkard"], "tags": ["slinkard", "hubble"], "group": "slinkard-daniel-heirs",
+      "claims": [
+        {"predicate": "spouse-of", "object": "jacob-slinkard-1812", "marriageDate": "1 Apr 1837", "status": "PROVEN", "evidence": ["ev-1837-jacob-phebe-marriage"]},
+        {"predicate": "resided", "value": {"place": "Bollinger / Cape Girardeau region, Missouri", "year": "1876"}, "status": "PROVEN", "evidence": ["ev-1876-mo-state-census-slinkard-cluster"]}
+      ]
+    },
+
+    "catharine-slinkard-b": {
+      "id": "catharine-slinkard-b", "name": "Catharine Slinkard (Daniel's heir)", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs",
+      "claims": [
+        {"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}
+      ],
+      "notes": ["POSSIBLY same as Catharine (m. Ruben Smith 1828) and/or Katherine (m. Aaron Link 1834). Kept separate."]
+    },
+
+    "polly-slinkard-b": {
+      "id": "polly-slinkard-b", "name": "Polly Slinkard (Daniel's heir)", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs",
+      "claims": [
+        {"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]},
+        {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}
+      ],
+      "notes": ["DO NOT MERGE with Polly Slinkard (A) — Jacob (MO)'s minor daughter, different timeframe."]
+    },
+
+    "polly-slinkard-a": {
+      "id": "polly-slinkard-a", "name": "Polly Slinkard (Jacob MO's daughter)", "tags": ["slinkard"], "group": "slinkard-direct",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": []}
+      ],
+      "notes": [
+        "Working hypothesis (NOT PROVEN): may be 'Polly Bess' — see review/possible_duplicates.md.",
+        "DO NOT MERGE with Polly Slinkard (B)."
+      ]
+    },
+
+    "denney-slinkard": {"id": "denney-slinkard", "name": "Denney Slinkard", "aka": ["Denny Slinkard"], "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}]},
+    "david-slinkard-b": {"id": "david-slinkard-b", "name": "David Slinkard (Daniel's heir)", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}], "notes": ["Distinct from David Slinkard (1816 minor)."]},
+    "ramon-slinkard": {"id": "ramon-slinkard", "name": "Ramon Slinkard", "aka": ["Ransom Slinkard"], "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}]},
+    "nancy-slinkard": {"id": "nancy-slinkard", "name": "Nancy Slinkard", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}]},
+    "nora-slinkard": {"id": "nora-slinkard", "name": "Nora Slinkard", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}]},
+    "daniel-slinkard-jr": {"id": "daniel-slinkard-jr", "name": "Daniel Slinkard Jr.", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}]},
+    "rosey-slinkard": {"id": "rosey-slinkard", "name": "Rosey Slinkard", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}]},
+    "emanuel-slinkard": {"id": "emanuel-slinkard", "name": "Emanuel Slinkard", "tags": ["slinkard", "slinkard-daniel-heirs"], "group": "slinkard-daniel-heirs", "claims": [{"predicate": "child-of", "object": "daniel-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}, {"predicate": "child-of", "object": "eve-morrison-slinkard", "status": "PROVEN", "evidence": ["ev-1838-daniel-slinkard-probate"]}]},
+
+    "william-j-slinkard": {"id": "william-j-slinkard", "name": "William J. Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}]},
+    "daniel-m-slinkard": {"id": "daniel-m-slinkard", "name": "Daniel M. Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "born", "value": {"date": "~1841"}, "status": "SUPPORTED", "evidence": ["ev-1850-jacob-slinkard-1812-census", "ev-1860-jacob-slinkard-1812-census"]}, {"predicate": "died", "value": {"date": "1867"}, "status": "PROVEN", "evidence": ["ev-1867-daniel-m-estate-inventory"]}, {"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census", "ev-1860-jacob-slinkard-1812-census"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}]},
+    "ebenezer-slinkard": {"id": "ebenezer-slinkard", "name": "Ebenezer Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}]},
+    "eliza-c-slinkard": {"id": "eliza-c-slinkard", "name": "Eliza C. Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}]},
+    "araminta-c-slinkard": {"id": "araminta-c-slinkard", "name": "Araminta C. Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census", "ev-1876-mo-state-census-slinkard-cluster"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1850-jacob-slinkard-1812-census"]}]},
+    "john-m-slinkard": {"id": "john-m-slinkard", "name": "John M. Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census", "ev-1876-mo-state-census-slinkard-cluster"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census"]}]},
+    "george-w-slinkard": {"id": "george-w-slinkard", "name": "George W. Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census", "ev-1876-mo-state-census-slinkard-cluster"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census"]}]},
+    "jacob-l-slinkard": {"id": "jacob-l-slinkard", "name": "Jacob L. Slinkard", "tags": ["slinkard", "slinkard-jacob-1812-children"], "group": "slinkard-jacob-1812-children", "claims": [{"predicate": "born", "value": {"date": "1860 (infant)"}, "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census"]}, {"predicate": "child-of", "object": "jacob-slinkard-1812", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census", "ev-1876-mo-state-census-slinkard-cluster"]}, {"predicate": "child-of", "object": "phebe-hubble", "status": "PROVEN", "evidence": ["ev-1860-jacob-slinkard-1812-census"]}]},
+
+    "elizabeth-slinkard-gross": {
+      "id": "elizabeth-slinkard-gross", "name": "Elizabeth Slinkard (m. Gross)", "tags": ["slinkard", "slinkard-marriage-cluster"], "group": "slinkard-marriage-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "William Gross (also Grass)", "marriageDate": "20 May 1827", "status": "PROVEN", "evidence": ["ev-1827-elizabeth-gross-marriage"]}
+      ]
+    },
+
+    "catharine-slinkard-smith": {
+      "id": "catharine-slinkard-smith", "name": "Catharine Slinkard (m. Smith)", "tags": ["slinkard", "slinkard-marriage-cluster"], "group": "slinkard-marriage-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Ruben Smith", "marriageDate": "29 Jan 1828", "status": "PROVEN", "evidence": ["ev-1828-catharine-smith-marriage"]}
+      ],
+      "notes": ["POSSIBLY same as Catharine Slinkard (Daniel's heir) and/or Katherine (m. Aaron Link 1834). Kept separate."]
+    },
+
+    "katherine-slinkard-link": {
+      "id": "katherine-slinkard-link", "name": "Katherine Slinkard (m. Link)", "tags": ["slinkard", "slinkard-marriage-cluster"], "group": "slinkard-marriage-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Aaron Link", "marriageYear": "1834", "status": "PROVEN", "evidence": ["ev-1834-katherine-link-marriage"]}
+      ],
+      "notes": ["UNKNOWN if same person as other Catharine/Katherine Slinkards."]
+    },
+
+    "olly-slinkard-crump": {
+      "id": "olly-slinkard-crump", "name": "'Olly' Slinkard (m. Crump)", "tags": ["slinkard", "slinkard-marriage-cluster"], "group": "slinkard-marriage-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Zachariah Crump", "marriageDate": "27 Apr 1830", "status": "PROVEN", "evidence": ["ev-1830-olly-crump-marriage"]}
+      ],
+      "notes": ["Possibly Polly — SUPPORTED, not proven."]
+    },
+
+    "joseph-slinkerd-shrum": {
+      "id": "joseph-slinkerd-shrum", "name": "Joseph Slinkerd (m. Shrum)", "tags": ["slinkard", "slinkard-marriage-cluster"], "group": "slinkard-marriage-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Alley Shrum", "marriageDate": "11 Dec 1836", "status": "PROVEN", "evidence": ["ev-1836-joseph-shrum-marriage"]}
+      ],
+      "notes": ["UNKNOWN if same as Joseph (m. Anna Green) or Joseph (m. Tennessee Estes)."]
+    },
+
+    "john-slinkard-stroder-1839": {
+      "id": "john-slinkard-stroder-1839", "name": "John Slinkard (m. Viney Stroder, 1839)", "tags": ["slinkard", "slinkard-marriage-cluster"], "group": "slinkard-marriage-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Viney Stroder", "marriageDate": "8 Dec 1839", "status": "PROVEN", "evidence": ["ev-1839-john-viney-marriage"]}
+      ],
+      "notes": ["UNKNOWN whether same as John Slinkard (Daniel's heir) or John (m. Nancy Stroder per index). See review/conflicts.md."]
+    },
+
+    "joseph-slinkard-anna-green": {
+      "id": "joseph-slinkard-anna-green", "name": "Joseph Slinkard (m. Anna Green)", "tags": ["slinkard", "slinkard-other"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Anna Green", "status": "PROVEN", "evidence": ["ev-marriage-index-joseph-anna-green"]}
+      ],
+      "notes": ["Relationship to other Slinkards: SUPPORTED (cluster only)."]
+    },
+
+    "john-slinkard-nancy-stroder": {
+      "id": "john-slinkard-nancy-stroder", "name": "John Slinkard (m. Nancy Stroder, index)", "tags": ["slinkard", "slinkard-other"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Nancy Stroder", "status": "PROVEN", "evidence": ["ev-marriage-index-john-nancy-stroder"]}
+      ],
+      "notes": ["UNKNOWN if same as John (Daniel's heir) or John (m. Viney Stroder 1839)."]
+    },
+
+    "joseph-slinkard-bollinger": {
+      "id": "joseph-slinkard-bollinger", "name": "Joseph Slinkard (Bollinger Co.)", "tags": ["slinkard", "slinkard-other"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1852"}, "status": "PROVEN", "evidence": ["ev-1852-joseph-slinkard-land-patent"]},
+        {"predicate": "died", "value": {"date": "before later distribution"}, "status": "PROVEN", "evidence": ["ev-joseph-slinkard-bollinger-probate"]},
+        {"predicate": "spouse-of", "object": "tennessee-estes", "status": "PROVEN", "evidence": ["ev-ransom-estes-will"]}
+      ]
+    },
+
+    "tennessee-estes": {
+      "id": "tennessee-estes", "name": "Tennessee Estes", "aka": ["Annessee Estes", "Tennessee Slinkard"], "tags": ["estes", "slinkard"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "child-of", "object": "ransom-b-estes", "status": "PROVEN", "evidence": ["ev-ransom-estes-will"]},
+        {"predicate": "spouse-of", "object": "joseph-slinkard-bollinger", "status": "PROVEN", "evidence": ["ev-ransom-estes-will"]}
+      ]
+    },
+
+    "ransom-b-estes": {
+      "id": "ransom-b-estes", "name": "Ransom B. Estes", "tags": ["estes"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "father-of", "object": "tennessee-estes", "status": "PROVEN", "evidence": ["ev-ransom-estes-will"]}
+      ]
+    },
+
+    "nw-slinkard": {
+      "id": "nw-slinkard", "name": "N. W. Slinkard", "tags": ["slinkard", "slinkard-other"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "role", "value": "Creditor in Joseph Slinkard (Bollinger) estate", "status": "PROVEN", "evidence": ["ev-joseph-slinkard-bollinger-probate"]}
+      ],
+      "notes": ["Relationship to Joseph: UNKNOWN."]
+    },
+
+    "henry-slinkard": {
+      "id": "henry-slinkard", "name": "Henry Slinkard", "tags": ["slinkard", "north-carolina"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "spouse-of", "object": "rebecca-slinkard", "marriageYear": "1814", "status": "PROVEN", "evidence": ["ev-1814-henry-rebecca-marriage"]}
+      ],
+      "notes": ["Connection to John Cochran (executor role) SUPPORTED."]
+    },
+
+    "rebecca-slinkard": {
+      "id": "rebecca-slinkard", "name": "Rebecca Slinkard", "tags": ["slinkard", "north-carolina"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "spouse-of", "object": "henry-slinkard", "marriageYear": "1814", "status": "PROVEN", "evidence": ["ev-1814-henry-rebecca-marriage"]}
+      ],
+      "notes": ["Maiden name UNKNOWN."]
+    },
+
+    "david-slinkard-minor": {
+      "id": "david-slinkard-minor", "name": "David Slinkard (1816 minor)", "tags": ["slinkard"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "role", "value": "Minor ward of Peter Critz, 1816", "status": "PROVEN", "evidence": ["ev-1816-peter-critz-guardian-settlement"]}
+      ],
+      "notes": ["Father UNKNOWN. Distinct from David Slinkard (Daniel's heir)."]
+    },
+
+    "jacob-slinkard-minor": {
+      "id": "jacob-slinkard-minor", "name": "Jacob Slinkard (1816 minor)", "tags": ["slinkard"], "group": "slinkard-other",
+      "claims": [
+        {"predicate": "role", "value": "Minor ward of Peter Critz, 1816", "status": "PROVEN", "evidence": ["ev-1816-peter-critz-guardian-settlement"]}
+      ],
+      "notes": ["Father UNKNOWN."]
+    },
+
+    "peter-critz": {
+      "id": "peter-critz", "name": "Peter Critz", "tags": ["critz"], "group": "other",
+      "claims": [
+        {"predicate": "role", "value": "Guardian of David & Jacob Slinkard, 1816", "status": "PROVEN", "evidence": ["ev-1816-peter-critz-guardian-settlement"]}
+      ]
+    },
+
+    "sarah-slinkard-1881": {"id": "sarah-slinkard-1881", "name": "Sarah Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "jf-slinkard-1881": {"id": "jf-slinkard-1881", "name": "J. F. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "mb-slinkard-1881": {"id": "mb-slinkard-1881", "name": "M. B. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "elizabeth-slinkard-1881": {"id": "elizabeth-slinkard-1881", "name": "Elizabeth Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "bh-slinkard-1881": {"id": "bh-slinkard-1881", "name": "B. H. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "joseph-w-slinkard-1881": {"id": "joseph-w-slinkard-1881", "name": "Joseph W. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "pg-slinkard-1881": {"id": "pg-slinkard-1881", "name": "P. G. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "daniel-slinkard-1881": {"id": "daniel-slinkard-1881", "name": "Daniel Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}], "notes": ["Distinct from Daniel d. 1838 and Daniel Jr."]},
+    "peter-slinkard-1881": {"id": "peter-slinkard-1881", "name": "Peter Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "wm-r-slinkard-1881": {"id": "wm-r-slinkard-1881", "name": "Wm. R. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "jm-slinkard-1881": {"id": "jm-slinkard-1881", "name": "J. M. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "john-f-slinkard-1881": {"id": "john-f-slinkard-1881", "name": "John F. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+    "james-c-slinkard-1881": {"id": "james-c-slinkard-1881", "name": "James C. Slinkard (1881)", "tags": ["slinkard", "slinkard-1881-tax"], "group": "slinkard-1881-tax", "claims": [{"predicate": "resided", "value": {"place": "Bollinger County, Missouri", "year": "1881"}, "status": "PROVEN", "evidence": ["ev-1881-bollinger-tax-book-slinkards"]}]},
+
+    "john-best": {
+      "id": "john-best", "name": "John Best", "tags": ["best", "best-cluster"], "group": "best-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "object": "catherine-caty-best", "status": "PROVEN", "evidence": ["ev-1820-best-slinkard-deed", "ev-1823-jacob-slinkard-deceased-deed"]}
+      ],
+      "notes": ["Relationship to Jacob Best (Bess) SUPPORTED via cluster, not proven."]
+    },
+
+    "catherine-caty-best": {
+      "id": "catherine-caty-best", "name": "Catherine 'Caty' Best", "tags": ["best", "best-cluster"], "group": "best-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "object": "john-best", "status": "PROVEN", "evidence": ["ev-1820-best-slinkard-deed", "ev-1823-jacob-slinkard-deceased-deed"]}
+      ]
+    },
+
+    "william-best": {
+      "id": "william-best", "name": "William Best", "tags": ["best", "best-cluster"], "group": "best-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "object": "louise-best", "marriageYear": "1818", "status": "PROVEN", "evidence": ["ev-1818-william-louise-best-marriage"]}
+      ]
+    },
+
+    "louise-best": {
+      "id": "louise-best", "name": "Louise Best", "tags": ["best", "best-cluster"], "group": "best-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "object": "william-best", "marriageYear": "1818", "status": "PROVEN", "evidence": ["ev-1818-william-louise-best-marriage"]}
+      ]
+    },
+
+    "joseph-best": {
+      "id": "joseph-best", "name": "Joseph Best", "tags": ["best", "best-cluster"], "group": "best-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "value": "Hannah (Barks?/Parks?)", "marriageYear": "1829", "status": "PROVEN", "evidence": ["ev-1829-joseph-hannah-best-marriage"], "notes": "Maiden name uncertain."}
+      ]
+    },
+
+    "david-kinder": {
+      "id": "david-kinder", "name": "David Kinder", "tags": ["kinder", "best-cluster"], "group": "best-cluster",
+      "claims": [
+        {"predicate": "member-of", "value": "1823 Cape Girardeau land cluster (Best/Slinkard/Kinder)", "status": "PROVEN", "evidence": ["ev-1823-jacob-slinkard-deceased-deed"]}
+      ],
+      "notes": ["Connection to Slinkard family PROVEN; exact relationship UNKNOWN."]
+    },
+
+    "elizabeth-bess-spencer": {
+      "id": "elizabeth-bess-spencer", "name": "Elizabeth Bess (m. Spencer)", "tags": ["bess", "spencer"], "group": "other",
+      "claims": [
+        {"predicate": "spouse-of", "object": "israel-spencer", "status": "PROVEN", "evidence": ["ev-marriage-index-elizabeth-bess-spencer"]}
+      ],
+      "notes": ["Connection to direct Bess line UNKNOWN."]
+    },
+
+    "israel-spencer": {
+      "id": "israel-spencer", "name": "Israel Spencer", "tags": ["spencer"], "group": "other",
+      "claims": [
+        {"predicate": "spouse-of", "object": "elizabeth-bess-spencer", "status": "PROVEN", "evidence": ["ev-marriage-index-elizabeth-bess-spencer"]}
+      ]
+    }
+  }
+}

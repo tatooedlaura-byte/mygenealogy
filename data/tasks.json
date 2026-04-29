@@ -1,0 +1,141 @@
+{
+  "$schema": "Research tasks. Each task: id, description, status (open|in-progress|done|blocked), purpose, relatedPeople[], relatedEvidence[], priority.",
+  "tasks": [
+    {
+      "id": "t-jacob-bess-dower-release",
+      "description": "Search Cape Girardeau deed books for any Jacob Bess dower release between marriage (1814) and 1859.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Resolve whether Barbara Slinkard predeceased Jacob (consistent with 1859 deed showing Jacob alone) or whether something else explains the missing widow.",
+      "relatedPeople": ["jacob-bess-sr", "barbara-slinkard"],
+      "relatedEvidence": ["ev-1859-jacob-bess-deed", "ev-jacob-miller-guardianship-barbara"]
+    },
+    {
+      "id": "t-jacob-slinkard-mo-probate",
+      "description": "Search Cape Girardeau probate / orphans court files for Jacob Slinkard (MO) full estate file. Identify all heirs by name, not just Barbara and Polly.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Establish complete sibling group of Barbara Slinkard. Currently only Barbara and Polly (A) are known minors.",
+      "relatedPeople": ["jacob-slinkard-mo", "barbara-slinkard", "polly-slinkard-a"],
+      "relatedEvidence": ["ev-1823-jacob-slinkard-deceased-deed", "ev-jacob-miller-guardianship-barbara"]
+    },
+    {
+      "id": "t-guardianship-curator-files",
+      "description": "Search Cape Girardeau guardianship/curator files for any other Slinkard, Best, or Bess minors of the relevant period.",
+      "status": "open",
+      "priority": "medium",
+      "purpose": "Find additional sibling structure or links between Best/Bess and Slinkard families.",
+      "relatedPeople": ["jacob-slinkard-mo", "jacob-bess-sr", "polly-slinkard-a"]
+    },
+    {
+      "id": "t-slinkard-married-names",
+      "description": "Cross-check Slinkard married names: confirm whether Catharine Slinkard (m. Smith 1828), Katherine (m. Link 1834), and Catharine (Daniel's heir) are the same person or different.",
+      "status": "open",
+      "priority": "medium",
+      "purpose": "Resolve possible-duplicate ambiguity for Catharine/Katherine Slinkard.",
+      "relatedPeople": ["catharine-slinkard-smith", "katherine-slinkard-link", "catharine-slinkard-b"]
+    },
+    {
+      "id": "t-john-slinkard-stroder",
+      "description": "Resolve whether 'John Slinkard m. Nancy Stroder' (marriage index) and 'John Slinkard m. Viney Stroder' (1839 Cape Girardeau record) are the same marriage with a transcription variant — or two different events.",
+      "status": "open",
+      "priority": "medium",
+      "purpose": "Conflict resolution for John Slinkard's spouse.",
+      "relatedPeople": ["john-slinkard-b", "john-slinkard-stroder-1839", "john-slinkard-nancy-stroder"],
+      "relatedEvidence": ["ev-1839-john-viney-marriage", "ev-marriage-index-john-nancy-stroder"]
+    },
+    {
+      "id": "t-daniel-slinkard-hannah",
+      "description": "Investigate the '1823 Daniel Slinkard & wife Hannah' deed. Confirm/refute: prior wife before Eve Morrison, transcription error, or different Daniel.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Resolve spouse conflict for Daniel Slinkard (d. 1838).",
+      "relatedPeople": ["daniel-slinkard", "eve-morrison-slinkard"],
+      "relatedEvidence": ["ev-1823-jacob-slinkard-deceased-deed", "ev-marriage-index-daniel-eve-morrison", "ev-1838-daniel-slinkard-probate"]
+    },
+    {
+      "id": "t-peter-best-children-named",
+      "description": "Search NC probate, deed, and court records for any document naming Peter Best/Bess's children individually (1832 will leaves to 'my children' but does not list them).",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Move Jacob Bess Sr. → Peter Best from SUPPORTED toward PROVEN by finding direct parent-child statement.",
+      "relatedPeople": ["peter-best", "jacob-bess-sr"],
+      "relatedEvidence": ["ev-1832-peter-bess-will"]
+    },
+    {
+      "id": "t-frederick-slinker-nc-mo-bridge",
+      "description": "Find a record bridging Frederick Slinker (NC, 1768–1794) and Frederick Slinker (MO, 1818–1833) — or proving they are different people.",
+      "status": "open",
+      "priority": "medium",
+      "purpose": "Resolve whether NC and MO Frederick are the same individual.",
+      "relatedPeople": ["frederick-slinker-sr", "frederick-slinker-mo"]
+    },
+    {
+      "id": "t-jacob-slinkard-nc-to-mo",
+      "description": "Find a NC→MO migration record for Jacob Slinkard between 1788 (NC heir-at-law deed) and 1818 (first MO appearance). Land transfer, military, or court record naming origin.",
+      "status": "open",
+      "priority": "medium",
+      "purpose": "Bridge NC Jacob (1788 heir) and MO Jacob (d. <1823).",
+      "relatedPeople": ["jacob-slinkard-nc-1788", "jacob-slinkard-mo"]
+    },
+    {
+      "id": "t-1816-minor-slinkards-father",
+      "description": "Identify the father of David & Jacob Slinkard, minors under guardianship of Peter Critz (settlement 6 Dec 1816).",
+      "status": "open",
+      "priority": "low",
+      "purpose": "Determine if these minors are connected to the main Slinkard line.",
+      "relatedPeople": ["david-slinkard-minor", "jacob-slinkard-minor", "peter-critz"],
+      "relatedEvidence": ["ev-1816-peter-critz-guardian-settlement"]
+    },
+    {
+      "id": "t-jane-sanders-marriage-record",
+      "description": "Locate primary marriage record for Edward B. Bess and Jane Sanders/Saunders.",
+      "status": "open",
+      "priority": "medium",
+      "purpose": "Confirm Jane's maiden name (currently STRONGLY SUPPORTED via Albert's death record only).",
+      "relatedPeople": ["edward-b-bess", "jane-sanders"],
+      "relatedEvidence": ["ev-albert-ransom-bess-death"]
+    },
+    {
+      "id": "t-rhoda-labrot-marriage",
+      "description": "Locate marriage record for Rhoda B. Bess and Joseph Labrot.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Move Rhoda↔Joseph link from SUPPORTED to PROVEN.",
+      "relatedPeople": ["rhoda-b-bess", "joseph-labrot"]
+    },
+    {
+      "id": "t-virginia-labrot-vitals",
+      "description": "Locate Virginia Labrot's birth, marriage, and death records.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Anchor the bottom of the direct line with primary documents.",
+      "relatedPeople": ["virginia-labrot", "robert-stokes"]
+    },
+    {
+      "id": "t-1840-census-jacob-bess",
+      "description": "Find Jacob Bess in 1840 Cape Girardeau / Bollinger County census.",
+      "status": "open",
+      "priority": "low",
+      "purpose": "Fill the census gap between 1830 and 1850; may show wife present.",
+      "relatedPeople": ["jacob-bess-sr"]
+    },
+    {
+      "id": "t-boston-best-sr-heirs",
+      "description": "Search Lincoln County, NC estate file of Boston Best Sr. (1809) for any heir list, division of estate, or guardianship of minors.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Confirm Peter Best as Boston's son with a direct statement.",
+      "relatedPeople": ["boston-best-sr", "peter-best"],
+      "relatedEvidence": ["ev-1809-boston-best-estate", "ev-1809-boston-estate-peter-account"]
+    },
+    {
+      "id": "t-bessville-mo-history",
+      "description": "Research 'Bessville, Missouri' — the place named on Albert Ransom Bess's death record. Confirm location, founding family, surviving records.",
+      "status": "open",
+      "priority": "low",
+      "purpose": "Possible community founded by or named for the Bess family — could surface family records.",
+      "relatedPeople": ["albert-ransom-bess", "edward-b-bess", "jacob-bess-sr"]
+    }
+  ]
+}
