@@ -421,7 +421,7 @@
     "barbara-slinkard": {
       "id": "barbara-slinkard", "name": "Barbara Slinkard", "aka": ["Barbary Best", "Barbary Bess"], "tags": ["direct-line", "slinkard", "best", "bess"], "group": "direct-line",
       "claims": [
-        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"]},
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-jacob-slinkard-mo-minors-guardianship"]},
         {"predicate": "spouse-of", "object": "jacob-bess-sr", "marriageYear": "1814", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"]}
       ],
       "notes": [
@@ -432,13 +432,18 @@
     "jacob-slinkard-mo": {
       "id": "jacob-slinkard-mo", "name": "Jacob Slinkard (MO, d. <1823)", "tags": ["direct-line", "slinkard"], "group": "slinkard-direct",
       "claims": [
-        {"predicate": "died", "value": {"date": "before 1 Oct 1823", "place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1823-jacob-slinkard-deceased-deed"]},
+        {"predicate": "died", "value": {"date": "before 1 Oct 1823", "place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1823-jacob-slinkard-deceased-deed"], "notes": "May have died earlier — see ev-jacob-slinkard-mo-minors-guardianship which shows him deceased by ~1813–1816 (date range needs verification)."},
         {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1818-jacob-slinkard-mo-deed"]},
         {"predicate": "child-of", "object": "jacob-slinkard-nc-1788", "status": "SUPPORTED", "evidence": ["ev-1788-jacob-slinkard-heir-deed"], "notes": "NC→MO connection SUPPORTED only — timeline + migration pattern, no direct record."},
-        {"predicate": "father-of", "object": "barbara-slinkard", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"]},
-        {"predicate": "father-of", "object": "polly-slinkard-a", "status": "PROVEN", "evidence": []}
+        {"predicate": "father-of", "object": "barbara-slinkard", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-jacob-slinkard-mo-minors-guardianship"]},
+        {"predicate": "father-of", "object": "polly-slinkard-a", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"]},
+        {"predicate": "father-of", "object": "david-slinkard-minor", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"], "notes": "Promoted from UNKNOWN by the ~1813–1816 guardianship record listing all four minors with deceased Jacob Slinkard as parent."},
+        {"predicate": "father-of", "object": "jacob-slinkard-minor", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"], "notes": "Promoted from UNKNOWN by the ~1813–1816 guardianship record."}
       ],
-      "notes": ["DO NOT MERGE with Jacob Slinkard (NC 1788) or Jacob Slinkard (~1812, m. Phebe Hubble)."]
+      "notes": [
+        "DO NOT MERGE with Jacob Slinkard (NC 1788) or Jacob Slinkard (~1812, m. Phebe Hubble).",
+        "Confirmed children (per ~1813–1816 guardianship record): Polly, Barbara, David, Jacob (Jr.). Other children possible but not yet documented."
+      ]
     },
 
     "jacob-slinkard-nc-1788": {
@@ -553,7 +558,7 @@
     "polly-slinkard-a": {
       "id": "polly-slinkard-a", "name": "Polly Slinkard (Jacob MO's daughter)", "tags": ["slinkard"], "group": "slinkard-direct",
       "claims": [
-        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": []}
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"]}
       ],
       "notes": [
         "Working hypothesis (NOT PROVEN): may be 'Polly Bess' — see review/possible_duplicates.md.",
@@ -691,19 +696,26 @@
     },
 
     "david-slinkard-minor": {
-      "id": "david-slinkard-minor", "name": "David Slinkard (1816 minor)", "tags": ["slinkard"], "group": "slinkard-other",
+      "id": "david-slinkard-minor", "name": "David Slinkard (Jacob MO's minor son)", "tags": ["slinkard"], "group": "slinkard-direct",
       "claims": [
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"], "notes": "Promoted from UNKNOWN to PROVEN via ~1813–1816 guardianship record listing all four minors."},
         {"predicate": "role", "value": "Minor ward of Peter Critz, 1816", "status": "PROVEN", "evidence": ["ev-1816-peter-critz-guardian-settlement"]}
       ],
-      "notes": ["Father UNKNOWN. Distinct from David Slinkard (Daniel's heir)."]
+      "notes": [
+        "Distinct from David Slinkard (Daniel Slinkard's heir, 1838 probate).",
+        "The Peter Critz guardianship may be the same proceeding as the ~1813–1816 record — or a separate appointment. Currently kept as two evidence records."
+      ]
     },
 
     "jacob-slinkard-minor": {
-      "id": "jacob-slinkard-minor", "name": "Jacob Slinkard (1816 minor)", "tags": ["slinkard"], "group": "slinkard-other",
+      "id": "jacob-slinkard-minor", "name": "Jacob Slinkard (Jacob MO's minor son)", "tags": ["slinkard"], "group": "slinkard-direct",
       "claims": [
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"], "notes": "Promoted from UNKNOWN to PROVEN via ~1813–1816 guardianship record."},
         {"predicate": "role", "value": "Minor ward of Peter Critz, 1816", "status": "PROVEN", "evidence": ["ev-1816-peter-critz-guardian-settlement"]}
       ],
-      "notes": ["Father UNKNOWN."]
+      "notes": [
+        "DO NOT MERGE with other Jacob Slinkards (NC 1788; MO d. <1823 — his father; ~1812 m. Phebe Hubble)."
+      ]
     },
 
     "peter-critz": {

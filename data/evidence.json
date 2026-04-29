@@ -417,7 +417,20 @@
       "extract": "Peter Critz guardian of David & Jacob Slinkard (minors); settlement.",
       "citation": "1816 guardianship index.",
       "proves": ["Two minor Slinkards (David, Jacob) had Peter Critz as guardian as of 1816"],
-      "doesNotProve": ["Their father's identity", "Connection to main Slinkard line"]
+      "doesNotProve": ["Their father's identity (this record alone)", "Connection to main Slinkard line"],
+      "notes": "May be the same proceeding as ev-jacob-slinkard-mo-minors-guardianship — pending user verification."
+    },
+
+    "ev-jacob-slinkard-mo-minors-guardianship": {
+      "id": "ev-jacob-slinkard-mo-minors-guardianship",
+      "type": "guardian",
+      "date": "~1813–1816 (per user transcription)",
+      "location": "Missouri (Cape Girardeau County)",
+      "extract": "Guardianship/court record naming Jacob Slinkard (deceased) and his minor children: Polly Slinkard, Barbara Slinkard, David Slinkard, Jacob Slinkard.",
+      "citation": "User-provided summary; original record citation TBD.",
+      "proves": ["Polly, Barbara, David, and Jacob Slinkard are all children of a Jacob Slinkard who was deceased at the time of the proceeding"],
+      "doesNotProve": ["Jacob Slinkard's exact death date", "Whether this 'deceased Jacob Slinkard' is the same individual as the Jacob Slinkard who sold a town lot in 1818 — see conflict note", "Maiden name of mother (mother not named here)"],
+      "notes": "TEMPORAL CONFLICT WITH ev-1818-jacob-slinkard-mo-deed. The 1818 deed has Jacob alive. If the date range ~1813–1816 is correct AND this is the same Jacob, the 1818 deed cannot also refer to him. Possibilities: (a) date range is actually later (e.g. ~1819–1822); (b) two different Jacob Slinkards in MO; (c) 1818 deed refers to a different Jacob. See review/conflicts.md and task t-jacob-slinkard-guardianship-date."
     },
 
     "ev-1827-elizabeth-gross-marriage": {

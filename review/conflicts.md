@@ -24,7 +24,18 @@ Same-name problems, contradictions between sources, possible duplicates, claims 
 - **Current handling:** Eve Morrison recorded as PROVEN spouse; the Hannah claim recorded as REJECTED on the same Daniel pending a tie-breaker record. See research task `t-daniel-slinkard-hannah`.
 - **Decision needed:** None yet — leave as-is until evidence resolves it.
 
-### 3. John Slinkard — Nancy Stroder vs. Viney Stroder
+### 3. Jacob Slinkard (MO) — guardianship date vs. 1818 deed
+- **Source A (guardianship/court record, ~1813–1816):** Jacob Slinkard listed as **deceased** with minor children Polly, Barbara, David, and Jacob.
+- **Source B (1818 deed, ev-1818-jacob-slinkard-mo-deed):** Jacob Slinkard **alive**, selling a town lot in Cape Girardeau Co., MO.
+- **The conflict:** Jacob can't have died before 1816 AND been alive in 1818. One of the dates must be wrong, or there are two different Jacob Slinkards in MO during this period.
+- **Possible resolutions:**
+  1. The "~1813–1816" date range on the guardianship record is approximate or wrong — the actual proceeding may be ~1819–1822 (which fits with the 1823 deed showing Jacob deceased).
+  2. Two different Jacob Slinkards in Cape Girardeau Co. — one died early, one was active in 1818.
+  3. The 1818 deed is for a different Jacob (cousin? son?).
+- **Current handling:** All four minors are linked to `jacob-slinkard-mo` per consistency with the rest of the user's research; both pieces of evidence are kept. The conflict is flagged on each affected claim and tracked under task `t-jacob-slinkard-guardianship-date`.
+- **What resolves it:** Original citation for the guardianship record showing the actual filing date.
+
+### 4. John Slinkard — Nancy Stroder vs. Viney Stroder
 - **Source A (marriage index):** John Slinkard — Nancy Stroder (no date in source).
 - **Source B (1839 Cape Girardeau marriage record):** John Slinkard m. Viney Stroder, 8 Dec 1839.
 - **Possible explanations:**

@@ -81,11 +81,28 @@
     {
       "id": "t-1816-minor-slinkards-father",
       "description": "Identify the father of David & Jacob Slinkard, minors under guardianship of Peter Critz (settlement 6 Dec 1816).",
-      "status": "open",
+      "status": "done",
       "priority": "low",
-      "purpose": "Determine if these minors are connected to the main Slinkard line.",
-      "relatedPeople": ["david-slinkard-minor", "jacob-slinkard-minor", "peter-critz"],
-      "relatedEvidence": ["ev-1816-peter-critz-guardian-settlement"]
+      "purpose": "Determine if these minors are connected to the main Slinkard line. RESOLVED: ~1813–1816 guardianship/court record names Jacob Slinkard (deceased) as the father of all four minors (Polly, Barbara, David, Jacob). David and Jacob (minor) re-attached to jacob-slinkard-mo with PROVEN status.",
+      "relatedPeople": ["david-slinkard-minor", "jacob-slinkard-minor", "peter-critz", "jacob-slinkard-mo"],
+      "relatedEvidence": ["ev-1816-peter-critz-guardian-settlement", "ev-jacob-slinkard-mo-minors-guardianship"]
+    },
+    {
+      "id": "t-jacob-slinkard-guardianship-date",
+      "description": "Verify the date of the guardianship/court record naming Jacob Slinkard (deceased) as father of Polly, Barbara, David, and Jacob (minor). User noted it as ~1813–1816, but the 1818 deed (ev-1818-jacob-slinkard-mo-deed) shows Jacob alive selling a town lot — those cannot both be true for the same Jacob.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Resolve temporal conflict between the guardianship record (Jacob deceased) and the 1818 deed (Jacob alive). Likely outcomes: (a) guardianship record is actually later than ~1813–1816; (b) two distinct Jacob Slinkards in MO; (c) 1818 deed refers to a different Jacob.",
+      "relatedPeople": ["jacob-slinkard-mo", "barbara-slinkard", "polly-slinkard-a", "david-slinkard-minor", "jacob-slinkard-minor"],
+      "relatedEvidence": ["ev-jacob-slinkard-mo-minors-guardianship", "ev-1818-jacob-slinkard-mo-deed", "ev-1816-peter-critz-guardian-settlement"]
+    },
+    {
+      "id": "t-jacob-slinkard-guardianship-citation",
+      "description": "Find original citation (court book, page, or volume) for the ~1813–1816 guardianship/court record listing Jacob Slinkard's four minors. Currently filed under user-provided summary only.",
+      "status": "open",
+      "priority": "high",
+      "purpose": "Anchor the strongest piece of Slinkard parentage evidence to an original record.",
+      "relatedEvidence": ["ev-jacob-slinkard-mo-minors-guardianship"]
     },
     {
       "id": "t-jane-sanders-marriage-record",
