@@ -6,14 +6,6 @@ Same-name problems, contradictions between sources, possible duplicates, claims 
 
 ## ACTIVE CONFLICTS
 
-### 1. Jacob Bess Sr.'s spouse — UNKNOWN vs. Barbara Slinkard
-- **Source A (older notes):** Jacob's spouse is UNKNOWN; conclusion "wife likely deceased before 1859" because the 1859 deed shows Jacob alone and probate names no widow.
-- **Source B (newer research):** Jacob Bess Sr. = Jacob Best (1814 marriage to Barbara Slinkard); identification VERY STRONGLY SUPPORTED via the Jacob Miller guardianship distribution naming her husband as "Jacob Best."
-- **Current handling in data:** Spouse is recorded as Barbara Slinkard (PROVEN). The prior UNKNOWN claim is preserved as `status: REPLACED` on the Jacob Bess Sr. record so the history is not lost.
-- **Reconciliation:** Both can be true. Barbara may have predeceased Jacob, which explains both the 1814 marriage AND her absence from 1859 deed and probate.
-- **What confirms it:** A Cape Girardeau dower release between 1814 and 1859, OR a death/burial record for Barbara before 1859. (See research task `t-jacob-bess-dower-release`.)
-- **Decision needed from user:** Confirm the Source B identification is correct. If yes, leave as-is. If you want the conservative UNKNOWN held until a deed is found, say so.
-
 ### 2. Daniel Slinkard's wife — Hannah vs. Eve Morrison
 - **Source A (1823 deed cluster):** "Daniel Slinkard & wife Hannah" appears in the 1823 Cape Girardeau land cluster.
 - **Source B (1838 probate + marriage index):** Daniel's widow is "Eve Slinkard"; marriage index has "Daniel Slinkard — Eve Morrison."
@@ -43,6 +35,18 @@ Same-name problems, contradictions between sources, possible duplicates, claims 
   2. Two different John Slinkards, two different wives.
 - **Current handling:** Two separate person records (`john-slinkard-stroder-1839` and `john-slinkard-nancy-stroder`), neither merged with John Slinkard (Daniel's heir).
 - **Decision needed:** None yet — see research task `t-john-slinkard-stroder`.
+
+---
+
+## RESOLVED CONFLICTS
+
+### (was #1) Jacob Bess Sr.'s spouse — UNKNOWN vs. Barbara Slinkard — RESOLVED 2026-04-30
+- **Source A (older notes):** Jacob's spouse is UNKNOWN; conclusion "wife likely deceased before 1859" because the 1859 deed shows Jacob alone and probate names no widow.
+- **Source B (newer research):** Jacob Bess Sr. = Jacob Best (1814 marriage to Barbara Slinkard); identification VERY STRONGLY SUPPORTED via the Jacob Miller guardianship distribution naming her husband as "Jacob Best."
+- **Resolution:** Source B accepted. Spouse-of claim is now **PROVEN (By Argument)** — see `review/proof_arguments/barbara-slinkard-jacob-bess.md`. The chain is: Barbara Slinkard ↔ Jacob Best (PROVEN, guardianship distribution + 1823 deed) plus Jacob Best ↔ Jacob Bess Sr. (PROVEN (By Argument), location/age/household/spelling continuity).
+- **Reconciliation with Source A:** Barbara likely predeceased Jacob, which explains both the 1814 marriage AND her absence from the 1859 deed and probate. Both observations stand; the apparent conflict was a false dichotomy.
+- **Preserved per no-delete rule:** The prior UNKNOWN-spouse hypothesis remains in `data/people.json` as a `REPLACED` claim on `jacob-bess-sr`.
+- **Still open:** Barbara's actual death date (Cape Girardeau dower release, burial record). Tracked under task `t-jacob-bess-dower-release`.
 
 ---
 

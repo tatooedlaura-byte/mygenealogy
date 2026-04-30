@@ -19,6 +19,16 @@ python3 -m http.server 8000
 # then open http://localhost:8000
 ```
 
+## Regenerate Markdown View
+
+```bash
+python3 scripts/regenerate_people_reorganized.py
+```
+
+- Regenerates `review/people_reorganized.md` from `data/people.json` and `data/evidence.json` (and links research tasks from `data/tasks.json`).
+- JSON files remain the source of truth.
+- The markdown is a read-only review snapshot — re-run after any data change.
+
 ## How to ask for updates
 
 Just say what you want changed and name the person. Examples:
