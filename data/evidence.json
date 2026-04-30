@@ -302,12 +302,13 @@
     "ev-1823-jacob-slinkard-deceased-deed": {
       "id": "ev-1823-jacob-slinkard-deceased-deed",
       "type": "deed",
-      "date": "1823",
+      "date": "1 Oct 1823",
       "location": "Cape Girardeau County, Missouri",
-      "extract": "'…land confirmed to Jacob Slinkard deceased and owned by him in his life time…' Includes Barbary Best wife of Jacob Best as party.",
+      "extract": "'Daniel Slinkard and his wife Hannah, David Kinder, John Best and Caty Best his wife, Jacob Best and his wife Barbary Best… land confirmed to Jacob Slinkard deceased and owned by him in his life time…'",
       "citation": "1823 Cape Girardeau Co., MO deed.",
-      "proves": ["Jacob Slinkard (MO) died before 1 Oct 1823", "Barbara/Barbary identified as wife of Jacob Best", "Land cluster involves John Best & Catherine, Daniel Slinkard & wife Hannah, David Kinder"],
-      "doesNotProve": ["Exact relationships among the cluster"]
+      "url": "https://familysearch.org/ark:/61903/3:1:3Q9M-CSL4-F9CH-S",
+      "proves": ["Jacob Slinkard (MO) died before 1 Oct 1823", "Barbary Best exists and is wife of Jacob Best", "Land cluster involves John Best & Caty, Daniel Slinkard & wife Hannah, David Kinder — consistent with heir group of Jacob Slinkard"],
+      "doesNotProve": ["That Barbary is explicitly named as daughter of Jacob Slinkard (no 'daughter' wording in record)", "That Jacob Best = Jacob Bess Sr. (name variation supported but not confirmed in this record alone)", "Exact relationships among the cluster"]
     },
 
     "ev-jacob-miller-guardianship-barbara": {
