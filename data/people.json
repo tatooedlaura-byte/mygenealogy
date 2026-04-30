@@ -393,6 +393,19 @@
       ]
     },
 
+    "michael-best-nc": {
+      "id": "michael-best-nc", "name": "Michael Best (NC, estate ~1793)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "by ~1793"}, "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate"]},
+        {"predicate": "member-of", "value": "NC Best cluster (Lincoln County)", "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate"]}
+      ],
+      "notes": [
+        "Named in estate account alongside Jacob Best ~1793. No family relationship stated — treated as NC Best cluster member only.",
+        "DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best individuals UNKNOWN.",
+        "Pushes NC Best cluster activity back to at least ~1793."
+      ]
+    },
+
     "eve-bess": {
       "id": "eve-bess", "name": "Eve Bess", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [

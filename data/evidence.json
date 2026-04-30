@@ -13,6 +13,17 @@
       "doesNotProve": ["Catron's full given name (likely Catherine variant — not certain)", "Catron's maiden name", "Their children"]
     },
 
+    "ev-1793-michael-best-estate": {
+      "id": "ev-1793-michael-best-estate",
+      "type": "estate-account",
+      "date": "~1793",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Estate of Michael Best … to Jacob Best … [lists goods/services including corn, iron, planks, etc.]",
+      "citation": "Estate/account record, Michael Best, Lincoln County, NC, ~1793 (full book/page TBD).",
+      "proves": ["Michael Best had an estate being settled ~1793 in Lincoln Co., NC", "Jacob Best is named in Michael Best's estate account", "Both Michael Best and Jacob Best were present in Lincoln Co., NC by ~1793"],
+      "doesNotProve": ["Any family relationship between Michael Best and Jacob Best (no parent/child, heir, or kin language)", "Connection to the Missouri Bess line", "That Michael Best is the same generation as Boston Best"]
+    },
+
     "ev-1795-boston-daniel-best-deed": {
       "id": "ev-1795-boston-daniel-best-deed",
       "type": "deed",
