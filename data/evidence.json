@@ -13,6 +13,28 @@
       "doesNotProve": ["Catron's full given name (likely Catherine variant — not certain)", "Catron's maiden name", "Their children"]
     },
 
+    "ev-1795-boston-daniel-best-deed": {
+      "id": "ev-1795-boston-daniel-best-deed",
+      "type": "deed",
+      "date": "31 Dec 1795",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Best conveys land to Daniel Best. Mentions Jacob Best & Martin Best as adjoining landholders.",
+      "citation": "Lincoln County, NC deed, 31 Dec 1795 (extract per user transcription; book/page TBD).",
+      "proves": ["Boston Best and Daniel Best both present in Lincoln Co., NC, 1795", "Jacob Best and Martin Best held adjoining land in Lincoln Co., NC, 1795"],
+      "doesNotProve": ["Kinship between Boston, Daniel, Jacob, or Martin Best", "Connection to the Missouri Bess line"]
+    },
+
+    "ev-1809-boston-jacob-best-deed": {
+      "id": "ev-1809-boston-jacob-best-deed",
+      "type": "deed",
+      "date": "~1809",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Land originally granted to Boston Best, conveyed to Jacob Best.",
+      "citation": "Lincoln County, NC deed, ~1809 (extract per user transcription; book/page TBD).",
+      "proves": ["A 1809 conveyance of Boston Best's original grant to a Jacob Best occurred in Lincoln Co., NC"],
+      "doesNotProve": ["Kinship between Boston Best and this Jacob Best", "Whether this Jacob Best is the same as MO Jacob Bess Sr.", "Whether this Jacob Best is the same as the Jacob Best named as adjoining landholder in the 1795 deed"]
+    },
+
     "ev-1779-marriage-peter-cristina": {
       "id": "ev-1779-marriage-peter-cristina",
       "type": "marriage",

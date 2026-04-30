@@ -1,8 +1,6 @@
 {
   "$schema": "Each person has identity info plus a 'claims' array. A claim is a single assertion (born, died, resided, child-of, spouse-of, role, etc.) with its own status and evidence references. Claims with status REJECTED/DISPROVEN/REPLACED are kept (not deleted) per the no-delete rule.",
   "directLine": [
-    "boston-best-sr",
-    "peter-best",
     "jacob-bess-sr",
     "edward-b-bess",
     "rhoda-b-bess",
@@ -11,11 +9,13 @@
     "robert-stokes",
     "you"
   ],
+  "directLineNotes": "Earlier generations (Boston Best, Peter Best) were previously included as direct ancestors but have been reclassified into the 'bess-nc-origins' (POSSIBLE NC ORIGINS — NOT MERGED) group pending further evidence. Their parent-child claims to this line are preserved as REPLACED in their records.",
   "groups": {
     "direct-line": "Direct ancestors",
     "bess-mo-children": "Jacob Bess Sr.'s children (Missouri)",
     "bess-edward-children": "Edward B. Bess's children",
     "bess-nc-cluster": "North Carolina Bess cluster (reference only)",
+    "bess-nc-origins": "POSSIBLE NC ORIGINS — NOT MERGED (relationship to MO line UNPROVEN; cluster + timeline only)",
     "bess-mo-cluster": "Missouri Bess cluster (reference only)",
     "slinkard-direct": "Slinkard line (via Barbara, Jacob Bess Sr.'s wife)",
     "slinkard-daniel-heirs": "Daniel Slinkard's heirs (1838 probate)",
@@ -109,7 +109,7 @@
         {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-jacob-bess"]},
         {"predicate": "resided", "value": {"place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1859-jacob-bess-deed", "ev-jacob-bess-probate"]},
 
-        {"predicate": "child-of", "object": "peter-best", "status": "SUPPORTED", "evidence": ["ev-1809-boston-estate-peter-account", "ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "Working hypothesis — see review/proof_arguments/jacob-bess-parentage.md. No record explicitly states the relationship."},
+        {"predicate": "child-of", "object": "peter-best", "status": "REPLACED", "evidence": ["ev-1809-boston-estate-peter-account", "ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "Previously treated as SUPPORTED (working hypothesis — see review/proof_arguments/jacob-bess-parentage.md). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."},
 
         {"predicate": "spouse-of", "object": "barbara-slinkard", "marriageYear": "1814", "status": "PROVEN (By Argument)", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-circuit-court-cape-jacob-miller-guardian", "ev-1830-census-jacob-bess", "ev-1850-census-jacob-bess"], "justification": "Jacob Best, named in the 1823 deed alongside Barbara/Barbary Best (formerly Slinkard), is the same individual as Jacob Bess Sr. of Cape Girardeau/Bollinger County, based on geographic continuity, consistent timeline, the Best→Bess phonetic spelling shift documented across this line, and the absence of any competing Jacob Best in the cluster. No conflicting evidence has been identified.", "contradictionsChecked": "none found", "notes": "Surname appears as Best in early records (1814, 1823) and Bess in later Missouri records — phonetic spelling variation. Full proof argument: review/proof_arguments/barbara-slinkard-jacob-bess.md."},
 
@@ -145,11 +145,11 @@
     },
 
     "peter-best": {
-      "id": "peter-best", "name": "Peter Best (Bess)", "tags": ["direct-line", "bess", "best", "north-carolina"], "group": "direct-line",
+      "id": "peter-best", "name": "Peter Best (Bess)", "tags": ["bess", "best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
         {"predicate": "spouse-of", "object": "cristina-whitenbarger", "marriageDate": "13 Oct 1779", "status": "PROVEN", "evidence": ["ev-1779-marriage-peter-cristina"]},
-        {"predicate": "child-of", "object": "boston-best-sr", "status": "STRONGLY SUPPORTED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"], "notes": "1779 bondsman role + direct involvement in Boston's 1809 estate strongly support immediate-family relationship; not explicitly stated."},
-        {"predicate": "father-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "1832 will leaves to 'my children' (unnamed). Jacob fits chronologically and clusters appropriately."}
+        {"predicate": "child-of", "object": "boston-best-sr", "status": "REPLACED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"], "notes": "Previously treated as STRONGLY SUPPORTED (1779 bondsman role + direct involvement in Boston's 1809 estate). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."},
+        {"predicate": "father-of", "object": "jacob-bess-sr", "status": "REPLACED", "evidence": ["ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "Previously treated as SUPPORTED (1832 will leaves to 'my children' unnamed; Jacob fits chronologically). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."}
       ],
       "notes": [
         "POSSIBLY same person as 'Peter Bess (elder)' (1832 will, wife Leannah). Per do-not-merge rule, kept as a distinct candidate — see review/possible_duplicates.md."
@@ -157,27 +157,65 @@
     },
 
     "cristina-whitenbarger": {
-      "id": "cristina-whitenbarger", "name": "Cristina Whitenbarger", "tags": ["whitenbarger", "north-carolina"], "group": "direct-line",
+      "id": "cristina-whitenbarger", "name": "Cristina Whitenbarger", "tags": ["whitenbarger", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
         {"predicate": "spouse-of", "object": "peter-best", "marriageDate": "13 Oct 1779", "status": "PROVEN", "evidence": ["ev-1779-marriage-peter-cristina"]}
       ]
     },
 
     "boston-best-sr": {
-      "id": "boston-best-sr", "name": "Boston Best (Bess) Sr.", "tags": ["direct-line", "bess", "best", "north-carolina"], "group": "direct-line",
+      "id": "boston-best-sr", "name": "Boston Best (Bess) Sr.", "tags": ["bess", "best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
         {"predicate": "died", "value": {"date": "by 1809", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1809-boston-best-estate"]},
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1795"}, "status": "PROVEN", "evidence": ["ev-1795-boston-daniel-best-deed"]},
         {"predicate": "spouse-of", "object": "catron-best", "status": "PROVEN", "evidence": ["ev-1775-nc-deed-boston-best"]},
-        {"predicate": "father-of", "object": "peter-best", "status": "STRONGLY SUPPORTED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"]}
+        {"predicate": "father-of", "object": "peter-best", "status": "REPLACED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"], "notes": "Previously treated as STRONGLY SUPPORTED. Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."},
+        {"predicate": "father-of", "object": "jacob-best-nc-1809", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated."}
       ],
-      "notes": ["DO NOT confuse with 'Boston Bess (1869, NC)' — different person."]
+      "notes": [
+        "DO NOT confuse with 'Boston Bess (1869, NC)' — different person.",
+        "Moved from 'direct-line' to 'bess-nc-origins' group: connection to the Missouri Jacob Bess line is no longer treated as a direct-ancestor chain. Boston is retained as a documented NC individual; the link Boston→Peter→Jacob is preserved as REPLACED on the affected claims."
+      ]
     },
 
     "catron-best": {
-      "id": "catron-best", "name": "Catron Best", "tags": ["direct-line", "best", "north-carolina"], "group": "direct-line",
+      "id": "catron-best", "name": "Catron Best", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
         {"predicate": "spouse-of", "object": "boston-best-sr", "status": "PROVEN", "evidence": ["ev-1775-nc-deed-boston-best"]},
         {"predicate": "aka", "value": "Catron likely a Catherine variant", "status": "SUPPORTED", "evidence": ["ev-1775-nc-deed-boston-best"], "notes": "Inference from common period naming, not from a record."}
+      ]
+    },
+
+    "jacob-best-nc-1809": {
+      "id": "jacob-best-nc-1809", "name": "Jacob Best (NC, 1809)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "~1809"}, "status": "PROVEN", "evidence": ["ev-1809-boston-jacob-best-deed"]},
+        {"predicate": "child-of", "object": "boston-best-sr", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated."}
+      ],
+      "notes": [
+        "POSSIBLE ANCESTOR — NOT MERGED. Distinct from Jacob Bess Sr. (MO, b. ~1798, id `jacob-bess-sr`). Do not merge.",
+        "May or may not be the same as the 'Jacob Best' named as adjoining landholder in the 1795 Boston→Daniel Best deed (`ev-1795-boston-daniel-best-deed`). Kept as a single record for now; revisit if records distinguish two Jacobs in Lincoln Co., NC."
+      ]
+    },
+
+    "daniel-best-nc-1795": {
+      "id": "daniel-best-nc-1795", "name": "Daniel Best (NC, 1795)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1795"}, "status": "PROVEN", "evidence": ["ev-1795-boston-daniel-best-deed"]}
+      ],
+      "notes": [
+        "POSSIBLE ANCESTOR — NOT MERGED. Identity proven by the 1795 deed (grantee from Boston Best). Relationship to Boston, Jacob, Martin, or the Missouri Bess line: UNKNOWN.",
+        "Distinct from Daniel Bess (Jacob Bess Sr.'s son, id `daniel-bess`). Do not merge."
+      ]
+    },
+
+    "martin-best-nc-1795": {
+      "id": "martin-best-nc-1795", "name": "Martin Best (NC, 1795)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1795"}, "status": "PROVEN", "evidence": ["ev-1795-boston-daniel-best-deed"]}
+      ],
+      "notes": [
+        "POSSIBLE ANCESTOR — NOT MERGED. Identity proven by the 1795 deed (named as adjoining landholder). Relationship to Boston, Daniel, Jacob, or the Missouri Bess line: UNKNOWN."
       ]
     },
 

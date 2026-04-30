@@ -17,10 +17,6 @@ Doctrine: no inference, no merging, no upgrades, no deletions, verbatim record w
   - [Edward B. Bess](#-edward-b-bess)
   - [Jane Sanders](#-jane-sanders)
   - [Jacob Bess Sr.](#-jacob-bess-sr)
-  - [Peter Best (Bess)](#-peter-best)
-  - [Cristina Whitenbarger](#-cristina-whitenbarger)
-  - [Boston Best (Bess) Sr.](#-boston-best-sr)
-  - [Catron Best](#-catron-best)
   - [Barbara Slinkard](#-barbara-slinkard)
 - **Jacob Bess Sr.'s children (Missouri)** (`bess-mo-children`)
   - [Daniel Bess](#-daniel-bess)
@@ -51,6 +47,14 @@ Doctrine: no inference, no merging, no upgrades, no deletions, verbatim record w
   - [Hiram Bess](#-hiram-bess)
   - [Eliza Bess](#-eliza-bess)
   - [Boston Bess (1869)](#-boston-bess-1869)
+- **POSSIBLE NC ORIGINS — NOT MERGED (relationship to MO line UNPROVEN; cluster + timeline only)** (`bess-nc-origins`)
+  - [Peter Best (Bess)](#-peter-best)
+  - [Cristina Whitenbarger](#-cristina-whitenbarger)
+  - [Boston Best (Bess) Sr.](#-boston-best-sr)
+  - [Catron Best](#-catron-best)
+  - [Jacob Best (NC, 1809)](#-jacob-best-nc-1809)
+  - [Daniel Best (NC, 1795)](#-daniel-best-nc-1795)
+  - [Martin Best (NC, 1795)](#-martin-best-nc-1795)
 - **Missouri Bess cluster (reference only)** (`bess-mo-cluster`)
   - [Lawson Bess](#-lawson-bess)
 - **Slinkard line (via Barbara, Jacob Bess Sr.'s wife)** (`slinkard-direct`)
@@ -429,9 +433,9 @@ _(group key: `direct-line`)_
   Citation: 1857 Bollinger Co., MO deed.
 
 ### 🔗 Relationships
-**Father** — SUPPORTED
-  - Peter Best (Bess) (`peter-best`) — SUPPORTED
-    - _note:_ Working hypothesis — see review/proof_arguments/jacob-bess-parentage.md. No record explicitly states the relationship.
+**Father** — REPLACED
+  - Peter Best (Bess) (`peter-best`) — REPLACED
+    - _note:_ Previously treated as SUPPORTED (working hypothesis — see review/proof_arguments/jacob-bess-parentage.md). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule.
 **Mother** — UNKNOWN
 **Spouse(s)** — PROVEN (By Argument)
   - Barbara Slinkard (`barbara-slinkard`) — PROVEN (By Argument)
@@ -483,148 +487,6 @@ _(group key: `direct-line`)_
 - [t-peter-best-children-named] Search NC probate, deed, and court records for any document naming Peter Best/Bess's children individually (1832 will leaves to 'my children' but does not list them). (_priority:_ high, _status:_ open)
 - [t-1840-census-jacob-bess] Find Jacob Bess in 1840 Cape Girardeau / Bollinger County census. (_priority:_ low, _status:_ open)
 - [t-bessville-mo-history] Research 'Bessville, Missouri' — the place named on Albert Ransom Bess's death record. Confirm location, founding family, surviving records. (_priority:_ low, _status:_ open)
-
----
-
-<a id="-peter-best"></a>
-
-## 👤 Peter Best (Bess)
-**Group:** direct-line · **Tags:** direct-line, bess, best, north-carolina · **ID:** `peter-best`
-
-### 📅 Timeline
-- 13 Oct 1779 — married (spouse claim) (PROVEN)
-
-### 📚 Evidence
-- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
-  Citation: 1779 North Carolina marriage record.
-- **estate-account** (1809, Lincoln County, North Carolina) — "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'"
-  Citation: 1809 Boston Best Sr. estate account.
-- **will** (1832, Lincoln County, North Carolina) — "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed)."
-  Citation: 1832 Peter Bess will, Lincoln County, NC.
-- **analysis** ((derived), —) — "Jacob Bess Sr. fits chronologically (~1798) as second-generation son of Peter Best (b. ~1765–1775); migration timing aligns with NC→MO ~1815–1822; no conflicting candidate."
-  Citation: Working analysis combining the above sources.
-
-### 🔗 Relationships
-**Father** — STRONGLY SUPPORTED
-  - Boston Best (Bess) Sr. (`boston-best-sr`) — STRONGLY SUPPORTED
-    - _note:_ 1779 bondsman role + direct involvement in Boston's 1809 estate strongly support immediate-family relationship; not explicitly stated.
-**Mother** — UNKNOWN
-**Spouse(s)** — PROVEN
-  - Cristina Whitenbarger (`cristina-whitenbarger`) — PROVEN
-**Children** — SUPPORTED (highest); SUPPORTED (lowest)
-  - Jacob Bess Sr. (`jacob-bess-sr`) — SUPPORTED
-    - _note:_ 1832 will leaves to 'my children' (unnamed). Jacob fits chronologically and clusters appropriately.
-
-### 🧠 Analysis
-- POSSIBLY same person as 'Peter Bess (elder)' (1832 will, wife Leannah). Per do-not-merge rule, kept as a distinct candidate — see review/possible_duplicates.md.
-
-### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
-
-### 📌 Proof Argument
-- See [`review/proof_arguments/jacob-bess-parentage.md`](proof_arguments/jacob-bess-parentage.md)
-  - **Claim:** Parentage of Jacob Bess Sr. (working hypothesis: son of Peter Best/Bess)
-  - **Conclusion:** Boston→Peter STRONGLY SUPPORTED; Peter→Jacob SUPPORTED (not proven)
-  - **Conflicts checked:** see the proof argument file (verbatim)
-
-### 🔍 Related Research Tasks
-- [t-peter-best-children-named] Search NC probate, deed, and court records for any document naming Peter Best/Bess's children individually (1832 will leaves to 'my children' but does not list them). (_priority:_ high, _status:_ open)
-- [t-boston-best-sr-heirs] Search Lincoln County, NC estate file of Boston Best Sr. (1809) for any heir list, division of estate, or guardianship of minors. (_priority:_ high, _status:_ open)
-
----
-
-<a id="-cristina-whitenbarger"></a>
-
-## 👤 Cristina Whitenbarger
-**Group:** direct-line · **Tags:** whitenbarger, north-carolina · **ID:** `cristina-whitenbarger`
-
-### 📅 Timeline
-- 13 Oct 1779 — married (spouse claim) (PROVEN)
-
-### 📚 Evidence
-- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
-  Citation: 1779 North Carolina marriage record.
-
-### 🔗 Relationships
-**Father** — UNKNOWN
-**Mother** — UNKNOWN
-**Spouse(s)** — PROVEN
-  - Peter Best (Bess) (`peter-best`) — PROVEN
-**Children** — UNKNOWN
-
-### 🧠 Analysis
-- (no analytical notes recorded)
-
-### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
-
----
-
-<a id="-boston-best-sr"></a>
-
-## 👤 Boston Best (Bess) Sr.
-**Group:** direct-line · **Tags:** direct-line, bess, best, north-carolina · **ID:** `boston-best-sr`
-
-### 📅 Timeline
-- by 1809 — died, Lincoln County, North Carolina (PROVEN)
-
-### 📚 Evidence
-- **estate** (1809, Lincoln County, North Carolina) — "Estate of Boston Best Sr. administered."
-  Citation: 1809 Lincoln County, NC estate records.
-- **deed** (1775, North Carolina) — "Names Boston Best with wife Catron Best."
-  Citation: 1775 North Carolina deed (Boston Best Sr. and wife Catron).
-- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
-  Citation: 1779 North Carolina marriage record.
-- **estate-account** (1809, Lincoln County, North Carolina) — "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'"
-  Citation: 1809 Boston Best Sr. estate account.
-
-### 🔗 Relationships
-**Father** — UNKNOWN
-**Mother** — UNKNOWN
-**Spouse(s)** — PROVEN
-  - Catron Best (`catron-best`) — PROVEN
-**Children** — STRONGLY SUPPORTED (highest); STRONGLY SUPPORTED (lowest)
-  - Peter Best (Bess) (`peter-best`) — STRONGLY SUPPORTED
-
-### 🧠 Analysis
-- DO NOT confuse with 'Boston Bess (1869, NC)' — different person.
-
-### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
-
-### 🔍 Related Research Tasks
-- [t-boston-best-sr-heirs] Search Lincoln County, NC estate file of Boston Best Sr. (1809) for any heir list, division of estate, or guardianship of minors. (_priority:_ high, _status:_ open)
-
----
-
-<a id="-catron-best"></a>
-
-## 👤 Catron Best
-**Group:** direct-line · **Tags:** direct-line, best, north-carolina · **ID:** `catron-best`
-
-### 📅 Timeline
-- (no dated events recorded)
-
-### 📚 Evidence
-- **deed** (1775, North Carolina) — "Names Boston Best with wife Catron Best."
-  Citation: 1775 North Carolina deed (Boston Best Sr. and wife Catron).
-
-### 🔗 Relationships
-**Father** — UNKNOWN
-**Mother** — UNKNOWN
-**Spouse(s)** — PROVEN
-  - Boston Best (Bess) Sr. (`boston-best-sr`) — PROVEN
-**Children** — UNKNOWN
-
-### 🧠 Analysis
-- (no analytical notes recorded)
-
-### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
 
 ---
 
@@ -1459,6 +1321,245 @@ _(group key: `bess-nc-cluster`)_
 ### 📊 Status
 - **Identity:** PROVEN
 - **Relationships (overall):** PROVEN
+
+---
+
+# Group: POSSIBLE NC ORIGINS — NOT MERGED (relationship to MO line UNPROVEN; cluster + timeline only)
+_(group key: `bess-nc-origins`)_
+
+<a id="-peter-best"></a>
+
+## 👤 Peter Best (Bess)
+**Group:** bess-nc-origins · **Tags:** bess, best, north-carolina, nc-origins · **ID:** `peter-best`
+
+### 📅 Timeline
+- 13 Oct 1779 — married (spouse claim) (PROVEN)
+
+### 📚 Evidence
+- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
+  Citation: 1779 North Carolina marriage record.
+- **estate-account** (1809, Lincoln County, North Carolina) — "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'"
+  Citation: 1809 Boston Best Sr. estate account.
+- **will** (1832, Lincoln County, North Carolina) — "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed)."
+  Citation: 1832 Peter Bess will, Lincoln County, NC.
+- **analysis** ((derived), —) — "Jacob Bess Sr. fits chronologically (~1798) as second-generation son of Peter Best (b. ~1765–1775); migration timing aligns with NC→MO ~1815–1822; no conflicting candidate."
+  Citation: Working analysis combining the above sources.
+
+### 🔗 Relationships
+**Father** — REPLACED
+  - Boston Best (Bess) Sr. (`boston-best-sr`) — REPLACED
+    - _note:_ Previously treated as STRONGLY SUPPORTED (1779 bondsman role + direct involvement in Boston's 1809 estate). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule.
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Cristina Whitenbarger (`cristina-whitenbarger`) — PROVEN
+**Children** — REPLACED (highest); REPLACED (lowest)
+  - Jacob Bess Sr. (`jacob-bess-sr`) — REPLACED
+    - _note:_ Previously treated as SUPPORTED (1832 will leaves to 'my children' unnamed; Jacob fits chronologically). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule.
+
+### 🧠 Analysis
+- POSSIBLY same person as 'Peter Bess (elder)' (1832 will, wife Leannah). Per do-not-merge rule, kept as a distinct candidate — see review/possible_duplicates.md.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+### 📌 Proof Argument
+- See [`review/proof_arguments/jacob-bess-parentage.md`](proof_arguments/jacob-bess-parentage.md)
+  - **Claim:** Parentage of Jacob Bess Sr. (working hypothesis: son of Peter Best/Bess)
+  - **Conclusion:** Boston→Peter STRONGLY SUPPORTED; Peter→Jacob SUPPORTED (not proven)
+  - **Conflicts checked:** see the proof argument file (verbatim)
+
+### 🔍 Related Research Tasks
+- [t-peter-best-children-named] Search NC probate, deed, and court records for any document naming Peter Best/Bess's children individually (1832 will leaves to 'my children' but does not list them). (_priority:_ high, _status:_ open)
+- [t-boston-best-sr-heirs] Search Lincoln County, NC estate file of Boston Best Sr. (1809) for any heir list, division of estate, or guardianship of minors. (_priority:_ high, _status:_ open)
+
+---
+
+<a id="-cristina-whitenbarger"></a>
+
+## 👤 Cristina Whitenbarger
+**Group:** bess-nc-origins · **Tags:** whitenbarger, north-carolina, nc-origins · **ID:** `cristina-whitenbarger`
+
+### 📅 Timeline
+- 13 Oct 1779 — married (spouse claim) (PROVEN)
+
+### 📚 Evidence
+- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
+  Citation: 1779 North Carolina marriage record.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Peter Best (Bess) (`peter-best`) — PROVEN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-boston-best-sr"></a>
+
+## 👤 Boston Best (Bess) Sr.
+**Group:** bess-nc-origins · **Tags:** bess, best, north-carolina, nc-origins · **ID:** `boston-best-sr`
+
+### 📅 Timeline
+- by 1809 — died, Lincoln County, North Carolina (PROVEN)
+- 1795 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **estate** (1809, Lincoln County, North Carolina) — "Estate of Boston Best Sr. administered."
+  Citation: 1809 Lincoln County, NC estate records.
+- **deed** (31 Dec 1795, Lincoln County, North Carolina) — "Boston Best conveys land to Daniel Best. Mentions Jacob Best & Martin Best as adjoining landholders."
+  Citation: Lincoln County, NC deed, 31 Dec 1795 (extract per user transcription; book/page TBD).
+- **deed** (1775, North Carolina) — "Names Boston Best with wife Catron Best."
+  Citation: 1775 North Carolina deed (Boston Best Sr. and wife Catron).
+- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
+  Citation: 1779 North Carolina marriage record.
+- **estate-account** (1809, Lincoln County, North Carolina) — "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'"
+  Citation: 1809 Boston Best Sr. estate account.
+- **deed** (~1809, Lincoln County, North Carolina) — "Land originally granted to Boston Best, conveyed to Jacob Best."
+  Citation: Lincoln County, NC deed, ~1809 (extract per user transcription; book/page TBD).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Catron Best (`catron-best`) — PROVEN
+**Children** — SUPPORTED (highest); REPLACED (lowest)
+  - Peter Best (Bess) (`peter-best`) — REPLACED
+    - _note:_ Previously treated as STRONGLY SUPPORTED. Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule.
+  - Jacob Best (NC, 1809) (`jacob-best-nc-1809`) — SUPPORTED
+    - _note:_ Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated.
+
+### 🧠 Analysis
+- DO NOT confuse with 'Boston Bess (1869, NC)' — different person.
+- Moved from 'direct-line' to 'bess-nc-origins' group: connection to the Missouri Jacob Bess line is no longer treated as a direct-ancestor chain. Boston is retained as a documented NC individual; the link Boston→Peter→Jacob is preserved as REPLACED on the affected claims.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+### 🔍 Related Research Tasks
+- [t-boston-best-sr-heirs] Search Lincoln County, NC estate file of Boston Best Sr. (1809) for any heir list, division of estate, or guardianship of minors. (_priority:_ high, _status:_ open)
+
+---
+
+<a id="-catron-best"></a>
+
+## 👤 Catron Best
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `catron-best`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **deed** (1775, North Carolina) — "Names Boston Best with wife Catron Best."
+  Citation: 1775 North Carolina deed (Boston Best Sr. and wife Catron).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Boston Best (Bess) Sr. (`boston-best-sr`) — PROVEN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-jacob-best-nc-1809"></a>
+
+## 👤 Jacob Best (NC, 1809)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `jacob-best-nc-1809`
+
+### 📅 Timeline
+- ~1809 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (~1809, Lincoln County, North Carolina) — "Land originally granted to Boston Best, conveyed to Jacob Best."
+  Citation: Lincoln County, NC deed, ~1809 (extract per user transcription; book/page TBD).
+
+### 🔗 Relationships
+**Father** — SUPPORTED
+  - Boston Best (Bess) Sr. (`boston-best-sr`) — SUPPORTED
+    - _note:_ Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated.
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- POSSIBLE ANCESTOR — NOT MERGED. Distinct from Jacob Bess Sr. (MO, b. ~1798, id `jacob-bess-sr`). Do not merge.
+- May or may not be the same as the 'Jacob Best' named as adjoining landholder in the 1795 Boston→Daniel Best deed (`ev-1795-boston-daniel-best-deed`). Kept as a single record for now; revisit if records distinguish two Jacobs in Lincoln Co., NC.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** SUPPORTED
+
+---
+
+<a id="-daniel-best-nc-1795"></a>
+
+## 👤 Daniel Best (NC, 1795)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `daniel-best-nc-1795`
+
+### 📅 Timeline
+- 1795 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (31 Dec 1795, Lincoln County, North Carolina) — "Boston Best conveys land to Daniel Best. Mentions Jacob Best & Martin Best as adjoining landholders."
+  Citation: Lincoln County, NC deed, 31 Dec 1795 (extract per user transcription; book/page TBD).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- POSSIBLE ANCESTOR — NOT MERGED. Identity proven by the 1795 deed (grantee from Boston Best). Relationship to Boston, Jacob, Martin, or the Missouri Bess line: UNKNOWN.
+- Distinct from Daniel Bess (Jacob Bess Sr.'s son, id `daniel-bess`). Do not merge.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-martin-best-nc-1795"></a>
+
+## 👤 Martin Best (NC, 1795)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `martin-best-nc-1795`
+
+### 📅 Timeline
+- 1795 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (31 Dec 1795, Lincoln County, North Carolina) — "Boston Best conveys land to Daniel Best. Mentions Jacob Best & Martin Best as adjoining landholders."
+  Citation: Lincoln County, NC deed, 31 Dec 1795 (extract per user transcription; book/page TBD).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- POSSIBLE ANCESTOR — NOT MERGED. Identity proven by the 1795 deed (named as adjoining landholder). Relationship to Boston, Daniel, Jacob, or the Missouri Bess line: UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
 
 ---
 

@@ -105,11 +105,8 @@ mygenealogy/
 ## Direct line (current state)
 
 ```
-Boston Best Sr.       (d. 1809, NC)              PROVEN
-   ↓
-Peter Best (Bess)     (m. Cristina Whitenbarger) STRONGLY SUPPORTED as son
-   ↓
-Jacob Bess Sr.        (~1798, NC → MO)           SUPPORTED as son of Peter
+Jacob Bess Sr.        (~1798, NC → MO)           PROVEN identity
+   + Barbara Slinkard                            PROVEN (By Argument) as wife
    ↓
 Edward B. Bess        (~1835, MO)                PROVEN as son
    ↓
@@ -123,3 +120,17 @@ Robert Stokes                                    PROVEN
    ↓
 (You)
 ```
+
+> **Note on earlier generations.** Boston Best Sr. and Peter Best were previously included in the direct line (Boston → Peter → Jacob, at STRONGLY SUPPORTED / SUPPORTED). They have been reclassified into a new **POSSIBLE NC ORIGINS** cluster (`group: bess-nc-origins`) pending further evidence: the Lincoln County, NC Best family structure shows multiple unresolved Best/Bess branches, and no record explicitly names Peter as Boston's son or Jacob as Peter's son. The previous parent-child claims are preserved as `REPLACED` (per the no-delete rule) on each affected record. See `review/proof_arguments/jacob-bess-parentage.md` and `review/conflicts.md`.
+
+## Possible NC origins (under evaluation, not merged)
+
+```
+Boston Best Sr.       (d. 1809, Lincoln Co. NC)  PROVEN identity
+Peter Best (Bess)     (m. Cristina 1779)         PROVEN identity
+Jacob Best (NC, 1809) (1809 deed grantee)        PROVEN identity; SUPPORTED as son of Boston
+Daniel Best (NC, 1795)(1795 deed grantee)        PROVEN identity; relationship UNKNOWN
+Martin Best (NC, 1795)(1795 deed adjoining)      PROVEN identity; relationship UNKNOWN
+```
+
+Connection of any of the above to Jacob Bess Sr. (MO): **UNPROVEN**. Cluster + timeline only.

@@ -58,8 +58,8 @@ These are claims that rest on derivative or indirect sources and should be re-an
 - **Rhoda B. Bess + Joseph Labrot marriage** — SUPPORTED in research notes only. Need primary marriage record.
 - **Virginia Labrot vitals** — direct-line position PROVEN per family knowledge but not yet anchored to primary docs in this file.
 - **Jacob Slinkard (NC 1788) "heir at law" of Frederick Slinker** — SUPPORTED via 1788 deed language. Heir-at-law can mean a child OR another close relation. A deed/will explicitly using "son" would upgrade to PROVEN.
-- **Peter Best as father of Jacob Bess Sr.** — SUPPORTED via cluster + 1832 will to "my children" (unnamed). No record names Jacob explicitly.
-- **Boston Best Sr. as Peter Best's father** — STRONGLY SUPPORTED via 1779 bondsman role + 1809 estate involvement, but no document explicitly names Peter as son.
+- **Peter Best as father of Jacob Bess Sr.** — formerly SUPPORTED; now `REPLACED` on the affected claims pending resolution of the Lincoln Co., NC Best family structure. Reclassified into the `bess-nc-origins` group ("POSSIBLE NC ORIGINS — NOT MERGED"). A primary record naming Jacob as Peter's son would resurrect the link.
+- **Boston Best Sr. as Peter Best's father** — formerly STRONGLY SUPPORTED; now `REPLACED` on the affected claims, same reason. A primary record (e.g. estate division, will mentioning Peter by name as son) would resurrect the link.
 
 ---
 
