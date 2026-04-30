@@ -409,7 +409,10 @@
         {"predicate": "died", "value": {"date": "by 1832", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
         {"predicate": "spouse-of", "object": "leannah-bess", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
       ],
-      "notes": ["POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule."]
+      "notes": [
+        "POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule.",
+        "Additional court transcription confirms existence of will and widow administratrix; does not name widow in this extract. Treated as same probate event as ev-1832-peter-bess-will."
+      ]
     },
 
     "leannah-bess": {

@@ -1198,6 +1198,7 @@ _(group key: `bess-nc-cluster`)_
 
 ### 🧠 Analysis
 - POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule.
+- Additional court transcription confirms existence of will and widow administratrix; does not name widow in this extract. Treated as same probate event as ev-1832-peter-bess-will.
 
 ### 📊 Status
 - **Identity:** PROVEN
