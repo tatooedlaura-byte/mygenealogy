@@ -4,10 +4,10 @@
 
 const DATA = { people: {}, evidence: {}, tasks: [], directLine: [], groups: {} };
 
-const STATUS_ORDER = ['PROVEN', 'STRONGLY SUPPORTED', 'SUPPORTED', 'UNKNOWN', 'REPLACED', 'REJECTED', 'DISPROVEN'];
+const STATUS_ORDER = ['PROVEN', 'PROVEN (By Argument)', 'STRONGLY SUPPORTED', 'SUPPORTED', 'UNKNOWN', 'REPLACED', 'REJECTED', 'DISPROVEN'];
 
 function statusClass(status) {
-  return 'status-' + (status || 'UNKNOWN').toLowerCase().replace(/ /g, '-');
+  return 'status-' + (status || 'UNKNOWN').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
 }
 
 function statusBadge(status) {
@@ -75,6 +75,7 @@ function renderEvidenceCard(evId) {
   if (ev.date) html += `<dt>Date</dt><dd>${escape(ev.date)}</dd>`;
   if (ev.location) html += `<dt>Location</dt><dd>${escape(ev.location)}</dd>`;
   if (ev.citation) html += `<dt>Citation</dt><dd>${escape(ev.citation)}</dd>`;
+  if (ev.url) html += `<dt>Source</dt><dd><a href="${escape(ev.url)}" target="_blank" rel="noopener">View original record ↗</a></dd>`;
   html += `</dl>`;
   if (ev.extract) html += `<div class="ev-extract">${escape(ev.extract)}</div>`;
   if (ev.proves && ev.proves.length) {
@@ -110,6 +111,16 @@ function renderClaim(claim, idx) {
 
   if (claim.notes) {
     html += `<div class="claim-notes">${escape(claim.notes)}</div>`;
+  }
+
+  if (claim.justification) {
+    html += `<div class="claim-justification">`;
+    html += `<div class="claim-justification-header">📌 Evidence Status: PROVEN (By Argument)</div>`;
+    html += `<div class="claim-justification-body">${escape(claim.justification)}</div>`;
+    if (claim.contradictionsChecked) {
+      html += `<div class="claim-justification-contradictions">Contradictions checked: ${escape(claim.contradictionsChecked)}</div>`;
+    }
+    html += `</div>`;
   }
 
   html += `</div>`;

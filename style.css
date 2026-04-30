@@ -108,6 +108,7 @@ h3 { font-size: 16px; margin-top: 18px; color: #24292f; }
   margin-left: 6px;
 }
 .status-proven              { background: #dafbe1; color: #1a7f37; border: 1px solid #2da44e; }
+.status-proven-by-argument  { background: #d3f8f0; color: #0d7a6a; border: 1px solid #1ba389; }
 .status-strongly-supported  { background: #ddf4ff; color: #0969da; border: 1px solid #54aeff; }
 .status-supported           { background: #fff8c5; color: #9a6700; border: 1px solid #d4a72c; }
 .status-unknown             { background: #eaeef2; color: #57606a; border: 1px solid #afb8c1; }
@@ -229,6 +230,7 @@ h3 { font-size: 16px; margin-top: 18px; color: #24292f; }
   border-radius: 0 4px 4px 0;
 }
 .claim.proven             { border-left-color: #2da44e; }
+.claim.proven-by-argument { border-left-color: #1ba389; }
 .claim.strongly-supported { border-left-color: #54aeff; }
 .claim.supported          { border-left-color: #d4a72c; }
 .claim.unknown            { border-left-color: #afb8c1; }
@@ -262,6 +264,28 @@ h3 { font-size: 16px; margin-top: 18px; color: #24292f; }
   font-size: 13px;
   color: #57606a;
   margin-top: 6px;
+  font-style: italic;
+}
+.claim-justification {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #f0fdf8;
+  border: 1px solid #1ba389;
+  border-radius: 4px;
+  font-size: 13px;
+}
+.claim-justification-header {
+  font-weight: 600;
+  color: #0d7a6a;
+  margin-bottom: 4px;
+}
+.claim-justification-body {
+  color: #1f2328;
+  line-height: 1.5;
+}
+.claim-justification-contradictions {
+  margin-top: 4px;
+  color: #57606a;
   font-style: italic;
 }
 
