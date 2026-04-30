@@ -318,7 +318,28 @@
       "extract": "'Jacob Miller, guardian of Barbara Slinkard… paid her share to her husband Jacob Best…'",
       "citation": "Probate / guardian distribution, Cape Girardeau Co., MO.",
       "proves": ["Barbara Slinkard had a guardian (her father deceased)", "Barbara Slinkard married Jacob Best", "Identification of Jacob Best as Barbara's husband"],
-      "doesNotProve": ["Identity of Barbara's father by name in this record alone (must combine with 1823 deed)"]
+      "doesNotProve": ["Identity of Barbara's father by name in this record alone (must combine with 1823 deed)", "Polly Slinkard's guardian in this record (see ev-circuit-court-cape-jacob-miller-guardian for both sisters together)"]
+    },
+
+    "ev-circuit-court-cape-jacob-miller-guardian": {
+      "id": "ev-circuit-court-cape-jacob-miller-guardian",
+      "type": "court",
+      "date": "early 1830s (exact date not fully visible)",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "'Jacob Miller, Guardian of Polly Slinkerd, daughter of Jacob Slinkard deceased…' 'Jacob Miller, Guardian of Barbara Slinkerd, daughter of Jacob Slinkard deceased…'",
+      "citation": "Circuit Court Proceedings, Cape Girardeau County, MO (early court term, likely 1830s).",
+      "proves": [
+        "Polly Slinkard explicitly named as 'daughter of Jacob Slinkard deceased' in a court record",
+        "Barbara Slinkard explicitly named as 'daughter of Jacob Slinkard deceased' in a court record",
+        "Jacob Miller was guardian of both Polly and Barbara simultaneously",
+        "Both were minors at the same time (shared guardian, same proceeding)",
+        "Polly and Barbara Slinkard are siblings"
+      ],
+      "doesNotProve": [
+        "Jacob Slinkard's exact death date",
+        "Mother's identity",
+        "That this is the same proceeding as ev-jacob-miller-guardianship-barbara (that record is a probate distribution; this is a circuit court term — may be separate)"
+      ]
     },
 
     "ev-1820-best-slinkard-deed": {

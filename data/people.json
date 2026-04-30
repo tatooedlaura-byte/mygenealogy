@@ -421,7 +421,7 @@
     "barbara-slinkard": {
       "id": "barbara-slinkard", "name": "Barbara Slinkard", "aka": ["Barbary Best", "Barbary Bess"], "tags": ["direct-line", "slinkard", "best", "bess"], "group": "direct-line",
       "claims": [
-        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-jacob-slinkard-mo-minors-guardianship"]},
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-jacob-slinkard-mo-minors-guardianship", "ev-circuit-court-cape-jacob-miller-guardian"]},
         {"predicate": "spouse-of", "object": "jacob-bess-sr", "marriageYear": "1814", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed"]}
       ],
       "notes": [
@@ -435,8 +435,8 @@
         {"predicate": "died", "value": {"date": "before 1 Oct 1823", "place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1823-jacob-slinkard-deceased-deed"], "notes": "May have died earlier — see ev-jacob-slinkard-mo-minors-guardianship which shows him deceased by ~1813–1816 (date range needs verification)."},
         {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1818-jacob-slinkard-mo-deed"]},
         {"predicate": "child-of", "object": "jacob-slinkard-nc-1788", "status": "SUPPORTED", "evidence": ["ev-1788-jacob-slinkard-heir-deed"], "notes": "NC→MO connection SUPPORTED only — timeline + migration pattern, no direct record."},
-        {"predicate": "father-of", "object": "barbara-slinkard", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-jacob-slinkard-mo-minors-guardianship"]},
-        {"predicate": "father-of", "object": "polly-slinkard-a", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"]},
+        {"predicate": "father-of", "object": "barbara-slinkard", "status": "PROVEN", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-jacob-slinkard-mo-minors-guardianship", "ev-circuit-court-cape-jacob-miller-guardian"]},
+        {"predicate": "father-of", "object": "polly-slinkard-a", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship", "ev-circuit-court-cape-jacob-miller-guardian"]},
         {"predicate": "father-of", "object": "david-slinkard-minor", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"], "notes": "Promoted from UNKNOWN by the ~1813–1816 guardianship record listing all four minors with deceased Jacob Slinkard as parent."},
         {"predicate": "father-of", "object": "jacob-slinkard-minor", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"], "notes": "Promoted from UNKNOWN by the ~1813–1816 guardianship record."}
       ],
@@ -558,7 +558,7 @@
     "polly-slinkard-a": {
       "id": "polly-slinkard-a", "name": "Polly Slinkard (Jacob MO's daughter)", "tags": ["slinkard"], "group": "slinkard-direct",
       "claims": [
-        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship"]}
+        {"predicate": "child-of", "object": "jacob-slinkard-mo", "status": "PROVEN", "evidence": ["ev-jacob-slinkard-mo-minors-guardianship", "ev-circuit-court-cape-jacob-miller-guardian"]}
       ],
       "notes": [
         "Working hypothesis (NOT PROVEN): may be 'Polly Bess' — see review/possible_duplicates.md.",
