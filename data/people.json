@@ -419,19 +419,58 @@
     "peter-bess-elder": {
       "id": "peter-bess-elder", "name": "Peter Bess (elder, 1832 will)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "died", "value": {"date": "by 1832", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
-        {"predicate": "spouse-of", "object": "leannah-bess", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+        {"predicate": "died", "value": {"date": "by Feb 1832", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
+        {"predicate": "spouse-of", "object": "leannah-bess", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
+        {"predicate": "role", "value": "Testator — will admitted Apr 1832, proved by Jacob Best", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]}
       ],
       "notes": [
         "POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule.",
-        "Additional court transcription confirms existence of will and widow administratrix; does not name widow in this extract. Treated as same probate event as ev-1832-peter-bess-will."
+        "Probate proved by Jacob Best (April 1832) — first documented legal interaction between Peter Bess family and a Jacob Best. Relationship not stated; cluster association only.",
+        "Will names Andrew (financial) and Jonah (administrator). Relationships to Peter not stated beyond named roles."
       ]
     },
 
     "leannah-bess": {
-      "id": "leannah-bess", "name": "Leannah Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
+      "id": "leannah-bess", "name": "Leannah Bess", "aka": ["Leana Bess"], "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "spouse-of", "object": "peter-bess-elder", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+        {"predicate": "spouse-of", "object": "peter-bess-elder", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
+        {"predicate": "role", "value": "Life tenant of Peter Bess estate", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+      ]
+    },
+
+    "jonah-bess": {
+      "id": "jonah-bess", "name": "Jonah Bess", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Administrator with will annexed of Peter Bess estate, 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+      ],
+      "notes": [
+        "Relationship to Peter Bess: UNKNOWN. Likely a relative (administrators were usually kin) but not stated in the record.",
+        "DO NOT assign parent-child relationship without further evidence."
+      ]
+    },
+
+    "andrew-bess-nc": {
+      "id": "andrew-bess-nc", "name": "Andrew Bess (NC, 1832)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "member-of", "value": "NC Best/Bess cluster (Lincoln County)", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+      ],
+      "notes": [
+        "Mentioned in Peter Bess's 1832 will as owing approximately $80. Financial association proven; family relationship to Peter not stated.",
+        "DO NOT assign parent-child relationship without further evidence."
+      ]
+    },
+
+    "jacob-best-nc-1832": {
+      "id": "jacob-best-nc-1832", "name": "Jacob Best (NC, probate witness 1832)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Probate witness — proved Peter Bess will, Lincoln Co., NC, April 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]},
+        {"predicate": "member-of", "value": "NC Best/Bess cluster (Lincoln County)", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate"]}
+      ],
+      "notes": [
+        "Relationship to Peter Bess: UNKNOWN. Presence as probate witness indicates association with the Best/Bess family in Lincoln Co., NC — cluster evidence only.",
+        "DO NOT merge with Missouri Jacob Bess Sr. without further evidence.",
+        "DO NOT merge with Jacob Best (adjoining landholder, 1795) or Jacob Best (1809 deed) without further evidence. Multiple Jacob Bests may exist in this cluster.",
+        "This is the first documented legal interaction between a Jacob Best and the Peter Bess family."
       ]
     },
 

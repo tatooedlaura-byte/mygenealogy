@@ -93,12 +93,23 @@
     "ev-1832-peter-bess-will": {
       "id": "ev-1832-peter-bess-will",
       "type": "will",
-      "date": "1832",
+      "date": "Feb 1832",
       "location": "Lincoln County, North Carolina",
-      "extract": "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed).",
-      "citation": "1832 Peter Bess will, Lincoln County, NC.",
-      "proves": ["Peter Bess existed in Lincoln Co. NC, died ~1832", "Wife Leannah", "Had children (unnamed)"],
-      "doesNotProve": ["Identity of children", "Whether this is the same Peter Best who married Cristina Whitenbarger 1779"]
+      "extract": "Will of Peter Bess; names wife Leana Bess as life tenant; estate to be divided among children after her death; mentions Andrew (owing ~$80); Jonah appointed administrator with will annexed.",
+      "citation": "1832 Peter Bess will, Lincoln County, NC (February).",
+      "proves": ["Peter Bess died by Feb 1832 in Lincoln Co., NC", "Wife named Leana Bess", "Had children (unnamed group — existence proven, identities unknown)", "Andrew Bess mentioned by name (financial association)", "Jonah Bess appointed administrator with will annexed"],
+      "doesNotProve": ["Identity of any individual child", "Relationship of Andrew or Jonah to Peter beyond their named roles", "Whether this is the same Peter Best who married Cristina Whitenbarger 1779"]
+    },
+
+    "ev-1832-peter-bess-probate": {
+      "id": "ev-1832-peter-bess-probate",
+      "type": "court-minutes",
+      "date": "Apr 1832",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Will admitted to record; proved by Jacob Best.",
+      "citation": "Lincoln County, NC court minutes, April 1832 (Peter Bess probate).",
+      "proves": ["Peter Bess's will was admitted to record in April 1832", "A Jacob Best appeared as probate witness in Lincoln Co., NC, April 1832"],
+      "doesNotProve": ["Any family relationship between Jacob Best and Peter Bess", "That this Jacob Best is the same as MO Jacob Bess Sr.", "That this Jacob Best is the same as any earlier NC Jacob Best (1795, 1809)"]
     },
 
     "ev-1822-tax-list-jacob-bess": {
