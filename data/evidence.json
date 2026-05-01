@@ -79,6 +79,17 @@
       "doesNotProve": ["Kinship between Jacob Bess and Linebarger", "Connection to Missouri Jacob Bess Sr."]
     },
 
+    "ev-1846-deed-trust-boston-peter-nc": {
+      "id": "ev-1846-deed-trust-boston-peter-nc",
+      "type": "deed-of-trust-reference",
+      "date": "1846",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Land described as adjoining Boston Bess property and Peter Best property.",
+      "citation": "Lincoln County, NC deed of trust, 1846; land boundaries described as adjoining Boston Bess and Peter Best.",
+      "proves": ["Land associated with Boston Bess and Peter Best continued to serve as geographic reference points in Lincoln Co., NC as late as 1846", "Their properties were geographically proximate within the same land area"],
+      "doesNotProve": ["That Boston Bess or Peter Best were alive in 1846 — posthumous land references are standard practice", "Family relationship between Boston Bess and Peter Best", "Which Boston Bess is referenced (multiple individuals of this name existed)", "Connection to Missouri Bess line"]
+    },
+
     "ev-1829-samuel-best-deed-nc": {
       "id": "ev-1829-samuel-best-deed-nc",
       "type": "deed",
