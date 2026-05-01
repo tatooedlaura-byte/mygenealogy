@@ -5,11 +5,11 @@
     "ev-1775-nc-deed-boston-best": {
       "id": "ev-1775-nc-deed-boston-best",
       "type": "deed",
-      "date": "1775",
-      "location": "North Carolina",
-      "extract": "Names Boston Best with wife Catron Best.",
-      "citation": "1775 North Carolina deed (Boston Best Sr. and wife Catron).",
-      "proves": ["Boston Best Sr. existed and was married", "Wife's recorded name was Catron"],
+      "date": "4 Feb 1775 (proved July 1775)",
+      "location": "Tryon County, North Carolina",
+      "extract": "Boston Best (and wife Catron Best) sells land to George Cathey. Witnesses: George Lamkin, Andrew Cathey.",
+      "citation": "Tryon County, NC deed, 4 Feb 1775 (proved July 1775); grantee George Cathey; witnesses George Lamkin, Andrew Cathey.",
+      "proves": ["Boston Best present in Tryon Co., NC by 4 Feb 1775", "Wife's recorded name was Catron Best", "Boston Best was active in land transactions by 1775"],
       "doesNotProve": ["Catron's full given name (likely Catherine variant — not certain)", "Catron's maiden name", "Their children"]
     },
 
@@ -154,6 +154,105 @@
       "citation": "Lincoln County, NC deed, 31 Dec 1795 (extract per user transcription; book/page TBD).",
       "proves": ["Boston Best and Daniel Best both present in Lincoln Co., NC, 1795", "Jacob Best and Martin Best held adjoining land in Lincoln Co., NC, 1795"],
       "doesNotProve": ["Kinship between Boston, Daniel, Jacob, or Martin Best", "Connection to the Missouri Bess line"]
+    },
+
+    "ev-1783-boston-best-deed-nc": {
+      "id": "ev-1783-boston-best-deed-nc",
+      "type": "deed",
+      "date": "15 Feb 1783 (April Term 1783)",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Best sells ~128 acres to Wiley Rudisill.",
+      "citation": "Lincoln County, NC deed, 15 Feb 1783 (April Term 1783); grantor: Boston Best; grantee: Wiley Rudisill.",
+      "proves": ["Boston Best present and transacting land in Lincoln Co., NC by 15 Feb 1783"],
+      "doesNotProve": ["Kinship between Boston Best and any other named individual", "Connection to Missouri Bess line"]
+    },
+
+    "ev-1788-boston-best-peter-deed-nc": {
+      "id": "ev-1788-boston-best-peter-deed-nc",
+      "type": "deed",
+      "date": "23 Apr 1788 (proved 1793)",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Best transfers ~100 acres to Peter Best.",
+      "citation": "Lincoln County, NC deed, 23 Apr 1788 (proved 1793); grantor: Boston Best; grantee: Peter Best; acreage ~100.",
+      "proves": ["Boston Best transferred land to Peter Best in Lincoln Co., NC, 1788", "Both Boston Best and Peter Best were present in Lincoln Co., NC, 1788"],
+      "doesNotProve": ["Family relationship between Boston and Peter Best — transfer is consistent with kinship but not explicit"]
+    },
+
+    "ev-1795-boston-best-frederick-deed": {
+      "id": "ev-1795-boston-best-frederick-deed",
+      "type": "deed",
+      "date": "31 Dec 1795 (proved July Sessions)",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Best transfers ~31 acres to Frederick Best. Witnesses: Barney Murphy, And Taylor.",
+      "citation": "Lincoln County, NC deed, 31 Dec 1795 (proved July Sessions); grantor: Boston Best; grantee: Frederick Best; witnesses: Barney Murphy, And Taylor.",
+      "proves": ["Boston Best transferred land to Frederick Best in Lincoln Co., NC, 31 Dec 1795", "Frederick Best present in Lincoln Co., NC by 1795"],
+      "doesNotProve": ["Family relationship between Boston and Frederick Best — transfer is consistent with kinship but not explicit", "Whether Frederick Best is related to Daniel, Jacob, or Martin Best"]
+    },
+
+    "ev-1782-peter-best-deed-nc": {
+      "id": "ev-1782-peter-best-deed-nc",
+      "type": "deed",
+      "date": "12 Mar 1782",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Peter Best buys land from Martin Hoyle.",
+      "citation": "Lincoln County, NC deed, 12 Mar 1782; grantor: Martin Hoyle; grantee: Peter Best.",
+      "proves": ["Peter Best present in Lincoln Co., NC by 12 Mar 1782 and acquiring land"],
+      "doesNotProve": ["Relationship to Boston Best", "Connection to Missouri Bess line"]
+    },
+
+    "ev-1788-peter-best-deed-nc": {
+      "id": "ev-1788-peter-best-deed-nc",
+      "type": "deed",
+      "date": "9 Oct 1788",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Peter Best's land in chain of title described as originating from Boston Best.",
+      "citation": "Lincoln County, NC deed, 9 Oct 1788; grantee: Peter Best; land origin described as from Boston Best.",
+      "proves": ["Peter Best held land in Lincoln Co., NC whose chain of title traced to Boston Best by 1788"],
+      "doesNotProve": ["Explicit family relationship between Boston and Peter Best — chain-of-title connection is consistent with kinship or direct purchase"]
+    },
+
+    "ev-1792-peter-best-deed-nc": {
+      "id": "ev-1792-peter-best-deed-nc",
+      "type": "deed",
+      "date": "17 Sept 1792",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Peter Best purchases land; deed references Boston Best line.",
+      "citation": "Lincoln County, NC deed, 17 Sept 1792; grantee: Peter Best; references Boston Best line.",
+      "proves": ["Peter Best continued acquiring land in Lincoln Co., NC through at least 1792"],
+      "doesNotProve": ["Explicit family relationship between Boston and Peter Best"]
+    },
+
+    "ev-1793-peter-best-agreement-nc": {
+      "id": "ev-1793-peter-best-agreement-nc",
+      "type": "financial-agreement",
+      "date": "12 Jan 1793",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Peter Best enters contract/financial agreement with Benajah Thomson.",
+      "citation": "Lincoln County, NC financial agreement, 12 Jan 1793; parties: Peter Best and Benajah Thomson.",
+      "proves": ["Peter Best present in Lincoln Co., NC by 12 Jan 1793 and engaging in financial transactions"],
+      "doesNotProve": ["Relationship to Boston Best", "Connection to Missouri Bess line"]
+    },
+
+    "ev-1797-elias-best-deed-nc": {
+      "id": "ev-1797-elias-best-deed-nc",
+      "type": "deed",
+      "date": "proved Oct 1797",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Elias Best receives land from William Bost.",
+      "citation": "Lincoln County, NC deed, proved Oct 1797; grantor: William Bost; grantee: Elias Best.",
+      "proves": ["Elias Best present in Lincoln Co., NC by 1797 and receiving land from William Bost"],
+      "doesNotProve": ["Relationship to Boston Best or any other Best/Bess individual", "Whether 'Bost' is a spelling variant of 'Best' — probable but not certain"]
+    },
+
+    "ev-1799-elias-best-deed-nc": {
+      "id": "ev-1799-elias-best-deed-nc",
+      "type": "deed",
+      "date": "12 Jan 1799 (proved 1800)",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Elias Best purchases land from John Killion. Name confirmed as Elias Best.",
+      "citation": "Lincoln County, NC deed, 12 Jan 1799 (proved 1800); grantor: John Killion; grantee: Elias Best.",
+      "proves": ["Elias Best confirmed by name in Lincoln Co., NC by 12 Jan 1799"],
+      "doesNotProve": ["Relationship to Boston Best or any other Best/Bess individual", "Connection to Missouri Bess line"]
     },
 
     "ev-1809-boston-jacob-best-deed": {

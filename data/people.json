@@ -147,12 +147,16 @@
     "peter-best": {
       "id": "peter-best", "name": "Peter Best (Bess)", "tags": ["bess", "best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "dateRange": "1782–1793"}, "status": "PROVEN", "evidence": ["ev-1782-peter-best-deed-nc", "ev-1788-peter-best-deed-nc", "ev-1792-peter-best-deed-nc", "ev-1793-peter-best-agreement-nc"]},
         {"predicate": "spouse-of", "object": "cristina-whitenbarger", "marriageDate": "13 Oct 1779", "status": "PROVEN", "evidence": ["ev-1779-marriage-peter-cristina"]},
+        {"predicate": "received-land-from", "object": "boston-best-sr", "value": {"date": "23 Apr 1788", "acreage": "~100"}, "status": "PROVEN", "evidence": ["ev-1788-boston-best-peter-deed-nc"]},
+        {"predicate": "associated-with", "object": "boston-best-sr", "status": "SUPPORTED", "evidence": ["ev-1788-boston-best-peter-deed-nc", "ev-1788-peter-best-deed-nc", "ev-1792-peter-best-deed-nc", "ev-1809-boston-estate-peter-account"], "notes": "Land chain ties and estate involvement consistent with close kinship; specific relationship UNKNOWN."},
         {"predicate": "child-of", "object": "boston-best-sr", "status": "REPLACED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"], "notes": "Previously treated as STRONGLY SUPPORTED (1779 bondsman role + direct involvement in Boston's 1809 estate). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."},
         {"predicate": "father-of", "object": "jacob-bess-sr", "status": "REPLACED", "evidence": ["ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "Previously treated as SUPPORTED (1832 will leaves to 'my children' unnamed; Jacob fits chronologically). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."}
       ],
       "notes": [
-        "POSSIBLY same person as 'Peter Bess (elder)' (1832 will, wife Leannah). Per do-not-merge rule, kept as a distinct candidate — see review/possible_duplicates.md."
+        "POSSIBLY same person as 'Peter Bess (elder)' (1832 will, wife Leannah). Per do-not-merge rule, kept as a distinct candidate — see review/possible_duplicates.md.",
+        "Land activity documented 1782–1793 in Lincoln Co., NC. Chain of title on 1788 land traces to Boston Best."
       ]
     },
 
@@ -167,14 +171,19 @@
       "id": "boston-best-sr", "name": "Boston Best (Bess) Sr.", "tags": ["bess", "best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
         {"predicate": "died", "value": {"date": "by 1809", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1809-boston-best-estate"]},
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1795"}, "status": "PROVEN", "evidence": ["ev-1795-boston-daniel-best-deed"]},
+        {"predicate": "resided", "value": {"place": "Tryon/Lincoln County, North Carolina", "dateRange": "1775–1795"}, "status": "PROVEN", "evidence": ["ev-1775-nc-deed-boston-best", "ev-1783-boston-best-deed-nc", "ev-1788-boston-best-peter-deed-nc", "ev-1795-boston-daniel-best-deed", "ev-1795-boston-best-frederick-deed"]},
         {"predicate": "spouse-of", "object": "catron-best", "status": "PROVEN", "evidence": ["ev-1775-nc-deed-boston-best"]},
+        {"predicate": "sold-land-to", "object": "peter-best", "value": {"date": "23 Apr 1788", "acreage": "~100"}, "status": "PROVEN", "evidence": ["ev-1788-boston-best-peter-deed-nc"]},
+        {"predicate": "sold-land-to", "object": "frederick-best-nc", "value": {"date": "31 Dec 1795", "acreage": "~31"}, "status": "PROVEN", "evidence": ["ev-1795-boston-best-frederick-deed"]},
+        {"predicate": "associated-with", "object": "peter-best", "status": "SUPPORTED", "evidence": ["ev-1788-boston-best-peter-deed-nc", "ev-1788-peter-best-deed-nc", "ev-1809-boston-estate-peter-account"], "notes": "Multiple land and estate connections suggest close relationship (kinship or patron); specific tie UNKNOWN."},
+        {"predicate": "associated-with", "object": "frederick-best-nc", "status": "SUPPORTED", "evidence": ["ev-1795-boston-best-frederick-deed"], "notes": "Land transfer consistent with kinship but not explicit."},
         {"predicate": "father-of", "object": "peter-best", "status": "REPLACED", "evidence": ["ev-1779-marriage-peter-cristina", "ev-1809-boston-estate-peter-account"], "notes": "Previously treated as STRONGLY SUPPORTED. Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."},
         {"predicate": "father-of", "object": "jacob-best-nc-1809", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated."}
       ],
       "notes": [
         "DO NOT confuse with 'Boston Bess (1869, NC)' — different person.",
-        "Moved from 'direct-line' to 'bess-nc-origins' group: connection to the Missouri Jacob Bess line is no longer treated as a direct-ancestor chain. Boston is retained as a documented NC individual; the link Boston→Peter→Jacob is preserved as REPLACED on the affected claims."
+        "Moved from 'direct-line' to 'bess-nc-origins' group: connection to the Missouri Jacob Bess line is no longer treated as a direct-ancestor chain. Boston is retained as a documented NC individual; the link Boston→Peter→Jacob is preserved as REPLACED on the affected claims.",
+        "Land activity documented 1775 (Tryon Co.) through 1795 (Lincoln Co.). Geographic shift Tryon→Lincoln consistent with county boundary changes in this period."
       ]
     },
 
@@ -183,6 +192,18 @@
       "claims": [
         {"predicate": "spouse-of", "object": "boston-best-sr", "status": "PROVEN", "evidence": ["ev-1775-nc-deed-boston-best"]},
         {"predicate": "aka", "value": "Catron likely a Catherine variant", "status": "SUPPORTED", "evidence": ["ev-1775-nc-deed-boston-best"], "notes": "Inference from common period naming, not from a record."}
+      ]
+    },
+
+    "frederick-best-nc": {
+      "id": "frederick-best-nc", "name": "Frederick Best (NC, 1795)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1795"}, "status": "PROVEN", "evidence": ["ev-1795-boston-best-frederick-deed"]},
+        {"predicate": "associated-with", "object": "boston-best-sr", "status": "SUPPORTED", "evidence": ["ev-1795-boston-best-frederick-deed"], "notes": "Received ~31 acres from Boston Best 31 Dec 1795; land transfer consistent with kinship but not explicit."}
+      ],
+      "notes": [
+        "POSSIBLE ANCESTOR — NOT MERGED. Identity proven by 1795 deed (grantee from Boston Best). Relationship to Boston, Daniel, Jacob, Martin Best, or Missouri Bess line: UNKNOWN.",
+        "DO NOT assign parent-child relationship to Boston Best without additional evidence."
       ]
     },
 
@@ -216,6 +237,32 @@
       ],
       "notes": [
         "POSSIBLE ANCESTOR — NOT MERGED. Identity proven by the 1795 deed (named as adjoining landholder). Relationship to Boston, Daniel, Jacob, or the Missouri Bess line: UNKNOWN."
+      ]
+    },
+
+    "elias-best-nc": {
+      "id": "elias-best-nc", "name": "Elias Best (NC, 1797–1799)", "aka": ["Elias Bost"], "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "dateRange": "1797–1799"}, "status": "PROVEN", "evidence": ["ev-1797-elias-best-deed-nc", "ev-1799-elias-best-deed-nc"]},
+        {"predicate": "received-land-from", "object": "william-bost-nc", "value": {"date": "proved Oct 1797"}, "status": "PROVEN", "evidence": ["ev-1797-elias-best-deed-nc"]},
+        {"predicate": "associated-with", "value": "Lincoln County Best/Bess geographic cluster", "status": "SUPPORTED", "evidence": ["ev-1797-elias-best-deed-nc", "ev-1799-elias-best-deed-nc"], "notes": "Active in same county as Boston Best cluster; specific relationship UNKNOWN."}
+      ],
+      "notes": [
+        "Appears as 'Elias Bost' in some records — likely a spelling variation of Best, not a different surname. Name confirmed as Elias Best in 1799 deed.",
+        "POSSIBLE ANCESTOR — NOT MERGED. Relationship to Boston Best, Peter Best, or any other Best/Bess individual: UNKNOWN.",
+        "DO NOT assign family relationships without additional evidence."
+      ]
+    },
+
+    "william-bost-nc": {
+      "id": "william-bost-nc", "name": "William Bost (NC, 1797)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1797"}, "status": "PROVEN", "evidence": ["ev-1797-elias-best-deed-nc"]},
+        {"predicate": "sold-land-to", "object": "elias-best-nc", "value": {"date": "proved Oct 1797"}, "status": "PROVEN", "evidence": ["ev-1797-elias-best-deed-nc"]}
+      ],
+      "notes": [
+        "Surname 'Bost' may be a spelling variation of Best. Active in Lincoln Co., NC in 1797.",
+        "Relationship to Boston Best or any other Best/Bess individual: UNKNOWN. Do not merge or assign relationships without additional evidence."
       ]
     },
 
