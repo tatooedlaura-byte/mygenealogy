@@ -376,6 +376,17 @@
       "doesNotProve": ["Elizabeth Best's relationship to any Best/Bess or Bostian cluster member", "Elizabeth Best's married name origin", "Connection to Missouri Bess line"]
     },
 
+    "ev-1833-boston-bess-deed-nc": {
+      "id": "ev-1833-boston-bess-deed-nc",
+      "type": "deed",
+      "date": "December 1833",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Bess sells 238-acre tract on Buffalo Creek to Robert Lackey.",
+      "citation": "Lincoln County, NC deed, December 1833; grantor: Boston Bess; grantee: Robert Lackey; acreage: 238, on Buffalo Creek.",
+      "proves": ["A person named Boston Bess was present and transacting land in Lincoln Co., NC as of December 1833"],
+      "doesNotProve": ["This is the same Boston as Boston Best Sr. (d. by 1809) or Boston Best (1820)", "Relationship to Peter Bess, Jacob Best, or any other cluster member", "Connection to Missouri Bess line"]
+    },
+
     "ev-1830-peter-bess-jacob-best-deed-nc": {
       "id": "ev-1830-peter-bess-jacob-best-deed-nc",
       "type": "deed-boundary-reference",

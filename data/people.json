@@ -188,6 +188,20 @@
       ]
     },
 
+    "boston-bess-nc-1833": {
+      "id": "boston-bess-nc-1833", "name": "Boston Bess (NC, 1833)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1833"}, "status": "PROVEN", "evidence": ["ev-1833-boston-bess-deed-nc"]},
+        {"predicate": "sold-land", "value": {"date": "December 1833", "acreage": "238", "location": "Buffalo Creek, Lincoln Co., NC", "to": "Robert Lackey"}, "status": "PROVEN", "evidence": ["ev-1833-boston-bess-deed-nc"]}
+      ],
+      "notes": [
+        "A Boston Bess is active in 1833, indicating multiple individuals of the same name across generations. This is a LATE record — distinct from Boston Best Sr. (d. by 1809, id: boston-best-sr) and Boston Best (1820, id: boston-best-nc-1820).",
+        "Surname spelled 'Bess' (not 'Best') in this record — consistent with the phonetic shift seen elsewhere in this cluster.",
+        "DO NOT merge with boston-best-sr, boston-best-nc-1820, or bostian-bess-nc-1783 without clear evidence.",
+        "Relationship to Peter Bess: UNKNOWN. Relationship to Jacob Best/Bess: UNKNOWN. Do not build lineage from this record alone."
+      ]
+    },
+
     "boston-best-nc-1820": {
       "id": "boston-best-nc-1820", "name": "Boston Best (NC, 1820)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
