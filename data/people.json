@@ -435,11 +435,11 @@
     },
 
     "jacob-bess-elder-nc": {
-      "id": "jacob-bess-elder-nc", "name": "Jacob Bess (elder, NC, 1805–1837)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "id": "jacob-bess-elder-nc", "name": "Jacob Bess (elder, NC, 1805–1839)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1805–1837"}, "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court", "ev-1805-jacob-bess-elder-deed", "ev-1831-jacob-bess-elder-deed", "ev-1837-jacob-bess-elder-care"]},
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1805–1839"}, "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court", "ev-1805-jacob-bess-elder-deed", "ev-1831-jacob-bess-elder-deed", "ev-1837-jacob-bess-elder-care", "ev-1839-jacob-bess-linebarger-deed"]},
         {"predicate": "role", "value": "Defendant in trespass case, NC, 27 Mar 1822", "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court"]},
-        {"predicate": "role", "value": "Care agreement with Jonas R. Linebarger (1837) — indicating advanced age", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-elder-care"]}
+        {"predicate": "role", "value": "Care agreement with Jonas R. Linebarger (1837); follow-up deed to Linebarger 1839 (Book 37, p. 547) — confirms ongoing arrangement", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-elder-care", "ev-1839-jacob-bess-linebarger-deed"]}
       ],
       "notes": [
         "Appears in multiple land transactions (1805–1831) and later care agreement (1837); represents an older individual in Lincoln County, NC, distinct from Missouri Jacob Bess Sr.",
@@ -450,15 +450,14 @@
     },
 
     "michael-best-nc": {
-      "id": "michael-best-nc", "name": "Michael Best (NC, ~1793–1832)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "id": "michael-best-nc", "name": "Michael Best (NC, ~1793–1831)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "North Carolina", "date": "~1793–1832"}, "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate", "ev-1832-michael-best-nc"]},
-        {"predicate": "member-of", "value": "NC Best cluster", "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate", "ev-1832-michael-best-nc"]}
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "~1793–1831"}, "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate", "ev-1832-michael-best-nc", "ev-1831-michael-best-deed"]},
+        {"predicate": "member-of", "value": "NC Best cluster (Lincoln County)", "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate", "ev-1831-michael-best-deed"]}
       ],
       "notes": [
-        "Named in estate account alongside Jacob Best ~1793; appears in separate estate/account entry ~1832. Whether these are the same record or two distinct appearances is UNKNOWN.",
-        "DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best individuals UNKNOWN.",
-        "Presence documented across ~1793–1832 range if both records refer to the same individual."
+        "Appears in estate/account ~1793 and ~1832, and deed 15 Oct 1831 (135 acres to James Ferguson, $300). Appears in same geographic and time cluster as Jacob and Peter Bess.",
+        "DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best/Bess individuals UNKNOWN."
       ]
     },
 
@@ -475,12 +474,14 @@
     "peter-bess-elder": {
       "id": "peter-bess-elder", "name": "Peter Bess (elder, 1832 will)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "died", "value": {"date": "by Feb 1832", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
+        {"predicate": "died", "value": {"date": "after 7 Feb 1832, will proved Apr 1832", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will", "ev-1832-peter-bess-fanny-deed", "ev-1832-peter-bess-probate"]},
         {"predicate": "spouse-of", "object": "leannah-bess", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
+        {"predicate": "role", "value": "Grantor — transferred enslaved person (Emeline) to Fanny Bess, 7 Feb 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-fanny-deed"]},
         {"predicate": "role", "value": "Testator — will admitted Apr 1832, proved by Jacob Best", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]}
       ],
       "notes": [
         "POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule.",
+        "Deed to Fanny Bess (7 Feb 1832) and will (Feb 1832) indicate Peter was alive and settling affairs in early Feb 1832; will proved April 1832.",
         "Probate proved by Jacob Best (April 1832) — first documented legal interaction between Peter Bess family and a Jacob Best. Relationship not stated; cluster association only.",
         "Will names Andrew (financial) and Jonah (administrator). Relationships to Peter not stated beyond named roles."
       ]
@@ -491,6 +492,18 @@
       "claims": [
         {"predicate": "spouse-of", "object": "peter-bess-elder", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
         {"predicate": "role", "value": "Life tenant of Peter Bess estate", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+      ]
+    },
+
+    "fanny-bess-nc": {
+      "id": "fanny-bess-nc", "name": "Fanny Bess (NC, 1832)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1832"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-fanny-deed"]},
+        {"predicate": "member-of", "value": "NC Bess cluster (Lincoln County)", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-fanny-deed"]}
+      ],
+      "notes": [
+        "Receives property (enslaved person Emeline) from Peter Bess, 7 Feb 1832. Relationship to Peter Bess: UNKNOWN — same surname and direct transfer is SUPPORTED only.",
+        "DO NOT assign as daughter, wife, or kin of Peter Bess without further evidence."
       ]
     },
 

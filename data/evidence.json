@@ -57,6 +57,39 @@
       "doesNotProve": ["Kinship to any other Best/Bess individual", "Whether this is the same Michael Best as the ~1793 Lincoln Co. estate account (ev-1793-michael-best-estate)"]
     },
 
+    "ev-1839-jacob-bess-linebarger-deed": {
+      "id": "ev-1839-jacob-bess-linebarger-deed",
+      "type": "deed",
+      "date": "1839",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Additional deed from Jacob Bess to Jonas R. Linebarger (Book 37, p. 547).",
+      "citation": "Lincoln County, NC deed, 1839, Book 37, p. 547.",
+      "proves": ["A second conveyance from Jacob Bess (elder) to Jonas R. Linebarger occurred in 1839", "Confirms ongoing association between Jacob Bess and Linebarger consistent with care agreement"],
+      "doesNotProve": ["Kinship between Jacob Bess and Linebarger", "Connection to Missouri Jacob Bess Sr."]
+    },
+
+    "ev-1831-michael-best-deed": {
+      "id": "ev-1831-michael-best-deed",
+      "type": "deed",
+      "date": "15 Oct 1831 (recorded Nov 1836)",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Michael Best sells 135-acre tract to James Ferguson for $300.",
+      "citation": "Lincoln County, NC deed, 15 Oct 1831, recorded Nov 1836.",
+      "proves": ["Michael Best held and sold a 135-acre tract in Lincoln Co., NC in 1831", "James Ferguson was the purchaser"],
+      "doesNotProve": ["Kinship between Michael Best and any other Best/Bess individual", "Connection to Missouri Bess line"]
+    },
+
+    "ev-1832-peter-bess-fanny-deed": {
+      "id": "ev-1832-peter-bess-fanny-deed",
+      "type": "deed",
+      "date": "7 Feb 1832 (proved Jul 1832)",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Peter Bess transfers enslaved person (Emeline) to Fanny Bess.",
+      "citation": "Lincoln County, NC deed, 7 Feb 1832, proved July 1832.",
+      "proves": ["Peter Bess and Fanny Bess both present in Lincoln Co., NC 1832", "Peter Bess made a direct property transfer to Fanny Bess"],
+      "doesNotProve": ["Family relationship between Peter Bess and Fanny Bess (same surname + direct transfer is SUPPORTED only)", "Connection to any other Bess individual"]
+    },
+
     "ev-1805-jacob-bess-elder-deed": {
       "id": "ev-1805-jacob-bess-elder-deed",
       "type": "deed",
