@@ -560,10 +560,10 @@
       "type": "marriage",
       "date": "1 Apr 1837",
       "location": "Cape Girardeau County, Missouri",
-      "extract": "Jacob Slinkard m. Phebe Hubble.",
-      "citation": "1837 Cape Girardeau Co., MO marriage.",
-      "proves": ["Jacob Slinkard married Phebe Hubble 1 Apr 1837"],
-      "doesNotProve": ["His parents directly (though identification as Daniel's son is supported by 1838 probate)"]
+      "extract": "'Jacob Slinkard … Phoebe Hubble' — marriage recorded in Cape Girardeau marriage book.",
+      "citation": "1837 Cape Girardeau Co., MO marriage record.",
+      "proves": ["Jacob Slinkard married Phoebe Hubble on 1 Apr 1837"],
+      "doesNotProve": ["Jacob's parents or siblings", "Any relationship between Jacob and Barbara Slinkard or Polly Slinkard", "Which Jacob Slinkard this is (identification as Daniel's son is SUPPORTED by 1838 probate — not proven by this record alone)"]
     },
 
     "ev-1839-john-viney-marriage": {
