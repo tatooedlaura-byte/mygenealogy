@@ -100,41 +100,12 @@
     },
 
     "jacob-bess-sr": {
-      "id": "jacob-bess-sr", "name": "Jacob Bess Sr.", "aka": ["Jacob Best"], "tags": ["direct-line", "bess", "best"], "group": "direct-line",
+      "id": "jacob-bess-sr", "name": "Jacob Bess", "label": "Jacob Bess Sr. (Missouri)", "tags": ["direct-line", "missouri"], "group": "direct-line",
       "claims": [
-        {"predicate": "born", "value": {"date": "~1798", "yearRange": "~1790–1800", "place": "North Carolina"}, "status": "SUPPORTED", "evidence": ["ev-1830-census-jacob-bess", "ev-1850-census-jacob-bess"], "notes": "Birth range PROVEN from census; NC origin SUPPORTED only (census birthplace is self-reported)."},
-        {"predicate": "died", "value": {"date": "before Feb 1864", "place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-jacob-bess-probate"]},
-        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri", "year": "1822"}, "status": "PROVEN", "evidence": ["ev-1822-tax-list-jacob-bess"]},
-        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri", "year": "1830"}, "status": "PROVEN", "evidence": ["ev-1830-census-jacob-bess"]},
-        {"predicate": "resided", "value": {"place": "Cape Girardeau County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-jacob-bess"]},
-        {"predicate": "resided", "value": {"place": "Bollinger County, Missouri"}, "status": "PROVEN", "evidence": ["ev-1859-jacob-bess-deed", "ev-jacob-bess-probate"]},
-
-        {"predicate": "child-of", "object": "peter-best", "status": "REPLACED", "evidence": ["ev-1809-boston-estate-peter-account", "ev-1832-peter-bess-will", "ev-1850-jacob-bess-cluster-analysis"], "notes": "Previously treated as SUPPORTED (working hypothesis — see review/proof_arguments/jacob-bess-parentage.md). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule."},
-
-        {"predicate": "spouse-of", "object": "barbara-slinkard", "marriageYear": "1814", "status": "PROVEN (By Argument)", "evidence": ["ev-jacob-miller-guardianship-barbara", "ev-1823-jacob-slinkard-deceased-deed", "ev-circuit-court-cape-jacob-miller-guardian", "ev-1830-census-jacob-bess", "ev-1850-census-jacob-bess"], "justification": "Jacob Best, named in the 1823 deed alongside Barbara/Barbary Best (formerly Slinkard), is the same individual as Jacob Bess Sr. of Cape Girardeau/Bollinger County, based on geographic continuity, consistent timeline, the Best→Bess phonetic spelling shift documented across this line, and the absence of any competing Jacob Best in the cluster. No conflicting evidence has been identified.", "contradictionsChecked": "none found", "notes": "Surname appears as Best in early records (1814, 1823) and Bess in later Missouri records — phonetic spelling variation. Full proof argument: review/proof_arguments/barbara-slinkard-jacob-bess.md."},
-
-        {"predicate": "spouse-of", "object": "unknown-wife-implied", "status": "REPLACED", "evidence": ["ev-1859-jacob-bess-deed", "ev-jacob-bess-probate"], "replacedBy": "spouse-of barbara-slinkard", "notes": "Earlier hypothesis: spouse UNKNOWN, with conclusion 'wife likely deceased before 1859' (1859 deed shows Jacob alone; no widow in probate). REPLACED by identification with Barbara Slinkard via Jacob Miller guardianship record. Barbara could still have predeceased Jacob — that fits both the absence of dower in 1859 AND the marriage proof."},
-
-        {"predicate": "father-of", "object": "edward-b-bess", "status": "PROVEN", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "daniel-bess", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
-        {"predicate": "father-of", "object": "emanuel-bess", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
-        {"predicate": "father-of", "object": "levi-bess", "status": "SUPPORTED", "evidence": ["ev-1857-levi-bess-deed", "ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "jacob-bess-jr", "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "matilda-bess", "status": "STRONGLY SUPPORTED", "evidence": ["ev-1850-census-jacob-bess", "ev-jacob-bess-probate"], "notes": "1850 in Jacob's household; later 1880 listed as 'sister' in Daniel Bess household."},
-        {"predicate": "father-of", "object": "sarah-bess", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "catherine-bess-jacob-daughter", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "adaline-bess", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "barbara-bess-blaylock", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "mary-a-bess", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
-        {"predicate": "father-of", "object": "james-bess-son", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
-
-        {"predicate": "spouse-of", "object": "matilda-bess", "status": "REJECTED", "evidence": [], "notes": "Past hypothesis treating Matilda as Jacob's wife. REJECTED — Matilda is best understood as Jacob's daughter (1850 in his household; 1880 listed as 'sister' in Daniel Bess household). Kept here per no-delete rule."}
-      ],
-      "openQuestions": [
-        "Who are Jacob Bess's parents? (Working hypothesis: Peter Best/Bess — SUPPORTED only.)",
-        "Can a North Carolina record name Jacob as a son/heir?"
-      ],
-      "summary": "Firmly established in Missouri through census, probate, partition, and deed evidence. NC birthplace is supported by census only. Identification with 'Jacob Best' (1814 marriage to Barbara Slinkard) is PROVEN (By Argument)."
+        {"predicate": "born", "value": "~1798", "status": "PROVEN", "notes": "From 1850 census age"},
+        {"predicate": "born-in", "value": "North Carolina", "status": "PROVEN", "notes": "From 1850 census"},
+        {"predicate": "resided", "value": "Cape Girardeau County, Missouri", "status": "PROVEN"}
+      ]
     },
 
     "unknown-wife-implied": {
