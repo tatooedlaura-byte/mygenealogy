@@ -698,6 +698,17 @@
       "doesNotProve": ["Her family / connection to direct line"]
     },
 
+    "ev-1850-census-john-bess-madison": {
+      "id": "ev-1850-census-john-bess-madison",
+      "type": "census",
+      "date": "1850",
+      "location": "Madison County, Missouri",
+      "extract": "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri.",
+      "citation": "1850 U.S. Census, Madison County, MO.",
+      "proves": ["John Bess present in Madison Co., MO 1850", "Born ~1791, birthplace North Carolina", "Catherine Bess same age, same birthplace, in same household", "Five individuals (Maliny, Emanuel, Absolum, Rua, Pernicia) born Missouri present in household"],
+      "doesNotProve": ["Catherine is John's wife (household co-residence only; 1850 census did not record relationships)", "Listed individuals are John's children (household only)", "Any connection to Jacob Bess Sr. or the Cape Girardeau/Bollinger Bess line"]
+    },
+
     "ev-1850-jacob-bess-cluster-analysis": {
       "id": "ev-1850-jacob-bess-cluster-analysis",
       "type": "analysis",

@@ -544,6 +544,78 @@
       "notes": ["DO NOT confuse with Boston Best Sr. (d. 1809) — different person."]
     },
 
+    "john-bess-madison-1850": {
+      "id": "john-bess-madison-1850", "name": "John Bess (Madison Co., MO, ~1791)", "tags": ["bess", "bess-mo-cluster", "north-carolina"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1791", "place": "North Carolina"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "spouse-of", "object": "catherine-bess-madison", "status": "SUPPORTED", "evidence": ["ev-1850-census-john-bess-madison"], "notes": "Same household, same age, same birthplace. 1850 census did not record relationship to head — spouse status SUPPORTED only."}
+      ],
+      "notes": [
+        "DO NOT merge with John Best (Cape Girardeau, best-cluster) or with Jacob Bess Sr. (direct line).",
+        "NC→MO migrant (~1791 NC birth). Represents a separate Bess family migrating same corridor as Jacob Bess Sr. (~1798 NC). Relationship UNKNOWN."
+      ]
+    },
+
+    "catherine-bess-madison": {
+      "id": "catherine-bess-madison", "name": "Catherine Bess (Madison Co., MO, ~1791)", "tags": ["bess", "bess-mo-cluster", "north-carolina"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1791", "place": "North Carolina"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "spouse-of", "object": "john-bess-madison-1850", "status": "SUPPORTED", "evidence": ["ev-1850-census-john-bess-madison"], "notes": "Household co-residence only; 1850 census did not record relationship."}
+      ]
+    },
+
+    "maliny-bess-madison": {
+      "id": "maliny-bess-madison", "name": "Maliny Bess (Madison Co., ~1826)", "tags": ["bess", "bess-mo-cluster"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1826", "place": "Missouri"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "member-of", "value": "John Bess household, Madison Co. MO 1850", "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]}
+      ],
+      "notes": ["Household member only — relationship to John Bess SUPPORTED (likely child), not proven."]
+    },
+
+    "emanuel-bess-madison": {
+      "id": "emanuel-bess-madison", "name": "Emanuel Bess (Madison Co., ~1828)", "tags": ["bess", "bess-mo-cluster"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1828", "place": "Missouri"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "member-of", "value": "John Bess household, Madison Co. MO 1850", "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]}
+      ],
+      "notes": ["Household member only — relationship to John Bess SUPPORTED (likely child), not proven.", "DO NOT merge with Emanuel Bess (Jacob Bess Sr.'s son, bess-mo-children)."]
+    },
+
+    "absolum-bess-madison": {
+      "id": "absolum-bess-madison", "name": "Absolum Bess (Madison Co., ~1831)", "tags": ["bess", "bess-mo-cluster"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1831", "place": "Missouri"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "member-of", "value": "John Bess household, Madison Co. MO 1850", "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]}
+      ],
+      "notes": ["Household member only — relationship to John Bess SUPPORTED (likely child), not proven."]
+    },
+
+    "rua-bess-madison": {
+      "id": "rua-bess-madison", "name": "Rua Bess (Madison Co., ~1833)", "tags": ["bess", "bess-mo-cluster"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1833", "place": "Missouri"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "member-of", "value": "John Bess household, Madison Co. MO 1850", "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]}
+      ],
+      "notes": ["Household member only — relationship to John Bess SUPPORTED (likely child), not proven."]
+    },
+
+    "pernicia-bess-madison": {
+      "id": "pernicia-bess-madison", "name": "Pernicia Bess (Madison Co., ~1836)", "tags": ["bess", "bess-mo-cluster"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": {"date": "~1836", "place": "Missouri"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "resided", "value": {"place": "Madison County, Missouri", "year": "1850"}, "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]},
+        {"predicate": "member-of", "value": "John Bess household, Madison Co. MO 1850", "status": "PROVEN", "evidence": ["ev-1850-census-john-bess-madison"]}
+      ],
+      "notes": ["Household member only — relationship to John Bess SUPPORTED (likely child), not proven."]
+    },
+
     "lawson-bess": {
       "id": "lawson-bess", "name": "Lawson Bess", "tags": ["bess", "bess-mo-cluster"], "group": "bess-mo-cluster",
       "claims": [
