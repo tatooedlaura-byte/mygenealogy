@@ -90,6 +90,17 @@
       "doesNotProve": ["That Boston Bess or Peter Best were alive in 1846 — posthumous land references are standard practice", "Family relationship between Boston Bess and Peter Best", "Which Boston Bess is referenced (multiple individuals of this name existed)", "Connection to Missouri Bess line"]
     },
 
+    "ev-1848-noah-bess-eli-rhyne-deed-trust-nc": {
+      "id": "ev-1848-noah-bess-eli-rhyne-deed-trust-nc",
+      "type": "deed-of-trust",
+      "date": "24 Aug 1848",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Noah Bess and Eli Rhyne act jointly as security in deed of trust.",
+      "citation": "Lincoln County, NC deed of trust, 24 Aug 1848; securities: Noah Bess and Eli Rhyne.",
+      "proves": ["Noah Bess present in Lincoln Co., NC by 24 Aug 1848", "Eli Rhyne present in Lincoln Co., NC by 24 Aug 1848", "Noah Bess and Eli Rhyne acted together as financial securities — indicating mutual trust and close social/economic ties"],
+      "doesNotProve": ["Specific family relationship between Noah Bess and Eli Rhyne", "Parent-child or marriage connection", "Generational placement within the Best/Bess cluster", "Connection to Missouri Bess line"]
+    },
+
     "ev-1829-samuel-best-deed-nc": {
       "id": "ev-1829-samuel-best-deed-nc",
       "type": "deed",

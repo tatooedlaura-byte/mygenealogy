@@ -730,6 +730,35 @@
       ]
     },
 
+    "noah-bess-nc": {
+      "id": "noah-bess-nc", "name": "Noah Bess (NC, 1848)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1848"}, "status": "PROVEN", "evidence": ["ev-1848-noah-bess-eli-rhyne-deed-trust-nc"]},
+        {"predicate": "role", "value": "Co-security with Eli Rhyne in deed of trust, Lincoln Co., NC, 24 Aug 1848", "status": "PROVEN", "evidence": ["ev-1848-noah-bess-eli-rhyne-deed-trust-nc"]},
+        {"predicate": "associated-with", "object": "eli-rhyne-nc", "status": "SUPPORTED", "evidence": ["ev-1848-noah-bess-eli-rhyne-deed-trust-nc"], "notes": "Co-security in same deed of trust — consistent inter-family interaction, shared trust network, same social/economic unit. Specific relationship UNKNOWN."}
+      ],
+      "notes": [
+        "Members of the Bess and Rhyne families appear jointly as financial securities in 1848, indicating a close and likely familial connection between the two families.",
+        "POSSIBLE ANCESTOR — NOT MERGED. Relationship to other NC Bess individuals (Peter, Jacob, Boston, Hiram): UNKNOWN.",
+        "Rhyne surname also appears in the cluster via Catharine Elmina Rhyne (1838, id: catharine-elmina-rhyne) — possible family connection, but do not merge or assign relationship without evidence.",
+        "DO NOT assign parent-child, marriage, or generational relationships without additional evidence."
+      ]
+    },
+
+    "eli-rhyne-nc": {
+      "id": "eli-rhyne-nc", "name": "Eli Rhyne (NC, 1848)", "tags": ["rhyne", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1848"}, "status": "PROVEN", "evidence": ["ev-1848-noah-bess-eli-rhyne-deed-trust-nc"]},
+        {"predicate": "role", "value": "Co-security with Noah Bess in deed of trust, Lincoln Co., NC, 24 Aug 1848", "status": "PROVEN", "evidence": ["ev-1848-noah-bess-eli-rhyne-deed-trust-nc"]},
+        {"predicate": "associated-with", "object": "noah-bess-nc", "status": "SUPPORTED", "evidence": ["ev-1848-noah-bess-eli-rhyne-deed-trust-nc"], "notes": "Co-security in same deed of trust — consistent inter-family interaction, shared trust network, same social/economic unit. Specific relationship UNKNOWN."}
+      ],
+      "notes": [
+        "Members of the Bess and Rhyne families appear jointly as financial securities in 1848, indicating a close and likely familial connection between the two families.",
+        "Rhyne surname also appears in the cluster via Catharine Elmina Rhyne (1838, id: catharine-elmina-rhyne) — possible family connection, but do not merge or assign relationship without evidence.",
+        "DO NOT assign parent-child, marriage, or generational relationships without additional evidence."
+      ]
+    },
+
     "catharine-elmina-rhyne": {
       "id": "catharine-elmina-rhyne", "name": "Catharine Elmina Rhyne", "tags": ["rhyne", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
