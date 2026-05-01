@@ -13,6 +13,50 @@
       "doesNotProve": ["Catron's full given name (likely Catherine variant — not certain)", "Catron's maiden name", "Their children"]
     },
 
+    "ev-1783-bostian-bess-land-nc": {
+      "id": "ev-1783-bostian-bess-land-nc",
+      "type": "land-reference",
+      "date": "13 Oct 1783",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston (Bostian) Bess — 185 acres (referenced in court land chain).",
+      "citation": "Lincoln County, NC court land chain exhibit, 13 Oct 1783.",
+      "proves": ["Boston/Bostian Bess held 185 acres in Lincoln Co., NC by 1783", "Bostian Bess present in Lincoln Co., NC land chain"],
+      "doesNotProve": ["Relationship to Jacob Bess (elder) or any other Bess individual", "Connection to Missouri Bess line", "Whether this is the same Boston as Boston Best Sr. (d. 1809)"]
+    },
+
+    "ev-1805-jacob-bess-elder-deed": {
+      "id": "ev-1805-jacob-bess-elder-deed",
+      "type": "deed",
+      "date": "16 Jun 1805",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Deed from Jacob Bess to Peter Smith (referenced in court land chain).",
+      "citation": "Lincoln County, NC deed, 16 Jun 1805 (referenced in court land chain; book/page TBD).",
+      "proves": ["Jacob Bess held and conveyed land in Lincoln Co., NC by 1805"],
+      "doesNotProve": ["Kinship to any other Bess individual", "Whether this is the same Jacob as the 1831 deed or 1837 care agreement (probable but requires further confirmation)", "Connection to Missouri Jacob Bess Sr."]
+    },
+
+    "ev-1831-jacob-bess-elder-deed": {
+      "id": "ev-1831-jacob-bess-elder-deed",
+      "type": "deed",
+      "date": "24/25 Feb 1831",
+      "location": "Lincoln County, North Carolina",
+      "extract": "4-acre tract from Jacob Bess to William Bluford (not recorded at time; referenced in court).",
+      "citation": "Lincoln County, NC deed reference, 24/25 Feb 1831 (unrec.; cited in court proceedings).",
+      "proves": ["A Jacob Bess conveyed a 4-acre tract in Lincoln Co., NC in 1831"],
+      "doesNotProve": ["Kinship to any other Bess individual", "That this is the same Jacob as the 1805 deed (probable given same county; not certain)", "Connection to Missouri Jacob Bess Sr."]
+    },
+
+    "ev-1837-jacob-bess-elder-care": {
+      "id": "ev-1837-jacob-bess-elder-care",
+      "type": "care-agreement",
+      "date": "21 Mar 1837 (proved 1839)",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Jacob Bess transfers property to Jonas R. Linebarger in exchange for lifetime care; reserves limited personal property.",
+      "citation": "Lincoln County, NC bill of sale / care contract, 21 Mar 1837; proved 1839.",
+      "proves": ["Jacob Bess (elder) was alive in 1837 and arranged for lifetime care — indicating advanced age", "Property transferred to Jonas R. Linebarger in exchange for lifetime maintenance", "Jacob Bess retained limited personal property"],
+      "doesNotProve": ["Kinship between Jacob Bess and Jonas R. Linebarger", "Jacob Bess's death date", "Connection to Missouri Jacob Bess Sr."]
+    },
+
     "ev-1793-michael-best-estate": {
       "id": "ev-1793-michael-best-estate",
       "type": "estate-account",

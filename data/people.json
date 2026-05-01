@@ -393,6 +393,33 @@
       ]
     },
 
+    "bostian-bess-nc-1783": {
+      "id": "bostian-bess-nc-1783", "name": "Boston (Bostian) Bess (NC, 1783)", "aka": ["Bostian Bess", "Boston Bess (1783)"], "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "by 1783"}, "status": "PROVEN", "evidence": ["ev-1783-bostian-bess-land-nc"]},
+        {"predicate": "member-of", "value": "NC Bess cluster (Lincoln County land chain)", "status": "PROVEN", "evidence": ["ev-1783-bostian-bess-land-nc"]}
+      ],
+      "notes": [
+        "Early landholder in Lincoln County appearing in same land chain as later Jacob Bess (elder). Relationship to Jacob Bess not stated.",
+        "DO NOT merge with Boston Best Sr. (d. 1809, ev-1809-boston-best-estate) or Boston Bess (1869, bess-nc-cluster). Three distinct individuals until proven otherwise.",
+        "Relationship to any other Bess individual: UNKNOWN."
+      ]
+    },
+
+    "jacob-bess-elder-nc": {
+      "id": "jacob-bess-elder-nc", "name": "Jacob Bess (elder, NC, 1805–1837)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1805–1837"}, "status": "PROVEN", "evidence": ["ev-1805-jacob-bess-elder-deed", "ev-1831-jacob-bess-elder-deed", "ev-1837-jacob-bess-elder-care"]},
+        {"predicate": "role", "value": "Care agreement with Jonas R. Linebarger (1837) — indicating advanced age", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-elder-care"]}
+      ],
+      "notes": [
+        "Appears in multiple land transactions (1805–1831) and later care agreement (1837); represents an older individual in Lincoln County, NC, distinct from Missouri Jacob Bess Sr.",
+        "Relationship to Missouri Jacob Bess Sr.: UNKNOWN. Timeline (active 1805–1837; care agreement suggests advanced age by 1837) is consistent with a prior generation to MO Jacob (b. ~1795–1800) — SUPPORTED by argument only, not proven.",
+        "DO NOT attach as parent of Missouri Jacob Bess Sr. without further evidence.",
+        "DO NOT merge with Missouri Jacob Bess Sr. or with Jacob Best (NC probate witness, 1832)."
+      ]
+    },
+
     "michael-best-nc": {
       "id": "michael-best-nc", "name": "Michael Best (NC, estate ~1793)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
