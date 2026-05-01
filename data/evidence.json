@@ -134,6 +134,17 @@
       "doesNotProve": ["Family relationship between Jacob Bess and Jacob Best — close association is SUPPORTED but specific tie UNKNOWN", "Whether the 1788 grant Jacob Bess is the same as Jacob Bess (elder) or a predecessor", "Connection to Missouri Bess line or MO Jacob Bess Sr."]
     },
 
+    "ev-1837-jacob-best-bill-of-sale-nc": {
+      "id": "ev-1837-jacob-best-bill-of-sale-nc",
+      "type": "bill-of-sale",
+      "date": "1837",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Jacob Best sells property to secure lifetime care for Jacob Bess.",
+      "citation": "Lincoln County, NC bill of sale, 1837; grantor: Jacob Best; purpose: securing lifetime care for Jacob Bess.",
+      "proves": ["Jacob Best was present and actively transacting property in Lincoln Co., NC in 1837", "Jacob Best took direct action to arrange for the care of Jacob Bess", "Jacob Bess required and received lifetime care arranged by Jacob Best — indicating Jacob Bess was an older, dependent individual at this time"],
+      "doesNotProve": ["The specific family relationship between Jacob Best and Jacob Bess — the caretaking role is consistent with a son, grandson, nephew, or other close relative, but is not explicitly stated", "Whether Jacob Best is the same individual as Jacob Best (probate witness, 1832)", "Connection to Missouri Bess line"]
+    },
+
     "ev-1837-jacob-bess-elder-care": {
       "id": "ev-1837-jacob-bess-elder-care",
       "type": "care-agreement",
