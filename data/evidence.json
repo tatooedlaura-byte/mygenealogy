@@ -376,6 +376,17 @@
       "doesNotProve": ["Elizabeth Best's relationship to any Best/Bess or Bostian cluster member", "Elizabeth Best's married name origin", "Connection to Missouri Bess line"]
     },
 
+    "ev-1830-peter-bess-jacob-best-deed-nc": {
+      "id": "ev-1830-peter-bess-jacob-best-deed-nc",
+      "type": "deed-boundary-reference",
+      "date": "1830",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Land described as adjoining tract originally conveyed by Peter Bess; Jacob Best appears as adjoining landowner.",
+      "citation": "Lincoln County, NC deed, 1830 (Smith deed or related instrument); land described as adjoining Peter Bess conveyance; adjacent to Jacob Best.",
+      "proves": ["Peter Bess conveyed a tract in Lincoln Co., NC prior to 1830", "Jacob Best held land adjoining that Peter Bess tract as of 1830", "Both Peter Bess and Jacob Best were present in the same land chain in Lincoln Co., NC"],
+      "doesNotProve": ["Family relationship between Peter Bess and Jacob Best", "Which Jacob Best this is (multiple exist in Lincoln Co., NC)", "Connection to Missouri Bess line"]
+    },
+
     "ev-1810-john-best-deed-nc": {
       "id": "ev-1810-john-best-deed-nc",
       "type": "deed",

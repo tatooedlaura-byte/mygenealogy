@@ -227,7 +227,7 @@
       "claims": [
         {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "~1809"}, "status": "PROVEN", "evidence": ["ev-1809-boston-jacob-best-deed"]},
         {"predicate": "child-of", "object": "boston-best-sr", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated."},
-        {"predicate": "associated-with", "object": "peter-bess-elder", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Land formerly tied to Boston Best chain; Peter Best also holds land in same chain — shared land network, specific relationship UNKNOWN."}
+        {"predicate": "associated-with", "object": "peter-bess-elder", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed", "ev-1830-peter-bess-jacob-best-deed-nc"], "notes": "Land formerly tied to Boston Best chain; 1830 deed also describes Jacob Best as adjoining a tract originally conveyed by Peter Bess — shared tract + repeated adjacency; specific relationship UNKNOWN. DO NOT assign as son of Peter."}
       ],
       "notes": [
         "POSSIBLE ANCESTOR — NOT MERGED. Distinct from Jacob Bess Sr. (MO, b. ~1798, id `jacob-bess-sr`). Do not merge.",
@@ -615,13 +615,16 @@
         {"predicate": "died", "value": {"date": "after 7 Feb 1832, will proved Apr 1832", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will", "ev-1832-peter-bess-fanny-deed", "ev-1832-peter-bess-probate"]},
         {"predicate": "spouse-of", "object": "leannah-bess", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
         {"predicate": "role", "value": "Grantor — transferred enslaved person (Emeline) to Fanny Bess, 7 Feb 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-fanny-deed"]},
-        {"predicate": "role", "value": "Testator — will admitted Apr 1832, proved by Jacob Best", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]}
+        {"predicate": "role", "value": "Testator — will admitted Apr 1832, proved by Jacob Best", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]},
+        {"predicate": "conveyed-land", "value": {"place": "Lincoln County, North Carolina", "date": "pre-1830"}, "status": "PROVEN", "evidence": ["ev-1830-peter-bess-jacob-best-deed-nc"], "notes": "Tract later referenced in 1830 Smith deed; Peter Bess identified as original conveyor."},
+        {"predicate": "associated-with", "object": "jacob-best-nc-1809", "status": "SUPPORTED", "evidence": ["ev-1830-peter-bess-jacob-best-deed-nc"], "notes": "Jacob Best held land adjoining the tract originally conveyed by Peter Bess — shared land chain + repeated adjacency; specific relationship UNKNOWN."}
       ],
       "notes": [
         "POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule.",
         "Deed to Fanny Bess (7 Feb 1832) and will (Feb 1832) indicate Peter was alive and settling affairs in early Feb 1832; will proved April 1832.",
         "Probate proved by Jacob Best (April 1832) — first documented legal interaction between Peter Bess family and a Jacob Best. Relationship not stated; cluster association only.",
-        "Will names Andrew (financial) and Jonah (administrator). Relationships to Peter not stated beyond named roles."
+        "Will names Andrew (financial) and Jonah (administrator). Relationships to Peter not stated beyond named roles.",
+        "1830 deed reference: Jacob Best appears as adjoining landowner to a tract originally conveyed by Peter Bess, indicating close geographic and likely familial association — NOT confirmed lineage."
       ]
     },
 
