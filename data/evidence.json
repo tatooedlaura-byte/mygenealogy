@@ -247,12 +247,12 @@
     "ev-1847-hiram-bess-will": {
       "id": "ev-1847-hiram-bess-will",
       "type": "will",
-      "date": "1847",
-      "location": "North Carolina",
-      "extract": "Hiram Bess; wife Eliza; children John Franklin, Catherine, Margaret Elizabeth, Susan Adeline, Mary Ann.",
-      "citation": "1847 will of Hiram Bess.",
-      "proves": ["Hiram Bess's wife Eliza and named children"],
-      "doesNotProve": ["Connection to Missouri Bess line"]
+      "date": "5 Nov 1847",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Will of Hiram Bess; wife Eliza and named children John Franklin, Catherine, Margaret Elizabeth, Susan Adeline, Mary Ann. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn.",
+      "citation": "5 Nov 1847 will of Hiram Bess, Lincoln County, NC.",
+      "proves": ["Hiram Bess died by Nov 1847 in Lincoln Co., NC", "Wife Eliza Bess named and appointed co-executor", "Children named: John Franklin, Catherine, Margaret Elizabeth, Susan Adeline, Mary Ann", "John F. Hill appointed co-executor (role only)", "Witnesses present: Thomas Spratt, Peter Grigg, Lawson Bess (roles proven)", "Will formally admitted to probate; executors sworn"],
+      "doesNotProve": ["Family relationship of John F. Hill to Hiram Bess", "Family relationship of witnesses (Spratt, Grigg, Lawson Bess) to Hiram Bess", "That Lawson Bess (witness) is a child of Hiram or related to MO Lawson Bess", "Connection to Missouri Bess line"]
     },
 
     "ev-1855-boston-bess-guardian-bond": {

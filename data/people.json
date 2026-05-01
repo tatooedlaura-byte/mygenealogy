@@ -477,20 +477,60 @@
     "hiram-bess": {
       "id": "hiram-bess", "name": "Hiram Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "died", "value": {"date": "by 1847"}, "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "died", "value": {"date": "by 5 Nov 1847", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "spouse-of", "object": "eliza-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "John Franklin Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "Catherine Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "Margaret Elizabeth Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "Susan Adeline Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "Mary Ann Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ],
+      "notes": [
+        "Will includes restrictions on sale of enslaved persons and empowers Eliza to settle debts. Executors named and sworn — confirms formal probate.",
+        "Associates (co-executor John F. Hill; witnesses Thomas Spratt, Peter Grigg, Lawson Bess): roles PROVEN, relationships to Hiram UNKNOWN."
       ]
     },
 
     "eliza-bess": {
       "id": "eliza-bess", "name": "Eliza Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "spouse-of", "object": "hiram-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+        {"predicate": "spouse-of", "object": "hiram-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "role", "value": "Co-executor of Hiram Bess estate; life tenant of estate pending debt settlement", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ]
+    },
+
+    "john-f-hill-nc": {
+      "id": "john-f-hill-nc", "name": "John F. Hill (NC, 1847)", "tags": ["bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Co-executor of Hiram Bess estate, Lincoln Co., NC, 1847", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ],
+      "notes": ["Relationship to Hiram Bess: UNKNOWN. Role as co-executor proven; no kin language in will."]
+    },
+
+    "thomas-spratt-nc": {
+      "id": "thomas-spratt-nc", "name": "Thomas Spratt (NC, 1847)", "aka": ["Thomas Berry Spratt"], "tags": ["bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Witness to Hiram Bess will, Lincoln Co., NC, 5 Nov 1847", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ],
+      "notes": ["Relationship to Hiram Bess: UNKNOWN."]
+    },
+
+    "peter-grigg-nc": {
+      "id": "peter-grigg-nc", "name": "Peter Grigg (NC, 1847)", "aka": ["Peter Gregg"], "tags": ["bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Witness to Hiram Bess will, Lincoln Co., NC, 5 Nov 1847", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ],
+      "notes": ["Relationship to Hiram Bess: UNKNOWN."]
+    },
+
+    "lawson-bess-nc-1847": {
+      "id": "lawson-bess-nc-1847", "name": "Lawson Bess (NC, will witness 1847)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Witness to Hiram Bess will, Lincoln Co., NC, 5 Nov 1847", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+      ],
+      "notes": [
+        "Relationship to Hiram Bess: UNKNOWN. Witness only — NOT established as a child or heir of Hiram.",
+        "DO NOT merge with Lawson Bess (Missouri, bess-mo-cluster) without further evidence. These are distinct individuals until proven otherwise."
       ]
     },
 
