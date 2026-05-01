@@ -562,15 +562,28 @@
       ]
     },
 
+    "christian-best-nc": {
+      "id": "christian-best-nc", "name": "Christian Best (NC, 1823)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1823"}, "status": "PROVEN", "evidence": ["ev-1823-christian-best-deed-nc"]},
+        {"predicate": "associated-with", "object": "michael-best-nc-1823", "status": "SUPPORTED", "evidence": ["ev-1823-christian-best-deed-nc"], "notes": "Sold land adjoining Michael Best, 13 Sept 1823 — geographic cluster only, no family relationship established."}
+      ],
+      "notes": [
+        "POSSIBLE ANCESTOR — NOT MERGED. Identity proven by 1823 deed (grantor). Relationship to Michael Best, Boston Best, Peter Best, or Missouri Bess line: UNKNOWN.",
+        "DO NOT assign family relationships without additional evidence."
+      ]
+    },
+
     "michael-best-nc-1823": {
       "id": "michael-best-nc-1823", "name": "Michael Best (NC, 1823)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1823"}, "status": "PROVEN", "evidence": []}
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1823"}, "status": "PROVEN", "evidence": ["ev-1823-christian-best-deed-nc"]},
+        {"predicate": "associated-with", "object": "christian-best-nc", "status": "SUPPORTED", "evidence": ["ev-1823-christian-best-deed-nc"], "notes": "Named as adjoining landholder in Christian Best's 1823 deed — geographic cluster only, no family relationship established."}
       ],
       "notes": [
         "Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined.",
         "DO NOT merge with michael-best-nc (~1793–1831) or michael-best-nc-1872 without clear evidence.",
-        "Evidence to be attached when records are transcribed and confirmed."
+        "DO NOT connect to Peter Best, Jacob Best, or Missouri Bess line without additional evidence."
       ]
     },
 

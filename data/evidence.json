@@ -354,6 +354,17 @@
       "doesNotProve": ["Children of Peter and Leanah Bess", "Any relationship between Peter Bess and other Best/Bess individuals in Lincoln Co.", "Connection to Missouri Bess line"]
     },
 
+    "ev-1823-christian-best-deed-nc": {
+      "id": "ev-1823-christian-best-deed-nc",
+      "type": "deed",
+      "date": "13 Sept 1823",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Christian Best sells land adjoining Michael Best.",
+      "citation": "Lincoln County, NC deed, 13 Sept 1823; grantor: Christian Best; land described as adjoining Michael Best.",
+      "proves": ["Christian Best present in Lincoln Co., NC by 13 Sept 1823 and transacting land", "A Michael Best held adjoining land in Lincoln Co., NC as of 1823"],
+      "doesNotProve": ["Family relationship between Christian Best and Michael Best", "Which Michael Best is the adjoining landholder (multiple exist)", "Connection to Peter Best, Boston Best, or Missouri Bess line"]
+    },
+
     "ev-1823-margaret-hoyle-deed-nc": {
       "id": "ev-1823-margaret-hoyle-deed-nc",
       "type": "deed-of-gift",
