@@ -108,6 +108,48 @@
       ]
     },
 
+    "matilda-bess-mo": {
+      "id": "matilda-bess-mo", "name": "Matilda Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "spouse-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship not explicitly stated"}
+      ]
+    },
+
+    "emanuel-bess-mo": {
+      "id": "emanuel-bess-mo", "name": "Emanuel Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "barbary-bess-mo": {
+      "id": "barbary-bess-mo", "name": "Barbary Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "jacob-bess-jr-mo": {
+      "id": "jacob-bess-jr-mo", "name": "Jacob Bess Jr.", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "edward-bess-mo": {
+      "id": "edward-bess-mo", "name": "Edward Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "daniel-bess-mo": {
+      "id": "daniel-bess-mo", "name": "Daniel Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
     "unknown-wife-implied": {
       "id": "unknown-wife-implied", "name": "(Unknown wife — implied, replaced)", "tags": ["bess", "rejected"], "group": "other",
       "claims": [
