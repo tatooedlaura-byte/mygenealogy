@@ -570,9 +570,11 @@
         {"predicate": "member-of", "value": "NC Best cluster (Lincoln County)", "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate", "ev-1831-michael-best-deed"]}
       ],
       "notes": [
-        "Appears in estate/account ~1793 and ~1832, and deed 15 Oct 1831 (135 acres to James Ferguson, $300). Appears in same geographic and time cluster as Jacob and Peter Bess.",
+        "Appears in estate/account ~1793 and ~1832, and deed 15 Oct 1831 (135 acres on Long Creek to James Ferguson, $300). Appears in same geographic and time cluster as Jacob and Peter Bess.",
+        "Appears in multiple land transactions (1823–1831), indicating sustained presence in Lincoln County during the same period as Peter and Jacob Bess.",
         "DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best/Bess individuals UNKNOWN.",
-        "Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined. DO NOT merge with michael-best-nc-1823 or michael-best-nc-1872 without clear evidence."
+        "Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined. DO NOT merge with michael-best-nc-1823 or michael-best-nc-1872 without clear evidence.",
+        "NOTE: 1823 activity may overlap with this record (time ranges consistent) — michael-best-nc-1823 kept separate until records confirm or distinguish the individuals."
       ]
     },
 
