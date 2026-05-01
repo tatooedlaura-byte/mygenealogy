@@ -123,6 +123,17 @@
       "doesNotProve": ["Kinship to any other Bess individual", "That this is the same Jacob as the 1805 deed (probable given same county; not certain)", "Connection to Missouri Jacob Bess Sr."]
     },
 
+    "ev-1837-jacob-bess-jacob-best-deed-nc": {
+      "id": "ev-1837-jacob-bess-jacob-best-deed-nc",
+      "type": "deed",
+      "date": "21 Mar 1837",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Jacob Bess sells land; tract description includes grant issued to Jacob Bess (1788). Jacob Best serves as witness.",
+      "citation": "Lincoln County, NC deed, 21 Mar 1837; grantor: Jacob Bess; tract includes 1788 grant to Jacob Bess; witness: Jacob Best.",
+      "proves": ["Jacob Bess sold land in Lincoln Co., NC on 21 Mar 1837", "The tract sold included a grant originally issued to Jacob Bess in 1788", "Jacob Best was present in Lincoln Co., NC in 1837 and served as a witness", "Jacob Bess and Jacob Best are confirmed as two distinct individuals — one executes, one witnesses"],
+      "doesNotProve": ["Family relationship between Jacob Bess and Jacob Best — close association is SUPPORTED but specific tie UNKNOWN", "Whether the 1788 grant Jacob Bess is the same as Jacob Bess (elder) or a predecessor", "Connection to Missouri Bess line or MO Jacob Bess Sr."]
+    },
+
     "ev-1837-jacob-bess-elder-care": {
       "id": "ev-1837-jacob-bess-elder-care",
       "type": "care-agreement",

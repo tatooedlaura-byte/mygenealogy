@@ -551,15 +551,18 @@
     "jacob-bess-elder-nc": {
       "id": "jacob-bess-elder-nc", "name": "Jacob Bess (elder, NC, 1805–1839)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1805–1839"}, "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court", "ev-1805-jacob-bess-elder-deed", "ev-1831-jacob-bess-elder-deed", "ev-1837-jacob-bess-elder-care", "ev-1839-jacob-bess-linebarger-deed"]},
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1805–1839"}, "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court", "ev-1805-jacob-bess-elder-deed", "ev-1831-jacob-bess-elder-deed", "ev-1837-jacob-bess-jacob-best-deed-nc", "ev-1837-jacob-bess-elder-care", "ev-1839-jacob-bess-linebarger-deed"]},
         {"predicate": "role", "value": "Defendant in trespass case, NC, 27 Mar 1822", "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court"]},
-        {"predicate": "role", "value": "Care agreement with Jonas R. Linebarger (1837); follow-up deed to Linebarger 1839 (Book 37, p. 547) — confirms ongoing arrangement", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-elder-care", "ev-1839-jacob-bess-linebarger-deed"]}
+        {"predicate": "role", "value": "Grantor — sold land on 21 Mar 1837; tract included 1788 grant issued to Jacob Bess", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-jacob-best-deed-nc"]},
+        {"predicate": "role", "value": "Care agreement with Jonas R. Linebarger (1837); follow-up deed to Linebarger 1839 (Book 37, p. 547) — confirms ongoing arrangement", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-elder-care", "ev-1839-jacob-bess-linebarger-deed"]},
+        {"predicate": "associated-with", "object": "jacob-best-nc-1832", "status": "SUPPORTED", "evidence": ["ev-1837-jacob-bess-jacob-best-deed-nc"], "notes": "Jacob Best witnessed Jacob Bess's 1837 deed — direct legal interaction; confirmed as two distinct individuals. Specific relationship UNKNOWN."}
       ],
       "notes": [
-        "Appears in multiple land transactions (1805–1831) and later care agreement (1837); represents an older individual in Lincoln County, NC, distinct from Missouri Jacob Bess Sr.",
+        "Appears in multiple land transactions (1805–1831), a 1837 land sale, and care agreement (1837); represents an older individual in Lincoln County, NC, distinct from Missouri Jacob Bess Sr.",
         "Relationship to Missouri Jacob Bess Sr.: UNKNOWN. Timeline (active 1805–1837; care agreement suggests advanced age by 1837) is consistent with a prior generation to MO Jacob (b. ~1795–1800) — SUPPORTED by argument only, not proven.",
         "DO NOT attach as parent of Missouri Jacob Bess Sr. without further evidence.",
-        "DO NOT merge with Missouri Jacob Bess Sr. or with Jacob Best (NC probate witness, 1832)."
+        "DO NOT merge with Missouri Jacob Bess Sr. or with Jacob Best (NC probate witness, 1832).",
+        "Jacob Bess and Jacob Best appear together in the same deed (1837), indicating either a name/spelling variation in use OR a very close relationship — identity NOT merged; association SUPPORTED only."
       ]
     },
 
@@ -689,17 +692,20 @@
     },
 
     "jacob-best-nc-1832": {
-      "id": "jacob-best-nc-1832", "name": "Jacob Best (NC, probate witness 1832)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "id": "jacob-best-nc-1832", "name": "Jacob Best (NC, 1832–1837)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "dateRange": "1832–1837"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate", "ev-1837-jacob-bess-jacob-best-deed-nc"]},
         {"predicate": "role", "value": "Proved deed of Peter Bess in open court, Lincoln Co., NC, April 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]},
+        {"predicate": "role", "value": "Witness to Jacob Bess land deed, Lincoln Co., NC, 21 Mar 1837", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-jacob-best-deed-nc"]},
         {"predicate": "associated-with", "object": "peter-bess-elder", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate"], "notes": "Proved Peter Bess's deed in open court — same record involvement; specific relationship UNKNOWN."},
-        {"predicate": "member-of", "value": "NC Best/Bess cluster (Lincoln County)", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate"]}
+        {"predicate": "associated-with", "object": "jacob-bess-elder-nc", "status": "SUPPORTED", "evidence": ["ev-1837-jacob-bess-jacob-best-deed-nc"], "notes": "Witnessed Jacob Bess's 1837 deed — direct legal interaction; confirmed as two distinct individuals (one executes, one witnesses). Specific relationship UNKNOWN."},
+        {"predicate": "member-of", "value": "NC Best/Bess cluster (Lincoln County)", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate", "ev-1837-jacob-bess-jacob-best-deed-nc"]}
       ],
       "notes": [
-        "Relationship to Peter Bess: UNKNOWN. Court record involvement (proving deed) indicates association with the Best/Bess family in Lincoln Co., NC — cluster evidence only.",
+        "Active in Lincoln County legal proceedings 1832–1837: proved Peter Bess's deed (1832) and witnessed Jacob Bess's deed (1837). Confirmed present across two separate events — suggests sustained local ties.",
+        "Jacob Bess and Jacob Best appear together in the same 1837 deed, confirming they are two distinct individuals. Relationship UNKNOWN — do not declare same person; close association likely familial but unproven.",
         "DO NOT merge with Missouri Jacob Bess Sr. without further evidence.",
-        "DO NOT merge with Jacob Best (adjoining landholder, 1795) or Jacob Best (1809 deed) without further evidence. Multiple Jacob Bests may exist in this cluster.",
-        "This is the first documented legal interaction between a Jacob Best and the Peter Bess family."
+        "DO NOT merge with Jacob Best (adjoining landholder, 1795) or Jacob Best (1809 deed) without further evidence. Multiple Jacob Bests may exist in this cluster."
       ]
     },
 
