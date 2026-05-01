@@ -542,7 +542,32 @@
       ],
       "notes": [
         "Appears in estate/account ~1793 and ~1832, and deed 15 Oct 1831 (135 acres to James Ferguson, $300). Appears in same geographic and time cluster as Jacob and Peter Bess.",
-        "DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best/Bess individuals UNKNOWN."
+        "DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best/Bess individuals UNKNOWN.",
+        "Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined. DO NOT merge with michael-best-nc-1823 or michael-best-nc-1872 without clear evidence."
+      ]
+    },
+
+    "michael-best-nc-1823": {
+      "id": "michael-best-nc-1823", "name": "Michael Best (NC, 1823)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1823"}, "status": "PROVEN", "evidence": []}
+      ],
+      "notes": [
+        "Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined.",
+        "DO NOT merge with michael-best-nc (~1793–1831) or michael-best-nc-1872 without clear evidence.",
+        "Evidence to be attached when records are transcribed and confirmed."
+      ]
+    },
+
+    "michael-best-nc-1872": {
+      "id": "michael-best-nc-1872", "name": "Michael Best (NC, 1872)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1872"}, "status": "PROVEN", "evidence": []}
+      ],
+      "notes": [
+        "Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined.",
+        "DO NOT merge with michael-best-nc (~1793–1831) or michael-best-nc-1823 without clear evidence.",
+        "Evidence to be attached when records are transcribed and confirmed."
       ]
     },
 
