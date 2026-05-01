@@ -211,7 +211,8 @@
       "id": "jacob-best-nc-1809", "name": "Jacob Best (NC, 1809)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
       "claims": [
         {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "~1809"}, "status": "PROVEN", "evidence": ["ev-1809-boston-jacob-best-deed"]},
-        {"predicate": "child-of", "object": "boston-best-sr", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated."}
+        {"predicate": "child-of", "object": "boston-best-sr", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Boston conveys his original grant to Jacob in ~1809; consistent with kinship but not explicitly stated."},
+        {"predicate": "associated-with", "object": "peter-bess-elder", "status": "SUPPORTED", "evidence": ["ev-1809-boston-jacob-best-deed"], "notes": "Land formerly tied to Boston Best chain; Peter Best also holds land in same chain — shared land network, specific relationship UNKNOWN."}
       ],
       "notes": [
         "POSSIBLE ANCESTOR — NOT MERGED. Distinct from Jacob Bess Sr. (MO, b. ~1798, id `jacob-bess-sr`). Do not merge.",
@@ -237,6 +238,42 @@
       ],
       "notes": [
         "POSSIBLE ANCESTOR — NOT MERGED. Identity proven by the 1795 deed (named as adjoining landholder). Relationship to Boston, Daniel, Jacob, or the Missouri Bess line: UNKNOWN."
+      ]
+    },
+
+    "john-best-nc-1810": {
+      "id": "john-best-nc-1810", "name": "John Best (NC, 1810)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1810"}, "status": "PROVEN", "evidence": ["ev-1810-john-best-deed-nc"]},
+        {"predicate": "sold-land", "value": {"date": "5 Sept 1810", "acreage": "~750"}, "status": "PROVEN", "evidence": ["ev-1810-john-best-deed-nc"]}
+      ],
+      "notes": [
+        "POSSIBLE ANCESTOR — NOT MERGED. Distinct from MO John Best (id `john-best`, Cape Girardeau cluster). Do not merge.",
+        "Relationship to Boston Best, Peter Best, or any other Best/Bess individual: UNKNOWN.",
+        "Large tract (~750 acres) suggests established landholder in Lincoln Co., NC by 1810."
+      ]
+    },
+
+    "elizabeth-best-nc": {
+      "id": "elizabeth-best-nc", "name": "Elizabeth Best (NC, 1823)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1823"}, "status": "PROVEN", "evidence": ["ev-1823-margaret-hoyle-deed-nc"]},
+        {"predicate": "child-of", "object": "margaret-hoyle-nc", "status": "PROVEN", "evidence": ["ev-1823-margaret-hoyle-deed-nc"]}
+      ],
+      "notes": [
+        "POSSIBLE ANCESTOR — NOT MERGED. Named as daughter of Margaret Hoyle in 1823 deed of gift; surname Best may be married name.",
+        "Relationship to Boston Best cluster or Missouri Bess line: UNKNOWN. Do not assign family ties without additional evidence."
+      ]
+    },
+
+    "margaret-hoyle-nc": {
+      "id": "margaret-hoyle-nc", "name": "Margaret Hoyle (NC, 1823)", "tags": ["hoyle", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1823"}, "status": "PROVEN", "evidence": ["ev-1823-margaret-hoyle-deed-nc"]},
+        {"predicate": "parent-of", "object": "elizabeth-best-nc", "status": "PROVEN", "evidence": ["ev-1823-margaret-hoyle-deed-nc"]}
+      ],
+      "notes": [
+        "Named as mother of Elizabeth Best in 1823 deed of gift. Possible relation to Martin Hoyle (from whom Peter Best bought land, 1782) — UNKNOWN. Do not merge or assume relationship."
       ]
     },
 
@@ -538,8 +575,9 @@
     "leannah-bess": {
       "id": "leannah-bess", "name": "Leannah Bess", "aka": ["Leana Bess"], "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "spouse-of", "object": "peter-bess-elder", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
-        {"predicate": "role", "value": "Life tenant of Peter Bess estate", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]}
+        {"predicate": "spouse-of", "object": "peter-bess-elder", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will", "ev-1832-peter-bess-admin-nc"]},
+        {"predicate": "role", "value": "Life tenant of Peter Bess estate", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-will"]},
+        {"predicate": "role", "value": "Administrator with will annexed of Peter Bess estate — letters issued by Lincoln Co., NC court, 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-admin-nc"]}
       ]
     },
 
@@ -547,6 +585,7 @@
       "id": "fanny-bess-nc", "name": "Fanny Bess (NC, 1832)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
         {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1832"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-fanny-deed"]},
+        {"predicate": "associated-with", "object": "peter-bess-elder", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-fanny-deed"], "notes": "Received property from Peter Bess, 7 Feb 1832; same surname and direct transfer — specific relationship UNKNOWN."},
         {"predicate": "member-of", "value": "NC Bess cluster (Lincoln County)", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-fanny-deed"]}
       ],
       "notes": [
@@ -580,11 +619,12 @@
     "jacob-best-nc-1832": {
       "id": "jacob-best-nc-1832", "name": "Jacob Best (NC, probate witness 1832)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "role", "value": "Probate witness — proved Peter Bess will, Lincoln Co., NC, April 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]},
+        {"predicate": "role", "value": "Proved deed of Peter Bess in open court, Lincoln Co., NC, April 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]},
+        {"predicate": "associated-with", "object": "peter-bess-elder", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate"], "notes": "Proved Peter Bess's deed in open court — same record involvement; specific relationship UNKNOWN."},
         {"predicate": "member-of", "value": "NC Best/Bess cluster (Lincoln County)", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate"]}
       ],
       "notes": [
-        "Relationship to Peter Bess: UNKNOWN. Presence as probate witness indicates association with the Best/Bess family in Lincoln Co., NC — cluster evidence only.",
+        "Relationship to Peter Bess: UNKNOWN. Court record involvement (proving deed) indicates association with the Best/Bess family in Lincoln Co., NC — cluster evidence only.",
         "DO NOT merge with Missouri Jacob Bess Sr. without further evidence.",
         "DO NOT merge with Jacob Best (adjoining landholder, 1795) or Jacob Best (1809 deed) without further evidence. Multiple Jacob Bests may exist in this cluster.",
         "This is the first documented legal interaction between a Jacob Best and the Peter Bess family."

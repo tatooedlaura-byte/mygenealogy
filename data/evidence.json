@@ -332,6 +332,39 @@
       "doesNotProve": ["Any family relationship between Jacob Best and Peter Bess", "That this Jacob Best is the same as MO Jacob Bess Sr.", "That this Jacob Best is the same as any earlier NC Jacob Best (1795, 1809)"]
     },
 
+    "ev-1832-peter-bess-admin-nc": {
+      "id": "ev-1832-peter-bess-admin-nc",
+      "type": "court-minutes",
+      "date": "1832",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Letters of Administration with the will annexed issued to Leanah Bess, widow and relict of the deceased.",
+      "citation": "Lincoln County, NC court minutes, 1832 (administration of Peter Bess estate; letters issued to Leanah Bess).",
+      "proves": ["Leanah Bess was widow of Peter Bess (deceased by 1832)", "Leanah Bess received letters of administration with will annexed for Peter Bess estate"],
+      "doesNotProve": ["Children of Peter and Leanah Bess", "Any relationship between Peter Bess and other Best/Bess individuals in Lincoln Co.", "Connection to Missouri Bess line"]
+    },
+
+    "ev-1823-margaret-hoyle-deed-nc": {
+      "id": "ev-1823-margaret-hoyle-deed-nc",
+      "type": "deed-of-gift",
+      "date": "13 Jun 1823",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Margaret Hoyle gives property to daughter Elizabeth Best.",
+      "citation": "Lincoln County, NC deed of gift, 13 Jun 1823; grantor: Margaret Hoyle; grantee: Elizabeth Best (identified as daughter).",
+      "proves": ["Elizabeth Best was a daughter of Margaret Hoyle as of 13 Jun 1823", "Margaret Hoyle present in Lincoln Co., NC, 1823"],
+      "doesNotProve": ["Elizabeth Best's relationship to any Best/Bess or Bostian cluster member", "Elizabeth Best's married name origin", "Connection to Missouri Bess line"]
+    },
+
+    "ev-1810-john-best-deed-nc": {
+      "id": "ev-1810-john-best-deed-nc",
+      "type": "deed",
+      "date": "5 Sept 1810",
+      "location": "Lincoln County, North Carolina",
+      "extract": "John Best sells large tract (~750 acres).",
+      "citation": "Lincoln County, NC deed, 5 Sept 1810; grantor: John Best; acreage ~750.",
+      "proves": ["John Best present in Lincoln Co., NC by 5 Sept 1810 and transacting land"],
+      "doesNotProve": ["Relationship to Boston Best, Peter Best, or any other Best/Bess individual", "Connection to Missouri Bess line or MO John Best records"]
+    },
+
     "ev-1822-tax-list-jacob-bess": {
       "id": "ev-1822-tax-list-jacob-bess",
       "type": "tax",
