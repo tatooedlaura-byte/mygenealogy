@@ -79,6 +79,17 @@
       "doesNotProve": ["Kinship between Jacob Bess and Linebarger", "Connection to Missouri Jacob Bess Sr."]
     },
 
+    "ev-1830-michael-best-deed-nc": {
+      "id": "ev-1830-michael-best-deed-nc",
+      "type": "deed",
+      "date": "4 Dec 1830",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Michael Best sells tract originally granted to himself.",
+      "citation": "Lincoln County, NC deed, 4 Dec 1830; grantor: Michael Best; tract described as originally granted to Michael Best.",
+      "proves": ["Michael Best held land by original grant in Lincoln Co., NC — indicating established, long-term presence", "Michael Best was actively transacting land as of 4 Dec 1830"],
+      "doesNotProve": ["Relationship to Peter Bess, Jacob Best/Bess, or any other cluster member", "Connection to Missouri Bess line"]
+    },
+
     "ev-1831-michael-best-deed": {
       "id": "ev-1831-michael-best-deed",
       "type": "deed",
