@@ -90,6 +90,17 @@
       "doesNotProve": ["That Boston Bess or Peter Best were alive in 1846 — posthumous land references are standard practice", "Family relationship between Boston Bess and Peter Best", "Which Boston Bess is referenced (multiple individuals of this name existed)", "Connection to Missouri Bess line"]
     },
 
+    "ev-1848-boston-bess-deed-gift-nc": {
+      "id": "ev-1848-boston-bess-deed-gift-nc",
+      "type": "deed-of-gift",
+      "date": "22 Aug 1848",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Bess refers to 'my beloved son Hiram Bess'; Eliza Bess identified as widow of Hiram Bess.",
+      "citation": "Lincoln County, NC deed of gift, 22 Aug 1848; grantor: Boston Bess; references: 'my beloved son Hiram Bess' (deceased by this date); Eliza Bess named as Hiram's widow.",
+      "proves": ["Boston Bess was alive and transacting in Lincoln Co., NC as of 22 Aug 1848", "Hiram Bess was the son of Boston Bess — explicitly stated ('my beloved son')", "Eliza Bess was the widow of Hiram Bess as of 22 Aug 1848"],
+      "doesNotProve": ["Boston Bess's relationship to other Boston Best/Bess individuals in the cluster", "Connection to Missouri Bess line", "Whether Boston Bess had other children beyond Hiram"]
+    },
+
     "ev-1848-noah-bess-eli-rhyne-deed-trust-nc": {
       "id": "ev-1848-noah-bess-eli-rhyne-deed-trust-nc",
       "type": "deed-of-trust",

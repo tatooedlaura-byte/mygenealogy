@@ -189,17 +189,19 @@
     },
 
     "boston-bess-nc-1833": {
-      "id": "boston-bess-nc-1833", "name": "Boston Bess (NC, 1833)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "id": "boston-bess-nc-1833", "name": "Boston Bess (NC, 1833–1848)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1833"}, "status": "PROVEN", "evidence": ["ev-1833-boston-bess-deed-nc"]},
-        {"predicate": "sold-land", "value": {"date": "December 1833", "acreage": "238", "location": "Buffalo Creek, Lincoln Co., NC", "to": "Robert Lackey"}, "status": "PROVEN", "evidence": ["ev-1833-boston-bess-deed-nc"]}
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "dateRange": "1833–1848"}, "status": "PROVEN", "evidence": ["ev-1833-boston-bess-deed-nc", "ev-1848-boston-bess-deed-gift-nc"]},
+        {"predicate": "sold-land", "value": {"date": "December 1833", "acreage": "238", "location": "Buffalo Creek, Lincoln Co., NC", "to": "Robert Lackey"}, "status": "PROVEN", "evidence": ["ev-1833-boston-bess-deed-nc"]},
+        {"predicate": "father-of", "object": "hiram-bess", "status": "PROVEN", "evidence": ["ev-1848-boston-bess-deed-gift-nc"], "notes": "Explicitly stated in deed of gift: 'my beloved son Hiram Bess.' Hiram was deceased by this date (d. by 5 Nov 1847); deed made to his heirs."}
       ],
       "notes": [
-        "A Boston Bess is active in 1833, indicating multiple individuals of the same name across generations. This is a LATE record — distinct from Boston Best Sr. (d. by 1809, id: boston-best-sr) and Boston Best (1820, id: boston-best-nc-1820).",
-        "Surname spelled 'Bess' (not 'Best') in this record — consistent with the phonetic shift seen elsewhere in this cluster.",
-        "DO NOT merge with boston-best-sr, boston-best-nc-1820, or bostian-bess-nc-1783 without clear evidence.",
-        "Relationship to Peter Bess: UNKNOWN. Relationship to Jacob Best/Bess: UNKNOWN. Do not build lineage from this record alone.",
-        "Land associated with Boston Bess continued to serve as a geographic reference point in Lincoln Co. deeds as late as 1846 (ev-1846-deed-trust-boston-peter-nc), confirming long-term presence in the same area as Peter Best."
+        "Active in Lincoln County 1833–1848: 1833 land sale (Buffalo Creek) and 1848 deed of gift referencing deceased son Hiram Bess.",
+        "FIRST PROVEN PARENT-CHILD LINK in the Lincoln County Bess cluster: Boston Bess → Hiram Bess (PROVEN).",
+        "Surname spelled 'Bess' (not 'Best') — consistent with the phonetic shift seen throughout this cluster.",
+        "DO NOT merge with boston-best-sr (d. by 1809), boston-best-nc-1820, or bostian-bess-nc-1783 without clear evidence. This is a distinct late individual.",
+        "Relationship to Peter Bess, Jacob Best/Bess: UNKNOWN. Whether Boston had other children beyond Hiram: UNKNOWN.",
+        "Land associated with Boston Bess continued to serve as a geographic reference point in Lincoln Co. deeds as late as 1846 (ev-1846-deed-trust-boston-peter-nc), now confirmed consistent with his documented lifespan (alive 1848)."
       ]
     },
 
@@ -776,6 +778,7 @@
       "id": "hiram-bess", "name": "Hiram Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
       "claims": [
         {"predicate": "died", "value": {"date": "by 5 Nov 1847", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "child-of", "object": "boston-bess-nc-1833", "status": "PROVEN", "evidence": ["ev-1848-boston-bess-deed-gift-nc"], "notes": "Father Boston Bess explicitly names Hiram as 'my beloved son' in deed of gift dated 22 Aug 1848 (posthumous — Hiram had died by 5 Nov 1847)."},
         {"predicate": "spouse-of", "object": "eliza-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "John Franklin Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "Mary Ann Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
@@ -793,8 +796,9 @@
     "eliza-bess": {
       "id": "eliza-bess", "name": "Eliza Bess", "tags": ["bess", "bess-nc-cluster"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "spouse-of", "object": "hiram-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
-        {"predicate": "role", "value": "Co-executor of Hiram Bess estate; life tenant of estate pending debt settlement", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+        {"predicate": "spouse-of", "object": "hiram-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will", "ev-1848-boston-bess-deed-gift-nc"]},
+        {"predicate": "role", "value": "Co-executor of Hiram Bess estate; life tenant of estate pending debt settlement", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "role", "value": "Named as widow of Hiram Bess in Boston Bess deed of gift, 22 Aug 1848", "status": "PROVEN", "evidence": ["ev-1848-boston-bess-deed-gift-nc"]}
       ]
     },
 
