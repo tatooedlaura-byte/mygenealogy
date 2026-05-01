@@ -24,6 +24,39 @@
       "doesNotProve": ["Relationship to Jacob Bess (elder) or any other Bess individual", "Connection to Missouri Bess line", "Whether this is the same Boston as Boston Best Sr. (d. 1809)"]
     },
 
+    "ev-1822-jacob-bess-elder-court": {
+      "id": "ev-1822-jacob-bess-elder-court",
+      "type": "court",
+      "date": "27 Mar 1822",
+      "location": "North Carolina",
+      "extract": "Jacob Bess named as defendant in trespass case.",
+      "citation": "North Carolina court record, 27 Mar 1822 (trespass case; book/page TBD).",
+      "proves": ["Jacob Bess (elder) was present and active in North Carolina by 27 Mar 1822"],
+      "doesNotProve": ["Outcome of the case", "Kinship to any other Bess individual", "Connection to Missouri Jacob Bess Sr."]
+    },
+
+    "ev-1839-bostian-best-referee": {
+      "id": "ev-1839-bostian-best-referee",
+      "type": "court",
+      "date": "~1839",
+      "location": "North Carolina",
+      "extract": "Bostian Best named as court referee.",
+      "citation": "North Carolina court record, ~1839 (Bostian Best as referee; book/page TBD).",
+      "proves": ["A Bostian Best was active in North Carolina ~1839 and served as court referee"],
+      "doesNotProve": ["That this is the same individual as Bostian Bess (1783 land reference)", "Kinship to Jacob Bess or any other Bess/Best individual"]
+    },
+
+    "ev-1832-michael-best-nc": {
+      "id": "ev-1832-michael-best-nc",
+      "type": "estate-account",
+      "date": "~1832",
+      "location": "North Carolina",
+      "extract": "Michael Best appears in estate/account entry ~1832.",
+      "citation": "North Carolina estate/account record, ~1832 (book/page TBD).",
+      "proves": ["Michael Best present in North Carolina ~1832"],
+      "doesNotProve": ["Kinship to any other Best/Bess individual", "Whether this is the same Michael Best as the ~1793 Lincoln Co. estate account (ev-1793-michael-best-estate)"]
+    },
+
     "ev-1805-jacob-bess-elder-deed": {
       "id": "ev-1805-jacob-bess-elder-deed",
       "type": "deed",

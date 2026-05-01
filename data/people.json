@@ -406,10 +406,39 @@
       ]
     },
 
+    "bostian-best-nc-1839": {
+      "id": "bostian-best-nc-1839", "name": "Bostian Best (NC, court referee ~1839)", "aka": ["Boston Best (1839)"], "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Court referee, North Carolina, ~1839", "status": "PROVEN", "evidence": ["ev-1839-bostian-best-referee"]}
+      ],
+      "notes": [
+        "Whether same as Bostian Bess (1783 land reference): UNKNOWN. The 56-year gap makes separate individuals likely but not certain.",
+        "DO NOT merge with Bostian Bess (1783), Boston Best Sr. (d. 1809), or Boston Bess (1869).",
+        "Relationship to any other Best/Bess individual: UNKNOWN."
+      ]
+    },
+
+    "jonas-r-linebarger": {
+      "id": "jonas-r-linebarger", "name": "Jonas R. Linebarger", "tags": ["bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Recipient of Jacob Bess (elder) care agreement, Lincoln Co., NC, 1837 — agreed to provide lifetime care", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-elder-care"]}
+      ],
+      "notes": ["Relationship to Jacob Bess (elder): UNKNOWN beyond the care agreement. Not a family member per the record."]
+    },
+
+    "william-bluford-nc": {
+      "id": "william-bluford-nc", "name": "William Bluford (NC, 1831)", "tags": ["bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "role", "value": "Purchaser of 4-acre tract from Jacob Bess (elder), Lincoln Co., NC, Feb 1831", "status": "PROVEN", "evidence": ["ev-1831-jacob-bess-elder-deed"]}
+      ],
+      "notes": ["Relationship to Jacob Bess (elder): UNKNOWN beyond the land transaction."]
+    },
+
     "jacob-bess-elder-nc": {
       "id": "jacob-bess-elder-nc", "name": "Jacob Bess (elder, NC, 1805–1837)", "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1805–1837"}, "status": "PROVEN", "evidence": ["ev-1805-jacob-bess-elder-deed", "ev-1831-jacob-bess-elder-deed", "ev-1837-jacob-bess-elder-care"]},
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "1805–1837"}, "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court", "ev-1805-jacob-bess-elder-deed", "ev-1831-jacob-bess-elder-deed", "ev-1837-jacob-bess-elder-care"]},
+        {"predicate": "role", "value": "Defendant in trespass case, NC, 27 Mar 1822", "status": "PROVEN", "evidence": ["ev-1822-jacob-bess-elder-court"]},
         {"predicate": "role", "value": "Care agreement with Jonas R. Linebarger (1837) — indicating advanced age", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-elder-care"]}
       ],
       "notes": [
@@ -421,15 +450,15 @@
     },
 
     "michael-best-nc": {
-      "id": "michael-best-nc", "name": "Michael Best (NC, estate ~1793)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "id": "michael-best-nc", "name": "Michael Best (NC, ~1793–1832)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "by ~1793"}, "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate"]},
-        {"predicate": "member-of", "value": "NC Best cluster (Lincoln County)", "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate"]}
+        {"predicate": "resided", "value": {"place": "North Carolina", "date": "~1793–1832"}, "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate", "ev-1832-michael-best-nc"]},
+        {"predicate": "member-of", "value": "NC Best cluster", "status": "PROVEN", "evidence": ["ev-1793-michael-best-estate", "ev-1832-michael-best-nc"]}
       ],
       "notes": [
-        "Named in estate account alongside Jacob Best ~1793. No family relationship stated — treated as NC Best cluster member only.",
+        "Named in estate account alongside Jacob Best ~1793; appears in separate estate/account entry ~1832. Whether these are the same record or two distinct appearances is UNKNOWN.",
         "DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best individuals UNKNOWN.",
-        "Pushes NC Best cluster activity back to at least ~1793."
+        "Presence documented across ~1793–1832 range if both records refer to the same individual."
       ]
     },
 
