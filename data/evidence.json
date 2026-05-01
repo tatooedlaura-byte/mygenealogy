@@ -13,6 +13,17 @@
       "doesNotProve": ["Catron's full given name (likely Catherine variant — not certain)", "Catron's maiden name", "Their children"]
     },
 
+    "ev-1771-bostian-bess-deed-nc": {
+      "id": "ev-1771-bostian-bess-deed-nc",
+      "type": "deed",
+      "date": "~1771",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Bess acquires a tract of land (from John Ryan/Wyatt; deed recorded in court).",
+      "citation": "Lincoln County, NC deed records, ~1771 (grantor: John Ryan/Wyatt; grantee: Boston Bess).",
+      "proves": ["Boston Bess present in Lincoln County, NC by ~1771", "Boston Bess acquired land in Lincoln Co., NC — earliest confirmed appearance"],
+      "doesNotProve": ["Relationship to any other Bess individual", "Connection to Missouri Bess line", "Whether this is the same Boston as Boston Best Sr. (d. 1809)"]
+    },
+
     "ev-1783-bostian-bess-land-nc": {
       "id": "ev-1783-bostian-bess-land-nc",
       "type": "land-reference",

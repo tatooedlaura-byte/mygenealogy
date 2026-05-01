@@ -394,13 +394,14 @@
     },
 
     "bostian-bess-nc-1783": {
-      "id": "bostian-bess-nc-1783", "name": "Boston (Bostian) Bess (NC, 1783)", "aka": ["Bostian Bess", "Boston Bess (1783)"], "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "id": "bostian-bess-nc-1783", "name": "Boston (Bostian) Bess (NC, ~1771)", "aka": ["Bostian Bess", "Boston Bess (1783)"], "tags": ["bess", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "by 1783"}, "status": "PROVEN", "evidence": ["ev-1783-bostian-bess-land-nc"]},
-        {"predicate": "member-of", "value": "NC Bess cluster (Lincoln County land chain)", "status": "PROVEN", "evidence": ["ev-1783-bostian-bess-land-nc"]}
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "date": "by ~1771"}, "status": "PROVEN", "evidence": ["ev-1771-bostian-bess-deed-nc", "ev-1783-bostian-bess-land-nc"]},
+        {"predicate": "acquired-land", "value": {"place": "Lincoln County, North Carolina", "date": "~1771", "from": "John Ryan/Wyatt"}, "status": "PROVEN", "evidence": ["ev-1771-bostian-bess-deed-nc"]},
+        {"predicate": "member-of", "value": "NC Bess cluster (Lincoln County land chain)", "status": "PROVEN", "evidence": ["ev-1771-bostian-bess-deed-nc", "ev-1783-bostian-bess-land-nc"]}
       ],
       "notes": [
-        "Early landholder in Lincoln County appearing in same land chain as later Jacob Bess (elder). Relationship to Jacob Bess not stated.",
+        "Earliest confirmed appearance: ~1771 deed in Lincoln County (from John Ryan/Wyatt). Second record: 1783 land chain (185 acres). Relationship to Jacob Bess not stated.",
         "DO NOT merge with Boston Best Sr. (d. 1809, ev-1809-boston-best-estate) or Boston Bess (1869, bess-nc-cluster). Three distinct individuals until proven otherwise.",
         "Relationship to any other Bess individual: UNKNOWN."
       ]
