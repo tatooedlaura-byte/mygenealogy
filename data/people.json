@@ -480,10 +480,11 @@
         {"predicate": "died", "value": {"date": "by 5 Nov 1847", "place": "Lincoln County, North Carolina"}, "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "spouse-of", "object": "eliza-bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "John Franklin Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
-        {"predicate": "father-of", "value": "Catherine Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "Mary Ann Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "Jane Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
+        {"predicate": "father-of", "value": "Catharine Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
         {"predicate": "father-of", "value": "Margaret Elizabeth Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
-        {"predicate": "father-of", "value": "Susan Adeline Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]},
-        {"predicate": "father-of", "value": "Mary Ann Bess (Hiram's daughter)", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
+        {"predicate": "father-of", "value": "Susan Adoline Bess", "status": "PROVEN", "evidence": ["ev-1847-hiram-bess-will"]}
       ],
       "notes": [
         "Will includes restrictions on sale of enslaved persons and empowers Eliza to settle debts. Executors named and sworn — confirms formal probate.",
