@@ -79,6 +79,28 @@
       "doesNotProve": ["Kinship between Jacob Bess and Linebarger", "Connection to Missouri Jacob Bess Sr."]
     },
 
+    "ev-1829-samuel-best-deed-nc": {
+      "id": "ev-1829-samuel-best-deed-nc",
+      "type": "deed",
+      "date": "7 Oct 1829",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Samuel Best purchases land from Hugh Jenkins.",
+      "citation": "Lincoln County, NC deed, 7 Oct 1829; grantor: Hugh Jenkins; grantee: Samuel Best.",
+      "proves": ["Samuel Best present in Lincoln Co., NC by 7 Oct 1829 and acquiring land"],
+      "doesNotProve": ["Relationship to Michael Best, Jacob Best/Bess, Peter Bess, or any other cluster member", "Connection to Missouri Bess line"]
+    },
+
+    "ev-1838-jacob-best-rhyne-bill-of-sale-nc": {
+      "id": "ev-1838-jacob-best-rhyne-bill-of-sale-nc",
+      "type": "bill-of-sale",
+      "date": "10 Jul 1838",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Jacob Best transfers property to Catharine Elmina Rhyne.",
+      "citation": "Lincoln County, NC bill of sale, 10 Jul 1838; grantor: Jacob Best; grantee: Catharine Elmina Rhyne.",
+      "proves": ["Jacob Best present in Lincoln Co., NC as of 10 Jul 1838 and transacting property", "Catharine Elmina Rhyne received property directly from Jacob Best"],
+      "doesNotProve": ["The nature of the relationship between Jacob Best and Catharine Elmina Rhyne — direct transfer suggests close personal or familial connection but is not explicit", "Connection to Missouri Bess line"]
+    },
+
     "ev-1830-michael-best-deed-nc": {
       "id": "ev-1830-michael-best-deed-nc",
       "type": "deed",

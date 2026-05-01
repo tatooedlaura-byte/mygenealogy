@@ -567,6 +567,19 @@
       ]
     },
 
+    "samuel-best-nc": {
+      "id": "samuel-best-nc", "name": "Samuel Best (NC, 1829)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1829"}, "status": "PROVEN", "evidence": ["ev-1829-samuel-best-deed-nc"]},
+        {"predicate": "acquired-land", "value": {"date": "7 Oct 1829", "from": "Hugh Jenkins"}, "status": "PROVEN", "evidence": ["ev-1829-samuel-best-deed-nc"]}
+      ],
+      "notes": [
+        "Appears in the same geographic and time cluster as other Best/Bess individuals in Lincoln County (1820s–1830s).",
+        "POSSIBLE ANCESTOR — NOT MERGED. Relationship to Michael Best, Jacob Best, Peter Bess, or any other cluster member: UNKNOWN.",
+        "DO NOT assign family relationships without additional evidence."
+      ]
+    },
+
     "michael-best-nc": {
       "id": "michael-best-nc", "name": "Michael Best (NC, ~1793–1831)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
@@ -695,21 +708,36 @@
     },
 
     "jacob-best-nc-1832": {
-      "id": "jacob-best-nc-1832", "name": "Jacob Best (NC, 1832–1837)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "id": "jacob-best-nc-1832", "name": "Jacob Best (NC, 1832–1838)", "tags": ["best", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
       "claims": [
-        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "dateRange": "1832–1837"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate", "ev-1837-jacob-bess-jacob-best-deed-nc"]},
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "dateRange": "1832–1838"}, "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate", "ev-1837-jacob-bess-jacob-best-deed-nc", "ev-1838-jacob-best-rhyne-bill-of-sale-nc"]},
         {"predicate": "role", "value": "Proved deed of Peter Bess in open court, Lincoln Co., NC, April 1832", "status": "PROVEN", "evidence": ["ev-1832-peter-bess-probate"]},
         {"predicate": "role", "value": "Witness to Jacob Bess land deed, Lincoln Co., NC, 21 Mar 1837", "status": "PROVEN", "evidence": ["ev-1837-jacob-bess-jacob-best-deed-nc"]},
         {"predicate": "role", "value": "Sold property in 1837 to secure lifetime care for Jacob Bess — caretaking role indicating close, likely familial relationship", "status": "PROVEN", "evidence": ["ev-1837-jacob-best-bill-of-sale-nc"]},
         {"predicate": "associated-with", "object": "peter-bess-elder", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate"], "notes": "Proved Peter Bess's deed in open court — same record involvement; specific relationship UNKNOWN."},
         {"predicate": "associated-with", "object": "jacob-bess-elder-nc", "status": "SUPPORTED", "evidence": ["ev-1837-jacob-bess-jacob-best-deed-nc", "ev-1837-jacob-best-bill-of-sale-nc"], "notes": "Two independent 1837 actions: witnessed Jacob Bess's deed AND sold property to fund Jacob Bess's lifetime care. Jacob Best appears to be a younger relative of an older, dependent Jacob Bess. Specific relationship UNKNOWN — do not declare lineage."},
+        {"predicate": "transferred-property-to", "object": "catharine-elmina-rhyne", "value": {"date": "10 Jul 1838"}, "status": "PROVEN", "evidence": ["ev-1838-jacob-best-rhyne-bill-of-sale-nc"], "notes": "Direct transfer suggests close personal or familial connection; specific relationship UNKNOWN."},
+        {"predicate": "associated-with", "object": "catharine-elmina-rhyne", "status": "SUPPORTED", "evidence": ["ev-1838-jacob-best-rhyne-bill-of-sale-nc"], "notes": "Direct property transfer — close personal or familial connection; specific relationship UNKNOWN."},
         {"predicate": "member-of", "value": "NC Best/Bess cluster (Lincoln County)", "status": "SUPPORTED", "evidence": ["ev-1832-peter-bess-probate", "ev-1837-jacob-bess-jacob-best-deed-nc"]}
       ],
       "notes": [
-        "Active in Lincoln County legal proceedings 1832–1837: proved Peter Bess's deed (1832), witnessed Jacob Bess's deed (1837), and sold property to secure Jacob Bess's lifetime care (1837). Confirmed present across three separate events — sustained local ties and clear investment in Jacob Bess's welfare.",
+        "Active in Lincoln County 1832–1838: proved Peter Bess's deed (1832), witnessed Jacob Bess's deed (1837), sold property to secure Jacob Bess's lifetime care (1837), and transferred property to Catharine Elmina Rhyne (1838). Confirmed present across four separate events — sustained local ties.",
         "Jacob Bess and Jacob Best appear together in two 1837 transactions, confirming they are distinct individuals. Jacob Best's caretaking role strongly suggests he is a younger relative of Jacob Bess — do not declare relationship without further evidence.",
         "DO NOT merge with Missouri Jacob Bess Sr. without further evidence.",
         "DO NOT merge with Jacob Best (adjoining landholder, 1795) or Jacob Best (1809 deed) without further evidence. Multiple Jacob Bests may exist in this cluster."
+      ]
+    },
+
+    "catharine-elmina-rhyne": {
+      "id": "catharine-elmina-rhyne", "name": "Catharine Elmina Rhyne", "tags": ["rhyne", "bess-nc-cluster", "north-carolina"], "group": "bess-nc-cluster",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1838"}, "status": "PROVEN", "evidence": ["ev-1838-jacob-best-rhyne-bill-of-sale-nc"]},
+        {"predicate": "received-property-from", "object": "jacob-best-nc-1832", "value": {"date": "10 Jul 1838"}, "status": "PROVEN", "evidence": ["ev-1838-jacob-best-rhyne-bill-of-sale-nc"]},
+        {"predicate": "associated-with", "object": "jacob-best-nc-1832", "status": "SUPPORTED", "evidence": ["ev-1838-jacob-best-rhyne-bill-of-sale-nc"], "notes": "Received property directly from Jacob Best; direct transfer suggests close personal or familial connection — specific relationship UNKNOWN."}
+      ],
+      "notes": [
+        "Surname Rhyne; received property from Jacob Best 10 Jul 1838. Connection suggests close personal or familial tie to the Best/Bess cluster — do not assign specific relationship without additional evidence.",
+        "DO NOT merge with any other individual or assign to a family line without further records."
       ]
     },
 
