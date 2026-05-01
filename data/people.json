@@ -183,7 +183,22 @@
       "notes": [
         "DO NOT confuse with 'Boston Bess (1869, NC)' — different person.",
         "Moved from 'direct-line' to 'bess-nc-origins' group: connection to the Missouri Jacob Bess line is no longer treated as a direct-ancestor chain. Boston is retained as a documented NC individual; the link Boston→Peter→Jacob is preserved as REPLACED on the affected claims.",
-        "Land activity documented 1775 (Tryon Co.) through 1795 (Lincoln Co.). Geographic shift Tryon→Lincoln consistent with county boundary changes in this period."
+        "Land activity documented 1775 (Tryon Co.) through 1795 (Lincoln Co.). Geographic shift Tryon→Lincoln consistent with county boundary changes in this period.",
+        "CRITICAL — POSSIBLE MULTIPLE INDIVIDUALS: A Boston Best appears in both 18th-century records (1775–1795) and an 1820 deed (ev-1820-boston-best-deed-nc). This Sr. record carries a death date of 'by 1809' from the estate record. The 1820 Boston Best CANNOT be this individual if the 1809 estate date is correct. May represent a Jr. or a second individual of the same name. DO NOT merge with boston-best-nc-1820 until identity is resolved."
+      ]
+    },
+
+    "boston-best-nc-1820": {
+      "id": "boston-best-nc-1820", "name": "Boston Best (NC, 1820)", "tags": ["best", "north-carolina", "nc-origins"], "group": "bess-nc-origins",
+      "claims": [
+        {"predicate": "resided", "value": {"place": "Lincoln County, North Carolina", "year": "1820"}, "status": "PROVEN", "evidence": ["ev-1820-boston-best-deed-nc"]},
+        {"predicate": "acquired-land", "value": {"date": "21 Mar 1820", "acreage": "~318", "from": "Baxter/Reynolds"}, "status": "PROVEN", "evidence": ["ev-1820-boston-best-deed-nc"]}
+      ],
+      "notes": [
+        "A Boston Best appears in both 18th-century records and this 1820 deed; may represent either a long-lived individual or multiple individuals of the same name (Sr./Jr.).",
+        "CANNOT be Boston Best Sr. (id: boston-best-sr) if the 1809 estate record is correct — he was already deceased. May be a son, grandson, or unrelated namesake.",
+        "DO NOT merge with boston-best-sr or any other Best/Bess individual without clear evidence.",
+        "Cluster continues into 1800s: Boston Best (1820) ↔ Peter Best (1780s–1832) ↔ Frederick, Daniel, Jacob Best — all SUPPORTED association only, no family structure assigned."
       ]
     },
 

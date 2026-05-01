@@ -255,6 +255,17 @@
       "doesNotProve": ["Relationship to Boston Best or any other Best/Bess individual", "Connection to Missouri Bess line"]
     },
 
+    "ev-1820-boston-best-deed-nc": {
+      "id": "ev-1820-boston-best-deed-nc",
+      "type": "deed",
+      "date": "21 Mar 1820",
+      "location": "Lincoln County, North Carolina",
+      "extract": "Boston Best purchases 318-acre tract from Baxter/Reynolds parties.",
+      "citation": "Lincoln County, NC deed, 21 Mar 1820; grantors: Baxter/Reynolds; grantee: Boston Best; acreage: ~318.",
+      "proves": ["A person named Boston Best was present and acquiring land in Lincoln Co., NC as of 21 Mar 1820"],
+      "doesNotProve": ["This is the same Boston Best as the Sr. who died by 1809 (CONFLICT — see notes)", "Relationship to Peter Best, Frederick Best, or any other cluster member", "Connection to Missouri Bess line"]
+    },
+
     "ev-1809-boston-jacob-best-deed": {
       "id": "ev-1809-boston-jacob-best-deed",
       "type": "deed",
