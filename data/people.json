@@ -345,29 +345,39 @@
       "name": "Jacob Bess",
       "label": "Jacob Bess Sr. (Missouri)",
       "tags": [
-        "direct-line",
-        "missouri"
+        "bess",
+        "bess-mo",
+        "direct-line"
       ],
-      "group": "direct-line",
+      "group": "bess-mo-cluster",
       "claims": [
         {
           "predicate": "born",
-          "value": "~1798",
+          "value": "North Carolina (~1798)",
           "status": "SUPPORTED",
-          "notes": "From 1850 census age — estimated, not a birth record"
+          "evidence": [],
+          "notes": "Date from 1850 census age (estimated); birthplace from 1850 census (self-reported). Both SUPPORTED only per protocol."
         },
         {
           "predicate": "born-in",
           "value": "North Carolina",
           "status": "SUPPORTED",
-          "notes": "From 1850 census — self-reported birthplace"
+          "evidence": [],
+          "notes": "From 1850 census — self-reported birthplace. Retained for compatibility."
         },
         {
           "predicate": "resided",
-          "value": "Cape Girardeau County, Missouri",
+          "value": "Cape Girardeau / Bollinger County, Missouri",
           "status": "SUPPORTED",
           "evidence": [],
           "notes": "Downgraded from PROVEN: no evidence record attached"
+        },
+        {
+          "predicate": "possibly-related-to",
+          "object": "jacob-bess-elder-nc",
+          "status": "SUPPORTED",
+          "evidence": [],
+          "notes": "Same surname, same county of origin, correct timeframe — but no direct evidence. Do NOT assign father-son or any specific relationship without a record."
         }
       ]
     },
@@ -2186,11 +2196,11 @@
     },
     "jacob-bess-elder-nc": {
       "id": "jacob-bess-elder-nc",
-      "name": "Jacob Bess (elder, NC, 1805–1839)",
+      "name": "Jacob Bess (elder, NC)",
       "tags": [
         "bess",
-        "bess-nc-cluster",
-        "north-carolina"
+        "bess-nc",
+        "elder"
       ],
       "group": "bess-nc-cluster",
       "claims": [
@@ -2252,6 +2262,23 @@
             "ev-1837-jacob-best-bill-of-sale-nc"
           ],
           "notes": "Jacob Best witnessed Jacob Bess's 1837 deed AND sold property to secure Jacob Bess's lifetime care — two independent actions strongly indicating close, likely familial relationship. Jacob Best appears to be a younger relative. Specific tie UNKNOWN."
+        },
+        {
+          "predicate": "event",
+          "value": "1816 apprenticeship indenture (master)",
+          "status": "SUPPORTED",
+          "evidence": [],
+          "notes": "Source document not yet entered into evidence.json. Kept SUPPORTED until evidence ID is attached."
+        },
+        {
+          "predicate": "event",
+          "value": "1837 support agreement (care for life)",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1837-jacob-bess-elder-care",
+            "ev-1839-jacob-bess-linebarger-deed"
+          ],
+          "notes": "Care arrangement confirmed by 1837 care agreement and follow-up 1839 deed to Linebarger."
         }
       ],
       "notes": [
