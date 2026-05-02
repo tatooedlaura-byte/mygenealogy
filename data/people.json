@@ -154,7 +154,7 @@
           "notes": "Direct-link person between Bess and Labrot lines."
         },
         {
-          "predicate": "aka",
+          "predicate": "note",
           "value": "Roddi Bess (1880 census name)",
           "status": "PROVEN",
           "evidence": [
@@ -330,7 +330,7 @@
           ]
         },
         {
-          "predicate": "aka",
+          "predicate": "note",
           "value": "maiden name Sanders/Saunders",
           "status": "STRONGLY SUPPORTED",
           "evidence": [
@@ -968,7 +968,7 @@
           ]
         },
         {
-          "predicate": "sold-land",
+          "predicate": "conveyed-land",
           "value": {
             "date": "December 1833",
             "acreage": "238",
@@ -1059,7 +1059,7 @@
           ]
         },
         {
-          "predicate": "aka",
+          "predicate": "note",
           "value": "Catron likely a Catherine variant",
           "status": "SUPPORTED",
           "evidence": [
@@ -1226,7 +1226,7 @@
           ]
         },
         {
-          "predicate": "sold-land",
+          "predicate": "conveyed-land",
           "value": {
             "date": "5 Sept 1810",
             "acreage": "~750"
@@ -1300,7 +1300,7 @@
           ]
         },
         {
-          "predicate": "parent-of",
+          "predicate": "mother-of",
           "object": "elizabeth-best-nc",
           "status": "PROVEN",
           "evidence": [
@@ -2097,7 +2097,7 @@
           ]
         },
         {
-          "predicate": "member-of",
+          "predicate": "associated-with",
           "value": "NC Bess cluster (Lincoln County land chain)",
           "status": "PROVEN",
           "evidence": [
@@ -2337,7 +2337,7 @@
           "notes": "Tract sold 4 Dec 1830 described as originally granted to Michael Best — indicating established presence and status within the Lincoln County Best/Bess group."
         },
         {
-          "predicate": "member-of",
+          "predicate": "associated-with",
           "value": "NC Best cluster (Lincoln County)",
           "status": "PROVEN",
           "evidence": [
@@ -2646,7 +2646,7 @@
           "notes": "Received property from Peter Bess, 7 Feb 1832; same surname and direct transfer — specific relationship UNKNOWN."
         },
         {
-          "predicate": "member-of",
+          "predicate": "associated-with",
           "value": "NC Bess cluster (Lincoln County)",
           "status": "SUPPORTED",
           "evidence": [
@@ -2694,7 +2694,7 @@
       "group": "bess-nc-cluster",
       "claims": [
         {
-          "predicate": "member-of",
+          "predicate": "associated-with",
           "value": "NC Best/Bess cluster (Lincoln County)",
           "status": "PROVEN",
           "evidence": [
@@ -2774,7 +2774,7 @@
           "notes": "Two independent 1837 actions: witnessed Jacob Bess's deed AND sold property to fund Jacob Bess's lifetime care. Jacob Best appears to be a younger relative of an older, dependent Jacob Bess. Specific relationship UNKNOWN — do not declare lineage."
         },
         {
-          "predicate": "transferred-property-to",
+          "predicate": "sold-land-to",
           "object": "catharine-elmina-rhyne",
           "value": {
             "date": "10 Jul 1838"
@@ -2795,7 +2795,7 @@
           "notes": "Direct property transfer — close personal or familial connection; specific relationship UNKNOWN."
         },
         {
-          "predicate": "member-of",
+          "predicate": "associated-with",
           "value": "NC Best/Bess cluster (Lincoln County)",
           "status": "SUPPORTED",
           "evidence": [
@@ -2924,7 +2924,7 @@
           ]
         },
         {
-          "predicate": "received-property-from",
+          "predicate": "received-land-from",
           "object": "jacob-best-nc-1832",
           "value": {
             "date": "10 Jul 1838"
@@ -3324,7 +3324,7 @@
           ]
         },
         {
-          "predicate": "member-of",
+          "predicate": "household-member-of",
           "value": "John Bess household, Madison Co. MO 1850",
           "status": "PROVEN",
           "evidence": [
@@ -3368,7 +3368,7 @@
           ]
         },
         {
-          "predicate": "member-of",
+          "predicate": "household-member-of",
           "value": "John Bess household, Madison Co. MO 1850",
           "status": "PROVEN",
           "evidence": [
@@ -3413,7 +3413,7 @@
           ]
         },
         {
-          "predicate": "member-of",
+          "predicate": "household-member-of",
           "value": "John Bess household, Madison Co. MO 1850",
           "status": "PROVEN",
           "evidence": [
@@ -3457,7 +3457,7 @@
           ]
         },
         {
-          "predicate": "member-of",
+          "predicate": "household-member-of",
           "value": "John Bess household, Madison Co. MO 1850",
           "status": "PROVEN",
           "evidence": [
@@ -3501,7 +3501,7 @@
           ]
         },
         {
-          "predicate": "member-of",
+          "predicate": "household-member-of",
           "value": "John Bess household, Madison Co. MO 1850",
           "status": "PROVEN",
           "evidence": [
@@ -3523,7 +3523,7 @@
       "group": "bess-mo-cluster",
       "claims": [
         {
-          "predicate": "member-of",
+          "predicate": "associated-with",
           "value": "Missouri Bess cluster (1869 estate event)",
           "status": "PROVEN",
           "evidence": [
@@ -5484,7 +5484,7 @@
       "group": "best-cluster",
       "claims": [
         {
-          "predicate": "member-of",
+          "predicate": "associated-with",
           "value": "1823 Cape Girardeau land cluster (Best/Slinkard/Kinder)",
           "status": "PROVEN",
           "evidence": [
