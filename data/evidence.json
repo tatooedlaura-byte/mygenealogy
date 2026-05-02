@@ -1094,15 +1094,27 @@
       "doesNotProve": ["Catherine is John's wife (household co-residence only; 1850 census did not record relationships)", "Listed individuals are John's children (household only)", "Any connection to Jacob Bess Sr. or the Cape Girardeau/Bollinger Bess line"]
     },
 
-    "ev-1816-jacob-bess-apprenticeship-nc": {
-      "id": "ev-1816-jacob-bess-apprenticeship-nc",
+    "ev-jacob-bess-1816-indentured-apprentice": {
+      "id": "ev-jacob-bess-1816-indentured-apprentice",
       "type": "court",
-      "date": "1816",
+      "date": "16 April 1816",
       "location": "Lincoln County, North Carolina",
-      "extract": "[Extract not yet transcribed — see image 380 of 457, Image Group 007641006]",
+      "extract": "Lincoln County Court bound Benjamin Frye, an orphan (son of John Frye), to Jacob Bess as an apprentice until age 21. Jacob Bess agreed to provide food, lodging, clothing, and care, and to teach Frye reading, writing, and the trade of weaving. He also agreed to provide a horse valued at $45 at the end of the term. Signed before James McKee, Chairman of Lincoln County Court.",
       "citation": "\"Lincoln, North Carolina, United States records,\" images, FamilySearch (https://www.familysearch.org/ark:/61903/3:1:3QS7-99G8-Y9F6-9?view=explore : May 2, 2026), image 380 of 457; Image Group Number: 007641006.",
-      "proves": ["Jacob Bess (elder, NC) was present in Lincoln County, North Carolina by 1816", "Jacob Bess served as master in an apprenticeship indenture"],
-      "doesNotProve": ["That this Jacob Bess is the same individual as Jacob Bess Sr. of Missouri", "Any family relationship between NC Jacob Bess and MO Jacob Bess Sr.", "Jacob Bess's parents or children"]
+      "persons": ["Jacob Bess (master)", "Benjamin Frye (orphan apprentice, son of John Frye)", "James McKee (Chairman, Lincoln County Court)"],
+      "proves": [
+        "A man named Jacob Bess was residing in Lincoln County, NC on 16 April 1816",
+        "He was an established adult trusted by the county court to take on an orphan apprentice",
+        "He practiced or supervised the trade of weaving",
+        "He had the economic and social standing to take on an apprentice and provide a horse valued at $45"
+      ],
+      "doesNotProve": [
+        "The age of Jacob Bess",
+        "Any family relationship between this Jacob Bess and Jacob Bess Sr. of Missouri",
+        "That this individual is the same person as the Missouri Jacob Bess Sr.",
+        "Jacob Bess's parents, spouse, or children"
+      ],
+      "notes": "This record indicates an established, likely older adult male. Based on timeline analysis, this individual is likely the elder Jacob Bess and should be kept separate from the younger Jacob Bess who appears in Missouri by the early 1820s. Do NOT attach to Missouri Jacob Bess Sr."
     },
 
     "ev-1850-jacob-bess-cluster-analysis": {
