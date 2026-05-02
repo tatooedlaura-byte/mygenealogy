@@ -125,7 +125,8 @@
     "barbary-bess-mo": {
       "id": "barbary-bess-mo", "name": "Barbary Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
       "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"},
+        {"predicate": "possibly-same-as", "object": "barbara-bess-blaylock", "status": "SUPPORTED", "notes": "Barbary in 1850 likely Barbara who later married Blaylock"}
       ]
     },
 
@@ -139,7 +140,8 @@
     "edward-bess-mo": {
       "id": "edward-bess-mo", "name": "Edward Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
       "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"},
+        {"predicate": "possibly-same-as", "object": "edward-b-bess", "status": "SUPPORTED", "notes": "1850 household Edward (age ~15) likely same person as later Edward B. Bess, but not explicitly proven yet"}
       ]
     },
 
