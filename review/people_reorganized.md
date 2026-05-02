@@ -2516,10 +2516,12 @@ _(group key: `bess-mo-cluster`)_
 - before 13 Feb 1867 — died, Bollinger County, Missouri (PROVEN)
 
 ### 📚 Evidence
-- **census** (1830, Cape Girardeau County, Missouri) — "Male age 30–39 (born ~1790–1800); household with multiple children."
-  Citation: 1830 U.S. Census, Cape Girardeau Co., MO.
+- **census** (1850, Cape Girardeau County, Missouri) — "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel."
+  Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
 - **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "Daniel Slinkard and Hannah his wife, John Best and Caty his wife, and Jacob Best and Barbary his wife are named; the wives were privately examined apart from their husbands."
   Citation: User-provided 1823 Cape Girardeau Co., MO deed transcription (recorded 31 Mar 1831).
+- **census** (1830, Cape Girardeau County, Missouri) — "Male age 30–39 (born ~1790–1800); household with multiple children."
+  Citation: 1830 U.S. Census, Cape Girardeau Co., MO.
 - **deed** (16 Mar 1860, Bollinger County, Missouri) — "Jacob Bess Senior of Bollinger County conveyed approximately 34 acres to Daniel Bess: north and west part of the southwest quarter of the northwest quarter of Section 7, Township 31 North, Range 9 East."
   Citation: Bollinger County deed, 16 Mar 1860.
 - **probate** (13 Feb 1867, Bollinger County, Missouri) — "Estate of Jacob Bess, Sen., dec'd. Matilda Bess, administratrix, presents her 3rd Annual Settlement and asks for an order of distribution among the heirs."
