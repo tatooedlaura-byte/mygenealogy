@@ -187,6 +187,79 @@
       ]
     },
 
+    "peter-bess-mo": {
+      "id": "peter-bess-mo", "name": "Peter Bess", "label": "Peter Bess (Missouri)", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": "~1797", "status": "PROVEN", "notes": "1850 census age"},
+        {"predicate": "born-in", "value": "North Carolina", "status": "PROVEN", "notes": "1850 census"},
+        {"predicate": "resided", "value": "Cape Girardeau County, Missouri", "status": "PROVEN"},
+        {"predicate": "associated-with", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "Same county, same timeframe, same NC origin"}
+      ]
+    },
+
+    "martha-bess-mo-peter-wife": {
+      "id": "martha-bess-mo-peter-wife", "name": "Martha Bess", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship not explicitly stated"}
+      ]
+    },
+
+    "mary-bess-peter-household": {
+      "id": "mary-bess-peter-household", "name": "Mary Bess", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "lurena-bess-peter-household": {
+      "id": "lurena-bess-peter-household", "name": "Lurena Bess", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "elijah-bess-peter-household": {
+      "id": "elijah-bess-peter-household", "name": "Elijah Bess", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "caroline-bess-peter-household": {
+      "id": "caroline-bess-peter-household", "name": "Caroline Bess", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "adeline-bess-peter-household": {
+      "id": "adeline-bess-peter-household", "name": "Adeline Bess", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "anderson-bess-mo": {
+      "id": "anderson-bess-mo", "name": "Anderson Bess", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "peter-bess-jr-mo": {
+      "id": "peter-bess-jr-mo", "name": "Peter Bess Jr.", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "martha-bess-child-peter": {
+      "id": "martha-bess-child-peter", "name": "Martha Bess (child)", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "peter-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
     "unknown-wife-implied": {
       "id": "unknown-wife-implied", "name": "(Unknown wife — implied, replaced)", "tags": ["bess", "rejected"], "group": "other",
       "claims": [
