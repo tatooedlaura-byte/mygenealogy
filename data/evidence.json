@@ -1,7 +1,6 @@
 {
   "$schema": "Each evidence record describes a single source document. 'proves' lists what the record establishes; 'doesNotProve' is what it CANNOT establish (so future claims don't overstate).",
   "evidence": {
-
     "ev-1775-nc-deed-boston-best": {
       "id": "ev-1775-nc-deed-boston-best",
       "type": "deed",
@@ -9,10 +8,17 @@
       "location": "Tryon County, North Carolina",
       "extract": "Boston Best (and wife Catron Best) sells land to George Cathey. Witnesses: George Lamkin, Andrew Cathey.",
       "citation": "Tryon County, NC deed, 4 Feb 1775 (proved July 1775); grantee George Cathey; witnesses George Lamkin, Andrew Cathey.",
-      "proves": ["Boston Best present in Tryon Co., NC by 4 Feb 1775", "Wife's recorded name was Catron Best", "Boston Best was active in land transactions by 1775"],
-      "doesNotProve": ["Catron's full given name (likely Catherine variant — not certain)", "Catron's maiden name", "Their children"]
+      "proves": [
+        "Boston Best present in Tryon Co., NC by 4 Feb 1775",
+        "Wife's recorded name was Catron Best",
+        "Boston Best was active in land transactions by 1775"
+      ],
+      "doesNotProve": [
+        "Catron's full given name (likely Catherine variant — not certain)",
+        "Catron's maiden name",
+        "Their children"
+      ]
     },
-
     "ev-1771-bostian-bess-deed-nc": {
       "id": "ev-1771-bostian-bess-deed-nc",
       "type": "deed",
@@ -20,10 +26,16 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Bess acquires a tract of land (from John Ryan/Wyatt; deed recorded in court).",
       "citation": "Lincoln County, NC deed records, ~1771 (grantor: John Ryan/Wyatt; grantee: Boston Bess).",
-      "proves": ["Boston Bess present in Lincoln County, NC by ~1771", "Boston Bess acquired land in Lincoln Co., NC — earliest confirmed appearance"],
-      "doesNotProve": ["Relationship to any other Bess individual", "Connection to Missouri Bess line", "Whether this is the same Boston as Boston Best Sr. (d. 1809)"]
+      "proves": [
+        "Boston Bess present in Lincoln County, NC by ~1771",
+        "Boston Bess acquired land in Lincoln Co., NC — earliest confirmed appearance"
+      ],
+      "doesNotProve": [
+        "Relationship to any other Bess individual",
+        "Connection to Missouri Bess line",
+        "Whether this is the same Boston as Boston Best Sr. (d. 1809)"
+      ]
     },
-
     "ev-1783-bostian-bess-land-nc": {
       "id": "ev-1783-bostian-bess-land-nc",
       "type": "land-reference",
@@ -31,10 +43,16 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston (Bostian) Bess — 185 acres (referenced in court land chain).",
       "citation": "Lincoln County, NC court land chain exhibit, 13 Oct 1783.",
-      "proves": ["Boston/Bostian Bess held 185 acres in Lincoln Co., NC by 1783", "Bostian Bess present in Lincoln Co., NC land chain"],
-      "doesNotProve": ["Relationship to Jacob Bess (elder) or any other Bess individual", "Connection to Missouri Bess line", "Whether this is the same Boston as Boston Best Sr. (d. 1809)"]
+      "proves": [
+        "Boston/Bostian Bess held 185 acres in Lincoln Co., NC by 1783",
+        "Bostian Bess present in Lincoln Co., NC land chain"
+      ],
+      "doesNotProve": [
+        "Relationship to Jacob Bess (elder) or any other Bess individual",
+        "Connection to Missouri Bess line",
+        "Whether this is the same Boston as Boston Best Sr. (d. 1809)"
+      ]
     },
-
     "ev-1822-jacob-bess-elder-court": {
       "id": "ev-1822-jacob-bess-elder-court",
       "type": "court",
@@ -42,10 +60,15 @@
       "location": "North Carolina",
       "extract": "Jacob Bess named as defendant in trespass case.",
       "citation": "North Carolina court record, 27 Mar 1822 (trespass case; book/page TBD).",
-      "proves": ["Jacob Bess (elder) was present and active in North Carolina by 27 Mar 1822"],
-      "doesNotProve": ["Outcome of the case", "Kinship to any other Bess individual", "Connection to Missouri Jacob Bess Sr."]
+      "proves": [
+        "Jacob Bess (elder) was present and active in North Carolina by 27 Mar 1822"
+      ],
+      "doesNotProve": [
+        "Outcome of the case",
+        "Kinship to any other Bess individual",
+        "Connection to Missouri Jacob Bess Sr."
+      ]
     },
-
     "ev-1839-bostian-best-referee": {
       "id": "ev-1839-bostian-best-referee",
       "type": "court",
@@ -53,10 +76,14 @@
       "location": "North Carolina",
       "extract": "Bostian Best named as court referee.",
       "citation": "North Carolina court record, ~1839 (Bostian Best as referee; book/page TBD).",
-      "proves": ["A Bostian Best was active in North Carolina ~1839 and served as court referee"],
-      "doesNotProve": ["That this is the same individual as Bostian Bess (1783 land reference)", "Kinship to Jacob Bess or any other Bess/Best individual"]
+      "proves": [
+        "A Bostian Best was active in North Carolina ~1839 and served as court referee"
+      ],
+      "doesNotProve": [
+        "That this is the same individual as Bostian Bess (1783 land reference)",
+        "Kinship to Jacob Bess or any other Bess/Best individual"
+      ]
     },
-
     "ev-1832-michael-best-nc": {
       "id": "ev-1832-michael-best-nc",
       "type": "estate-account",
@@ -64,10 +91,14 @@
       "location": "North Carolina",
       "extract": "Michael Best appears in estate/account entry ~1832.",
       "citation": "North Carolina estate/account record, ~1832 (book/page TBD).",
-      "proves": ["Michael Best present in North Carolina ~1832"],
-      "doesNotProve": ["Kinship to any other Best/Bess individual", "Whether this is the same Michael Best as the ~1793 Lincoln Co. estate account (ev-1793-michael-best-estate)"]
+      "proves": [
+        "Michael Best present in North Carolina ~1832"
+      ],
+      "doesNotProve": [
+        "Kinship to any other Best/Bess individual",
+        "Whether this is the same Michael Best as the ~1793 Lincoln Co. estate account (ev-1793-michael-best-estate)"
+      ]
     },
-
     "ev-1839-jacob-bess-linebarger-deed": {
       "id": "ev-1839-jacob-bess-linebarger-deed",
       "type": "deed",
@@ -75,10 +106,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Additional deed from Jacob Bess to Jonas R. Linebarger (Book 37, p. 547).",
       "citation": "Lincoln County, NC deed, 1839, Book 37, p. 547.",
-      "proves": ["A second conveyance from Jacob Bess (elder) to Jonas R. Linebarger occurred in 1839", "Confirms ongoing association between Jacob Bess and Linebarger consistent with care agreement"],
-      "doesNotProve": ["Kinship between Jacob Bess and Linebarger", "Connection to Missouri Jacob Bess Sr."]
+      "proves": [
+        "A second conveyance from Jacob Bess (elder) to Jonas R. Linebarger occurred in 1839",
+        "Confirms ongoing association between Jacob Bess and Linebarger consistent with care agreement"
+      ],
+      "doesNotProve": [
+        "Kinship between Jacob Bess and Linebarger",
+        "Connection to Missouri Jacob Bess Sr."
+      ]
     },
-
     "ev-1846-deed-trust-boston-peter-nc": {
       "id": "ev-1846-deed-trust-boston-peter-nc",
       "type": "deed-of-trust-reference",
@@ -86,10 +122,17 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Land described as adjoining Boston Bess property and Peter Best property.",
       "citation": "Lincoln County, NC deed of trust, 1846; land boundaries described as adjoining Boston Bess and Peter Best.",
-      "proves": ["Land associated with Boston Bess and Peter Best continued to serve as geographic reference points in Lincoln Co., NC as late as 1846", "Their properties were geographically proximate within the same land area"],
-      "doesNotProve": ["That Boston Bess or Peter Best were alive in 1846 — posthumous land references are standard practice", "Family relationship between Boston Bess and Peter Best", "Which Boston Bess is referenced (multiple individuals of this name existed)", "Connection to Missouri Bess line"]
+      "proves": [
+        "Land associated with Boston Bess and Peter Best continued to serve as geographic reference points in Lincoln Co., NC as late as 1846",
+        "Their properties were geographically proximate within the same land area"
+      ],
+      "doesNotProve": [
+        "That Boston Bess or Peter Best were alive in 1846 — posthumous land references are standard practice",
+        "Family relationship between Boston Bess and Peter Best",
+        "Which Boston Bess is referenced (multiple individuals of this name existed)",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1848-boston-bess-deed-gift-nc": {
       "id": "ev-1848-boston-bess-deed-gift-nc",
       "type": "deed-of-gift",
@@ -97,10 +140,17 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Bess refers to 'my beloved son Hiram Bess'; Eliza Bess identified as widow of Hiram Bess.",
       "citation": "Lincoln County, NC deed of gift, 22 Aug 1848; grantor: Boston Bess; references: 'my beloved son Hiram Bess' (deceased by this date); Eliza Bess named as Hiram's widow.",
-      "proves": ["Boston Bess was alive and transacting in Lincoln Co., NC as of 22 Aug 1848", "Hiram Bess was the son of Boston Bess — explicitly stated ('my beloved son')", "Eliza Bess was the widow of Hiram Bess as of 22 Aug 1848"],
-      "doesNotProve": ["Boston Bess's relationship to other Boston Best/Bess individuals in the cluster", "Connection to Missouri Bess line", "Whether Boston Bess had other children beyond Hiram"]
+      "proves": [
+        "Boston Bess was alive and transacting in Lincoln Co., NC as of 22 Aug 1848",
+        "Hiram Bess was the son of Boston Bess — explicitly stated ('my beloved son')",
+        "Eliza Bess was the widow of Hiram Bess as of 22 Aug 1848"
+      ],
+      "doesNotProve": [
+        "Boston Bess's relationship to other Boston Best/Bess individuals in the cluster",
+        "Connection to Missouri Bess line",
+        "Whether Boston Bess had other children beyond Hiram"
+      ]
     },
-
     "ev-1848-noah-bess-eli-rhyne-deed-trust-nc": {
       "id": "ev-1848-noah-bess-eli-rhyne-deed-trust-nc",
       "type": "deed-of-trust",
@@ -108,10 +158,18 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Noah Bess and Eli Rhyne act jointly as security in deed of trust.",
       "citation": "Lincoln County, NC deed of trust, 24 Aug 1848; securities: Noah Bess and Eli Rhyne.",
-      "proves": ["Noah Bess present in Lincoln Co., NC by 24 Aug 1848", "Eli Rhyne present in Lincoln Co., NC by 24 Aug 1848", "Noah Bess and Eli Rhyne acted together as financial securities — indicating mutual trust and close social/economic ties"],
-      "doesNotProve": ["Specific family relationship between Noah Bess and Eli Rhyne", "Parent-child or marriage connection", "Generational placement within the Best/Bess cluster", "Connection to Missouri Bess line"]
+      "proves": [
+        "Noah Bess present in Lincoln Co., NC by 24 Aug 1848",
+        "Eli Rhyne present in Lincoln Co., NC by 24 Aug 1848",
+        "Noah Bess and Eli Rhyne acted together as financial securities — indicating mutual trust and close social/economic ties"
+      ],
+      "doesNotProve": [
+        "Specific family relationship between Noah Bess and Eli Rhyne",
+        "Parent-child or marriage connection",
+        "Generational placement within the Best/Bess cluster",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1829-samuel-best-deed-nc": {
       "id": "ev-1829-samuel-best-deed-nc",
       "type": "deed",
@@ -119,10 +177,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Samuel Best purchases land from Hugh Jenkins.",
       "citation": "Lincoln County, NC deed, 7 Oct 1829; grantor: Hugh Jenkins; grantee: Samuel Best.",
-      "proves": ["Samuel Best present in Lincoln Co., NC by 7 Oct 1829 and acquiring land"],
-      "doesNotProve": ["Relationship to Michael Best, Jacob Best/Bess, Peter Bess, or any other cluster member", "Connection to Missouri Bess line"]
+      "proves": [
+        "Samuel Best present in Lincoln Co., NC by 7 Oct 1829 and acquiring land"
+      ],
+      "doesNotProve": [
+        "Relationship to Michael Best, Jacob Best/Bess, Peter Bess, or any other cluster member",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1838-jacob-best-rhyne-bill-of-sale-nc": {
       "id": "ev-1838-jacob-best-rhyne-bill-of-sale-nc",
       "type": "bill-of-sale",
@@ -130,10 +192,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Jacob Best transfers property to Catharine Elmina Rhyne.",
       "citation": "Lincoln County, NC bill of sale, 10 Jul 1838; grantor: Jacob Best; grantee: Catharine Elmina Rhyne.",
-      "proves": ["Jacob Best present in Lincoln Co., NC as of 10 Jul 1838 and transacting property", "Catharine Elmina Rhyne received property directly from Jacob Best"],
-      "doesNotProve": ["The nature of the relationship between Jacob Best and Catharine Elmina Rhyne — direct transfer suggests close personal or familial connection but is not explicit", "Connection to Missouri Bess line"]
+      "proves": [
+        "Jacob Best present in Lincoln Co., NC as of 10 Jul 1838 and transacting property",
+        "Catharine Elmina Rhyne received property directly from Jacob Best"
+      ],
+      "doesNotProve": [
+        "The nature of the relationship between Jacob Best and Catharine Elmina Rhyne — direct transfer suggests close personal or familial connection but is not explicit",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1830-michael-best-deed-nc": {
       "id": "ev-1830-michael-best-deed-nc",
       "type": "deed",
@@ -141,10 +208,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Michael Best sells tract originally granted to himself.",
       "citation": "Lincoln County, NC deed, 4 Dec 1830; grantor: Michael Best; tract described as originally granted to Michael Best.",
-      "proves": ["Michael Best held land by original grant in Lincoln Co., NC — indicating established, long-term presence", "Michael Best was actively transacting land as of 4 Dec 1830"],
-      "doesNotProve": ["Relationship to Peter Bess, Jacob Best/Bess, or any other cluster member", "Connection to Missouri Bess line"]
+      "proves": [
+        "Michael Best held land by original grant in Lincoln Co., NC — indicating established, long-term presence",
+        "Michael Best was actively transacting land as of 4 Dec 1830"
+      ],
+      "doesNotProve": [
+        "Relationship to Peter Bess, Jacob Best/Bess, or any other cluster member",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1831-michael-best-deed": {
       "id": "ev-1831-michael-best-deed",
       "type": "deed",
@@ -152,10 +224,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Michael Best sells 135-acre tract on Long Creek to James Ferguson for $300.",
       "citation": "Lincoln County, NC deed, 15 Oct 1831, recorded Nov 1836; location: Long Creek.",
-      "proves": ["Michael Best held and sold a 135-acre tract in Lincoln Co., NC in 1831", "James Ferguson was the purchaser"],
-      "doesNotProve": ["Kinship between Michael Best and any other Best/Bess individual", "Connection to Missouri Bess line"]
+      "proves": [
+        "Michael Best held and sold a 135-acre tract in Lincoln Co., NC in 1831",
+        "James Ferguson was the purchaser"
+      ],
+      "doesNotProve": [
+        "Kinship between Michael Best and any other Best/Bess individual",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1832-peter-bess-fanny-deed": {
       "id": "ev-1832-peter-bess-fanny-deed",
       "type": "deed",
@@ -163,10 +240,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Peter Bess transfers enslaved person (Emeline) to Fanny Bess.",
       "citation": "Lincoln County, NC deed, 7 Feb 1832, proved July 1832.",
-      "proves": ["Peter Bess and Fanny Bess both present in Lincoln Co., NC 1832", "Peter Bess made a direct property transfer to Fanny Bess"],
-      "doesNotProve": ["Family relationship between Peter Bess and Fanny Bess (same surname + direct transfer is SUPPORTED only)", "Connection to any other Bess individual"]
+      "proves": [
+        "Peter Bess and Fanny Bess both present in Lincoln Co., NC 1832",
+        "Peter Bess made a direct property transfer to Fanny Bess"
+      ],
+      "doesNotProve": [
+        "Family relationship between Peter Bess and Fanny Bess (same surname + direct transfer is SUPPORTED only)",
+        "Connection to any other Bess individual"
+      ]
     },
-
     "ev-1805-jacob-bess-elder-deed": {
       "id": "ev-1805-jacob-bess-elder-deed",
       "type": "deed",
@@ -174,10 +256,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Deed from Jacob Bess to Peter Smith (referenced in court land chain).",
       "citation": "Lincoln County, NC deed, 16 Jun 1805 (referenced in court land chain; book/page TBD).",
-      "proves": ["Jacob Bess held and conveyed land in Lincoln Co., NC by 1805"],
-      "doesNotProve": ["Kinship to any other Bess individual", "Whether this is the same Jacob as the 1831 deed or 1837 care agreement (probable but requires further confirmation)", "Connection to Missouri Jacob Bess Sr."]
+      "proves": [
+        "Jacob Bess held and conveyed land in Lincoln Co., NC by 1805"
+      ],
+      "doesNotProve": [
+        "Kinship to any other Bess individual",
+        "Whether this is the same Jacob as the 1831 deed or 1837 care agreement (probable but requires further confirmation)",
+        "Connection to Missouri Jacob Bess Sr."
+      ]
     },
-
     "ev-1831-jacob-bess-elder-deed": {
       "id": "ev-1831-jacob-bess-elder-deed",
       "type": "deed",
@@ -185,10 +272,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "4-acre tract from Jacob Bess to William Bluford (not recorded at time; referenced in court).",
       "citation": "Lincoln County, NC deed reference, 24/25 Feb 1831 (unrec.; cited in court proceedings).",
-      "proves": ["A Jacob Bess conveyed a 4-acre tract in Lincoln Co., NC in 1831"],
-      "doesNotProve": ["Kinship to any other Bess individual", "That this is the same Jacob as the 1805 deed (probable given same county; not certain)", "Connection to Missouri Jacob Bess Sr."]
+      "proves": [
+        "A Jacob Bess conveyed a 4-acre tract in Lincoln Co., NC in 1831"
+      ],
+      "doesNotProve": [
+        "Kinship to any other Bess individual",
+        "That this is the same Jacob as the 1805 deed (probable given same county; not certain)",
+        "Connection to Missouri Jacob Bess Sr."
+      ]
     },
-
     "ev-1837-jacob-bess-jacob-best-deed-nc": {
       "id": "ev-1837-jacob-bess-jacob-best-deed-nc",
       "type": "deed",
@@ -196,10 +288,18 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Jacob Bess sells land; tract description includes grant issued to Jacob Bess (1788). Jacob Best serves as witness.",
       "citation": "Lincoln County, NC deed, 21 Mar 1837; grantor: Jacob Bess; tract includes 1788 grant to Jacob Bess; witness: Jacob Best.",
-      "proves": ["Jacob Bess sold land in Lincoln Co., NC on 21 Mar 1837", "The tract sold included a grant originally issued to Jacob Bess in 1788", "Jacob Best was present in Lincoln Co., NC in 1837 and served as a witness", "Jacob Bess and Jacob Best are confirmed as two distinct individuals — one executes, one witnesses"],
-      "doesNotProve": ["Family relationship between Jacob Bess and Jacob Best — close association is SUPPORTED but specific tie UNKNOWN", "Whether the 1788 grant Jacob Bess is the same as Jacob Bess (elder) or a predecessor", "Connection to Missouri Bess line or MO Jacob Bess Sr."]
+      "proves": [
+        "Jacob Bess sold land in Lincoln Co., NC on 21 Mar 1837",
+        "The tract sold included a grant originally issued to Jacob Bess in 1788",
+        "Jacob Best was present in Lincoln Co., NC in 1837 and served as a witness",
+        "Jacob Bess and Jacob Best are confirmed as two distinct individuals — one executes, one witnesses"
+      ],
+      "doesNotProve": [
+        "Family relationship between Jacob Bess and Jacob Best — close association is SUPPORTED but specific tie UNKNOWN",
+        "Whether the 1788 grant Jacob Bess is the same as Jacob Bess (elder) or a predecessor",
+        "Connection to Missouri Bess line or MO Jacob Bess Sr."
+      ]
     },
-
     "ev-1837-jacob-best-bill-of-sale-nc": {
       "id": "ev-1837-jacob-best-bill-of-sale-nc",
       "type": "bill-of-sale",
@@ -207,10 +307,17 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Jacob Best sells property to secure lifetime care for Jacob Bess.",
       "citation": "Lincoln County, NC bill of sale, 1837; grantor: Jacob Best; purpose: securing lifetime care for Jacob Bess.",
-      "proves": ["Jacob Best was present and actively transacting property in Lincoln Co., NC in 1837", "Jacob Best took direct action to arrange for the care of Jacob Bess", "Jacob Bess required and received lifetime care arranged by Jacob Best — indicating Jacob Bess was an older, dependent individual at this time"],
-      "doesNotProve": ["The specific family relationship between Jacob Best and Jacob Bess — the caretaking role is consistent with a son, grandson, nephew, or other close relative, but is not explicitly stated", "Whether Jacob Best is the same individual as Jacob Best (probate witness, 1832)", "Connection to Missouri Bess line"]
+      "proves": [
+        "Jacob Best was present and actively transacting property in Lincoln Co., NC in 1837",
+        "Jacob Best took direct action to arrange for the care of Jacob Bess",
+        "Jacob Bess required and received lifetime care arranged by Jacob Best — indicating Jacob Bess was an older, dependent individual at this time"
+      ],
+      "doesNotProve": [
+        "The specific family relationship between Jacob Best and Jacob Bess — the caretaking role is consistent with a son, grandson, nephew, or other close relative, but is not explicitly stated",
+        "Whether Jacob Best is the same individual as Jacob Best (probate witness, 1832)",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1837-jacob-bess-elder-care": {
       "id": "ev-1837-jacob-bess-elder-care",
       "type": "care-agreement",
@@ -218,10 +325,17 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Jacob Bess transfers property to Jonas R. Linebarger in exchange for lifetime care; reserves limited personal property.",
       "citation": "Lincoln County, NC bill of sale / care contract, 21 Mar 1837; proved 1839.",
-      "proves": ["Jacob Bess (elder) was alive in 1837 and arranged for lifetime care — indicating advanced age", "Property transferred to Jonas R. Linebarger in exchange for lifetime maintenance", "Jacob Bess retained limited personal property"],
-      "doesNotProve": ["Kinship between Jacob Bess and Jonas R. Linebarger", "Jacob Bess's death date", "Connection to Missouri Jacob Bess Sr."]
+      "proves": [
+        "Jacob Bess (elder) was alive in 1837 and arranged for lifetime care — indicating advanced age",
+        "Property transferred to Jonas R. Linebarger in exchange for lifetime maintenance",
+        "Jacob Bess retained limited personal property"
+      ],
+      "doesNotProve": [
+        "Kinship between Jacob Bess and Jonas R. Linebarger",
+        "Jacob Bess's death date",
+        "Connection to Missouri Jacob Bess Sr."
+      ]
     },
-
     "ev-1793-michael-best-estate": {
       "id": "ev-1793-michael-best-estate",
       "type": "estate-account",
@@ -229,10 +343,17 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Estate of Michael Best … to Jacob Best … [lists goods/services including corn, iron, planks, etc.]",
       "citation": "Estate/account record, Michael Best, Lincoln County, NC, ~1793 (full book/page TBD).",
-      "proves": ["Michael Best had an estate being settled ~1793 in Lincoln Co., NC", "Jacob Best is named in Michael Best's estate account", "Both Michael Best and Jacob Best were present in Lincoln Co., NC by ~1793"],
-      "doesNotProve": ["Any family relationship between Michael Best and Jacob Best (no parent/child, heir, or kin language)", "Connection to the Missouri Bess line", "That Michael Best is the same generation as Boston Best"]
+      "proves": [
+        "Michael Best had an estate being settled ~1793 in Lincoln Co., NC",
+        "Jacob Best is named in Michael Best's estate account",
+        "Both Michael Best and Jacob Best were present in Lincoln Co., NC by ~1793"
+      ],
+      "doesNotProve": [
+        "Any family relationship between Michael Best and Jacob Best (no parent/child, heir, or kin language)",
+        "Connection to the Missouri Bess line",
+        "That Michael Best is the same generation as Boston Best"
+      ]
     },
-
     "ev-1795-boston-daniel-best-deed": {
       "id": "ev-1795-boston-daniel-best-deed",
       "type": "deed",
@@ -240,10 +361,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Best conveys land to Daniel Best. Mentions Jacob Best & Martin Best as adjoining landholders.",
       "citation": "Lincoln County, NC deed, 31 Dec 1795 (extract per user transcription; book/page TBD).",
-      "proves": ["Boston Best and Daniel Best both present in Lincoln Co., NC, 1795", "Jacob Best and Martin Best held adjoining land in Lincoln Co., NC, 1795"],
-      "doesNotProve": ["Kinship between Boston, Daniel, Jacob, or Martin Best", "Connection to the Missouri Bess line"]
+      "proves": [
+        "Boston Best and Daniel Best both present in Lincoln Co., NC, 1795",
+        "Jacob Best and Martin Best held adjoining land in Lincoln Co., NC, 1795"
+      ],
+      "doesNotProve": [
+        "Kinship between Boston, Daniel, Jacob, or Martin Best",
+        "Connection to the Missouri Bess line"
+      ]
     },
-
     "ev-1783-boston-best-deed-nc": {
       "id": "ev-1783-boston-best-deed-nc",
       "type": "deed",
@@ -251,10 +377,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Best sells ~128 acres to Wiley Rudisill.",
       "citation": "Lincoln County, NC deed, 15 Feb 1783 (April Term 1783); grantor: Boston Best; grantee: Wiley Rudisill.",
-      "proves": ["Boston Best present and transacting land in Lincoln Co., NC by 15 Feb 1783"],
-      "doesNotProve": ["Kinship between Boston Best and any other named individual", "Connection to Missouri Bess line"]
+      "proves": [
+        "Boston Best present and transacting land in Lincoln Co., NC by 15 Feb 1783"
+      ],
+      "doesNotProve": [
+        "Kinship between Boston Best and any other named individual",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1788-boston-best-peter-deed-nc": {
       "id": "ev-1788-boston-best-peter-deed-nc",
       "type": "deed",
@@ -262,10 +392,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Best transfers ~100 acres to Peter Best.",
       "citation": "Lincoln County, NC deed, 23 Apr 1788 (proved 1793); grantor: Boston Best; grantee: Peter Best; acreage ~100.",
-      "proves": ["Boston Best transferred land to Peter Best in Lincoln Co., NC, 1788", "Both Boston Best and Peter Best were present in Lincoln Co., NC, 1788"],
-      "doesNotProve": ["Family relationship between Boston and Peter Best — transfer is consistent with kinship but not explicit"]
+      "proves": [
+        "Boston Best transferred land to Peter Best in Lincoln Co., NC, 1788",
+        "Both Boston Best and Peter Best were present in Lincoln Co., NC, 1788"
+      ],
+      "doesNotProve": [
+        "Family relationship between Boston and Peter Best — transfer is consistent with kinship but not explicit"
+      ]
     },
-
     "ev-1795-boston-best-frederick-deed": {
       "id": "ev-1795-boston-best-frederick-deed",
       "type": "deed",
@@ -273,10 +407,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Best transfers ~31 acres to Frederick Best. Witnesses: Barney Murphy, And Taylor.",
       "citation": "Lincoln County, NC deed, 31 Dec 1795 (proved July Sessions); grantor: Boston Best; grantee: Frederick Best; witnesses: Barney Murphy, And Taylor.",
-      "proves": ["Boston Best transferred land to Frederick Best in Lincoln Co., NC, 31 Dec 1795", "Frederick Best present in Lincoln Co., NC by 1795"],
-      "doesNotProve": ["Family relationship between Boston and Frederick Best — transfer is consistent with kinship but not explicit", "Whether Frederick Best is related to Daniel, Jacob, or Martin Best"]
+      "proves": [
+        "Boston Best transferred land to Frederick Best in Lincoln Co., NC, 31 Dec 1795",
+        "Frederick Best present in Lincoln Co., NC by 1795"
+      ],
+      "doesNotProve": [
+        "Family relationship between Boston and Frederick Best — transfer is consistent with kinship but not explicit",
+        "Whether Frederick Best is related to Daniel, Jacob, or Martin Best"
+      ]
     },
-
     "ev-1782-peter-best-deed-nc": {
       "id": "ev-1782-peter-best-deed-nc",
       "type": "deed",
@@ -284,10 +423,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Peter Best buys land from Martin Hoyle.",
       "citation": "Lincoln County, NC deed, 12 Mar 1782; grantor: Martin Hoyle; grantee: Peter Best.",
-      "proves": ["Peter Best present in Lincoln Co., NC by 12 Mar 1782 and acquiring land"],
-      "doesNotProve": ["Relationship to Boston Best", "Connection to Missouri Bess line"]
+      "proves": [
+        "Peter Best present in Lincoln Co., NC by 12 Mar 1782 and acquiring land"
+      ],
+      "doesNotProve": [
+        "Relationship to Boston Best",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1788-peter-best-deed-nc": {
       "id": "ev-1788-peter-best-deed-nc",
       "type": "deed",
@@ -295,10 +438,13 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Peter Best's land in chain of title described as originating from Boston Best.",
       "citation": "Lincoln County, NC deed, 9 Oct 1788; grantee: Peter Best; land origin described as from Boston Best.",
-      "proves": ["Peter Best held land in Lincoln Co., NC whose chain of title traced to Boston Best by 1788"],
-      "doesNotProve": ["Explicit family relationship between Boston and Peter Best — chain-of-title connection is consistent with kinship or direct purchase"]
+      "proves": [
+        "Peter Best held land in Lincoln Co., NC whose chain of title traced to Boston Best by 1788"
+      ],
+      "doesNotProve": [
+        "Explicit family relationship between Boston and Peter Best — chain-of-title connection is consistent with kinship or direct purchase"
+      ]
     },
-
     "ev-1792-peter-best-deed-nc": {
       "id": "ev-1792-peter-best-deed-nc",
       "type": "deed",
@@ -306,10 +452,13 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Peter Best purchases land; deed references Boston Best line.",
       "citation": "Lincoln County, NC deed, 17 Sept 1792; grantee: Peter Best; references Boston Best line.",
-      "proves": ["Peter Best continued acquiring land in Lincoln Co., NC through at least 1792"],
-      "doesNotProve": ["Explicit family relationship between Boston and Peter Best"]
+      "proves": [
+        "Peter Best continued acquiring land in Lincoln Co., NC through at least 1792"
+      ],
+      "doesNotProve": [
+        "Explicit family relationship between Boston and Peter Best"
+      ]
     },
-
     "ev-1793-peter-best-agreement-nc": {
       "id": "ev-1793-peter-best-agreement-nc",
       "type": "financial-agreement",
@@ -317,10 +466,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Peter Best enters contract/financial agreement with Benajah Thomson.",
       "citation": "Lincoln County, NC financial agreement, 12 Jan 1793; parties: Peter Best and Benajah Thomson.",
-      "proves": ["Peter Best present in Lincoln Co., NC by 12 Jan 1793 and engaging in financial transactions"],
-      "doesNotProve": ["Relationship to Boston Best", "Connection to Missouri Bess line"]
+      "proves": [
+        "Peter Best present in Lincoln Co., NC by 12 Jan 1793 and engaging in financial transactions"
+      ],
+      "doesNotProve": [
+        "Relationship to Boston Best",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1797-elias-best-deed-nc": {
       "id": "ev-1797-elias-best-deed-nc",
       "type": "deed",
@@ -328,10 +481,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Elias Best receives land from William Bost.",
       "citation": "Lincoln County, NC deed, proved Oct 1797; grantor: William Bost; grantee: Elias Best.",
-      "proves": ["Elias Best present in Lincoln Co., NC by 1797 and receiving land from William Bost"],
-      "doesNotProve": ["Relationship to Boston Best or any other Best/Bess individual", "Whether 'Bost' is a spelling variant of 'Best' — probable but not certain"]
+      "proves": [
+        "Elias Best present in Lincoln Co., NC by 1797 and receiving land from William Bost"
+      ],
+      "doesNotProve": [
+        "Relationship to Boston Best or any other Best/Bess individual",
+        "Whether 'Bost' is a spelling variant of 'Best' — probable but not certain"
+      ]
     },
-
     "ev-1799-elias-best-deed-nc": {
       "id": "ev-1799-elias-best-deed-nc",
       "type": "deed",
@@ -339,10 +496,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Elias Best purchases land from John Killion. Name confirmed as Elias Best.",
       "citation": "Lincoln County, NC deed, 12 Jan 1799 (proved 1800); grantor: John Killion; grantee: Elias Best.",
-      "proves": ["Elias Best confirmed by name in Lincoln Co., NC by 12 Jan 1799"],
-      "doesNotProve": ["Relationship to Boston Best or any other Best/Bess individual", "Connection to Missouri Bess line"]
+      "proves": [
+        "Elias Best confirmed by name in Lincoln Co., NC by 12 Jan 1799"
+      ],
+      "doesNotProve": [
+        "Relationship to Boston Best or any other Best/Bess individual",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1820-boston-best-deed-nc": {
       "id": "ev-1820-boston-best-deed-nc",
       "type": "deed",
@@ -350,10 +511,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Best purchases 318-acre tract from Baxter/Reynolds parties.",
       "citation": "Lincoln County, NC deed, 21 Mar 1820; grantors: Baxter/Reynolds; grantee: Boston Best; acreage: ~318.",
-      "proves": ["A person named Boston Best was present and acquiring land in Lincoln Co., NC as of 21 Mar 1820"],
-      "doesNotProve": ["This is the same Boston Best as the Sr. who died by 1809 (CONFLICT — see notes)", "Relationship to Peter Best, Frederick Best, or any other cluster member", "Connection to Missouri Bess line"]
+      "proves": [
+        "A person named Boston Best was present and acquiring land in Lincoln Co., NC as of 21 Mar 1820"
+      ],
+      "doesNotProve": [
+        "This is the same Boston Best as the Sr. who died by 1809 (CONFLICT — see notes)",
+        "Relationship to Peter Best, Frederick Best, or any other cluster member",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1809-boston-jacob-best-deed": {
       "id": "ev-1809-boston-jacob-best-deed",
       "type": "deed",
@@ -361,10 +527,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Land originally granted to Boston Best, conveyed to Jacob Best.",
       "citation": "Lincoln County, NC deed, ~1809 (extract per user transcription; book/page TBD).",
-      "proves": ["A 1809 conveyance of Boston Best's original grant to a Jacob Best occurred in Lincoln Co., NC"],
-      "doesNotProve": ["Kinship between Boston Best and this Jacob Best", "Whether this Jacob Best is the same as MO Jacob Bess Sr.", "Whether this Jacob Best is the same as the Jacob Best named as adjoining landholder in the 1795 deed"]
+      "proves": [
+        "A 1809 conveyance of Boston Best's original grant to a Jacob Best occurred in Lincoln Co., NC"
+      ],
+      "doesNotProve": [
+        "Kinship between Boston Best and this Jacob Best",
+        "Whether this Jacob Best is the same as MO Jacob Bess Sr.",
+        "Whether this Jacob Best is the same as the Jacob Best named as adjoining landholder in the 1795 deed"
+      ]
     },
-
     "ev-1779-marriage-peter-cristina": {
       "id": "ev-1779-marriage-peter-cristina",
       "type": "marriage",
@@ -372,10 +543,15 @@
       "location": "North Carolina",
       "extract": "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best.",
       "citation": "1779 North Carolina marriage record.",
-      "proves": ["Peter Best and Cristina Whitenbarger married 13 Oct 1779", "Boston Best stood as bondsman (close associate, often kin)"],
-      "doesNotProve": ["Peter is Boston's son (only that they were close enough for Boston to bond)", "Children of this marriage"]
+      "proves": [
+        "Peter Best and Cristina Whitenbarger married 13 Oct 1779",
+        "Boston Best stood as bondsman (close associate, often kin)"
+      ],
+      "doesNotProve": [
+        "Peter is Boston's son (only that they were close enough for Boston to bond)",
+        "Children of this marriage"
+      ]
     },
-
     "ev-1809-boston-best-estate": {
       "id": "ev-1809-boston-best-estate",
       "type": "estate",
@@ -383,10 +559,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Estate of Boston Best Sr. administered.",
       "citation": "1809 Lincoln County, NC estate records.",
-      "proves": ["Boston Best Sr. died by 1809", "Estate was administered in Lincoln County, NC"],
-      "doesNotProve": ["Heirs (no named list survives in this record)", "Specific date of death"]
+      "proves": [
+        "Boston Best Sr. died by 1809",
+        "Estate was administered in Lincoln County, NC"
+      ],
+      "doesNotProve": [
+        "Heirs (no named list survives in this record)",
+        "Specific date of death"
+      ]
     },
-
     "ev-1809-boston-estate-peter-account": {
       "id": "ev-1809-boston-estate-peter-account",
       "type": "estate-account",
@@ -394,10 +575,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'",
       "citation": "1809 Boston Best Sr. estate account.",
-      "proves": ["Peter Best had direct financial involvement in Boston Best Sr.'s estate consistent with immediate family/heir"],
-      "doesNotProve": ["Peter is explicitly named as son or heir", "Exact relationship — could be creditor, agent, or kin"]
+      "proves": [
+        "Peter Best had direct financial involvement in Boston Best Sr.'s estate consistent with immediate family/heir"
+      ],
+      "doesNotProve": [
+        "Peter is explicitly named as son or heir",
+        "Exact relationship — could be creditor, agent, or kin"
+      ]
     },
-
     "ev-1809-eve-bess-petition": {
       "id": "ev-1809-eve-bess-petition",
       "type": "court",
@@ -405,10 +590,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Petition involving Eve Bess; sister of Elizabeth Line; children include John Bess and Polly Bess.",
       "citation": "1809 Lincoln County, NC petition.",
-      "proves": ["Eve Bess existed in Lincoln Co. NC 1809", "Sister to Elizabeth Line", "Children John and Polly Bess"],
-      "doesNotProve": ["Connection to Missouri Bess line"]
+      "proves": [
+        "Eve Bess existed in Lincoln Co. NC 1809",
+        "Sister to Elizabeth Line",
+        "Children John and Polly Bess"
+      ],
+      "doesNotProve": [
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1832-peter-bess-will": {
       "id": "ev-1832-peter-bess-will",
       "type": "will",
@@ -416,10 +606,19 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Will of Peter Bess; names wife Leana Bess as life tenant; estate to be divided among children after her death; mentions Andrew (owing ~$80); Jonah appointed administrator with will annexed.",
       "citation": "1832 Peter Bess will, Lincoln County, NC (February).",
-      "proves": ["Peter Bess died by Feb 1832 in Lincoln Co., NC", "Wife named Leana Bess", "Had children (unnamed group — existence proven, identities unknown)", "Andrew Bess mentioned by name (financial association)", "Jonah Bess appointed administrator with will annexed"],
-      "doesNotProve": ["Identity of any individual child", "Relationship of Andrew or Jonah to Peter beyond their named roles", "Whether this is the same Peter Best who married Cristina Whitenbarger 1779"]
+      "proves": [
+        "Peter Bess died by Feb 1832 in Lincoln Co., NC",
+        "Wife named Leana Bess",
+        "Had children (unnamed group — existence proven, identities unknown)",
+        "Andrew Bess mentioned by name (financial association)",
+        "Jonah Bess appointed administrator with will annexed"
+      ],
+      "doesNotProve": [
+        "Identity of any individual child",
+        "Relationship of Andrew or Jonah to Peter beyond their named roles",
+        "Whether this is the same Peter Best who married Cristina Whitenbarger 1779"
+      ]
     },
-
     "ev-1832-peter-bess-probate": {
       "id": "ev-1832-peter-bess-probate",
       "type": "court-minutes",
@@ -427,10 +626,16 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Will admitted to record; proved by Jacob Best.",
       "citation": "Lincoln County, NC court minutes, April 1832 (Peter Bess probate).",
-      "proves": ["Peter Bess's will was admitted to record in April 1832", "A Jacob Best appeared as probate witness in Lincoln Co., NC, April 1832"],
-      "doesNotProve": ["Any family relationship between Jacob Best and Peter Bess", "That this Jacob Best is the same as MO Jacob Bess Sr.", "That this Jacob Best is the same as any earlier NC Jacob Best (1795, 1809)"]
+      "proves": [
+        "Peter Bess's will was admitted to record in April 1832",
+        "A Jacob Best appeared as probate witness in Lincoln Co., NC, April 1832"
+      ],
+      "doesNotProve": [
+        "Any family relationship between Jacob Best and Peter Bess",
+        "That this Jacob Best is the same as MO Jacob Bess Sr.",
+        "That this Jacob Best is the same as any earlier NC Jacob Best (1795, 1809)"
+      ]
     },
-
     "ev-1832-peter-bess-admin-nc": {
       "id": "ev-1832-peter-bess-admin-nc",
       "type": "court-minutes",
@@ -438,10 +643,16 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Letters of Administration with the will annexed issued to Leanah Bess, widow and relict of the deceased.",
       "citation": "Lincoln County, NC court minutes, 1832 (administration of Peter Bess estate; letters issued to Leanah Bess).",
-      "proves": ["Leanah Bess was widow of Peter Bess (deceased by 1832)", "Leanah Bess received letters of administration with will annexed for Peter Bess estate"],
-      "doesNotProve": ["Children of Peter and Leanah Bess", "Any relationship between Peter Bess and other Best/Bess individuals in Lincoln Co.", "Connection to Missouri Bess line"]
+      "proves": [
+        "Leanah Bess was widow of Peter Bess (deceased by 1832)",
+        "Leanah Bess received letters of administration with will annexed for Peter Bess estate"
+      ],
+      "doesNotProve": [
+        "Children of Peter and Leanah Bess",
+        "Any relationship between Peter Bess and other Best/Bess individuals in Lincoln Co.",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1823-christian-best-deed-nc": {
       "id": "ev-1823-christian-best-deed-nc",
       "type": "deed",
@@ -449,10 +660,16 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Christian Best sells land adjoining Michael Best.",
       "citation": "Lincoln County, NC deed, 13 Sept 1823; grantor: Christian Best; land described as adjoining Michael Best.",
-      "proves": ["Christian Best present in Lincoln Co., NC by 13 Sept 1823 and transacting land", "A Michael Best held adjoining land in Lincoln Co., NC as of 1823"],
-      "doesNotProve": ["Family relationship between Christian Best and Michael Best", "Which Michael Best is the adjoining landholder (multiple exist)", "Connection to Peter Best, Boston Best, or Missouri Bess line"]
+      "proves": [
+        "Christian Best present in Lincoln Co., NC by 13 Sept 1823 and transacting land",
+        "A Michael Best held adjoining land in Lincoln Co., NC as of 1823"
+      ],
+      "doesNotProve": [
+        "Family relationship between Christian Best and Michael Best",
+        "Which Michael Best is the adjoining landholder (multiple exist)",
+        "Connection to Peter Best, Boston Best, or Missouri Bess line"
+      ]
     },
-
     "ev-1823-margaret-hoyle-deed-nc": {
       "id": "ev-1823-margaret-hoyle-deed-nc",
       "type": "deed-of-gift",
@@ -460,10 +677,16 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Margaret Hoyle gives property to daughter Elizabeth Best.",
       "citation": "Lincoln County, NC deed of gift, 13 Jun 1823; grantor: Margaret Hoyle; grantee: Elizabeth Best (identified as daughter).",
-      "proves": ["Elizabeth Best was a daughter of Margaret Hoyle as of 13 Jun 1823", "Margaret Hoyle present in Lincoln Co., NC, 1823"],
-      "doesNotProve": ["Elizabeth Best's relationship to any Best/Bess or Bostian cluster member", "Elizabeth Best's married name origin", "Connection to Missouri Bess line"]
+      "proves": [
+        "Elizabeth Best was a daughter of Margaret Hoyle as of 13 Jun 1823",
+        "Margaret Hoyle present in Lincoln Co., NC, 1823"
+      ],
+      "doesNotProve": [
+        "Elizabeth Best's relationship to any Best/Bess or Bostian cluster member",
+        "Elizabeth Best's married name origin",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1833-boston-bess-deed-nc": {
       "id": "ev-1833-boston-bess-deed-nc",
       "type": "deed",
@@ -471,10 +694,15 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Bess sells 238-acre tract on Buffalo Creek to Robert Lackey.",
       "citation": "Lincoln County, NC deed, December 1833; grantor: Boston Bess; grantee: Robert Lackey; acreage: 238, on Buffalo Creek.",
-      "proves": ["A person named Boston Bess was present and transacting land in Lincoln Co., NC as of December 1833"],
-      "doesNotProve": ["This is the same Boston as Boston Best Sr. (d. by 1809) or Boston Best (1820)", "Relationship to Peter Bess, Jacob Best, or any other cluster member", "Connection to Missouri Bess line"]
+      "proves": [
+        "A person named Boston Bess was present and transacting land in Lincoln Co., NC as of December 1833"
+      ],
+      "doesNotProve": [
+        "This is the same Boston as Boston Best Sr. (d. by 1809) or Boston Best (1820)",
+        "Relationship to Peter Bess, Jacob Best, or any other cluster member",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1830-peter-bess-jacob-best-deed-nc": {
       "id": "ev-1830-peter-bess-jacob-best-deed-nc",
       "type": "deed-boundary-reference",
@@ -482,10 +710,17 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Land described as adjoining tract originally conveyed by Peter Bess; Jacob Best appears as adjoining landowner.",
       "citation": "Lincoln County, NC deed, 1830 (Smith deed or related instrument); land described as adjoining Peter Bess conveyance; adjacent to Jacob Best.",
-      "proves": ["Peter Bess conveyed a tract in Lincoln Co., NC prior to 1830", "Jacob Best held land adjoining that Peter Bess tract as of 1830", "Both Peter Bess and Jacob Best were present in the same land chain in Lincoln Co., NC"],
-      "doesNotProve": ["Family relationship between Peter Bess and Jacob Best", "Which Jacob Best this is (multiple exist in Lincoln Co., NC)", "Connection to Missouri Bess line"]
+      "proves": [
+        "Peter Bess conveyed a tract in Lincoln Co., NC prior to 1830",
+        "Jacob Best held land adjoining that Peter Bess tract as of 1830",
+        "Both Peter Bess and Jacob Best were present in the same land chain in Lincoln Co., NC"
+      ],
+      "doesNotProve": [
+        "Family relationship between Peter Bess and Jacob Best",
+        "Which Jacob Best this is (multiple exist in Lincoln Co., NC)",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1810-john-best-deed-nc": {
       "id": "ev-1810-john-best-deed-nc",
       "type": "deed",
@@ -493,10 +728,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "John Best sells large tract (~750 acres).",
       "citation": "Lincoln County, NC deed, 5 Sept 1810; grantor: John Best; acreage ~750.",
-      "proves": ["John Best present in Lincoln Co., NC by 5 Sept 1810 and transacting land"],
-      "doesNotProve": ["Relationship to Boston Best, Peter Best, or any other Best/Bess individual", "Connection to Missouri Bess line or MO John Best records"]
+      "proves": [
+        "John Best present in Lincoln Co., NC by 5 Sept 1810 and transacting land"
+      ],
+      "doesNotProve": [
+        "Relationship to Boston Best, Peter Best, or any other Best/Bess individual",
+        "Connection to Missouri Bess line or MO John Best records"
+      ]
     },
-
     "ev-1822-tax-list-jacob-bess": {
       "id": "ev-1822-tax-list-jacob-bess",
       "type": "tax",
@@ -504,10 +743,15 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Jacob Bess listed.",
       "citation": "1822 Cape Girardeau County, MO tax list.",
-      "proves": ["Jacob Bess present in Cape Girardeau Co. MO by 1822"],
-      "doesNotProve": ["Birthplace", "Family", "Prior residence"]
+      "proves": [
+        "Jacob Bess present in Cape Girardeau Co. MO by 1822"
+      ],
+      "doesNotProve": [
+        "Birthplace",
+        "Family",
+        "Prior residence"
+      ]
     },
-
     "ev-1830-census-jacob-bess": {
       "id": "ev-1830-census-jacob-bess",
       "type": "census",
@@ -515,10 +759,17 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Male age 30–39 (born ~1790–1800); household with multiple children.",
       "citation": "1830 U.S. Census, Cape Girardeau Co., MO.",
-      "proves": ["Jacob Bess head of household 1830", "Birth range ~1790–1800", "Had multiple children in household"],
-      "doesNotProve": ["Children's names", "Wife's identity (only tally marks)", "Birthplace (not asked in 1830)"]
+      "proves": [
+        "Jacob Bess head of household 1830",
+        "Birth range ~1790–1800",
+        "Had multiple children in household"
+      ],
+      "doesNotProve": [
+        "Children's names",
+        "Wife's identity (only tally marks)",
+        "Birthplace (not asked in 1830)"
+      ]
     },
-
     "ev-1850-census-jacob-bess": {
       "id": "ev-1850-census-jacob-bess",
       "type": "census",
@@ -526,10 +777,17 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel.",
       "citation": "1850 U.S. Census, Cape Girardeau Co., MO.",
-      "proves": ["Jacob Bess age ~52 in 1850 (born ~1798)", "Reported NC birthplace", "Household members named"],
-      "doesNotProve": ["Birthplace independently (census birthplace is self-reported)", "Exact relationships within household (1850 census did not record relationship to head)", "Wife's identity (no adult woman matching wife age in this household)"]
+      "proves": [
+        "Jacob Bess age ~52 in 1850 (born ~1798)",
+        "Reported NC birthplace",
+        "Household members named"
+      ],
+      "doesNotProve": [
+        "Birthplace independently (census birthplace is self-reported)",
+        "Exact relationships within household (1850 census did not record relationship to head)",
+        "Wife's identity (no adult woman matching wife age in this household)"
+      ]
     },
-
     "ev-jacob-bess-probate": {
       "id": "ev-jacob-bess-probate",
       "type": "probate",
@@ -537,10 +795,15 @@
       "location": "Bollinger County, Missouri",
       "extract": "Jacob Bess deceased; Matilda Bess administratrix.",
       "citation": "Bollinger Co., MO probate records.",
-      "proves": ["Jacob Bess died before Feb 1864 in Bollinger Co. MO", "Matilda Bess served as administratrix"],
-      "doesNotProve": ["Matilda's exact relationship to Jacob (administratrix is often a relative but not always)", "Widow status"]
+      "proves": [
+        "Jacob Bess died before Feb 1864 in Bollinger Co. MO",
+        "Matilda Bess served as administratrix"
+      ],
+      "doesNotProve": [
+        "Matilda's exact relationship to Jacob (administratrix is often a relative but not always)",
+        "Widow status"
+      ]
     },
-
     "ev-jacob-bess-partition-1868": {
       "id": "ev-jacob-bess-partition-1868",
       "type": "partition",
@@ -548,10 +811,15 @@
       "location": "Bollinger County, Missouri",
       "extract": "Heirs listed: Sarah (m. James Bess), Catherine, Adaline (m. Rhodes), Barbara/Barbary (m. Blaylock), Mary A., Jacob Jr., Edward, Daniel, Emanuel, Levi, James.",
       "citation": "Jacob Bess Sr. partition/distribution case, Bollinger Co., MO ~1868.",
-      "proves": ["These individuals are Jacob Bess Sr.'s legal heirs", "Married names of daughters (Sarah-James Bess, Adaline-Rhodes, Barbara-Blaylock)"],
-      "doesNotProve": ["Birth order", "Whether these are all biological children (heirs can include grandchildren by representation)"]
+      "proves": [
+        "These individuals are Jacob Bess Sr.'s legal heirs",
+        "Married names of daughters (Sarah-James Bess, Adaline-Rhodes, Barbara-Blaylock)"
+      ],
+      "doesNotProve": [
+        "Birth order",
+        "Whether these are all biological children (heirs can include grandchildren by representation)"
+      ]
     },
-
     "ev-1859-jacob-bess-deed": {
       "id": "ev-1859-jacob-bess-deed",
       "type": "deed",
@@ -559,10 +827,14 @@
       "location": "Bollinger County, Missouri",
       "extract": "Jacob Bess appears alone (no wife joining in dower).",
       "citation": "1859 Bollinger Co., MO deed.",
-      "proves": ["By 1859 Jacob Bess transacted property without a wife joining"],
-      "doesNotProve": ["That he had never had a wife (dower customs and missing women in deeds vary)", "Wife's identity or fate"]
+      "proves": [
+        "By 1859 Jacob Bess transacted property without a wife joining"
+      ],
+      "doesNotProve": [
+        "That he had never had a wife (dower customs and missing women in deeds vary)",
+        "Wife's identity or fate"
+      ]
     },
-
     "ev-1857-edward-bess-deed": {
       "id": "ev-1857-edward-bess-deed",
       "type": "deed",
@@ -570,10 +842,13 @@
       "location": "Bollinger County, Missouri",
       "extract": "Edward B. Bess and Jane Bess his wife; Jane relinquishes dower.",
       "citation": "1857 Bollinger Co., MO deed.",
-      "proves": ["Edward B. Bess married to a Jane by 1857"],
-      "doesNotProve": ["Jane's maiden name"]
+      "proves": [
+        "Edward B. Bess married to a Jane by 1857"
+      ],
+      "doesNotProve": [
+        "Jane's maiden name"
+      ]
     },
-
     "ev-1866-edward-bess-deed": {
       "id": "ev-1866-edward-bess-deed",
       "type": "deed",
@@ -581,10 +856,13 @@
       "location": "Bollinger County, Missouri",
       "extract": "Edward and Jane as husband/wife.",
       "citation": "1866 Bollinger Co., MO deed.",
-      "proves": ["Continuing marriage of Edward B. Bess and Jane in 1866"],
-      "doesNotProve": ["Jane's maiden name"]
+      "proves": [
+        "Continuing marriage of Edward B. Bess and Jane in 1866"
+      ],
+      "doesNotProve": [
+        "Jane's maiden name"
+      ]
     },
-
     "ev-1872-edward-bess-deed": {
       "id": "ev-1872-edward-bess-deed",
       "type": "deed",
@@ -592,10 +870,13 @@
       "location": "Madison County, Missouri",
       "extract": "Edward and Jane as husband/wife.",
       "citation": "1872 Madison Co., MO deed.",
-      "proves": ["Edward and Jane resided in Madison Co. MO by 1872"],
-      "doesNotProve": ["Jane's maiden name"]
+      "proves": [
+        "Edward and Jane resided in Madison Co. MO by 1872"
+      ],
+      "doesNotProve": [
+        "Jane's maiden name"
+      ]
     },
-
     "ev-1857-levi-bess-deed": {
       "id": "ev-1857-levi-bess-deed",
       "type": "deed",
@@ -603,10 +884,14 @@
       "location": "Bollinger County, Missouri",
       "extract": "Levi Bess and Barbary Bess his wife; dower released.",
       "citation": "1857 Bollinger Co., MO deed.",
-      "proves": ["Levi Bess married to a Barbary by 1857"],
-      "doesNotProve": ["Barbary's maiden name", "That this Barbary is the same as any other Barbara/Barbary in the file"]
+      "proves": [
+        "Levi Bess married to a Barbary by 1857"
+      ],
+      "doesNotProve": [
+        "Barbary's maiden name",
+        "That this Barbary is the same as any other Barbara/Barbary in the file"
+      ]
     },
-
     "ev-1880-census-roddi-bess": {
       "id": "ev-1880-census-roddi-bess",
       "type": "census",
@@ -614,10 +899,13 @@
       "location": "Missouri",
       "extract": "'Roddi Bess,' daughter of Edward and Jane.",
       "citation": "1880 U.S. Census.",
-      "proves": ["Roddi Bess is daughter of Edward and Jane Bess in 1880"],
-      "doesNotProve": ["Roddi = Rhoda (treated as same person by later records — supported but technically a name match)"]
+      "proves": [
+        "Roddi Bess is daughter of Edward and Jane Bess in 1880"
+      ],
+      "doesNotProve": [
+        "Roddi = Rhoda (treated as same person by later records — supported but technically a name match)"
+      ]
     },
-
     "ev-albert-ransom-bess-death": {
       "id": "ev-albert-ransom-bess-death",
       "type": "death-record",
@@ -625,10 +913,14 @@
       "location": "Granite City, Illinois",
       "extract": "Albert Ransom Bess; born 11 May 1862, Bessville, MO; parents: Edward Bess and Jane Sanders.",
       "citation": "1935 Illinois death record for Albert Ransom Bess.",
-      "proves": ["Birth/death dates and places of Albert Ransom Bess", "Strongest source for Jane's maiden name = Sanders"],
-      "doesNotProve": ["Maiden name with absolute certainty (death-record informant could be wrong; spelling Sanders/Saunders varies)"]
+      "proves": [
+        "Birth/death dates and places of Albert Ransom Bess",
+        "Strongest source for Jane's maiden name = Sanders"
+      ],
+      "doesNotProve": [
+        "Maiden name with absolute certainty (death-record informant could be wrong; spelling Sanders/Saunders varies)"
+      ]
     },
-
     "ev-1847-hiram-bess-will": {
       "id": "ev-1847-hiram-bess-will",
       "type": "will",
@@ -636,10 +928,21 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Will of Hiram Bess; wife Eliza; son John Franklin; daughters Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Berry Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn.",
       "citation": "5 Nov 1847 will of Hiram Bess, Lincoln County, NC.",
-      "proves": ["Hiram Bess died by Nov 1847 in Lincoln Co., NC", "Wife Eliza Bess named and appointed co-executor", "Children named: John Franklin, Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline", "John F. Hill appointed co-executor (role only)", "Witnesses present: Thomas Berry Spratt, Peter Grigg, Lawson Bess (roles proven)", "Will formally admitted to probate; executors sworn"],
-      "doesNotProve": ["Family relationship of John F. Hill to Hiram Bess", "Family relationship of witnesses (Spratt, Grigg, Lawson Bess) to Hiram Bess", "That Lawson Bess (witness) is a child of Hiram or related to MO Lawson Bess", "Connection to Missouri Bess line"]
+      "proves": [
+        "Hiram Bess died by Nov 1847 in Lincoln Co., NC",
+        "Wife Eliza Bess named and appointed co-executor",
+        "Children named: John Franklin, Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline",
+        "John F. Hill appointed co-executor (role only)",
+        "Witnesses present: Thomas Berry Spratt, Peter Grigg, Lawson Bess (roles proven)",
+        "Will formally admitted to probate; executors sworn"
+      ],
+      "doesNotProve": [
+        "Family relationship of John F. Hill to Hiram Bess",
+        "Family relationship of witnesses (Spratt, Grigg, Lawson Bess) to Hiram Bess",
+        "That Lawson Bess (witness) is a child of Hiram or related to MO Lawson Bess",
+        "Connection to Missouri Bess line"
+      ]
     },
-
     "ev-1855-boston-bess-guardian-bond": {
       "id": "ev-1855-boston-bess-guardian-bond",
       "type": "guardian",
@@ -647,10 +950,13 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Boston Bess guardian bond for Hiram's minor children.",
       "citation": "1855 Lincoln Co., NC guardian bond.",
-      "proves": ["Boston Bess (1869) acted as guardian for Hiram Bess's minor children in 1855"],
-      "doesNotProve": ["Specific kinship to Hiram"]
+      "proves": [
+        "Boston Bess (1869) acted as guardian for Hiram Bess's minor children in 1855"
+      ],
+      "doesNotProve": [
+        "Specific kinship to Hiram"
+      ]
     },
-
     "ev-1869-boston-bess-letters": {
       "id": "ev-1869-boston-bess-letters",
       "type": "letters-testamentary",
@@ -658,10 +964,13 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Letters testamentary; widow Elizabeth Bess; executor Thomas Bess.",
       "citation": "1869 Lincoln Co., NC letters testamentary, Boston Bess.",
-      "proves": ["Boston Bess (1869) died with widow Elizabeth and executor Thomas Bess"],
-      "doesNotProve": ["This is NOT the same Boston as Boston Best Sr. (d. 1809)"]
+      "proves": [
+        "Boston Bess (1869) died with widow Elizabeth and executor Thomas Bess"
+      ],
+      "doesNotProve": [
+        "This is NOT the same Boston as Boston Best Sr. (d. 1809)"
+      ]
     },
-
     "ev-1869-boston-estate-cluster": {
       "id": "ev-1869-boston-estate-cluster",
       "type": "estate",
@@ -669,10 +978,13 @@
       "location": "Missouri",
       "extract": "1869 Boston Bess estate event includes Jacob, Lawson, and Peter Bess together.",
       "citation": "1869 Boston Bess estate-related record.",
-      "proves": ["Jacob, Lawson, and Peter Bess associated in Missouri ~1869"],
-      "doesNotProve": ["Exact relationships among them"]
+      "proves": [
+        "Jacob, Lawson, and Peter Bess associated in Missouri ~1869"
+      ],
+      "doesNotProve": [
+        "Exact relationships among them"
+      ]
     },
-
     "ev-frederick-slinker-nc-patents": {
       "id": "ev-frederick-slinker-nc-patents",
       "type": "land-patent",
@@ -680,10 +992,13 @@
       "location": "Lincoln County, North Carolina",
       "extract": "NC land patents to Frederick Slinker.",
       "citation": "1768 and 1775 NC land patents.",
-      "proves": ["Frederick Slinker held land in NC by 1768"],
-      "doesNotProve": ["Family details"]
+      "proves": [
+        "Frederick Slinker held land in NC by 1768"
+      ],
+      "doesNotProve": [
+        "Family details"
+      ]
     },
-
     "ev-frederick-slinker-1777-deed": {
       "id": "ev-frederick-slinker-1777-deed",
       "type": "deed",
@@ -691,10 +1006,13 @@
       "location": "North Carolina",
       "extract": "Frederick Slinker deed chain.",
       "citation": "1777 NC deed.",
-      "proves": ["Frederick Slinker continued landholding"],
-      "doesNotProve": ["Family"]
+      "proves": [
+        "Frederick Slinker continued landholding"
+      ],
+      "doesNotProve": [
+        "Family"
+      ]
     },
-
     "ev-frederick-slinker-1794-deed": {
       "id": "ev-frederick-slinker-1794-deed",
       "type": "deed",
@@ -702,10 +1020,11 @@
       "location": "Lincoln County, North Carolina (Flat Rock / Catawba region)",
       "extract": "Frederick Slinker deed.",
       "citation": "1794 Lincoln Co., NC deed.",
-      "proves": ["Frederick Slinker present in NC 1794"],
+      "proves": [
+        "Frederick Slinker present in NC 1794"
+      ],
       "doesNotProve": []
     },
-
     "ev-1788-jacob-slinkard-heir-deed": {
       "id": "ev-1788-jacob-slinkard-heir-deed",
       "type": "deed",
@@ -713,10 +1032,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "'…descended… to Jacob… heir at law' (referring to land of Frederick Slinker).",
       "citation": "1788 Lincoln Co., NC deed.",
-      "proves": ["A Jacob Slinkard was 'heir at law' of Frederick Slinker per inheritance language"],
-      "doesNotProve": ["That Jacob is explicitly Frederick's son (heir-at-law can be other relations)", "That this Jacob is the same as MO Jacob Slinkard"]
+      "proves": [
+        "A Jacob Slinkard was 'heir at law' of Frederick Slinker per inheritance language"
+      ],
+      "doesNotProve": [
+        "That Jacob is explicitly Frederick's son (heir-at-law can be other relations)",
+        "That this Jacob is the same as MO Jacob Slinkard"
+      ]
     },
-
     "ev-1818-jacob-slinkard-mo-deed": {
       "id": "ev-1818-jacob-slinkard-mo-deed",
       "type": "deed",
@@ -724,10 +1047,13 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Jacob Slinkard sells town lot.",
       "citation": "1818 Cape Girardeau Co., MO deed.",
-      "proves": ["Jacob Slinkard owned and sold land in Cape Girardeau Co. MO 1818"],
-      "doesNotProve": ["Connection to NC Jacob Slinkard"]
+      "proves": [
+        "Jacob Slinkard owned and sold land in Cape Girardeau Co. MO 1818"
+      ],
+      "doesNotProve": [
+        "Connection to NC Jacob Slinkard"
+      ]
     },
-
     "ev-1823-jacob-slinkard-deceased-deed": {
       "id": "ev-1823-jacob-slinkard-deceased-deed",
       "type": "deed",
@@ -736,10 +1062,17 @@
       "extract": "'Daniel Slinkard and his wife Hannah, David Kinder, John Best and Caty Best his wife, Jacob Best and his wife Barbary Best… land confirmed to Jacob Slinkard deceased and owned by him in his life time…'",
       "citation": "1823 Cape Girardeau Co., MO deed.",
       "url": "https://familysearch.org/ark:/61903/3:1:3Q9M-CSL4-F9CH-S",
-      "proves": ["Jacob Slinkard (MO) died before 1 Oct 1823", "Barbary Best exists and is wife of Jacob Best", "Land cluster involves John Best & Caty, Daniel Slinkard & wife Hannah, David Kinder — consistent with heir group of Jacob Slinkard"],
-      "doesNotProve": ["That Barbary is explicitly named as daughter of Jacob Slinkard (no 'daughter' wording in record)", "That Jacob Best = Jacob Bess Sr. (name variation supported but not confirmed in this record alone)", "Exact relationships among the cluster"]
+      "proves": [
+        "Jacob Slinkard (MO) died before 1 Oct 1823",
+        "Barbary Best exists and is wife of Jacob Best",
+        "Land cluster involves John Best & Caty, Daniel Slinkard & wife Hannah, David Kinder — consistent with heir group of Jacob Slinkard"
+      ],
+      "doesNotProve": [
+        "That Barbary is explicitly named as daughter of Jacob Slinkard (no 'daughter' wording in record)",
+        "That Jacob Best = Jacob Bess Sr. (name variation supported but not confirmed in this record alone)",
+        "Exact relationships among the cluster"
+      ]
     },
-
     "ev-jacob-miller-guardianship-barbara": {
       "id": "ev-jacob-miller-guardianship-barbara",
       "type": "guardian",
@@ -747,10 +1080,16 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "'Jacob Miller, guardian of Barbara Slinkard… paid her share to her husband Jacob Best…'",
       "citation": "Probate / guardian distribution, Cape Girardeau Co., MO.",
-      "proves": ["Barbara Slinkard had a guardian (her father deceased)", "Barbara Slinkard married Jacob Best", "Identification of Jacob Best as Barbara's husband"],
-      "doesNotProve": ["Identity of Barbara's father by name in this record alone (must combine with 1823 deed)", "Polly Slinkard's guardian in this record (see ev-circuit-court-cape-jacob-miller-guardian for both sisters together)"]
+      "proves": [
+        "Barbara Slinkard had a guardian (her father deceased)",
+        "Barbara Slinkard married Jacob Best",
+        "Identification of Jacob Best as Barbara's husband"
+      ],
+      "doesNotProve": [
+        "Identity of Barbara's father by name in this record alone (must combine with 1823 deed)",
+        "Polly Slinkard's guardian in this record (see ev-circuit-court-cape-jacob-miller-guardian for both sisters together)"
+      ]
     },
-
     "ev-circuit-court-cape-jacob-miller-guardian": {
       "id": "ev-circuit-court-cape-jacob-miller-guardian",
       "type": "court",
@@ -772,7 +1111,6 @@
         "That this is the same proceeding as ev-jacob-miller-guardianship-barbara (that record is a probate distribution; this is a circuit court term — may be separate)"
       ]
     },
-
     "ev-1820-best-slinkard-deed": {
       "id": "ev-1820-best-slinkard-deed",
       "type": "deed",
@@ -780,10 +1118,13 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "John Best & Catharine convey land to Daniel Slinkard.",
       "citation": "1820 Cape Girardeau Co., MO deed.",
-      "proves": ["John Best transacted land with Daniel Slinkard 1820"],
-      "doesNotProve": ["Family relationship between Best and Slinkard"]
+      "proves": [
+        "John Best transacted land with Daniel Slinkard 1820"
+      ],
+      "doesNotProve": [
+        "Family relationship between Best and Slinkard"
+      ]
     },
-
     "ev-1838-daniel-slinkard-probate": {
       "id": "ev-1838-daniel-slinkard-probate",
       "type": "probate",
@@ -791,10 +1132,16 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Estate of Daniel Slinkard opened; widow Eve Slinkard; heirs: John, Jacob, Catharine, Polly, David, Emanuel, Denney (Denny), Ramon (Ransom), Nancy, Nora, Daniel (Jr.), Rosey.",
       "citation": "1838 Daniel Slinkard probate, Cape Girardeau Co., MO.",
-      "proves": ["Daniel Slinkard died before Nov 1838", "Widow Eve", "Named heirs"],
-      "doesNotProve": ["Birth order", "Heirs' birthdates"]
+      "proves": [
+        "Daniel Slinkard died before Nov 1838",
+        "Widow Eve",
+        "Named heirs"
+      ],
+      "doesNotProve": [
+        "Birth order",
+        "Heirs' birthdates"
+      ]
     },
-
     "ev-marriage-index-daniel-eve-morrison": {
       "id": "ev-marriage-index-daniel-eve-morrison",
       "type": "marriage-index",
@@ -802,10 +1149,14 @@
       "location": "Missouri",
       "extract": "Daniel Slinkard — Eve Morrison.",
       "citation": "Missouri marriage index.",
-      "proves": ["Marriage index entry exists for Daniel Slinkard and Eve Morrison"],
-      "doesNotProve": ["Date or place of marriage", "That this Daniel is the same Daniel who d. 1838 (probable but not certain)"]
+      "proves": [
+        "Marriage index entry exists for Daniel Slinkard and Eve Morrison"
+      ],
+      "doesNotProve": [
+        "Date or place of marriage",
+        "That this Daniel is the same Daniel who d. 1838 (probable but not certain)"
+      ]
     },
-
     "ev-1818-frederick-slinker-mo-deed": {
       "id": "ev-1818-frederick-slinker-mo-deed",
       "type": "deed",
@@ -813,10 +1164,13 @@
       "location": "Missouri",
       "extract": "Land bordering Mathias Bollinger.",
       "citation": "1818 Missouri deed, Frederick Slinker.",
-      "proves": ["A Frederick Slinker held land in MO 1818 adjacent to Mathias Bollinger"],
-      "doesNotProve": ["This is the same Frederick Slinker who held NC land"]
+      "proves": [
+        "A Frederick Slinker held land in MO 1818 adjacent to Mathias Bollinger"
+      ],
+      "doesNotProve": [
+        "This is the same Frederick Slinker who held NC land"
+      ]
     },
-
     "ev-1833-frederick-slinker-bond": {
       "id": "ev-1833-frederick-slinker-bond",
       "type": "court",
@@ -824,10 +1178,11 @@
       "location": "Missouri",
       "extract": "Security on guardian bond.",
       "citation": "1833 court record.",
-      "proves": ["Frederick Slinker active in MO court matters 1833"],
+      "proves": [
+        "Frederick Slinker active in MO court matters 1833"
+      ],
       "doesNotProve": []
     },
-
     "ev-1818-william-louise-best-marriage": {
       "id": "ev-1818-william-louise-best-marriage",
       "type": "marriage",
@@ -835,10 +1190,13 @@
       "location": "Missouri",
       "extract": "William Best m. Louise Best.",
       "citation": "1818 marriage record.",
-      "proves": ["Marriage of William Best and Louise Best 1818"],
-      "doesNotProve": ["Their relationship to John or Jacob Best"]
+      "proves": [
+        "Marriage of William Best and Louise Best 1818"
+      ],
+      "doesNotProve": [
+        "Their relationship to John or Jacob Best"
+      ]
     },
-
     "ev-1829-joseph-hannah-best-marriage": {
       "id": "ev-1829-joseph-hannah-best-marriage",
       "type": "marriage",
@@ -846,10 +1204,13 @@
       "location": "Missouri",
       "extract": "Joseph Best m. Hannah (Barks?/Parks?).",
       "citation": "1829 marriage record.",
-      "proves": ["Joseph Best married Hannah 1829"],
-      "doesNotProve": ["Hannah's maiden surname (transcription unclear)"]
+      "proves": [
+        "Joseph Best married Hannah 1829"
+      ],
+      "doesNotProve": [
+        "Hannah's maiden surname (transcription unclear)"
+      ]
     },
-
     "ev-1814-henry-rebecca-marriage": {
       "id": "ev-1814-henry-rebecca-marriage",
       "type": "marriage",
@@ -857,10 +1218,14 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Henry Slinkard m. Rebecca.",
       "citation": "1814 Lincoln Co., NC marriage.",
-      "proves": ["Henry Slinkard married Rebecca 1814 in NC"],
-      "doesNotProve": ["Rebecca's maiden name", "Connection to MO Slinkards"]
+      "proves": [
+        "Henry Slinkard married Rebecca 1814 in NC"
+      ],
+      "doesNotProve": [
+        "Rebecca's maiden name",
+        "Connection to MO Slinkards"
+      ]
     },
-
     "ev-1816-peter-critz-guardian-settlement": {
       "id": "ev-1816-peter-critz-guardian-settlement",
       "type": "guardian",
@@ -868,11 +1233,15 @@
       "location": "Missouri",
       "extract": "Peter Critz guardian of David & Jacob Slinkard (minors); settlement.",
       "citation": "1816 guardianship index.",
-      "proves": ["Two minor Slinkards (David, Jacob) had Peter Critz as guardian as of 1816"],
-      "doesNotProve": ["Their father's identity (this record alone)", "Connection to main Slinkard line"],
+      "proves": [
+        "Two minor Slinkards (David, Jacob) had Peter Critz as guardian as of 1816"
+      ],
+      "doesNotProve": [
+        "Their father's identity (this record alone)",
+        "Connection to main Slinkard line"
+      ],
       "notes": "May be the same proceeding as ev-jacob-slinkard-mo-minors-guardianship — pending user verification."
     },
-
     "ev-jacob-slinkard-mo-minors-guardianship": {
       "id": "ev-jacob-slinkard-mo-minors-guardianship",
       "type": "guardian",
@@ -880,11 +1249,16 @@
       "location": "Missouri (Cape Girardeau County)",
       "extract": "Guardianship/court record naming Jacob Slinkard (deceased) and his minor children: Polly Slinkard, Barbara Slinkard, David Slinkard, Jacob Slinkard.",
       "citation": "User-provided summary; original record citation TBD.",
-      "proves": ["Polly, Barbara, David, and Jacob Slinkard are all children of a Jacob Slinkard who was deceased at the time of the proceeding"],
-      "doesNotProve": ["Jacob Slinkard's exact death date", "Whether this 'deceased Jacob Slinkard' is the same individual as the Jacob Slinkard who sold a town lot in 1818 — see conflict note", "Maiden name of mother (mother not named here)"],
+      "proves": [
+        "Polly, Barbara, David, and Jacob Slinkard are all children of a Jacob Slinkard who was deceased at the time of the proceeding"
+      ],
+      "doesNotProve": [
+        "Jacob Slinkard's exact death date",
+        "Whether this 'deceased Jacob Slinkard' is the same individual as the Jacob Slinkard who sold a town lot in 1818 — see conflict note",
+        "Maiden name of mother (mother not named here)"
+      ],
       "notes": "TEMPORAL CONFLICT WITH ev-1818-jacob-slinkard-mo-deed. The 1818 deed has Jacob alive. If the date range ~1813–1816 is correct AND this is the same Jacob, the 1818 deed cannot also refer to him. Possibilities: (a) date range is actually later (e.g. ~1819–1822); (b) two different Jacob Slinkards in MO; (c) 1818 deed refers to a different Jacob. See review/conflicts.md and task t-jacob-slinkard-guardianship-date."
     },
-
     "ev-1827-elizabeth-gross-marriage": {
       "id": "ev-1827-elizabeth-gross-marriage",
       "type": "marriage",
@@ -892,10 +1266,13 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Elizabeth Slinkard m. William Gross (also Grass).",
       "citation": "1827 Cape Girardeau Co., MO marriage.",
-      "proves": ["Elizabeth Slinkard married William Gross 20 May 1827"],
-      "doesNotProve": ["Her parents"]
+      "proves": [
+        "Elizabeth Slinkard married William Gross 20 May 1827"
+      ],
+      "doesNotProve": [
+        "Her parents"
+      ]
     },
-
     "ev-1828-catharine-smith-marriage": {
       "id": "ev-1828-catharine-smith-marriage",
       "type": "marriage",
@@ -903,10 +1280,14 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Catharine Slinkard m. Ruben Smith.",
       "citation": "1828 Cape Girardeau Co., MO marriage.",
-      "proves": ["A Catharine Slinkard married Ruben Smith 29 Jan 1828"],
-      "doesNotProve": ["Her parents", "Whether same as Catharine in Daniel's 1838 probate"]
+      "proves": [
+        "A Catharine Slinkard married Ruben Smith 29 Jan 1828"
+      ],
+      "doesNotProve": [
+        "Her parents",
+        "Whether same as Catharine in Daniel's 1838 probate"
+      ]
     },
-
     "ev-1830-olly-crump-marriage": {
       "id": "ev-1830-olly-crump-marriage",
       "type": "marriage",
@@ -914,10 +1295,14 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "'Olly' Slinkard m. Zachariah Crump.",
       "citation": "1830 Cape Girardeau Co., MO marriage.",
-      "proves": ["A Slinkard recorded as 'Olly' married Zachariah Crump 27 Apr 1830"],
-      "doesNotProve": ["That 'Olly' = Polly", "Her parents"]
+      "proves": [
+        "A Slinkard recorded as 'Olly' married Zachariah Crump 27 Apr 1830"
+      ],
+      "doesNotProve": [
+        "That 'Olly' = Polly",
+        "Her parents"
+      ]
     },
-
     "ev-1834-katherine-link-marriage": {
       "id": "ev-1834-katherine-link-marriage",
       "type": "marriage",
@@ -925,10 +1310,13 @@
       "location": "Missouri",
       "extract": "Katherine Slinkard m. Aaron Link.",
       "citation": "1834 Missouri marriage record.",
-      "proves": ["A Katherine Slinkard married Aaron Link 1834"],
-      "doesNotProve": ["Whether same as Catharine of 1828 marriage or 1838 probate"]
+      "proves": [
+        "A Katherine Slinkard married Aaron Link 1834"
+      ],
+      "doesNotProve": [
+        "Whether same as Catharine of 1828 marriage or 1838 probate"
+      ]
     },
-
     "ev-1836-joseph-shrum-marriage": {
       "id": "ev-1836-joseph-shrum-marriage",
       "type": "marriage",
@@ -936,10 +1324,14 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Joseph Slinkerd m. Alley Shrum.",
       "citation": "1836 Cape Girardeau Co., MO marriage.",
-      "proves": ["Joseph Slinkerd married Alley Shrum 11 Dec 1836"],
-      "doesNotProve": ["His parents", "Whether same as other Josephs in file"]
+      "proves": [
+        "Joseph Slinkerd married Alley Shrum 11 Dec 1836"
+      ],
+      "doesNotProve": [
+        "His parents",
+        "Whether same as other Josephs in file"
+      ]
     },
-
     "ev-1837-jacob-phebe-marriage": {
       "id": "ev-1837-jacob-phebe-marriage",
       "type": "marriage",
@@ -947,10 +1339,15 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "'Jacob Slinkard … Phoebe Hubble' — marriage recorded in Cape Girardeau marriage book.",
       "citation": "1837 Cape Girardeau Co., MO marriage record.",
-      "proves": ["Jacob Slinkard married Phoebe Hubble on 1 Apr 1837"],
-      "doesNotProve": ["Jacob's parents or siblings", "Any relationship between Jacob and Barbara Slinkard or Polly Slinkard", "Which Jacob Slinkard this is (identification as Daniel's son is SUPPORTED by 1838 probate — not proven by this record alone)"]
+      "proves": [
+        "Jacob Slinkard married Phoebe Hubble on 1 Apr 1837"
+      ],
+      "doesNotProve": [
+        "Jacob's parents or siblings",
+        "Any relationship between Jacob and Barbara Slinkard or Polly Slinkard",
+        "Which Jacob Slinkard this is (identification as Daniel's son is SUPPORTED by 1838 probate — not proven by this record alone)"
+      ]
     },
-
     "ev-1839-john-viney-marriage": {
       "id": "ev-1839-john-viney-marriage",
       "type": "marriage",
@@ -958,10 +1355,14 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "John Slinkard m. Viney Stroder.",
       "citation": "1839 Cape Girardeau Co., MO marriage.",
-      "proves": ["A John Slinkard married Viney Stroder 8 Dec 1839"],
-      "doesNotProve": ["His parents", "Whether same as John in marriage index entry naming Nancy Stroder"]
+      "proves": [
+        "A John Slinkard married Viney Stroder 8 Dec 1839"
+      ],
+      "doesNotProve": [
+        "His parents",
+        "Whether same as John in marriage index entry naming Nancy Stroder"
+      ]
     },
-
     "ev-marriage-index-joseph-anna-green": {
       "id": "ev-marriage-index-joseph-anna-green",
       "type": "marriage-index",
@@ -969,10 +1370,14 @@
       "location": "Missouri",
       "extract": "Joseph Slinkard — Anna Green.",
       "citation": "Missouri marriage index.",
-      "proves": ["Marriage index entry exists for Joseph Slinkard and Anna Green"],
-      "doesNotProve": ["Date or place", "Whether same as Joseph–Alley Shrum 1836 or Joseph–Tennessee Estes"]
+      "proves": [
+        "Marriage index entry exists for Joseph Slinkard and Anna Green"
+      ],
+      "doesNotProve": [
+        "Date or place",
+        "Whether same as Joseph–Alley Shrum 1836 or Joseph–Tennessee Estes"
+      ]
     },
-
     "ev-marriage-index-john-nancy-stroder": {
       "id": "ev-marriage-index-john-nancy-stroder",
       "type": "marriage-index",
@@ -980,10 +1385,13 @@
       "location": "Missouri",
       "extract": "John Slinkard — Nancy Stroder.",
       "citation": "Missouri marriage index.",
-      "proves": ["Marriage index entry exists for John Slinkard and Nancy Stroder"],
-      "doesNotProve": ["Whether same as John–Viney Stroder 1839 (Nancy/Viney could be transcription variants — or two different Johns)"]
+      "proves": [
+        "Marriage index entry exists for John Slinkard and Nancy Stroder"
+      ],
+      "doesNotProve": [
+        "Whether same as John–Viney Stroder 1839 (Nancy/Viney could be transcription variants — or two different Johns)"
+      ]
     },
-
     "ev-1850-jacob-slinkard-1812-census": {
       "id": "ev-1850-jacob-slinkard-1812-census",
       "type": "census",
@@ -991,10 +1399,13 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Jacob Slinkard household; Phebe; children William J, Daniel M (age 11), Ebenezer, Eliza C, Araminta C.",
       "citation": "1850 U.S. Census, Cape Girardeau Co., MO.",
-      "proves": ["Jacob Slinkard (~1812) and Phebe with named children in 1850"],
-      "doesNotProve": ["Continuity to other Jacob Slinkards"]
+      "proves": [
+        "Jacob Slinkard (~1812) and Phebe with named children in 1850"
+      ],
+      "doesNotProve": [
+        "Continuity to other Jacob Slinkards"
+      ]
     },
-
     "ev-1860-jacob-slinkard-1812-census": {
       "id": "ev-1860-jacob-slinkard-1812-census",
       "type": "census",
@@ -1002,10 +1413,11 @@
       "location": "Byrd Township, Cape Girardeau County, Missouri",
       "extract": "Same Jacob/Phebe family; adds John M, George W, Jacob L (infant); Daniel M now age 19.",
       "citation": "1860 U.S. Census, Byrd Twp., Cape Girardeau Co., MO.",
-      "proves": ["Continuity of Jacob (~1812)/Phebe family 1850→1860 with additional children"],
+      "proves": [
+        "Continuity of Jacob (~1812)/Phebe family 1850→1860 with additional children"
+      ],
       "doesNotProve": []
     },
-
     "ev-1867-daniel-m-estate-inventory": {
       "id": "ev-1867-daniel-m-estate-inventory",
       "type": "estate",
@@ -1013,10 +1425,11 @@
       "location": "Cape Girardeau County, Missouri",
       "extract": "Estate inventory of Daniel M. Slinkard.",
       "citation": "1867 Cape Girardeau Co., MO estate.",
-      "proves": ["Daniel M. Slinkard died by 1867"],
+      "proves": [
+        "Daniel M. Slinkard died by 1867"
+      ],
       "doesNotProve": []
     },
-
     "ev-1876-mo-state-census-slinkard-cluster": {
       "id": "ev-1876-mo-state-census-slinkard-cluster",
       "type": "census",
@@ -1024,10 +1437,13 @@
       "location": "Bollinger / Cape Girardeau region, Missouri",
       "extract": "Phoebe Slinkard, Araminta Slinkard, George W Slinkard, John M Slinkard, Jacob L Slinkard, Robert L Slinkard, Marion B Slinkard.",
       "citation": "1876 Missouri state census.",
-      "proves": ["These Slinkards present in same township 1876"],
-      "doesNotProve": ["Relationships among them (cluster only)"]
+      "proves": [
+        "These Slinkards present in same township 1876"
+      ],
+      "doesNotProve": [
+        "Relationships among them (cluster only)"
+      ]
     },
-
     "ev-1881-bollinger-tax-book-slinkards": {
       "id": "ev-1881-bollinger-tax-book-slinkards",
       "type": "tax-list",
@@ -1035,10 +1451,13 @@
       "location": "Bollinger County, Missouri",
       "extract": "Slinkards listed: Sarah, J.F., M.B., Elizabeth, B.H., Joseph W., P.G., Daniel, Peter, Wm R., J.M., John F., James C.",
       "citation": "1881 Bollinger Co., MO tax book.",
-      "proves": ["These individuals owned taxable property in Bollinger Co. 1881"],
-      "doesNotProve": ["Relationships among them"]
+      "proves": [
+        "These individuals owned taxable property in Bollinger Co. 1881"
+      ],
+      "doesNotProve": [
+        "Relationships among them"
+      ]
     },
-
     "ev-1852-joseph-slinkard-land-patent": {
       "id": "ev-1852-joseph-slinkard-land-patent",
       "type": "land-patent",
@@ -1046,10 +1465,13 @@
       "location": "Bollinger County, Missouri",
       "extract": "80 acres, Sec 27, T31N, R9E.",
       "citation": "1852 Bollinger Co., MO land patent.",
-      "proves": ["Joseph Slinkard received federal land patent 1852 in Bollinger Co."],
-      "doesNotProve": ["Family"]
+      "proves": [
+        "Joseph Slinkard received federal land patent 1852 in Bollinger Co."
+      ],
+      "doesNotProve": [
+        "Family"
+      ]
     },
-
     "ev-joseph-slinkard-bollinger-probate": {
       "id": "ev-joseph-slinkard-bollinger-probate",
       "type": "probate",
@@ -1057,10 +1479,14 @@
       "location": "Bollinger County, Missouri",
       "extract": "Estate of Joseph Slinkard (deceased); real estate ordered sold; creditor: N. W. Slinkard.",
       "citation": "Bollinger Co., MO probate.",
-      "proves": ["Joseph Slinkard (Bollinger) died with estate sold", "N. W. Slinkard was a creditor"],
-      "doesNotProve": ["Relationship of N.W. to Joseph"]
+      "proves": [
+        "Joseph Slinkard (Bollinger) died with estate sold",
+        "N. W. Slinkard was a creditor"
+      ],
+      "doesNotProve": [
+        "Relationship of N.W. to Joseph"
+      ]
     },
-
     "ev-ransom-estes-will": {
       "id": "ev-ransom-estes-will",
       "type": "will",
@@ -1068,10 +1494,11 @@
       "location": "Missouri",
       "extract": "'…daughter Tennessee Slinkard… married to Joseph Slinkard.'",
       "citation": "Will of Ransom B. Estes.",
-      "proves": ["Tennessee Estes was Ransom B. Estes's daughter and married Joseph Slinkard"],
+      "proves": [
+        "Tennessee Estes was Ransom B. Estes's daughter and married Joseph Slinkard"
+      ],
       "doesNotProve": []
     },
-
     "ev-marriage-index-elizabeth-bess-spencer": {
       "id": "ev-marriage-index-elizabeth-bess-spencer",
       "type": "marriage-index",
@@ -1079,10 +1506,13 @@
       "location": "Missouri",
       "extract": "Elizabeth Bess — Israel Spencer.",
       "citation": "Missouri marriage index.",
-      "proves": ["Elizabeth Bess married Israel Spencer per index"],
-      "doesNotProve": ["Her family / connection to direct line"]
+      "proves": [
+        "Elizabeth Bess married Israel Spencer per index"
+      ],
+      "doesNotProve": [
+        "Her family / connection to direct line"
+      ]
     },
-
     "ev-1850-census-john-bess-madison": {
       "id": "ev-1850-census-john-bess-madison",
       "type": "census",
@@ -1090,10 +1520,18 @@
       "location": "Madison County, Missouri",
       "extract": "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri.",
       "citation": "1850 U.S. Census, Madison County, MO.",
-      "proves": ["John Bess present in Madison Co., MO 1850", "Born ~1791, birthplace North Carolina", "Catherine Bess same age, same birthplace, in same household", "Five individuals (Maliny, Emanuel, Absolum, Rua, Pernicia) born Missouri present in household"],
-      "doesNotProve": ["Catherine is John's wife (household co-residence only; 1850 census did not record relationships)", "Listed individuals are John's children (household only)", "Any connection to Jacob Bess Sr. or the Cape Girardeau/Bollinger Bess line"]
+      "proves": [
+        "John Bess present in Madison Co., MO 1850",
+        "Born ~1791, birthplace North Carolina",
+        "Catherine Bess same age, same birthplace, in same household",
+        "Five individuals (Maliny, Emanuel, Absolum, Rua, Pernicia) born Missouri present in household"
+      ],
+      "doesNotProve": [
+        "Catherine is John's wife (household co-residence only; 1850 census did not record relationships)",
+        "Listed individuals are John's children (household only)",
+        "Any connection to Jacob Bess Sr. or the Cape Girardeau/Bollinger Bess line"
+      ]
     },
-
     "ev-jacob-bess-1816-indentured-apprentice": {
       "id": "ev-jacob-bess-1816-indentured-apprentice",
       "type": "court",
@@ -1101,7 +1539,11 @@
       "location": "Lincoln County, North Carolina",
       "extract": "Lincoln County Court bound Benjamin Frye, an orphan (son of John Frye), to Jacob Bess as an apprentice until age 21. Jacob Bess agreed to provide food, lodging, clothing, and care, and to teach Frye reading, writing, and the trade of weaving. He also agreed to provide a horse valued at $45 at the end of the term. Signed before James McKee, Chairman of Lincoln County Court.",
       "citation": "\"Lincoln, North Carolina, United States records,\" images, FamilySearch (https://www.familysearch.org/ark:/61903/3:1:3QS7-99G8-Y9F6-9?view=explore : May 2, 2026), image 380 of 457; Image Group Number: 007641006.",
-      "persons": ["Jacob Bess (master)", "Benjamin Frye (orphan apprentice, son of John Frye)", "James McKee (Chairman, Lincoln County Court)"],
+      "persons": [
+        "Jacob Bess (master)",
+        "Benjamin Frye (orphan apprentice, son of John Frye)",
+        "James McKee (Chairman, Lincoln County Court)"
+      ],
       "proves": [
         "A man named Jacob Bess was residing in Lincoln County, NC on 16 April 1816",
         "He was an established adult trusted by the county court to take on an orphan apprentice",
@@ -1116,7 +1558,6 @@
       ],
       "notes": "This record indicates an established, likely older adult male. Based on timeline analysis, this individual is likely the elder Jacob Bess and should be kept separate from the younger Jacob Bess who appears in Missouri by the early 1820s. Do NOT attach to Missouri Jacob Bess Sr."
     },
-
     "ev-1850-jacob-bess-cluster-analysis": {
       "id": "ev-1850-jacob-bess-cluster-analysis",
       "type": "analysis",
@@ -1125,8 +1566,128 @@
       "extract": "Jacob Bess Sr. fits chronologically (~1798) as second-generation son of Peter Best (b. ~1765–1775); migration timing aligns with NC→MO ~1815–1822; no conflicting candidate.",
       "citation": "Working analysis combining the above sources.",
       "proves": [],
-      "doesNotProve": ["Direct parent-child relationship between Peter Best and Jacob Bess Sr."],
+      "doesNotProve": [
+        "Direct parent-child relationship between Peter Best and Jacob Bess Sr."
+      ],
       "notes": "Analytical record only; supports SUPPORTED status, never PROVEN."
+    },
+    "ev-1823-jacob-best-barbary-wife-deed": {
+      "id": "ev-1823-jacob-best-barbary-wife-deed",
+      "type": "deed",
+      "date": "1 Oct 1823",
+      "recordedDate": "31 Mar 1831",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Daniel Slinkard and Hannah his wife, John Best and Caty his wife, and Jacob Best and Barbary his wife are named; the wives were privately examined apart from their husbands.",
+      "citation": "User-provided 1823 Cape Girardeau Co., MO deed transcription (recorded 31 Mar 1831).",
+      "people": [
+        "jacob-bess-sr",
+        "barbara-slinkard",
+        "daniel-slinkard",
+        "hannah-slinkard",
+        "john-best-mo",
+        "caty-best"
+      ],
+      "proves": [
+        "Jacob Best/Bess had wife Barbary/Barbara",
+        "Jacob and Barbary were part of the Slinkard-associated deed group"
+      ],
+      "doesNotProve": [
+        "That Barbary is explicitly named as daughter of Jacob Slinkard",
+        "That Jacob Best in this deed = Jacob Bess Sr. by surname alone (name variation supported)"
+      ],
+      "notes": "Same physical deed event as ev-1823-jacob-slinkard-deceased-deed (both 1 Oct 1823, Cape Girardeau Co.); this entry captures the wife-named extract verbatim. Both records preserved per no-delete rule."
+    },
+    "ev-1867-jacob-bess-probate-matilda-admin": {
+      "id": "ev-1867-jacob-bess-probate-matilda-admin",
+      "type": "probate",
+      "date": "13 Feb 1867",
+      "location": "Bollinger County, Missouri",
+      "extract": "Estate of Jacob Bess, Sen., dec'd. Matilda Bess, administratrix, presents her 3rd Annual Settlement and asks for an order of distribution among the heirs.",
+      "citation": "Bollinger County Court probate entry, 13 Feb 1867.",
+      "people": [
+        "jacob-bess-sr",
+        "matilda-bess"
+      ],
+      "proves": [
+        "Jacob Bess Sr. was deceased by 13 Feb 1867",
+        "Matilda Bess served as administratrix of his estate",
+        "The estate had heirs awaiting distribution"
+      ],
+      "doesNotProve": [
+        "Names of the heirs (not enumerated in this entry)",
+        "Matilda's relationship to Jacob (administratrix role does not by itself prove daughter or widow)"
+      ]
+    },
+    "ev-1869-jacob-bess-heirs-circuit-court": {
+      "id": "ev-1869-jacob-bess-heirs-circuit-court",
+      "type": "court",
+      "date": "20 Mar 1869",
+      "location": "Bollinger County, Missouri",
+      "extract": "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate.",
+      "citation": "Bollinger County Circuit Court, March Term 1869.",
+      "people": [
+        "jacob-bess-sr",
+        "edward-b-bess",
+        "daniel-r-bess",
+        "james-bess-son",
+        "matilda-bess",
+        "sarah-j-bess",
+        "barbara-bess-blaylock",
+        "mary-a-bess",
+        "adaline-bess-rhodes",
+        "emanuel-bess"
+      ],
+      "proves": [
+        "Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary Bess (Blaylock line), Mary A. Bess, Adeline Bess (Rhodes line), and Emanuel Bess belong to Jacob Bess Sr.'s heir group"
+      ],
+      "doesNotProve": [
+        "Exact relationship of each heir to Jacob (heir status alone does not specify daughter/son/grandchild without further wording)",
+        "Birth dates of any heir"
+      ],
+      "notes": "Companion to existing ev-jacob-bess-partition-1868. Both should be reviewed together for full heir enumeration."
+    },
+    "ev-1860-jacob-bess-sr-daniel-bess-deed": {
+      "id": "ev-1860-jacob-bess-sr-daniel-bess-deed",
+      "type": "deed",
+      "date": "16 Mar 1860",
+      "location": "Bollinger County, Missouri",
+      "extract": "Jacob Bess Senior of Bollinger County conveyed approximately 34 acres to Daniel Bess: north and west part of the southwest quarter of the northwest quarter of Section 7, Township 31 North, Range 9 East.",
+      "citation": "Bollinger County deed, 16 Mar 1860.",
+      "people": [
+        "jacob-bess-sr",
+        "daniel-r-bess"
+      ],
+      "proves": [
+        "Jacob Bess Sr. was alive and resident in Bollinger County in 1860",
+        "Jacob Bess Sr. owned and conveyed land in Bollinger County",
+        "Daniel Bess received land from Jacob Bess Sr."
+      ],
+      "doesNotProve": [
+        "Father-son relationship between Jacob Bess Sr. and Daniel Bess (deed is a conveyance, not a kinship statement)"
+      ]
+    },
+    "ev-1830-census-bess-crites-kinder-cluster-mo": {
+      "id": "ev-1830-census-bess-crites-kinder-cluster-mo",
+      "type": "census",
+      "date": "1830",
+      "location": "Cape Girardeau County, Missouri",
+      "extract": "Same census page includes Jacob Bess, Peter Bess, John Bess, Frederick Bess, and nearby Crites and Kinder households.",
+      "citation": "1830 U.S. Census, Cape Girardeau Co., MO — same-page Bess/Crites/Kinder cluster.",
+      "people": [
+        "jacob-bess-sr",
+        "peter-bess-mo",
+        "john-bess-mo",
+        "frederick-bess-mo"
+      ],
+      "proves": [
+        "Multiple Bess households were geographically proximate in 1830 Cape Girardeau County",
+        "Bess, Crites, and Kinder families were part of the same local settlement cluster"
+      ],
+      "doesNotProve": [
+        "Family relationships among the Bess households",
+        "That any of these Bess men were brothers, cousins, or otherwise kin"
+      ],
+      "notes": "Companion to existing ev-1830-census-jacob-bess (same census). This record captures the cluster context; the other captures Jacob’s household tally."
     }
   }
 }

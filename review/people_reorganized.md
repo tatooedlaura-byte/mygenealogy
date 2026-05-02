@@ -16,8 +16,6 @@ Doctrine: no inference, no merging, no upgrades, no deletions, verbatim record w
   - [Rhoda B. Bess](#-rhoda-b-bess)
   - [Edward B. Bess](#-edward-b-bess)
   - [Jane Sanders](#-jane-sanders)
-  - [Jacob Bess Sr.](#-jacob-bess-sr)
-  - [Barbara Slinkard](#-barbara-slinkard)
 - **Jacob Bess Sr.'s children (Missouri)** (`bess-mo-children`)
   - [Daniel Bess](#-daniel-bess)
   - [Emanuel Bess](#-emanuel-bess)
@@ -31,6 +29,9 @@ Doctrine: no inference, no merging, no upgrades, no deletions, verbatim record w
   - [Barbara (Barbary) Bess](#-barbara-bess-blaylock)
   - [Mary A. Bess (Jacob's daughter)](#-mary-a-bess)
   - [James Bess (Jacob's son)](#-james-bess-son)
+  - [Daniel R. Bess](#-daniel-r-bess)
+  - [Sarah J. Bess](#-sarah-j-bess)
+  - [Adaline Bess](#-adaline-bess-rhodes)
 - **Edward B. Bess's children** (`bess-edward-children`)
   - [Rosanna Bess](#-rosanna-bess)
   - [Mary F. Bess](#-mary-f-bess)
@@ -41,23 +42,82 @@ Doctrine: no inference, no merging, no upgrades, no deletions, verbatim record w
   - [Edward Bess Jr.](#-edward-bess-jr)
   - [Nelly Bess](#-nelly-bess)
 - **North Carolina Bess cluster (reference only)** (`bess-nc-cluster`)
+  - [Boston Bess (NC, 1833–1848)](#-boston-bess-nc-1833)
+  - [Boston (Bostian) Bess (NC, ~1771)](#-bostian-bess-nc-1783)
+  - [Bostian Best (NC, court referee ~1839)](#-bostian-best-nc-1839)
+  - [Jonas R. Linebarger](#-jonas-r-linebarger)
+  - [William Bluford (NC, 1831)](#-william-bluford-nc)
+  - [Jacob Bess (elder, NC)](#-jacob-bess-elder-nc)
+  - [Samuel Best (NC, 1829)](#-samuel-best-nc)
+  - [Michael Best (NC, ~1793–1831)](#-michael-best-nc)
+  - [Christian Best (NC, 1823)](#-christian-best-nc)
+  - [Michael Best (NC, 1823)](#-michael-best-nc-1823)
+  - [Michael Best (NC, 1872)](#-michael-best-nc-1872)
   - [Eve Bess](#-eve-bess)
   - [Peter Bess (elder, 1832 will)](#-peter-bess-elder)
   - [Leannah Bess](#-leannah-bess)
+  - [Fanny Bess (NC, 1832)](#-fanny-bess-nc)
+  - [Jonah Bess](#-jonah-bess)
+  - [Andrew Bess (NC, 1832)](#-andrew-bess-nc)
+  - [Jacob Best (NC, 1832–1838)](#-jacob-best-nc-1832)
+  - [Noah Bess (NC, 1848)](#-noah-bess-nc)
+  - [Eli Rhyne (NC, 1848)](#-eli-rhyne-nc)
+  - [Catharine Elmina Rhyne](#-catharine-elmina-rhyne)
   - [Hiram Bess](#-hiram-bess)
   - [Eliza Bess](#-eliza-bess)
+  - [John F. Hill (NC, 1847)](#-john-f-hill-nc)
+  - [Thomas Spratt (NC, 1847)](#-thomas-spratt-nc)
+  - [Peter Grigg (NC, 1847)](#-peter-grigg-nc)
+  - [Lawson Bess (NC, will witness 1847)](#-lawson-bess-nc-1847)
   - [Boston Bess (1869)](#-boston-bess-1869)
 - **POSSIBLE NC ORIGINS — NOT MERGED (relationship to MO line UNPROVEN; cluster + timeline only)** (`bess-nc-origins`)
   - [Peter Best (Bess)](#-peter-best)
   - [Cristina Whitenbarger](#-cristina-whitenbarger)
   - [Boston Best (Bess) Sr.](#-boston-best-sr)
+  - [Boston Best (NC, 1820)](#-boston-best-nc-1820)
   - [Catron Best](#-catron-best)
+  - [Frederick Best (NC, 1795)](#-frederick-best-nc)
   - [Jacob Best (NC, 1809)](#-jacob-best-nc-1809)
   - [Daniel Best (NC, 1795)](#-daniel-best-nc-1795)
   - [Martin Best (NC, 1795)](#-martin-best-nc-1795)
+  - [John Best (NC, 1810)](#-john-best-nc-1810)
+  - [Elizabeth Best (NC, 1823)](#-elizabeth-best-nc)
+  - [Margaret Hoyle (NC, 1823)](#-margaret-hoyle-nc)
+  - [Elias Best (NC, 1797–1799)](#-elias-best-nc)
+  - [William Bost (NC, 1797)](#-william-bost-nc)
 - **Missouri Bess cluster (reference only)** (`bess-mo-cluster`)
+  - [Jacob Bess](#-jacob-bess-sr)
+  - [Michael Bess](#-michael-bess-mo)
+  - [Elizabeth Bess](#-elizabeth-bess-michael-wife)
+  - [Christopher J. Bess](#-christopher-j-bess-mo)
+  - [Cynthia Bess](#-cynthia-bess-mo)
+  - [Eleanor Bess](#-eleanor-bess-mo)
+  - [Mary C. Bess](#-mary-c-bess-mo)
+  - [Sarah M. Bess](#-sarah-m-bess-mo)
+  - [Peter Bess](#-peter-bess-mo)
+  - [Martha Bess](#-martha-bess-mo-peter-wife)
+  - [Mary Bess](#-mary-bess-peter-household)
+  - [Lurena Bess](#-lurena-bess-peter-household)
+  - [Elijah Bess](#-elijah-bess-peter-household)
+  - [Caroline Bess](#-caroline-bess-peter-household)
+  - [Adeline Bess](#-adeline-bess-peter-household)
+  - [Anderson Bess](#-anderson-bess-mo)
+  - [Peter Bess Jr.](#-peter-bess-jr-mo)
+  - [Martha Bess (child)](#-martha-bess-child-peter)
+  - [John Bess (Madison Co., MO, ~1791)](#-john-bess-madison-1850)
+  - [Catherine Bess (Madison Co., MO, ~1791)](#-catherine-bess-madison)
+  - [Maliny Bess (Madison Co., ~1826)](#-maliny-bess-madison)
+  - [Emanuel Bess (Madison Co., ~1828)](#-emanuel-bess-madison)
+  - [Absolum Bess (Madison Co., ~1831)](#-absolum-bess-madison)
+  - [Rua Bess (Madison Co., ~1833)](#-rua-bess-madison)
+  - [Pernicia Bess (Madison Co., ~1836)](#-pernicia-bess-madison)
   - [Lawson Bess](#-lawson-bess)
+  - [John Bess](#-john-bess-mo)
+  - [Frederick Bess](#-frederick-bess-mo)
+  - [John Best](#-john-best-mo)
+  - [Caty Best](#-caty-best)
 - **Slinkard line (via Barbara, Jacob Bess Sr.'s wife)** (`slinkard-direct`)
+  - [Barbara Slinkard](#-barbara-slinkard)
   - [Jacob Slinkard (MO, d. <1823)](#-jacob-slinkard-mo)
   - [Jacob Slinkard (NC, 1788 heir)](#-jacob-slinkard-nc-1788)
   - [Frederick Slinker Sr.](#-frederick-slinker-sr)
@@ -66,6 +126,7 @@ Doctrine: no inference, no merging, no upgrades, no deletions, verbatim record w
   - [Polly Slinkard (Jacob MO's daughter)](#-polly-slinkard-a)
   - [David Slinkard (Jacob MO's minor son)](#-david-slinkard-minor)
   - [Jacob Slinkard (Jacob MO's minor son)](#-jacob-slinkard-minor)
+  - [Hannah Slinkard](#-hannah-slinkard)
 - **Daniel Slinkard's heirs (1838 probate)** (`slinkard-daniel-heirs`)
   - [John Slinkard (Daniel's heir)](#-john-slinkard-b)
   - [Jacob Slinkard (~1812)](#-jacob-slinkard-1812)
@@ -152,8 +213,9 @@ _(group key: `direct-line`)_
 ### 🔗 Relationships
 **Father** — UNKNOWN
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Robert Stokes (`robert-stokes`) — PROVEN
+**Parent (sex not stated in data)** — SUPPORTED
+  - Robert Stokes (`robert-stokes`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -161,8 +223,8 @@ _(group key: `direct-line`)_
 - Placeholder for the tree owner. Fill in or remove as desired.
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ---
 
@@ -180,9 +242,9 @@ _(group key: `direct-line`)_
 ### 🔗 Relationships
 **Father** — UNKNOWN
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Virginia Labrot (`virginia-labrot`) — PROVEN
-    - _note:_ Direct-line descendant of Virginia Labrot — PROVEN per user's research file.
+**Parent (sex not stated in data)** — SUPPORTED
+  - Virginia Labrot (`virginia-labrot`) — SUPPORTED
+    - _note:_ Direct-line descendant of Virginia Labrot — PROVEN per user's research file. [Downgraded from PROVEN: no evidence record attached]
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -190,8 +252,8 @@ _(group key: `direct-line`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ### 🔍 Related Research Tasks
 - [t-virginia-labrot-vitals] Locate Virginia Labrot's birth, marriage, and death records. (_priority:_ high, _status:_ open)
@@ -212,9 +274,11 @@ _(group key: `direct-line`)_
 ### 🔗 Relationships
 **Father** — UNKNOWN
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Joseph Labrot (`joseph-labrot`) — PROVEN
-  - Rhoda B. Bess (`rhoda-b-bess`) — PROVEN
+**Parent (sex not stated in data)** — SUPPORTED
+  - Joseph Labrot (`joseph-labrot`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
+  - Rhoda B. Bess (`rhoda-b-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -222,8 +286,8 @@ _(group key: `direct-line`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ### 🔍 Related Research Tasks
 - [t-virginia-labrot-vitals] Locate Virginia Labrot's birth, marriage, and death records. (_priority:_ high, _status:_ open)
@@ -320,25 +384,32 @@ _(group key: `direct-line`)_
   Citation: 1872 Madison Co., MO deed.
 - **partition** (~1868, Bollinger County, Missouri) — "Heirs listed: Sarah (m. James Bess), Catherine, Adaline (m. Rhodes), Barbara/Barbary (m. Blaylock), Mary A., Jacob Jr., Edward, Daniel, Emanuel, Levi, James."
   Citation: Jacob Bess Sr. partition/distribution case, Bollinger Co., MO ~1868.
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
 - **death-record** (31 Jan 1935, Granite City, Illinois) — "Albert Ransom Bess; born 11 May 1862, Bessville, MO; parents: Edward Bess and Jane Sanders."
   Citation: 1935 Illinois death record for Albert Ransom Bess.
 
 ### 🔗 Relationships
 **Father** — PROVEN
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
 **Mother** — UNKNOWN
 **Spouse(s)** — PROVEN
   - Jane Sanders (`jane-sanders`) — PROVEN
 **Children** — PROVEN (highest); SUPPORTED (lowest)
-  - Rosanna Bess (`rosanna-bess`) — PROVEN
+  - Rosanna Bess (`rosanna-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
   - Mary F. Bess (`mary-f-bess`) — STRONGLY SUPPORTED
   - Catherine Bess (Edward's daughter) (`catherine-bess-edward-daughter`) — SUPPORTED
   - Albert Ransom Bess (`albert-ransom-bess`) — PROVEN
-  - Caroline Bess (`caroline-bess`) — PROVEN
+  - Caroline Bess (`caroline-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
   - Rhoda B. Bess (`rhoda-b-bess`) — PROVEN
-  - Hugh Bess (`hugh-kidd-bess`) — PROVEN
-  - Edward Bess Jr. (`edward-bess-jr`) — PROVEN
-  - Nelly Bess (`nelly-bess`) — PROVEN
+  - Hugh Bess (`hugh-kidd-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
+  - Edward Bess Jr. (`edward-bess-jr`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
+  - Nelly Bess (`nelly-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 
 ### 🧠 Analysis
 - _Summary (from data):_ Securely documented son of Jacob Bess Sr. Multiple deeds prove marriage to Jane. Strongest evidence for Jane's maiden name is the death record of son Albert Ransom Bess.
@@ -390,159 +461,6 @@ _(group key: `direct-line`)_
 
 ---
 
-<a id="-jacob-bess-sr"></a>
-
-## 👤 Jacob Bess Sr.
-**AKA:** Jacob Best · **Group:** direct-line · **Tags:** direct-line, bess, best · **ID:** `jacob-bess-sr`
-
-### 📅 Timeline
-- ~1798 — born, North Carolina (SUPPORTED)
-- before Feb 1864 — died, Bollinger County, Missouri (PROVEN)
-- 1822 — resided Cape Girardeau County, Missouri (PROVEN)
-- 1830 — resided Cape Girardeau County, Missouri (PROVEN)
-- 1850 — resided Cape Girardeau County, Missouri (PROVEN)
-- (undated) — resided Bollinger County, Missouri (PROVEN)
-- 1814 — married (spouse claim) (PROVEN (By Argument))
-
-### 📚 Evidence
-- **census** (1830, Cape Girardeau County, Missouri) — "Male age 30–39 (born ~1790–1800); household with multiple children."
-  Citation: 1830 U.S. Census, Cape Girardeau Co., MO.
-- **census** (1850, Cape Girardeau County, Missouri) — "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel."
-  Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
-- **probate** (by Feb 1864, Bollinger County, Missouri) — "Jacob Bess deceased; Matilda Bess administratrix."
-  Citation: Bollinger Co., MO probate records.
-- **tax** (1822, Cape Girardeau County, Missouri) — "Jacob Bess listed."
-  Citation: 1822 Cape Girardeau County, MO tax list.
-- **deed** (1859, Bollinger County, Missouri) — "Jacob Bess appears alone (no wife joining in dower)."
-  Citation: 1859 Bollinger Co., MO deed.
-- **estate-account** (1809, Lincoln County, North Carolina) — "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'"
-  Citation: 1809 Boston Best Sr. estate account.
-- **will** (1832, Lincoln County, North Carolina) — "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed)."
-  Citation: 1832 Peter Bess will, Lincoln County, NC.
-- **analysis** ((derived), —) — "Jacob Bess Sr. fits chronologically (~1798) as second-generation son of Peter Best (b. ~1765–1775); migration timing aligns with NC→MO ~1815–1822; no conflicting candidate."
-  Citation: Working analysis combining the above sources.
-- **guardian** ((undated probate distribution, post-1816), Cape Girardeau County, Missouri) — "'Jacob Miller, guardian of Barbara Slinkard… paid her share to her husband Jacob Best…'"
-  Citation: Probate / guardian distribution, Cape Girardeau Co., MO.
-- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "'Daniel Slinkard and his wife Hannah, David Kinder, John Best and Caty Best his wife, Jacob Best and his wife Barbary Best… land confirmed to Jacob Slinkard deceased and owned by him in his life time…'"
-  Citation: 1823 Cape Girardeau Co., MO deed.
-- **court** (early 1830s (exact date not fully visible), Cape Girardeau County, Missouri) — "'Jacob Miller, Guardian of Polly Slinkerd, daughter of Jacob Slinkard deceased…' 'Jacob Miller, Guardian of Barbara Slinkerd, daughter of Jacob Slinkard deceased…'"
-  Citation: Circuit Court Proceedings, Cape Girardeau County, MO (early court term, likely 1830s).
-- **partition** (~1868, Bollinger County, Missouri) — "Heirs listed: Sarah (m. James Bess), Catherine, Adaline (m. Rhodes), Barbara/Barbary (m. Blaylock), Mary A., Jacob Jr., Edward, Daniel, Emanuel, Levi, James."
-  Citation: Jacob Bess Sr. partition/distribution case, Bollinger Co., MO ~1868.
-- **deed** (1857, Bollinger County, Missouri) — "Levi Bess and Barbary Bess his wife; dower released."
-  Citation: 1857 Bollinger Co., MO deed.
-
-### 🔗 Relationships
-**Father** — REPLACED
-  - Peter Best (Bess) (`peter-best`) — REPLACED
-    - _note:_ Previously treated as SUPPORTED (working hypothesis — see review/proof_arguments/jacob-bess-parentage.md). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule.
-**Mother** — UNKNOWN
-**Spouse(s)** — PROVEN (By Argument)
-  - Barbara Slinkard (`barbara-slinkard`) — PROVEN (By Argument)
-    - _justification:_ Jacob Best, named in the 1823 deed alongside Barbara/Barbary Best (formerly Slinkard), is the same individual as Jacob Bess Sr. of Cape Girardeau/Bollinger County, based on geographic continuity, consistent timeline, the Best→Bess phonetic spelling shift documented across this line, and the absence of any competing Jacob Best in the cluster. No conflicting evidence has been identified.
-    - _contradictions checked:_ none found
-    - _note:_ Surname appears as Best in early records (1814, 1823) and Bess in later Missouri records — phonetic spelling variation. Full proof argument: review/proof_arguments/barbara-slinkard-jacob-bess.md.
-  - (Unknown wife — implied, replaced) (`unknown-wife-implied`) — REPLACED
-    - _note:_ Earlier hypothesis: spouse UNKNOWN, with conclusion 'wife likely deceased before 1859' (1859 deed shows Jacob alone; no widow in probate). REPLACED by identification with Barbara Slinkard via Jacob Miller guardianship record. Barbara could still have predeceased Jacob — that fits both the absence of dower in 1859 AND the marriage proof.
-  - Matilda Bess (`matilda-bess`) — REJECTED
-    - _note:_ Past hypothesis treating Matilda as Jacob's wife. REJECTED — Matilda is best understood as Jacob's daughter (1850 in his household; 1880 listed as 'sister' in Daniel Bess household). Kept here per no-delete rule.
-**Children** — PROVEN (highest); SUPPORTED (lowest)
-  - Edward B. Bess (`edward-b-bess`) — PROVEN
-  - Daniel Bess (`daniel-bess`) — SUPPORTED
-  - Emanuel Bess (`emanuel-bess`) — SUPPORTED
-  - Levi Bess (`levi-bess`) — SUPPORTED
-  - Jacob Bess Jr. (`jacob-bess-jr`) — SUPPORTED
-  - Matilda Bess (`matilda-bess`) — STRONGLY SUPPORTED
-    - _note:_ 1850 in Jacob's household; later 1880 listed as 'sister' in Daniel Bess household.
-  - Sarah Bess (`sarah-bess`) — PROVEN
-  - Catherine Bess (Jacob's daughter) (`catherine-bess-jacob-daughter`) — PROVEN
-  - Adaline Bess (`adaline-bess`) — PROVEN
-  - Barbara (Barbary) Bess (`barbara-bess-blaylock`) — PROVEN
-  - Mary A. Bess (Jacob's daughter) (`mary-a-bess`) — PROVEN
-  - James Bess (Jacob's son) (`james-bess-son`) — PROVEN
-
-### 🧠 Analysis
-- _Summary (from data):_ Firmly established in Missouri through census, probate, partition, and deed evidence. NC birthplace is supported by census only. Identification with 'Jacob Best' (1814 marriage to Barbara Slinkard) is PROVEN (By Argument).
-- _Open questions (from data):_
-  - Who are Jacob Bess's parents? (Working hypothesis: Peter Best/Bess — SUPPORTED only.)
-  - Can a North Carolina record name Jacob as a son/heir?
-
-### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN (By Argument)
-
-### 📌 Proof Argument
-- See [`review/proof_arguments/barbara-slinkard-jacob-bess.md`](proof_arguments/barbara-slinkard-jacob-bess.md)
-  - **Claim:** Barbara Slinkard = Barbary Best = wife of Jacob Bess Sr.
-  - **Conclusion:** PROVEN (By Argument)
-  - **Conflicts checked:** see the proof argument file (verbatim)
-- See [`review/proof_arguments/jacob-bess-parentage.md`](proof_arguments/jacob-bess-parentage.md)
-  - **Claim:** Parentage of Jacob Bess Sr. (working hypothesis: son of Peter Best/Bess)
-  - **Conclusion:** Boston→Peter STRONGLY SUPPORTED; Peter→Jacob SUPPORTED (not proven)
-  - **Conflicts checked:** see the proof argument file (verbatim)
-
-### 🔍 Related Research Tasks
-- [t-jacob-bess-dower-release] Search Cape Girardeau deed books for any Jacob Bess dower release between marriage (1814) and 1859. (_priority:_ high, _status:_ open)
-- [t-guardianship-curator-files] Search Cape Girardeau guardianship/curator files for any other Slinkard, Best, or Bess minors of the relevant period. (_priority:_ medium, _status:_ open)
-- [t-peter-best-children-named] Search NC probate, deed, and court records for any document naming Peter Best/Bess's children individually (1832 will leaves to 'my children' but does not list them). (_priority:_ high, _status:_ open)
-- [t-1840-census-jacob-bess] Find Jacob Bess in 1840 Cape Girardeau / Bollinger County census. (_priority:_ low, _status:_ open)
-- [t-bessville-mo-history] Research 'Bessville, Missouri' — the place named on Albert Ransom Bess's death record. Confirm location, founding family, surviving records. (_priority:_ low, _status:_ open)
-
----
-
-<a id="-barbara-slinkard"></a>
-
-## 👤 Barbara Slinkard
-**AKA:** Barbary Best, Barbary Bess · **Group:** direct-line · **Tags:** direct-line, slinkard, best, bess · **ID:** `barbara-slinkard`
-
-### 📅 Timeline
-- 1814 — married (spouse claim) (PROVEN (By Argument))
-
-### 📚 Evidence
-- **guardian** ((undated probate distribution, post-1816), Cape Girardeau County, Missouri) — "'Jacob Miller, guardian of Barbara Slinkard… paid her share to her husband Jacob Best…'"
-  Citation: Probate / guardian distribution, Cape Girardeau Co., MO.
-- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "'Daniel Slinkard and his wife Hannah, David Kinder, John Best and Caty Best his wife, Jacob Best and his wife Barbary Best… land confirmed to Jacob Slinkard deceased and owned by him in his life time…'"
-  Citation: 1823 Cape Girardeau Co., MO deed.
-- **guardian** (~1813–1816 (per user transcription), Missouri (Cape Girardeau County)) — "Guardianship/court record naming Jacob Slinkard (deceased) and his minor children: Polly Slinkard, Barbara Slinkard, David Slinkard, Jacob Slinkard."
-  Citation: User-provided summary; original record citation TBD.
-- **court** (early 1830s (exact date not fully visible), Cape Girardeau County, Missouri) — "'Jacob Miller, Guardian of Polly Slinkerd, daughter of Jacob Slinkard deceased…' 'Jacob Miller, Guardian of Barbara Slinkerd, daughter of Jacob Slinkard deceased…'"
-  Citation: Circuit Court Proceedings, Cape Girardeau County, MO (early court term, likely 1830s).
-- **census** (1830, Cape Girardeau County, Missouri) — "Male age 30–39 (born ~1790–1800); household with multiple children."
-  Citation: 1830 U.S. Census, Cape Girardeau Co., MO.
-- **census** (1850, Cape Girardeau County, Missouri) — "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel."
-  Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
-
-### 🔗 Relationships
-**Father** — PROVEN
-  - Jacob Slinkard (MO, d. <1823) (`jacob-slinkard-mo`) — PROVEN
-**Mother** — UNKNOWN
-**Spouse(s)** — PROVEN (By Argument)
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN (By Argument)
-    - _justification:_ Barbara Slinkard, identified as a minor daughter of Jacob Slinkard deceased via the circuit court guardian record, is the same individual as Barbary Best, wife of Jacob Best, based on her participation in the 1823 deed disposing of Jacob Slinkard's estate land, consistent geographic location (Cape Girardeau County), absence of any competing individual named Barbary in the cluster, and the standard Best/Bess surname variation documented throughout this line. No conflicting evidence has been identified.
-    - _contradictions checked:_ none found
-    - _note:_ Full proof argument: review/proof_arguments/barbara-slinkard-jacob-bess.md.
-**Children** — UNKNOWN
-
-### 🧠 Analysis
-- Distinct from Barbara Bess (m. Blaylock — Jacob Bess Sr.'s daughter) and from Barbary Bess (Levi's wife).
-
-### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
-
-### 📌 Proof Argument
-- See [`review/proof_arguments/barbara-slinkard-jacob-bess.md`](proof_arguments/barbara-slinkard-jacob-bess.md)
-  - **Claim:** Barbara Slinkard = Barbary Best = wife of Jacob Bess Sr.
-  - **Conclusion:** PROVEN (By Argument)
-  - **Conflicts checked:** see the proof argument file (verbatim)
-
-### 🔍 Related Research Tasks
-- [t-jacob-bess-dower-release] Search Cape Girardeau deed books for any Jacob Bess dower release between marriage (1814) and 1859. (_priority:_ high, _status:_ open)
-- [t-jacob-slinkard-mo-probate] Search Cape Girardeau probate / orphans court files for Jacob Slinkard (MO) full estate file. Identify all heirs by name, not just Barbara and Polly. (_priority:_ high, _status:_ open)
-- [t-jacob-slinkard-guardianship-date] Verify the date of the guardianship/court record naming Jacob Slinkard (deceased) as father of Polly, Barbara, David, and Jacob (minor). User noted it as ~1813–1816, but the 1818 deed (ev-1818-jacob-slinkard-mo-deed) shows Jacob alive selling a town lot — those cannot both be true for the same Jacob. (_priority:_ high, _status:_ open)
-
----
-
 # Group: Jacob Bess Sr.'s children (Missouri)
 _(group key: `bess-mo-children`)_
 
@@ -553,7 +471,7 @@ _(group key: `bess-mo-children`)_
 
 ### 📅 Timeline
 - ~1838 — born, Missouri (SUPPORTED)
-- (undated) — resided Bollinger County, Missouri (PROVEN)
+- (undated) — resided Bollinger County, Missouri (SUPPORTED)
 
 ### 📚 Evidence
 - **census** (1850, Cape Girardeau County, Missouri) — "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel."
@@ -561,7 +479,7 @@ _(group key: `bess-mo-children`)_
 
 ### 🔗 Relationships
 **Father** — SUPPORTED
-  - Jacob Bess Sr. (`jacob-bess-sr`) — SUPPORTED
+  - Jacob Bess (`jacob-bess-sr`) — SUPPORTED
 **Mother** — UNKNOWN
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
@@ -570,7 +488,7 @@ _(group key: `bess-mo-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
+- **Identity:** SUPPORTED
 - **Relationships (overall):** SUPPORTED
 
 ---
@@ -582,15 +500,17 @@ _(group key: `bess-mo-children`)_
 
 ### 📅 Timeline
 - ~1822 — born, Missouri (SUPPORTED)
-- (undated) — resided Cape Girardeau / Bollinger County, Missouri (PROVEN)
+- (undated) — resided Cape Girardeau / Bollinger County, Missouri (SUPPORTED)
 
 ### 📚 Evidence
 - **census** (1850, Cape Girardeau County, Missouri) — "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel."
   Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
 
 ### 🔗 Relationships
 **Father** — SUPPORTED
-  - Jacob Bess Sr. (`jacob-bess-sr`) — SUPPORTED
+  - Jacob Bess (`jacob-bess-sr`) — SUPPORTED
 **Mother** — UNKNOWN
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
@@ -599,7 +519,7 @@ _(group key: `bess-mo-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
+- **Identity:** SUPPORTED
 - **Relationships (overall):** SUPPORTED
 
 ---
@@ -621,7 +541,7 @@ _(group key: `bess-mo-children`)_
 
 ### 🔗 Relationships
 **Father** — SUPPORTED
-  - Jacob Bess Sr. (`jacob-bess-sr`) — SUPPORTED
+  - Jacob Bess (`jacob-bess-sr`) — SUPPORTED
 **Mother** — UNKNOWN
 **Spouse(s)** — PROVEN
   - Barbary Bess (wife of Levi) (`barbary-levi-wife`) — PROVEN
@@ -671,7 +591,7 @@ _(group key: `bess-mo-children`)_
 
 ### 📅 Timeline
 - ~1830 — born, Missouri (SUPPORTED)
-- (undated) — resided Bollinger County, Missouri (PROVEN)
+- (undated) — resided Bollinger County, Missouri (SUPPORTED)
 
 ### 📚 Evidence
 - **census** (1850, Cape Girardeau County, Missouri) — "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel."
@@ -681,7 +601,7 @@ _(group key: `bess-mo-children`)_
 
 ### 🔗 Relationships
 **Father** — SUPPORTED
-  - Jacob Bess Sr. (`jacob-bess-sr`) — SUPPORTED
+  - Jacob Bess (`jacob-bess-sr`) — SUPPORTED
 **Mother** — UNKNOWN
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
@@ -690,7 +610,7 @@ _(group key: `bess-mo-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
+- **Identity:** SUPPORTED
 - **Relationships (overall):** SUPPORTED
 
 ---
@@ -709,14 +629,16 @@ _(group key: `bess-mo-children`)_
   Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
 - **probate** (by Feb 1864, Bollinger County, Missouri) — "Jacob Bess deceased; Matilda Bess administratrix."
   Citation: Bollinger Co., MO probate records.
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
 
 ### 🔗 Relationships
 **Father** — STRONGLY SUPPORTED
-  - Jacob Bess Sr. (`jacob-bess-sr`) — STRONGLY SUPPORTED
+  - Jacob Bess (`jacob-bess-sr`) — STRONGLY SUPPORTED
     - _note:_ 1850 in Jacob's household; 1880 listed as 'sister' in Daniel Bess household.
 **Mother** — UNKNOWN
 **Spouse(s)** — REJECTED
-  - Jacob Bess Sr. (`jacob-bess-sr`) — REJECTED
+  - Jacob Bess (`jacob-bess-sr`) — REJECTED
     - _note:_ Past hypothesis treating Matilda as Jacob's wife rather than daughter. Daughter interpretation is much better supported. Kept per no-delete rule.
 **Children** — UNKNOWN
 
@@ -743,7 +665,7 @@ _(group key: `bess-mo-children`)_
 
 ### 🔗 Relationships
 **Father** — PROVEN
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
 **Mother** — UNKNOWN
 **Spouse(s)** — PROVEN
   - James Bess — PROVEN
@@ -773,7 +695,7 @@ _(group key: `bess-mo-children`)_
 
 ### 🔗 Relationships
 **Father** — PROVEN
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
 **Mother** — UNKNOWN
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
@@ -801,7 +723,7 @@ _(group key: `bess-mo-children`)_
 
 ### 🔗 Relationships
 **Father** — PROVEN
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
 **Mother** — UNKNOWN
 **Spouse(s)** — PROVEN
   - Mr. Rhodes — PROVEN
@@ -820,7 +742,7 @@ _(group key: `bess-mo-children`)_
 <a id="-barbara-bess-blaylock"></a>
 
 ## 👤 Barbara (Barbary) Bess
-**AKA:** Barbara Blaylock · **Group:** bess-mo-children · **Tags:** bess, bess-mo-children, blaylock · **ID:** `barbara-bess-blaylock`
+**AKA:** Barbara Blaylock, Barbary Bess · **Group:** bess-mo-children · **Tags:** bess, bess-mo-children, blaylock · **ID:** `barbara-bess-blaylock`
 
 ### 📅 Timeline
 - ~1830 — born, Missouri (SUPPORTED)
@@ -830,10 +752,12 @@ _(group key: `bess-mo-children`)_
   Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
 - **partition** (~1868, Bollinger County, Missouri) — "Heirs listed: Sarah (m. James Bess), Catherine, Adaline (m. Rhodes), Barbara/Barbary (m. Blaylock), Mary A., Jacob Jr., Edward, Daniel, Emanuel, Levi, James."
   Citation: Jacob Bess Sr. partition/distribution case, Bollinger Co., MO ~1868.
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
 
 ### 🔗 Relationships
 **Father** — PROVEN
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
 **Mother** — UNKNOWN
 **Spouse(s)** — SUPPORTED
   - Mr. Blaylock — SUPPORTED
@@ -860,10 +784,12 @@ _(group key: `bess-mo-children`)_
 ### 📚 Evidence
 - **partition** (~1868, Bollinger County, Missouri) — "Heirs listed: Sarah (m. James Bess), Catherine, Adaline (m. Rhodes), Barbara/Barbary (m. Blaylock), Mary A., Jacob Jr., Edward, Daniel, Emanuel, Levi, James."
   Citation: Jacob Bess Sr. partition/distribution case, Bollinger Co., MO ~1868.
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
 
 ### 🔗 Relationships
 **Father** — PROVEN
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
 **Mother** — UNKNOWN
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
@@ -888,16 +814,107 @@ _(group key: `bess-mo-children`)_
 ### 📚 Evidence
 - **partition** (~1868, Bollinger County, Missouri) — "Heirs listed: Sarah (m. James Bess), Catherine, Adaline (m. Rhodes), Barbara/Barbary (m. Blaylock), Mary A., Jacob Jr., Edward, Daniel, Emanuel, Levi, James."
   Citation: Jacob Bess Sr. partition/distribution case, Bollinger Co., MO ~1868.
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
 
 ### 🔗 Relationships
 **Father** — PROVEN
-  - Jacob Bess Sr. (`jacob-bess-sr`) — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
 **Mother** — UNKNOWN
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
 ### 🧠 Analysis
 - Distinct from James Bess (husband of Sarah Bess) unless proven otherwise.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-daniel-r-bess"></a>
+
+## 👤 Daniel R. Bess
+**Group:** bess-mo-children · **Tags:** bess, missouri, bollinger · **ID:** `daniel-r-bess`
+
+### 📅 Timeline
+- (undated) — resided Bollinger County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
+- **deed** (16 Mar 1860, Bollinger County, Missouri) — "Jacob Bess Senior of Bollinger County conveyed approximately 34 acres to Daniel Bess: north and west part of the southwest quarter of the northwest quarter of Section 7, Township 31 North, Range 9 East."
+  Citation: Bollinger County deed, 16 Mar 1860.
+
+### 🔗 Relationships
+**Father** — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
+    - _note:_ Named in 1869 heirs court record. 1860 deed from Jacob Bess Sr. is consistent but not by itself a kinship statement.
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub from 1869 heirs record and 1860 deed.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-sarah-j-bess"></a>
+
+## 👤 Sarah J. Bess
+**Group:** bess-mo-children · **Tags:** bess, missouri, bollinger · **ID:** `sarah-j-bess`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
+
+### 🔗 Relationships
+**Father** — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
+    - _note:_ Named in 1869 heirs court record.
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub from 1869 heirs record.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-adaline-bess-rhodes"></a>
+
+## 👤 Adaline Bess
+**AKA:** Adeline Bess, Adaline Rhodes, Adeline Rhodes · **Group:** bess-mo-children · **Tags:** bess, rhodes, missouri, bollinger · **ID:** `adaline-bess-rhodes`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
+
+### 🔗 Relationships
+**Father** — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
+    - _note:_ Named via the Rhodes line in the 1869 heirs court record.
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub from 1869 heirs record. Married into Rhodes line.
 
 ### 📊 Status
 - **Identity:** PROVEN
@@ -920,11 +937,13 @@ _(group key: `bess-edward-children`)_
 - (no evidence records linked)
 
 ### 🔗 Relationships
-**Father** — PROVEN
-  - Edward B. Bess (`edward-b-bess`) — PROVEN
+**Father** — SUPPORTED
+  - Edward B. Bess (`edward-b-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Jane Sanders (`jane-sanders`) — PROVEN
+**Parent (sex not stated in data)** — SUPPORTED
+  - Jane Sanders (`jane-sanders`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -932,8 +951,8 @@ _(group key: `bess-edward-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ---
 
@@ -1041,11 +1060,13 @@ _(group key: `bess-edward-children`)_
 - (no evidence records linked)
 
 ### 🔗 Relationships
-**Father** — PROVEN
-  - Edward B. Bess (`edward-b-bess`) — PROVEN
+**Father** — SUPPORTED
+  - Edward B. Bess (`edward-b-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Jane Sanders (`jane-sanders`) — PROVEN
+**Parent (sex not stated in data)** — SUPPORTED
+  - Jane Sanders (`jane-sanders`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -1053,8 +1074,8 @@ _(group key: `bess-edward-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ---
 
@@ -1070,11 +1091,13 @@ _(group key: `bess-edward-children`)_
 - (no evidence records linked)
 
 ### 🔗 Relationships
-**Father** — PROVEN
-  - Edward B. Bess (`edward-b-bess`) — PROVEN
+**Father** — SUPPORTED
+  - Edward B. Bess (`edward-b-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Jane Sanders (`jane-sanders`) — PROVEN
+**Parent (sex not stated in data)** — SUPPORTED
+  - Jane Sanders (`jane-sanders`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -1082,8 +1105,8 @@ _(group key: `bess-edward-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ---
 
@@ -1099,11 +1122,13 @@ _(group key: `bess-edward-children`)_
 - (no evidence records linked)
 
 ### 🔗 Relationships
-**Father** — PROVEN
-  - Edward B. Bess (`edward-b-bess`) — PROVEN
+**Father** — SUPPORTED
+  - Edward B. Bess (`edward-b-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Jane Sanders (`jane-sanders`) — PROVEN
+**Parent (sex not stated in data)** — SUPPORTED
+  - Jane Sanders (`jane-sanders`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -1111,8 +1136,8 @@ _(group key: `bess-edward-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ---
 
@@ -1128,11 +1153,13 @@ _(group key: `bess-edward-children`)_
 - (no evidence records linked)
 
 ### 🔗 Relationships
-**Father** — PROVEN
-  - Edward B. Bess (`edward-b-bess`) — PROVEN
+**Father** — SUPPORTED
+  - Edward B. Bess (`edward-b-bess`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Mother** — UNKNOWN
-**Parent (sex not stated in data)** — PROVEN
-  - Jane Sanders (`jane-sanders`) — PROVEN
+**Parent (sex not stated in data)** — SUPPORTED
+  - Jane Sanders (`jane-sanders`) — SUPPORTED
+    - _note:_ Downgraded from PROVEN: no evidence record attached
 **Spouse** — UNKNOWN
 **Children** — UNKNOWN
 
@@ -1140,13 +1167,360 @@ _(group key: `bess-edward-children`)_
 - (no analytical notes recorded)
 
 ### 📊 Status
-- **Identity:** PROVEN
-- **Relationships (overall):** PROVEN
+- **Identity:** SUPPORTED
+- **Relationships (overall):** SUPPORTED
 
 ---
 
 # Group: North Carolina Bess cluster (reference only)
 _(group key: `bess-nc-cluster`)_
+
+<a id="-boston-bess-nc-1833"></a>
+
+## 👤 Boston Bess (NC, 1833–1848)
+**Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `boston-bess-nc-1833`
+
+### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (December 1833, Lincoln County, North Carolina) — "Boston Bess sells 238-acre tract on Buffalo Creek to Robert Lackey."
+  Citation: Lincoln County, NC deed, December 1833; grantor: Boston Bess; grantee: Robert Lackey; acreage: 238, on Buffalo Creek.
+- **deed-of-gift** (22 Aug 1848, Lincoln County, North Carolina) — "Boston Bess refers to 'my beloved son Hiram Bess'; Eliza Bess identified as widow of Hiram Bess."
+  Citation: Lincoln County, NC deed of gift, 22 Aug 1848; grantor: Boston Bess; references: 'my beloved son Hiram Bess' (deceased by this date); Eliza Bess named as Hiram's widow.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — PROVEN (highest); PROVEN (lowest)
+  - Hiram Bess (`hiram-bess`) — PROVEN
+    - _note:_ Explicitly stated in deed of gift: 'my beloved son Hiram Bess.' Hiram was deceased by this date (d. by 5 Nov 1847); deed made to his heirs.
+
+### 🧠 Analysis
+- Active in Lincoln County 1833–1848: 1833 land sale (Buffalo Creek) and 1848 deed of gift referencing deceased son Hiram Bess.
+- FIRST PROVEN PARENT-CHILD LINK in the Lincoln County Bess cluster: Boston Bess → Hiram Bess (PROVEN).
+- Surname spelled 'Bess' (not 'Best') — consistent with the phonetic shift seen throughout this cluster.
+- DO NOT merge with boston-best-sr (d. by 1809), boston-best-nc-1820, or bostian-bess-nc-1783 without clear evidence. This is a distinct late individual.
+- Relationship to Peter Bess, Jacob Best/Bess: UNKNOWN. Whether Boston had other children beyond Hiram: UNKNOWN.
+- Land associated with Boston Bess continued to serve as a geographic reference point in Lincoln Co. deeds as late as 1846 (ev-1846-deed-trust-boston-peter-nc), now confirmed consistent with his documented lifespan (alive 1848).
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-bostian-bess-nc-1783"></a>
+
+## 👤 Boston (Bostian) Bess (NC, ~1771)
+**AKA:** Bostian Bess, Boston Bess (1783) · **Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `bostian-bess-nc-1783`
+
+### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (~1771, Lincoln County, North Carolina) — "Boston Bess acquires a tract of land (from John Ryan/Wyatt; deed recorded in court)."
+  Citation: Lincoln County, NC deed records, ~1771 (grantor: John Ryan/Wyatt; grantee: Boston Bess).
+- **land-reference** (13 Oct 1783, Lincoln County, North Carolina) — "Boston (Bostian) Bess — 185 acres (referenced in court land chain)."
+  Citation: Lincoln County, NC court land chain exhibit, 13 Oct 1783.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Earliest confirmed appearance: ~1771 deed in Lincoln County (from John Ryan/Wyatt). Second record: 1783 land chain (185 acres). Relationship to Jacob Bess not stated.
+- DO NOT merge with Boston Best Sr. (d. 1809, ev-1809-boston-best-estate) or Boston Bess (1869, bess-nc-cluster). Three distinct individuals until proven otherwise.
+- Relationship to any other Bess individual: UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-bostian-best-nc-1839"></a>
+
+## 👤 Bostian Best (NC, court referee ~1839)
+**AKA:** Boston Best (1839) · **Group:** bess-nc-cluster · **Tags:** best, bess-nc-cluster, north-carolina · **ID:** `bostian-best-nc-1839`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **court** (~1839, North Carolina) — "Bostian Best named as court referee."
+  Citation: North Carolina court record, ~1839 (Bostian Best as referee; book/page TBD).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Whether same as Bostian Bess (1783 land reference): UNKNOWN. The 56-year gap makes separate individuals likely but not certain.
+- DO NOT merge with Bostian Bess (1783), Boston Best Sr. (d. 1809), or Boston Bess (1869).
+- Relationship to any other Best/Bess individual: UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-jonas-r-linebarger"></a>
+
+## 👤 Jonas R. Linebarger
+**Group:** bess-nc-cluster · **Tags:** bess-nc-cluster, north-carolina · **ID:** `jonas-r-linebarger`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **care-agreement** (21 Mar 1837 (proved 1839), Lincoln County, North Carolina) — "Jacob Bess transfers property to Jonas R. Linebarger in exchange for lifetime care; reserves limited personal property."
+  Citation: Lincoln County, NC bill of sale / care contract, 21 Mar 1837; proved 1839.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Relationship to Jacob Bess (elder): UNKNOWN beyond the care agreement. Not a family member per the record.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-william-bluford-nc"></a>
+
+## 👤 William Bluford (NC, 1831)
+**Group:** bess-nc-cluster · **Tags:** bess-nc-cluster, north-carolina · **ID:** `william-bluford-nc`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **deed** (24/25 Feb 1831, Lincoln County, North Carolina) — "4-acre tract from Jacob Bess to William Bluford (not recorded at time; referenced in court)."
+  Citation: Lincoln County, NC deed reference, 24/25 Feb 1831 (unrec.; cited in court proceedings).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Relationship to Jacob Bess (elder): UNKNOWN beyond the land transaction.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-jacob-bess-elder-nc"></a>
+
+## 👤 Jacob Bess (elder, NC)
+**Group:** bess-nc-cluster · **Tags:** bess, bess-nc, elder · **ID:** `jacob-bess-elder-nc`
+
+### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **court** (27 Mar 1822, North Carolina) — "Jacob Bess named as defendant in trespass case."
+  Citation: North Carolina court record, 27 Mar 1822 (trespass case; book/page TBD).
+- **deed** (16 Jun 1805, Lincoln County, North Carolina) — "Deed from Jacob Bess to Peter Smith (referenced in court land chain)."
+  Citation: Lincoln County, NC deed, 16 Jun 1805 (referenced in court land chain; book/page TBD).
+- **deed** (24/25 Feb 1831, Lincoln County, North Carolina) — "4-acre tract from Jacob Bess to William Bluford (not recorded at time; referenced in court)."
+  Citation: Lincoln County, NC deed reference, 24/25 Feb 1831 (unrec.; cited in court proceedings).
+- **deed** (21 Mar 1837, Lincoln County, North Carolina) — "Jacob Bess sells land; tract description includes grant issued to Jacob Bess (1788). Jacob Best serves as witness."
+  Citation: Lincoln County, NC deed, 21 Mar 1837; grantor: Jacob Bess; tract includes 1788 grant to Jacob Bess; witness: Jacob Best.
+- **care-agreement** (21 Mar 1837 (proved 1839), Lincoln County, North Carolina) — "Jacob Bess transfers property to Jonas R. Linebarger in exchange for lifetime care; reserves limited personal property."
+  Citation: Lincoln County, NC bill of sale / care contract, 21 Mar 1837; proved 1839.
+- **deed** (1839, Lincoln County, North Carolina) — "Additional deed from Jacob Bess to Jonas R. Linebarger (Book 37, p. 547)."
+  Citation: Lincoln County, NC deed, 1839, Book 37, p. 547.
+- **bill-of-sale** (1837, Lincoln County, North Carolina) — "Jacob Best sells property to secure lifetime care for Jacob Bess."
+  Citation: Lincoln County, NC bill of sale, 1837; grantor: Jacob Best; purpose: securing lifetime care for Jacob Bess.
+- **court** (16 April 1816, Lincoln County, North Carolina) — "Lincoln County Court bound Benjamin Frye, an orphan (son of John Frye), to Jacob Bess as an apprentice until age 21. Jacob Bess agreed to provide food, lodging, clothing, and care, and to teach Frye reading, writing, and the trade of weaving. He also agreed to provide a horse valued at $45 at the end of the term. Signed before James McKee, Chairman of Lincoln County Court."
+  Citation: "Lincoln, North Carolina, United States records," images, FamilySearch (https://www.familysearch.org/ark:/61903/3:1:3QS7-99G8-Y9F6-9?view=explore : May 2, 2026), image 380 of 457; Image Group Number: 007641006.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Appears in multiple land transactions (1805–1831), a 1837 land sale, and care agreement (1837); represents an older, dependent individual in Lincoln County, NC by 1837, distinct from Missouri Jacob Bess Sr.
+- Relationship to Missouri Jacob Bess Sr.: UNKNOWN. Timeline (active 1805–1837; care arrangement confirms advanced age by 1837) is consistent with a prior generation to MO Jacob (b. ~1795–1800) — SUPPORTED by argument only, not proven.
+- DO NOT attach as parent of Missouri Jacob Bess Sr. without further evidence.
+- DO NOT merge with Missouri Jacob Bess Sr. or with Jacob Best (NC probate witness, 1832).
+- Jacob Bess and Jacob Best appear together in 1837 in two separate transactions: Jacob Best witnesses Jacob Bess's deed AND sells property to fund Jacob Bess's care. Jacob Best is likely a younger relative — identity NOT merged; relationship SUPPORTED only.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-samuel-best-nc"></a>
+
+## 👤 Samuel Best (NC, 1829)
+**Group:** bess-nc-cluster · **Tags:** best, bess-nc-cluster, north-carolina · **ID:** `samuel-best-nc`
+
+### 📅 Timeline
+- 1829 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (7 Oct 1829, Lincoln County, North Carolina) — "Samuel Best purchases land from Hugh Jenkins."
+  Citation: Lincoln County, NC deed, 7 Oct 1829; grantor: Hugh Jenkins; grantee: Samuel Best.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Appears in the same geographic and time cluster as other Best/Bess individuals in Lincoln County (1820s–1830s).
+- POSSIBLE ANCESTOR — NOT MERGED. Relationship to Michael Best, Jacob Best, Peter Bess, or any other cluster member: UNKNOWN.
+- DO NOT assign family relationships without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-michael-best-nc"></a>
+
+## 👤 Michael Best (NC, ~1793–1831)
+**Group:** bess-nc-cluster · **Tags:** best, bess-nc-cluster, north-carolina · **ID:** `michael-best-nc`
+
+### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **estate-account** (~1793, Lincoln County, North Carolina) — "Estate of Michael Best … to Jacob Best … [lists goods/services including corn, iron, planks, etc.]"
+  Citation: Estate/account record, Michael Best, Lincoln County, NC, ~1793 (full book/page TBD).
+- **deed** (4 Dec 1830, Lincoln County, North Carolina) — "Michael Best sells tract originally granted to himself."
+  Citation: Lincoln County, NC deed, 4 Dec 1830; grantor: Michael Best; tract described as originally granted to Michael Best.
+- **estate-account** (~1832, North Carolina) — "Michael Best appears in estate/account entry ~1832."
+  Citation: North Carolina estate/account record, ~1832 (book/page TBD).
+- **deed** (15 Oct 1831 (recorded Nov 1836), Lincoln County, North Carolina) — "Michael Best sells 135-acre tract on Long Creek to James Ferguson for $300."
+  Citation: Lincoln County, NC deed, 15 Oct 1831, recorded Nov 1836; location: Long Creek.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Appears in estate/account ~1793 and ~1832, deed 4 Dec 1830 (original grant tract), and deed 15 Oct 1831 (135 acres on Long Creek to James Ferguson, $300). Appears in same geographic and time cluster as Jacob and Peter Bess.
+- Holds land by original grant (1830 deed) — indicates established, long-term status in Lincoln County; not a newcomer or transient figure in the Best/Bess cluster.
+- Appears in multiple land transactions (1823–1831), indicating sustained presence in Lincoln County during the same period as Peter and Jacob Bess.
+- DO NOT attach as parent of anyone. DO NOT merge with Boston Best Sr. Relationship to other NC Best/Bess individuals UNKNOWN.
+- Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined. DO NOT merge with michael-best-nc-1823 or michael-best-nc-1872 without clear evidence.
+- NOTE: 1823 activity may overlap with this record (time ranges consistent) — michael-best-nc-1823 kept separate until records confirm or distinguish the individuals.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-christian-best-nc"></a>
+
+## 👤 Christian Best (NC, 1823)
+**Group:** bess-nc-cluster · **Tags:** best, bess-nc-cluster, north-carolina · **ID:** `christian-best-nc`
+
+### 📅 Timeline
+- 1823 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (13 Sept 1823, Lincoln County, North Carolina) — "Christian Best sells land adjoining Michael Best."
+  Citation: Lincoln County, NC deed, 13 Sept 1823; grantor: Christian Best; land described as adjoining Michael Best.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- POSSIBLE ANCESTOR — NOT MERGED. Identity proven by 1823 deed (grantor). Relationship to Michael Best, Boston Best, Peter Best, or Missouri Bess line: UNKNOWN.
+- DO NOT assign family relationships without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-michael-best-nc-1823"></a>
+
+## 👤 Michael Best (NC, 1823)
+**Group:** bess-nc-cluster · **Tags:** best, bess-nc-cluster, north-carolina · **ID:** `michael-best-nc-1823`
+
+### 📅 Timeline
+- 1823 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (13 Sept 1823, Lincoln County, North Carolina) — "Christian Best sells land adjoining Michael Best."
+  Citation: Lincoln County, NC deed, 13 Sept 1823; grantor: Christian Best; land described as adjoining Michael Best.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined.
+- DO NOT merge with michael-best-nc (~1793–1831) or michael-best-nc-1872 without clear evidence.
+- DO NOT connect to Peter Best, Jacob Best, or Missouri Bess line without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-michael-best-nc-1872"></a>
+
+## 👤 Michael Best (NC, 1872)
+**Group:** bess-nc-cluster · **Tags:** best, bess-nc-cluster, north-carolina · **ID:** `michael-best-nc-1872`
+
+### 📅 Timeline
+- 1872 — resided Lincoln County, North Carolina (SUPPORTED)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Multiple individuals named Michael Best appear in Lincoln County across different time periods; identity and relationship not yet determined.
+- DO NOT merge with michael-best-nc (~1793–1831) or michael-best-nc-1823 without clear evidence.
+- Evidence to be attached when records are transcribed and confirmed.
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
 
 <a id="-eve-bess"></a>
 
@@ -1183,11 +1557,17 @@ _(group key: `bess-nc-cluster`)_
 **Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `peter-bess-elder`
 
 ### 📅 Timeline
-- by 1832 — died, Lincoln County, North Carolina (PROVEN)
+- after 7 Feb 1832, will proved Apr 1832 — died, Lincoln County, North Carolina (PROVEN)
 
 ### 📚 Evidence
-- **will** (1832, Lincoln County, North Carolina) — "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed)."
-  Citation: 1832 Peter Bess will, Lincoln County, NC.
+- **will** (Feb 1832, Lincoln County, North Carolina) — "Will of Peter Bess; names wife Leana Bess as life tenant; estate to be divided among children after her death; mentions Andrew (owing ~$80); Jonah appointed administrator with will annexed."
+  Citation: 1832 Peter Bess will, Lincoln County, NC (February).
+- **deed** (7 Feb 1832 (proved Jul 1832), Lincoln County, North Carolina) — "Peter Bess transfers enslaved person (Emeline) to Fanny Bess."
+  Citation: Lincoln County, NC deed, 7 Feb 1832, proved July 1832.
+- **court-minutes** (Apr 1832, Lincoln County, North Carolina) — "Will admitted to record; proved by Jacob Best."
+  Citation: Lincoln County, NC court minutes, April 1832 (Peter Bess probate).
+- **deed-boundary-reference** (1830, Lincoln County, North Carolina) — "Land described as adjoining tract originally conveyed by Peter Bess; Jacob Best appears as adjoining landowner."
+  Citation: Lincoln County, NC deed, 1830 (Smith deed or related instrument); land described as adjoining Peter Bess conveyance; adjacent to Jacob Best.
 
 ### 🔗 Relationships
 **Father** — UNKNOWN
@@ -1198,7 +1578,11 @@ _(group key: `bess-nc-cluster`)_
 
 ### 🧠 Analysis
 - POSSIBLY same as Peter Best (m. Cristina Whitenbarger 1779) — kept separate per do-not-merge rule.
-- Additional court transcription confirms existence of will and widow administratrix; does not name widow in this extract. Treated as same probate event as ev-1832-peter-bess-will.
+- Deed to Fanny Bess (7 Feb 1832) and will (Feb 1832) indicate Peter was alive and settling affairs in early Feb 1832; will proved April 1832.
+- Probate proved by Jacob Best (April 1832) — first documented legal interaction between Peter Bess family and a Jacob Best. Relationship not stated; cluster association only.
+- Will names Andrew (financial) and Jonah (administrator). Relationships to Peter not stated beyond named roles.
+- 1830 deed reference: Jacob Best appears as adjoining landowner to a tract originally conveyed by Peter Bess, indicating close geographic and likely familial association — NOT confirmed lineage.
+- Land associated with Peter Best continued to serve as a geographic reference point in Lincoln Co. deeds as late as 1846 (ev-1846-deed-trust-boston-peter-nc), confirming long-term presence in the same area as Boston Bess. Posthumous land references are standard practice and do not indicate survival.
 
 ### 📊 Status
 - **Identity:** PROVEN
@@ -1209,14 +1593,16 @@ _(group key: `bess-nc-cluster`)_
 <a id="-leannah-bess"></a>
 
 ## 👤 Leannah Bess
-**Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster · **ID:** `leannah-bess`
+**AKA:** Leana Bess · **Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster · **ID:** `leannah-bess`
 
 ### 📅 Timeline
 - (no dated events recorded)
 
 ### 📚 Evidence
-- **will** (1832, Lincoln County, North Carolina) — "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed)."
-  Citation: 1832 Peter Bess will, Lincoln County, NC.
+- **will** (Feb 1832, Lincoln County, North Carolina) — "Will of Peter Bess; names wife Leana Bess as life tenant; estate to be divided among children after her death; mentions Andrew (owing ~$80); Jonah appointed administrator with will annexed."
+  Citation: 1832 Peter Bess will, Lincoln County, NC (February).
+- **court-minutes** (1832, Lincoln County, North Carolina) — "Letters of Administration with the will annexed issued to Leanah Bess, widow and relict of the deceased."
+  Citation: Lincoln County, NC court minutes, 1832 (administration of Peter Bess estate; letters issued to Leanah Bess).
 
 ### 🔗 Relationships
 **Father** — UNKNOWN
@@ -1234,32 +1620,245 @@ _(group key: `bess-nc-cluster`)_
 
 ---
 
+<a id="-fanny-bess-nc"></a>
+
+## 👤 Fanny Bess (NC, 1832)
+**Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `fanny-bess-nc`
+
+### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (7 Feb 1832 (proved Jul 1832), Lincoln County, North Carolina) — "Peter Bess transfers enslaved person (Emeline) to Fanny Bess."
+  Citation: Lincoln County, NC deed, 7 Feb 1832, proved July 1832.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Receives property (enslaved person Emeline) from Peter Bess, 7 Feb 1832. Relationship to Peter Bess: UNKNOWN — same surname and direct transfer is SUPPORTED only.
+- DO NOT assign as daughter, wife, or kin of Peter Bess without further evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-jonah-bess"></a>
+
+## 👤 Jonah Bess
+**Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `jonah-bess`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **will** (Feb 1832, Lincoln County, North Carolina) — "Will of Peter Bess; names wife Leana Bess as life tenant; estate to be divided among children after her death; mentions Andrew (owing ~$80); Jonah appointed administrator with will annexed."
+  Citation: 1832 Peter Bess will, Lincoln County, NC (February).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Relationship to Peter Bess: UNKNOWN. Likely a relative (administrators were usually kin) but not stated in the record.
+- DO NOT assign parent-child relationship without further evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-andrew-bess-nc"></a>
+
+## 👤 Andrew Bess (NC, 1832)
+**Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `andrew-bess-nc`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **will** (Feb 1832, Lincoln County, North Carolina) — "Will of Peter Bess; names wife Leana Bess as life tenant; estate to be divided among children after her death; mentions Andrew (owing ~$80); Jonah appointed administrator with will annexed."
+  Citation: 1832 Peter Bess will, Lincoln County, NC (February).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Mentioned in Peter Bess's 1832 will as owing approximately $80. Financial association proven; family relationship to Peter not stated.
+- DO NOT assign parent-child relationship without further evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-jacob-best-nc-1832"></a>
+
+## 👤 Jacob Best (NC, 1832–1838)
+**Group:** bess-nc-cluster · **Tags:** best, bess-nc-cluster, north-carolina · **ID:** `jacob-best-nc-1832`
+
+### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **court-minutes** (Apr 1832, Lincoln County, North Carolina) — "Will admitted to record; proved by Jacob Best."
+  Citation: Lincoln County, NC court minutes, April 1832 (Peter Bess probate).
+- **deed** (21 Mar 1837, Lincoln County, North Carolina) — "Jacob Bess sells land; tract description includes grant issued to Jacob Bess (1788). Jacob Best serves as witness."
+  Citation: Lincoln County, NC deed, 21 Mar 1837; grantor: Jacob Bess; tract includes 1788 grant to Jacob Bess; witness: Jacob Best.
+- **bill-of-sale** (10 Jul 1838, Lincoln County, North Carolina) — "Jacob Best transfers property to Catharine Elmina Rhyne."
+  Citation: Lincoln County, NC bill of sale, 10 Jul 1838; grantor: Jacob Best; grantee: Catharine Elmina Rhyne.
+- **bill-of-sale** (1837, Lincoln County, North Carolina) — "Jacob Best sells property to secure lifetime care for Jacob Bess."
+  Citation: Lincoln County, NC bill of sale, 1837; grantor: Jacob Best; purpose: securing lifetime care for Jacob Bess.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Active in Lincoln County 1832–1838: proved Peter Bess's deed (1832), witnessed Jacob Bess's deed (1837), sold property to secure Jacob Bess's lifetime care (1837), and transferred property to Catharine Elmina Rhyne (1838). Confirmed present across four separate events — sustained local ties.
+- Jacob Bess and Jacob Best appear together in two 1837 transactions, confirming they are distinct individuals. Jacob Best's caretaking role strongly suggests he is a younger relative of Jacob Bess — do not declare relationship without further evidence.
+- DO NOT merge with Missouri Jacob Bess Sr. without further evidence.
+- DO NOT merge with Jacob Best (adjoining landholder, 1795) or Jacob Best (1809 deed) without further evidence. Multiple Jacob Bests may exist in this cluster.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-noah-bess-nc"></a>
+
+## 👤 Noah Bess (NC, 1848)
+**Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `noah-bess-nc`
+
+### 📅 Timeline
+- 1848 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed-of-trust** (24 Aug 1848, Lincoln County, North Carolina) — "Noah Bess and Eli Rhyne act jointly as security in deed of trust."
+  Citation: Lincoln County, NC deed of trust, 24 Aug 1848; securities: Noah Bess and Eli Rhyne.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Members of the Bess and Rhyne families appear jointly as financial securities in 1848, indicating a close and likely familial connection between the two families.
+- POSSIBLE ANCESTOR — NOT MERGED. Relationship to other NC Bess individuals (Peter, Jacob, Boston, Hiram): UNKNOWN.
+- Rhyne surname also appears in the cluster via Catharine Elmina Rhyne (1838, id: catharine-elmina-rhyne) — possible family connection, but do not merge or assign relationship without evidence.
+- DO NOT assign parent-child, marriage, or generational relationships without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-eli-rhyne-nc"></a>
+
+## 👤 Eli Rhyne (NC, 1848)
+**Group:** bess-nc-cluster · **Tags:** rhyne, bess-nc-cluster, north-carolina · **ID:** `eli-rhyne-nc`
+
+### 📅 Timeline
+- 1848 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed-of-trust** (24 Aug 1848, Lincoln County, North Carolina) — "Noah Bess and Eli Rhyne act jointly as security in deed of trust."
+  Citation: Lincoln County, NC deed of trust, 24 Aug 1848; securities: Noah Bess and Eli Rhyne.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Members of the Bess and Rhyne families appear jointly as financial securities in 1848, indicating a close and likely familial connection between the two families.
+- Rhyne surname also appears in the cluster via Catharine Elmina Rhyne (1838, id: catharine-elmina-rhyne) — possible family connection, but do not merge or assign relationship without evidence.
+- DO NOT assign parent-child, marriage, or generational relationships without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-catharine-elmina-rhyne"></a>
+
+## 👤 Catharine Elmina Rhyne
+**Group:** bess-nc-cluster · **Tags:** rhyne, bess-nc-cluster, north-carolina · **ID:** `catharine-elmina-rhyne`
+
+### 📅 Timeline
+- 1838 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **bill-of-sale** (10 Jul 1838, Lincoln County, North Carolina) — "Jacob Best transfers property to Catharine Elmina Rhyne."
+  Citation: Lincoln County, NC bill of sale, 10 Jul 1838; grantor: Jacob Best; grantee: Catharine Elmina Rhyne.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Surname Rhyne; received property from Jacob Best 10 Jul 1838. Connection suggests close personal or familial tie to the Best/Bess cluster — do not assign specific relationship without additional evidence.
+- DO NOT merge with any other individual or assign to a family line without further records.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
 <a id="-hiram-bess"></a>
 
 ## 👤 Hiram Bess
 **Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster · **ID:** `hiram-bess`
 
 ### 📅 Timeline
-- by 1847 — died (PROVEN)
+- by 5 Nov 1847 — died, Lincoln County, North Carolina (PROVEN)
 
 ### 📚 Evidence
-- **will** (1847, North Carolina) — "Hiram Bess; wife Eliza; children John Franklin, Catherine, Margaret Elizabeth, Susan Adeline, Mary Ann."
-  Citation: 1847 will of Hiram Bess.
+- **will** (5 Nov 1847, Lincoln County, North Carolina) — "Will of Hiram Bess; wife Eliza; son John Franklin; daughters Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Berry Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn."
+  Citation: 5 Nov 1847 will of Hiram Bess, Lincoln County, NC.
+- **deed-of-gift** (22 Aug 1848, Lincoln County, North Carolina) — "Boston Bess refers to 'my beloved son Hiram Bess'; Eliza Bess identified as widow of Hiram Bess."
+  Citation: Lincoln County, NC deed of gift, 22 Aug 1848; grantor: Boston Bess; references: 'my beloved son Hiram Bess' (deceased by this date); Eliza Bess named as Hiram's widow.
 
 ### 🔗 Relationships
-**Father** — UNKNOWN
+**Father** — PROVEN
+  - Boston Bess (NC, 1833–1848) (`boston-bess-nc-1833`) — PROVEN
+    - _note:_ Father Boston Bess explicitly names Hiram as 'my beloved son' in deed of gift dated 22 Aug 1848 (posthumous — Hiram had died by 5 Nov 1847).
 **Mother** — UNKNOWN
 **Spouse(s)** — PROVEN
   - Eliza Bess (`eliza-bess`) — PROVEN
 **Children** — PROVEN (highest); PROVEN (lowest)
   - John Franklin Bess — PROVEN
-  - Catherine Bess (Hiram's daughter) — PROVEN
-  - Margaret Elizabeth Bess — PROVEN
-  - Susan Adeline Bess — PROVEN
   - Mary Ann Bess (Hiram's daughter) — PROVEN
+  - Jane Bess (Hiram's daughter) — PROVEN
+  - Catharine Bess (Hiram's daughter) — PROVEN
+  - Margaret Elizabeth Bess — PROVEN
+  - Susan Adoline Bess — PROVEN
 
 ### 🧠 Analysis
-- (no analytical notes recorded)
+- Will includes restrictions on sale of enslaved persons and empowers Eliza to settle debts. Executors named and sworn — confirms formal probate.
+- Associates (co-executor John F. Hill; witnesses Thomas Spratt, Peter Grigg, Lawson Bess): roles PROVEN, relationships to Hiram UNKNOWN.
 
 ### 📊 Status
 - **Identity:** PROVEN
@@ -1276,8 +1875,10 @@ _(group key: `bess-nc-cluster`)_
 - (no dated events recorded)
 
 ### 📚 Evidence
-- **will** (1847, North Carolina) — "Hiram Bess; wife Eliza; children John Franklin, Catherine, Margaret Elizabeth, Susan Adeline, Mary Ann."
-  Citation: 1847 will of Hiram Bess.
+- **will** (5 Nov 1847, Lincoln County, North Carolina) — "Will of Hiram Bess; wife Eliza; son John Franklin; daughters Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Berry Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn."
+  Citation: 5 Nov 1847 will of Hiram Bess, Lincoln County, NC.
+- **deed-of-gift** (22 Aug 1848, Lincoln County, North Carolina) — "Boston Bess refers to 'my beloved son Hiram Bess'; Eliza Bess identified as widow of Hiram Bess."
+  Citation: Lincoln County, NC deed of gift, 22 Aug 1848; grantor: Boston Bess; references: 'my beloved son Hiram Bess' (deceased by this date); Eliza Bess named as Hiram's widow.
 
 ### 🔗 Relationships
 **Father** — UNKNOWN
@@ -1292,6 +1893,115 @@ _(group key: `bess-nc-cluster`)_
 ### 📊 Status
 - **Identity:** PROVEN
 - **Relationships (overall):** PROVEN
+
+---
+
+<a id="-john-f-hill-nc"></a>
+
+## 👤 John F. Hill (NC, 1847)
+**Group:** bess-nc-cluster · **Tags:** bess-nc-cluster, north-carolina · **ID:** `john-f-hill-nc`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **will** (5 Nov 1847, Lincoln County, North Carolina) — "Will of Hiram Bess; wife Eliza; son John Franklin; daughters Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Berry Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn."
+  Citation: 5 Nov 1847 will of Hiram Bess, Lincoln County, NC.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Relationship to Hiram Bess: UNKNOWN. Role as co-executor proven; no kin language in will.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-thomas-spratt-nc"></a>
+
+## 👤 Thomas Spratt (NC, 1847)
+**AKA:** Thomas Berry Spratt · **Group:** bess-nc-cluster · **Tags:** bess-nc-cluster, north-carolina · **ID:** `thomas-spratt-nc`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **will** (5 Nov 1847, Lincoln County, North Carolina) — "Will of Hiram Bess; wife Eliza; son John Franklin; daughters Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Berry Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn."
+  Citation: 5 Nov 1847 will of Hiram Bess, Lincoln County, NC.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Relationship to Hiram Bess: UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-peter-grigg-nc"></a>
+
+## 👤 Peter Grigg (NC, 1847)
+**AKA:** Peter Gregg · **Group:** bess-nc-cluster · **Tags:** bess-nc-cluster, north-carolina · **ID:** `peter-grigg-nc`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **will** (5 Nov 1847, Lincoln County, North Carolina) — "Will of Hiram Bess; wife Eliza; son John Franklin; daughters Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Berry Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn."
+  Citation: 5 Nov 1847 will of Hiram Bess, Lincoln County, NC.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Relationship to Hiram Bess: UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-lawson-bess-nc-1847"></a>
+
+## 👤 Lawson Bess (NC, will witness 1847)
+**Group:** bess-nc-cluster · **Tags:** bess, bess-nc-cluster, north-carolina · **ID:** `lawson-bess-nc-1847`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- **will** (5 Nov 1847, Lincoln County, North Carolina) — "Will of Hiram Bess; wife Eliza; son John Franklin; daughters Mary Ann, Jane, Catharine, Margaret Elizabeth, Susan Adoline. Prohibits sale of enslaved persons by Eliza or any future husband. Authorizes Eliza to liquidate property as needed to satisfy estate debts. Appoints Eliza Bess and John F. Hill as co-executors. Witnessed by Thomas Berry Spratt, Peter Grigg, and Lawson Bess. Will proven; executors sworn."
+  Citation: 5 Nov 1847 will of Hiram Bess, Lincoln County, NC.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Relationship to Hiram Bess: UNKNOWN. Witness only — NOT established as a child or heir of Hiram.
+- DO NOT merge with Lawson Bess (Missouri, bess-mo-cluster) without further evidence. These are distinct individuals until proven otherwise.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
 
 ---
 
@@ -1334,15 +2044,26 @@ _(group key: `bess-nc-origins`)_
 **Group:** bess-nc-origins · **Tags:** bess, best, north-carolina, nc-origins · **ID:** `peter-best`
 
 ### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
 - 13 Oct 1779 — married (spouse claim) (PROVEN)
 
 ### 📚 Evidence
+- **deed** (12 Mar 1782, Lincoln County, North Carolina) — "Peter Best buys land from Martin Hoyle."
+  Citation: Lincoln County, NC deed, 12 Mar 1782; grantor: Martin Hoyle; grantee: Peter Best.
+- **deed** (9 Oct 1788, Lincoln County, North Carolina) — "Peter Best's land in chain of title described as originating from Boston Best."
+  Citation: Lincoln County, NC deed, 9 Oct 1788; grantee: Peter Best; land origin described as from Boston Best.
+- **deed** (17 Sept 1792, Lincoln County, North Carolina) — "Peter Best purchases land; deed references Boston Best line."
+  Citation: Lincoln County, NC deed, 17 Sept 1792; grantee: Peter Best; references Boston Best line.
+- **financial-agreement** (12 Jan 1793, Lincoln County, North Carolina) — "Peter Best enters contract/financial agreement with Benajah Thomson."
+  Citation: Lincoln County, NC financial agreement, 12 Jan 1793; parties: Peter Best and Benajah Thomson.
 - **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
   Citation: 1779 North Carolina marriage record.
+- **deed** (23 Apr 1788 (proved 1793), Lincoln County, North Carolina) — "Boston Best transfers ~100 acres to Peter Best."
+  Citation: Lincoln County, NC deed, 23 Apr 1788 (proved 1793); grantor: Boston Best; grantee: Peter Best; acreage ~100.
 - **estate-account** (1809, Lincoln County, North Carolina) — "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'"
   Citation: 1809 Boston Best Sr. estate account.
-- **will** (1832, Lincoln County, North Carolina) — "Will of Peter Bess; wife Leannah; estate to be divided 'among my children' (children unnamed)."
-  Citation: 1832 Peter Bess will, Lincoln County, NC.
+- **will** (Feb 1832, Lincoln County, North Carolina) — "Will of Peter Bess; names wife Leana Bess as life tenant; estate to be divided among children after her death; mentions Andrew (owing ~$80); Jonah appointed administrator with will annexed."
+  Citation: 1832 Peter Bess will, Lincoln County, NC (February).
 - **analysis** ((derived), —) — "Jacob Bess Sr. fits chronologically (~1798) as second-generation son of Peter Best (b. ~1765–1775); migration timing aligns with NC→MO ~1815–1822; no conflicting candidate."
   Citation: Working analysis combining the above sources.
 
@@ -1354,11 +2075,12 @@ _(group key: `bess-nc-origins`)_
 **Spouse(s)** — PROVEN
   - Cristina Whitenbarger (`cristina-whitenbarger`) — PROVEN
 **Children** — REPLACED (highest); REPLACED (lowest)
-  - Jacob Bess Sr. (`jacob-bess-sr`) — REPLACED
+  - Jacob Bess (`jacob-bess-sr`) — REPLACED
     - _note:_ Previously treated as SUPPORTED (1832 will leaves to 'my children' unnamed; Jacob fits chronologically). Replaced due to unresolved multi-branch Best family structure in Lincoln County, NC. See 'POSSIBLE NC ORIGINS' cluster (group: bess-nc-origins). Kept per no-delete rule.
 
 ### 🧠 Analysis
 - POSSIBLY same person as 'Peter Bess (elder)' (1832 will, wife Leannah). Per do-not-merge rule, kept as a distinct candidate — see review/possible_duplicates.md.
+- Land activity documented 1782–1793 in Lincoln Co., NC. Chain of title on 1788 land traces to Boston Best.
 
 ### 📊 Status
 - **Identity:** PROVEN
@@ -1411,19 +2133,27 @@ _(group key: `bess-nc-origins`)_
 
 ### 📅 Timeline
 - by 1809 — died, Lincoln County, North Carolina (PROVEN)
-- 1795 — resided Lincoln County, North Carolina (PROVEN)
+- (undated) — resided Tryon/Lincoln County, North Carolina (PROVEN)
 
 ### 📚 Evidence
 - **estate** (1809, Lincoln County, North Carolina) — "Estate of Boston Best Sr. administered."
   Citation: 1809 Lincoln County, NC estate records.
+- **deed** (4 Feb 1775 (proved July 1775), Tryon County, North Carolina) — "Boston Best (and wife Catron Best) sells land to George Cathey. Witnesses: George Lamkin, Andrew Cathey."
+  Citation: Tryon County, NC deed, 4 Feb 1775 (proved July 1775); grantee George Cathey; witnesses George Lamkin, Andrew Cathey.
+- **deed** (15 Feb 1783 (April Term 1783), Lincoln County, North Carolina) — "Boston Best sells ~128 acres to Wiley Rudisill."
+  Citation: Lincoln County, NC deed, 15 Feb 1783 (April Term 1783); grantor: Boston Best; grantee: Wiley Rudisill.
+- **deed** (23 Apr 1788 (proved 1793), Lincoln County, North Carolina) — "Boston Best transfers ~100 acres to Peter Best."
+  Citation: Lincoln County, NC deed, 23 Apr 1788 (proved 1793); grantor: Boston Best; grantee: Peter Best; acreage ~100.
 - **deed** (31 Dec 1795, Lincoln County, North Carolina) — "Boston Best conveys land to Daniel Best. Mentions Jacob Best & Martin Best as adjoining landholders."
   Citation: Lincoln County, NC deed, 31 Dec 1795 (extract per user transcription; book/page TBD).
-- **deed** (1775, North Carolina) — "Names Boston Best with wife Catron Best."
-  Citation: 1775 North Carolina deed (Boston Best Sr. and wife Catron).
-- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
-  Citation: 1779 North Carolina marriage record.
+- **deed** (31 Dec 1795 (proved July Sessions), Lincoln County, North Carolina) — "Boston Best transfers ~31 acres to Frederick Best. Witnesses: Barney Murphy, And Taylor."
+  Citation: Lincoln County, NC deed, 31 Dec 1795 (proved July Sessions); grantor: Boston Best; grantee: Frederick Best; witnesses: Barney Murphy, And Taylor.
+- **deed** (9 Oct 1788, Lincoln County, North Carolina) — "Peter Best's land in chain of title described as originating from Boston Best."
+  Citation: Lincoln County, NC deed, 9 Oct 1788; grantee: Peter Best; land origin described as from Boston Best.
 - **estate-account** (1809, Lincoln County, North Carolina) — "'Estate of Boston Best Senr to Peter Best Dr … Peter Best made oath…'"
   Citation: 1809 Boston Best Sr. estate account.
+- **marriage** (13 Oct 1779, North Carolina) — "Peter Best m. Cristina Whitenbarger; bondsman: Boston Best."
+  Citation: 1779 North Carolina marriage record.
 - **deed** (~1809, Lincoln County, North Carolina) — "Land originally granted to Boston Best, conveyed to Jacob Best."
   Citation: Lincoln County, NC deed, ~1809 (extract per user transcription; book/page TBD).
 
@@ -1441,6 +2171,8 @@ _(group key: `bess-nc-origins`)_
 ### 🧠 Analysis
 - DO NOT confuse with 'Boston Bess (1869, NC)' — different person.
 - Moved from 'direct-line' to 'bess-nc-origins' group: connection to the Missouri Jacob Bess line is no longer treated as a direct-ancestor chain. Boston is retained as a documented NC individual; the link Boston→Peter→Jacob is preserved as REPLACED on the affected claims.
+- Land activity documented 1775 (Tryon Co.) through 1795 (Lincoln Co.). Geographic shift Tryon→Lincoln consistent with county boundary changes in this period.
+- CRITICAL — POSSIBLE MULTIPLE INDIVIDUALS: A Boston Best appears in both 18th-century records (1775–1795) and an 1820 deed (ev-1820-boston-best-deed-nc). This Sr. record carries a death date of 'by 1809' from the estate record. The 1820 Boston Best CANNOT be this individual if the 1809 estate date is correct. May represent a Jr. or a second individual of the same name. DO NOT merge with boston-best-nc-1820 until identity is resolved.
 
 ### 📊 Status
 - **Identity:** PROVEN
@@ -1448,6 +2180,36 @@ _(group key: `bess-nc-origins`)_
 
 ### 🔍 Related Research Tasks
 - [t-boston-best-sr-heirs] Search Lincoln County, NC estate file of Boston Best Sr. (1809) for any heir list, division of estate, or guardianship of minors. (_priority:_ high, _status:_ open)
+
+---
+
+<a id="-boston-best-nc-1820"></a>
+
+## 👤 Boston Best (NC, 1820)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `boston-best-nc-1820`
+
+### 📅 Timeline
+- 1820 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (21 Mar 1820, Lincoln County, North Carolina) — "Boston Best purchases 318-acre tract from Baxter/Reynolds parties."
+  Citation: Lincoln County, NC deed, 21 Mar 1820; grantors: Baxter/Reynolds; grantee: Boston Best; acreage: ~318.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- A Boston Best appears in both 18th-century records and this 1820 deed; may represent either a long-lived individual or multiple individuals of the same name (Sr./Jr.).
+- CANNOT be Boston Best Sr. (id: boston-best-sr) if the 1809 estate record is correct — he was already deceased. May be a son, grandson, or unrelated namesake.
+- DO NOT merge with boston-best-sr or any other Best/Bess individual without clear evidence.
+- Cluster continues into 1800s: Boston Best (1820) ↔ Peter Best (1780s–1832) ↔ Frederick, Daniel, Jacob Best — all SUPPORTED association only, no family structure assigned.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
 
 ---
 
@@ -1460,8 +2222,8 @@ _(group key: `bess-nc-origins`)_
 - (no dated events recorded)
 
 ### 📚 Evidence
-- **deed** (1775, North Carolina) — "Names Boston Best with wife Catron Best."
-  Citation: 1775 North Carolina deed (Boston Best Sr. and wife Catron).
+- **deed** (4 Feb 1775 (proved July 1775), Tryon County, North Carolina) — "Boston Best (and wife Catron Best) sells land to George Cathey. Witnesses: George Lamkin, Andrew Cathey."
+  Citation: Tryon County, NC deed, 4 Feb 1775 (proved July 1775); grantee George Cathey; witnesses George Lamkin, Andrew Cathey.
 
 ### 🔗 Relationships
 **Father** — UNKNOWN
@@ -1479,6 +2241,34 @@ _(group key: `bess-nc-origins`)_
 
 ---
 
+<a id="-frederick-best-nc"></a>
+
+## 👤 Frederick Best (NC, 1795)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `frederick-best-nc`
+
+### 📅 Timeline
+- 1795 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (31 Dec 1795 (proved July Sessions), Lincoln County, North Carolina) — "Boston Best transfers ~31 acres to Frederick Best. Witnesses: Barney Murphy, And Taylor."
+  Citation: Lincoln County, NC deed, 31 Dec 1795 (proved July Sessions); grantor: Boston Best; grantee: Frederick Best; witnesses: Barney Murphy, And Taylor.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- POSSIBLE ANCESTOR — NOT MERGED. Identity proven by 1795 deed (grantee from Boston Best). Relationship to Boston, Daniel, Jacob, Martin Best, or Missouri Bess line: UNKNOWN.
+- DO NOT assign parent-child relationship to Boston Best without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
 <a id="-jacob-best-nc-1809"></a>
 
 ## 👤 Jacob Best (NC, 1809)
@@ -1490,6 +2280,8 @@ _(group key: `bess-nc-origins`)_
 ### 📚 Evidence
 - **deed** (~1809, Lincoln County, North Carolina) — "Land originally granted to Boston Best, conveyed to Jacob Best."
   Citation: Lincoln County, NC deed, ~1809 (extract per user transcription; book/page TBD).
+- **deed-boundary-reference** (1830, Lincoln County, North Carolina) — "Land described as adjoining tract originally conveyed by Peter Bess; Jacob Best appears as adjoining landowner."
+  Citation: Lincoln County, NC deed, 1830 (Smith deed or related instrument); land described as adjoining Peter Bess conveyance; adjacent to Jacob Best.
 
 ### 🔗 Relationships
 **Father** — SUPPORTED
@@ -1564,8 +2356,868 @@ _(group key: `bess-nc-origins`)_
 
 ---
 
+<a id="-john-best-nc-1810"></a>
+
+## 👤 John Best (NC, 1810)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `john-best-nc-1810`
+
+### 📅 Timeline
+- 1810 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (5 Sept 1810, Lincoln County, North Carolina) — "John Best sells large tract (~750 acres)."
+  Citation: Lincoln County, NC deed, 5 Sept 1810; grantor: John Best; acreage ~750.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- POSSIBLE ANCESTOR — NOT MERGED. Distinct from MO John Best (id `john-best`, Cape Girardeau cluster). Do not merge.
+- Relationship to Boston Best, Peter Best, or any other Best/Bess individual: UNKNOWN.
+- Large tract (~750 acres) suggests established landholder in Lincoln Co., NC by 1810.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-elizabeth-best-nc"></a>
+
+## 👤 Elizabeth Best (NC, 1823)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `elizabeth-best-nc`
+
+### 📅 Timeline
+- 1823 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed-of-gift** (13 Jun 1823, Lincoln County, North Carolina) — "Margaret Hoyle gives property to daughter Elizabeth Best."
+  Citation: Lincoln County, NC deed of gift, 13 Jun 1823; grantor: Margaret Hoyle; grantee: Elizabeth Best (identified as daughter).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — PROVEN
+  - Margaret Hoyle (NC, 1823) (`margaret-hoyle-nc`) — PROVEN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- POSSIBLE ANCESTOR — NOT MERGED. Named as daughter of Margaret Hoyle in 1823 deed of gift; surname Best may be married name.
+- Relationship to Boston Best cluster or Missouri Bess line: UNKNOWN. Do not assign family ties without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-margaret-hoyle-nc"></a>
+
+## 👤 Margaret Hoyle (NC, 1823)
+**Group:** bess-nc-origins · **Tags:** hoyle, north-carolina, nc-origins · **ID:** `margaret-hoyle-nc`
+
+### 📅 Timeline
+- 1823 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed-of-gift** (13 Jun 1823, Lincoln County, North Carolina) — "Margaret Hoyle gives property to daughter Elizabeth Best."
+  Citation: Lincoln County, NC deed of gift, 13 Jun 1823; grantor: Margaret Hoyle; grantee: Elizabeth Best (identified as daughter).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — PROVEN (highest); PROVEN (lowest)
+  - Elizabeth Best (NC, 1823) (`elizabeth-best-nc`) — PROVEN
+
+### 🧠 Analysis
+- Named as mother of Elizabeth Best in 1823 deed of gift. Possible relation to Martin Hoyle (from whom Peter Best bought land, 1782) — UNKNOWN. Do not merge or assume relationship.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-elias-best-nc"></a>
+
+## 👤 Elias Best (NC, 1797–1799)
+**AKA:** Elias Bost · **Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `elias-best-nc`
+
+### 📅 Timeline
+- (undated) — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (proved Oct 1797, Lincoln County, North Carolina) — "Elias Best receives land from William Bost."
+  Citation: Lincoln County, NC deed, proved Oct 1797; grantor: William Bost; grantee: Elias Best.
+- **deed** (12 Jan 1799 (proved 1800), Lincoln County, North Carolina) — "Elias Best purchases land from John Killion. Name confirmed as Elias Best."
+  Citation: Lincoln County, NC deed, 12 Jan 1799 (proved 1800); grantor: John Killion; grantee: Elias Best.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Appears as 'Elias Bost' in some records — likely a spelling variation of Best, not a different surname. Name confirmed as Elias Best in 1799 deed.
+- POSSIBLE ANCESTOR — NOT MERGED. Relationship to Boston Best, Peter Best, or any other Best/Bess individual: UNKNOWN.
+- DO NOT assign family relationships without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-william-bost-nc"></a>
+
+## 👤 William Bost (NC, 1797)
+**Group:** bess-nc-origins · **Tags:** best, north-carolina, nc-origins · **ID:** `william-bost-nc`
+
+### 📅 Timeline
+- 1797 — resided Lincoln County, North Carolina (PROVEN)
+
+### 📚 Evidence
+- **deed** (proved Oct 1797, Lincoln County, North Carolina) — "Elias Best receives land from William Bost."
+  Citation: Lincoln County, NC deed, proved Oct 1797; grantor: William Bost; grantee: Elias Best.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Surname 'Bost' may be a spelling variation of Best. Active in Lincoln Co., NC in 1797.
+- Relationship to Boston Best or any other Best/Bess individual: UNKNOWN. Do not merge or assign relationships without additional evidence.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
 # Group: Missouri Bess cluster (reference only)
 _(group key: `bess-mo-cluster`)_
+
+<a id="-jacob-bess-sr"></a>
+
+## 👤 Jacob Bess
+**AKA:** Jacob Best, Jacob Bess Senior · **Group:** bess-mo-cluster · **Tags:** bess, bess-mo, direct-line, missouri, cape-girardeau, bollinger · **ID:** `jacob-bess-sr`
+
+### 📅 Timeline
+- ~1795-1800 — born, North Carolina (SUPPORTED)
+- (undated) — resided Cape Girardeau County, Missouri (PROVEN)
+- (undated) — resided Bollinger County, Missouri (PROVEN)
+- before 13 Feb 1867 — died, Bollinger County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1830, Cape Girardeau County, Missouri) — "Male age 30–39 (born ~1790–1800); household with multiple children."
+  Citation: 1830 U.S. Census, Cape Girardeau Co., MO.
+- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "Daniel Slinkard and Hannah his wife, John Best and Caty his wife, and Jacob Best and Barbary his wife are named; the wives were privately examined apart from their husbands."
+  Citation: User-provided 1823 Cape Girardeau Co., MO deed transcription (recorded 31 Mar 1831).
+- **deed** (16 Mar 1860, Bollinger County, Missouri) — "Jacob Bess Senior of Bollinger County conveyed approximately 34 acres to Daniel Bess: north and west part of the southwest quarter of the northwest quarter of Section 7, Township 31 North, Range 9 East."
+  Citation: Bollinger County deed, 16 Mar 1860.
+- **probate** (13 Feb 1867, Bollinger County, Missouri) — "Estate of Jacob Bess, Sen., dec'd. Matilda Bess, administratrix, presents her 3rd Annual Settlement and asks for an order of distribution among the heirs."
+  Citation: Bollinger County Court probate entry, 13 Feb 1867.
+- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "'Daniel Slinkard and his wife Hannah, David Kinder, John Best and Caty Best his wife, Jacob Best and his wife Barbary Best… land confirmed to Jacob Slinkard deceased and owned by him in his life time…'"
+  Citation: 1823 Cape Girardeau Co., MO deed.
+- **court** (20 Mar 1869, Bollinger County, Missouri) — "Sheriff's deed/court record names Edward B. Bess, Daniel R. Bess, James Bess, Matilda Bess, Sarah Bess, Barbary/Blaylock line, Adeline/Rhodes line, Emanuel Bess line, and other descendants/heirs connected to Jacob Bess Sr.'s estate."
+  Citation: Bollinger County Circuit Court, March Term 1869.
+- **census** (1830, Cape Girardeau County, Missouri) — "Same census page includes Jacob Bess, Peter Bess, John Bess, Frederick Bess, and nearby Crites and Kinder households."
+  Citation: 1830 U.S. Census, Cape Girardeau Co., MO — same-page Bess/Crites/Kinder cluster.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Barbara Slinkard (`barbara-slinkard`) — PROVEN
+**Children** — PROVEN (highest); PROVEN (lowest)
+  - Edward B. Bess (`edward-b-bess`) — PROVEN
+  - Daniel R. Bess (`daniel-r-bess`) — PROVEN
+  - James Bess (Jacob's son) (`james-bess-son`) — PROVEN
+  - Matilda Bess (`matilda-bess`) — PROVEN
+  - Sarah J. Bess (`sarah-j-bess`) — PROVEN
+  - Barbara (Barbary) Bess (`barbara-bess-blaylock`) — PROVEN
+  - Mary A. Bess (Jacob's daughter) (`mary-a-bess`) — PROVEN
+  - Adaline Bess (`adaline-bess-rhodes`) — PROVEN
+  - Emanuel Bess (`emanuel-bess`) — PROVEN
+
+### 🧠 Analysis
+- Do not merge with Jacob Bess/Best of Lincoln County, North Carolina.
+- The word Senior in Missouri records refers to a local Missouri distinction from a younger Jacob Bess (likely Jacob Jr.), not the North Carolina elder Jacob.
+- Origin family remains unresolved. Use proof arguments for cluster/migration reasoning, not parent claims.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+### 📌 Proof Argument
+- See [`review/proof_arguments/barbara-slinkard-jacob-bess.md`](proof_arguments/barbara-slinkard-jacob-bess.md)
+  - **Claim:** Barbara Slinkard = Barbary Best = wife of Jacob Bess Sr.
+  - **Conclusion:** PROVEN (By Argument)
+  - **Conflicts checked:** see the proof argument file (verbatim)
+- See [`review/proof_arguments/jacob-bess-parentage.md`](proof_arguments/jacob-bess-parentage.md)
+  - **Claim:** Parentage of Jacob Bess Sr. (working hypothesis: son of Peter Best/Bess)
+  - **Conclusion:** Boston→Peter STRONGLY SUPPORTED; Peter→Jacob SUPPORTED (not proven)
+  - **Conflicts checked:** see the proof argument file (verbatim)
+
+### 🔍 Related Research Tasks
+- [t-jacob-bess-dower-release] Search Cape Girardeau deed books for any Jacob Bess dower release between marriage (1814) and 1859. (_priority:_ high, _status:_ open)
+- [t-guardianship-curator-files] Search Cape Girardeau guardianship/curator files for any other Slinkard, Best, or Bess minors of the relevant period. (_priority:_ medium, _status:_ open)
+- [t-peter-best-children-named] Search NC probate, deed, and court records for any document naming Peter Best/Bess's children individually (1832 will leaves to 'my children' but does not list them). (_priority:_ high, _status:_ open)
+- [t-1840-census-jacob-bess] Find Jacob Bess in 1840 Cape Girardeau / Bollinger County census. (_priority:_ low, _status:_ open)
+- [t-bessville-mo-history] Research 'Bessville, Missouri' — the place named on Albert Ransom Bess's death record. Confirm location, founding family, surviving records. (_priority:_ low, _status:_ open)
+
+---
+
+<a id="-michael-bess-mo"></a>
+
+## 👤 Michael Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-michael-household · **ID:** `michael-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-elizabeth-bess-michael-wife"></a>
+
+## 👤 Elizabeth Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-michael-household · **ID:** `elizabeth-bess-michael-wife`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-christopher-j-bess-mo"></a>
+
+## 👤 Christopher J. Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-michael-household · **ID:** `christopher-j-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-cynthia-bess-mo"></a>
+
+## 👤 Cynthia Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-michael-household · **ID:** `cynthia-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-eleanor-bess-mo"></a>
+
+## 👤 Eleanor Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-michael-household · **ID:** `eleanor-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-mary-c-bess-mo"></a>
+
+## 👤 Mary C. Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-michael-household · **ID:** `mary-c-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-sarah-m-bess-mo"></a>
+
+## 👤 Sarah M. Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-michael-household · **ID:** `sarah-m-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-peter-bess-mo"></a>
+
+## 👤 Peter Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `peter-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-martha-bess-mo-peter-wife"></a>
+
+## 👤 Martha Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `martha-bess-mo-peter-wife`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-mary-bess-peter-household"></a>
+
+## 👤 Mary Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `mary-bess-peter-household`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-lurena-bess-peter-household"></a>
+
+## 👤 Lurena Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `lurena-bess-peter-household`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-elijah-bess-peter-household"></a>
+
+## 👤 Elijah Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `elijah-bess-peter-household`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-caroline-bess-peter-household"></a>
+
+## 👤 Caroline Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `caroline-bess-peter-household`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-adeline-bess-peter-household"></a>
+
+## 👤 Adeline Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `adeline-bess-peter-household`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-anderson-bess-mo"></a>
+
+## 👤 Anderson Bess
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `anderson-bess-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-peter-bess-jr-mo"></a>
+
+## 👤 Peter Bess Jr.
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `peter-bess-jr-mo`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-martha-bess-child-peter"></a>
+
+## 👤 Martha Bess (child)
+**Group:** bess-mo-cluster · **Tags:** missouri, bess-mo-peter-household · **ID:** `martha-bess-child-peter`
+
+### 📅 Timeline
+- (no dated events recorded)
+
+### 📚 Evidence
+- (no evidence records linked)
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** SUPPORTED
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-john-bess-madison-1850"></a>
+
+## 👤 John Bess (Madison Co., MO, ~1791)
+**Group:** bess-mo-cluster · **Tags:** bess, bess-mo-cluster, north-carolina · **ID:** `john-bess-madison-1850`
+
+### 📅 Timeline
+- ~1791 — born, North Carolina (PROVEN)
+- 1850 — resided Madison County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1850, Madison County, Missouri) — "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri."
+  Citation: 1850 U.S. Census, Madison County, MO.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — SUPPORTED
+  - Catherine Bess (Madison Co., MO, ~1791) (`catherine-bess-madison`) — SUPPORTED
+    - _note:_ Same household, same age, same birthplace. 1850 census did not record relationship to head — spouse status SUPPORTED only.
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- DO NOT merge with John Best (Cape Girardeau, best-cluster) or with Jacob Bess Sr. (direct line).
+- NC→MO migrant (~1791 NC birth). Represents a separate Bess family migrating same corridor as Jacob Bess Sr. (~1798 NC). Relationship UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** SUPPORTED
+
+---
+
+<a id="-catherine-bess-madison"></a>
+
+## 👤 Catherine Bess (Madison Co., MO, ~1791)
+**Group:** bess-mo-cluster · **Tags:** bess, bess-mo-cluster, north-carolina · **ID:** `catherine-bess-madison`
+
+### 📅 Timeline
+- ~1791 — born, North Carolina (PROVEN)
+- 1850 — resided Madison County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1850, Madison County, Missouri) — "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri."
+  Citation: 1850 U.S. Census, Madison County, MO.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — SUPPORTED
+  - John Bess (Madison Co., MO, ~1791) (`john-bess-madison-1850`) — SUPPORTED
+    - _note:_ Household co-residence only; 1850 census did not record relationship.
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- (no analytical notes recorded)
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** SUPPORTED
+
+---
+
+<a id="-maliny-bess-madison"></a>
+
+## 👤 Maliny Bess (Madison Co., ~1826)
+**Group:** bess-mo-cluster · **Tags:** bess, bess-mo-cluster · **ID:** `maliny-bess-madison`
+
+### 📅 Timeline
+- ~1826 — born, Missouri (PROVEN)
+- 1850 — resided Madison County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1850, Madison County, Missouri) — "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri."
+  Citation: 1850 U.S. Census, Madison County, MO.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Household member only — relationship to John Bess SUPPORTED (likely child), not proven.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-emanuel-bess-madison"></a>
+
+## 👤 Emanuel Bess (Madison Co., ~1828)
+**Group:** bess-mo-cluster · **Tags:** bess, bess-mo-cluster · **ID:** `emanuel-bess-madison`
+
+### 📅 Timeline
+- ~1828 — born, Missouri (PROVEN)
+- 1850 — resided Madison County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1850, Madison County, Missouri) — "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri."
+  Citation: 1850 U.S. Census, Madison County, MO.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Household member only — relationship to John Bess SUPPORTED (likely child), not proven.
+- DO NOT merge with Emanuel Bess (Jacob Bess Sr.'s son, bess-mo-children).
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-absolum-bess-madison"></a>
+
+## 👤 Absolum Bess (Madison Co., ~1831)
+**Group:** bess-mo-cluster · **Tags:** bess, bess-mo-cluster · **ID:** `absolum-bess-madison`
+
+### 📅 Timeline
+- ~1831 — born, Missouri (PROVEN)
+- 1850 — resided Madison County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1850, Madison County, Missouri) — "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri."
+  Citation: 1850 U.S. Census, Madison County, MO.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Household member only — relationship to John Bess SUPPORTED (likely child), not proven.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-rua-bess-madison"></a>
+
+## 👤 Rua Bess (Madison Co., ~1833)
+**Group:** bess-mo-cluster · **Tags:** bess, bess-mo-cluster · **ID:** `rua-bess-madison`
+
+### 📅 Timeline
+- ~1833 — born, Missouri (PROVEN)
+- 1850 — resided Madison County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1850, Madison County, Missouri) — "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri."
+  Citation: 1850 U.S. Census, Madison County, MO.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Household member only — relationship to John Bess SUPPORTED (likely child), not proven.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-pernicia-bess-madison"></a>
+
+## 👤 Pernicia Bess (Madison Co., ~1836)
+**Group:** bess-mo-cluster · **Tags:** bess, bess-mo-cluster · **ID:** `pernicia-bess-madison`
+
+### 📅 Timeline
+- ~1836 — born, Missouri (PROVEN)
+- 1850 — resided Madison County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1850, Madison County, Missouri) — "John Bess, age 59, born North Carolina; Catherine Bess, age 59, born North Carolina; household also includes Maliny (24), Emanuel (22), Absolum (19), Rua (17), Pernicia (14) — all born Missouri."
+  Citation: 1850 U.S. Census, Madison County, MO.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Household member only — relationship to John Bess SUPPORTED (likely child), not proven.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
 
 <a id="-lawson-bess"></a>
 
@@ -1594,8 +3246,175 @@ _(group key: `bess-mo-cluster`)_
 
 ---
 
+<a id="-john-bess-mo"></a>
+
+## 👤 John Bess
+**Group:** bess-mo-cluster · **Tags:** bess, missouri, cape-girardeau · **ID:** `john-bess-mo`
+
+### 📅 Timeline
+- (undated) — resided Cape Girardeau County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1830, Cape Girardeau County, Missouri) — "Same census page includes Jacob Bess, Peter Bess, John Bess, Frederick Bess, and nearby Crites and Kinder households."
+  Citation: 1830 U.S. Census, Cape Girardeau Co., MO — same-page Bess/Crites/Kinder cluster.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub created from 1830 census cluster. Relationship to other MO Bess men UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-frederick-bess-mo"></a>
+
+## 👤 Frederick Bess
+**Group:** bess-mo-cluster · **Tags:** bess, missouri, cape-girardeau · **ID:** `frederick-bess-mo`
+
+### 📅 Timeline
+- (undated) — resided Cape Girardeau County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **census** (1830, Cape Girardeau County, Missouri) — "Same census page includes Jacob Bess, Peter Bess, John Bess, Frederick Bess, and nearby Crites and Kinder households."
+  Citation: 1830 U.S. Census, Cape Girardeau Co., MO — same-page Bess/Crites/Kinder cluster.
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse** — UNKNOWN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub created from 1830 census cluster. Relationship to other MO Bess men UNKNOWN.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** UNKNOWN
+
+---
+
+<a id="-john-best-mo"></a>
+
+## 👤 John Best
+**Group:** bess-mo-cluster · **Tags:** bess, missouri, cape-girardeau · **ID:** `john-best-mo`
+
+### 📅 Timeline
+- (undated) — resided Cape Girardeau County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "Daniel Slinkard and Hannah his wife, John Best and Caty his wife, and Jacob Best and Barbary his wife are named; the wives were privately examined apart from their husbands."
+  Citation: User-provided 1823 Cape Girardeau Co., MO deed transcription (recorded 31 Mar 1831).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Caty Best (`caty-best`) — PROVEN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub from 1823 deed extract naming "John Best and Caty his wife". Do not merge with NC John Best individuals.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
+<a id="-caty-best"></a>
+
+## 👤 Caty Best
+**Group:** bess-mo-cluster · **Tags:** bess, missouri, cape-girardeau · **ID:** `caty-best`
+
+### 📅 Timeline
+- (undated) — resided Cape Girardeau County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "Daniel Slinkard and Hannah his wife, John Best and Caty his wife, and Jacob Best and Barbary his wife are named; the wives were privately examined apart from their husbands."
+  Citation: User-provided 1823 Cape Girardeau Co., MO deed transcription (recorded 31 Mar 1831).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - John Best (`john-best-mo`) — PROVEN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub from 1823 deed extract.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
 # Group: Slinkard line (via Barbara, Jacob Bess Sr.'s wife)
 _(group key: `slinkard-direct`)_
+
+<a id="-barbara-slinkard"></a>
+
+## 👤 Barbara Slinkard
+**AKA:** Barbary, Barbary Best, Barbary Bess · **Group:** slinkard-direct · **Tags:** direct-line, slinkard, best, bess, missouri · **ID:** `barbara-slinkard`
+
+### 📅 Timeline
+- 1814 — married (spouse claim) (PROVEN)
+
+### 📚 Evidence
+- **guardian** ((undated probate distribution, post-1816), Cape Girardeau County, Missouri) — "'Jacob Miller, guardian of Barbara Slinkard… paid her share to her husband Jacob Best…'"
+  Citation: Probate / guardian distribution, Cape Girardeau Co., MO.
+- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "'Daniel Slinkard and his wife Hannah, David Kinder, John Best and Caty Best his wife, Jacob Best and his wife Barbary Best… land confirmed to Jacob Slinkard deceased and owned by him in his life time…'"
+  Citation: 1823 Cape Girardeau Co., MO deed.
+- **guardian** (~1813–1816 (per user transcription), Missouri (Cape Girardeau County)) — "Guardianship/court record naming Jacob Slinkard (deceased) and his minor children: Polly Slinkard, Barbara Slinkard, David Slinkard, Jacob Slinkard."
+  Citation: User-provided summary; original record citation TBD.
+- **court** (early 1830s (exact date not fully visible), Cape Girardeau County, Missouri) — "'Jacob Miller, Guardian of Polly Slinkerd, daughter of Jacob Slinkard deceased…' 'Jacob Miller, Guardian of Barbara Slinkerd, daughter of Jacob Slinkard deceased…'"
+  Citation: Circuit Court Proceedings, Cape Girardeau County, MO (early court term, likely 1830s).
+- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "Daniel Slinkard and Hannah his wife, John Best and Caty his wife, and Jacob Best and Barbary his wife are named; the wives were privately examined apart from their husbands."
+  Citation: User-provided 1823 Cape Girardeau Co., MO deed transcription (recorded 31 Mar 1831).
+- **census** (1830, Cape Girardeau County, Missouri) — "Male age 30–39 (born ~1790–1800); household with multiple children."
+  Citation: 1830 U.S. Census, Cape Girardeau Co., MO.
+- **census** (1850, Cape Girardeau County, Missouri) — "Jacob Bess, age 52, born North Carolina; household includes Matilda, Emanuel, Barbary, Jacob, Edward, Daniel."
+  Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
+
+### 🔗 Relationships
+**Father** — PROVEN
+  - Jacob Slinkard (MO, d. <1823) (`jacob-slinkard-mo`) — PROVEN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Jacob Bess (`jacob-bess-sr`) — PROVEN
+    - _justification:_ Barbara Slinkard, identified as a minor daughter of Jacob Slinkard deceased via the circuit court guardian record, is the same individual as Barbary Best, wife of Jacob Best, based on her participation in the 1823 deed disposing of Jacob Slinkard's estate land, consistent geographic location (Cape Girardeau County), absence of any competing individual named Barbary in the cluster, and the standard Best/Bess surname variation documented throughout this line. No conflicting evidence has been identified.
+    - _contradictions checked:_ none found
+    - _note:_ Full proof argument: review/proof_arguments/barbara-slinkard-jacob-bess.md. Status promoted from "PROVEN (By Argument)" to PROVEN on addition of ev-1823-jacob-best-barbary-wife-deed, which directly names "Jacob Best and Barbary his wife". Justification and contradictionsChecked retained for history.
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Distinct from Barbara Bess (m. Blaylock — Jacob Bess Sr.'s daughter) and from Barbary Bess (Levi's wife).
+- Do not confuse with Barbary/Barbara Bess, daughter of Jacob Bess Sr., who married Blaylock.
+- Do not confuse with Barbary, wife of Levi Bess.
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+### 📌 Proof Argument
+- See [`review/proof_arguments/barbara-slinkard-jacob-bess.md`](proof_arguments/barbara-slinkard-jacob-bess.md)
+  - **Claim:** Barbara Slinkard = Barbary Best = wife of Jacob Bess Sr.
+  - **Conclusion:** PROVEN (By Argument)
+  - **Conflicts checked:** see the proof argument file (verbatim)
+
+### 🔍 Related Research Tasks
+- [t-jacob-bess-dower-release] Search Cape Girardeau deed books for any Jacob Bess dower release between marriage (1814) and 1859. (_priority:_ high, _status:_ open)
+- [t-jacob-slinkard-mo-probate] Search Cape Girardeau probate / orphans court files for Jacob Slinkard (MO) full estate file. Identify all heirs by name, not just Barbara and Polly. (_priority:_ high, _status:_ open)
+- [t-jacob-slinkard-guardianship-date] Verify the date of the guardianship/court record naming Jacob Slinkard (deceased) as father of Polly, Barbara, David, and Jacob (minor). User noted it as ~1813–1816, but the 1818 deed (ev-1818-jacob-slinkard-mo-deed) shows Jacob alive selling a town lot — those cannot both be true for the same Jacob. (_priority:_ high, _status:_ open)
+
+---
 
 <a id="-jacob-slinkard-mo"></a>
 
@@ -1919,6 +3738,34 @@ _(group key: `slinkard-direct`)_
 
 ---
 
+<a id="-hannah-slinkard"></a>
+
+## 👤 Hannah Slinkard
+**Group:** slinkard-direct · **Tags:** slinkard, missouri · **ID:** `hannah-slinkard`
+
+### 📅 Timeline
+- (undated) — resided Cape Girardeau County, Missouri (PROVEN)
+
+### 📚 Evidence
+- **deed** (1 Oct 1823, Cape Girardeau County, Missouri) — "Daniel Slinkard and Hannah his wife, John Best and Caty his wife, and Jacob Best and Barbary his wife are named; the wives were privately examined apart from their husbands."
+  Citation: User-provided 1823 Cape Girardeau Co., MO deed transcription (recorded 31 Mar 1831).
+
+### 🔗 Relationships
+**Father** — UNKNOWN
+**Mother** — UNKNOWN
+**Spouse(s)** — PROVEN
+  - Daniel Slinkard (d. 1838) (`daniel-slinkard`) — PROVEN
+**Children** — UNKNOWN
+
+### 🧠 Analysis
+- Stub from 1823 deed extract naming "Daniel Slinkard and Hannah his wife".
+
+### 📊 Status
+- **Identity:** PROVEN
+- **Relationships (overall):** PROVEN
+
+---
+
 # Group: Daniel Slinkard's heirs (1838 probate)
 _(group key: `slinkard-daniel-heirs`)_
 
@@ -1967,8 +3814,8 @@ _(group key: `slinkard-daniel-heirs`)_
 ### 📚 Evidence
 - **probate** (2–3 Nov 1838, Cape Girardeau County, Missouri) — "Estate of Daniel Slinkard opened; widow Eve Slinkard; heirs: John, Jacob, Catharine, Polly, David, Emanuel, Denney (Denny), Ramon (Ransom), Nancy, Nora, Daniel (Jr.), Rosey."
   Citation: 1838 Daniel Slinkard probate, Cape Girardeau Co., MO.
-- **marriage** (1 Apr 1837, Cape Girardeau County, Missouri) — "Jacob Slinkard m. Phebe Hubble."
-  Citation: 1837 Cape Girardeau Co., MO marriage.
+- **marriage** (1 Apr 1837, Cape Girardeau County, Missouri) — "'Jacob Slinkard … Phoebe Hubble' — marriage recorded in Cape Girardeau marriage book."
+  Citation: 1837 Cape Girardeau Co., MO marriage record.
 - **census** (1850, Cape Girardeau County, Missouri) — "Jacob Slinkard household; Phebe; children William J, Daniel M (age 11), Ebenezer, Eliza C, Araminta C."
   Citation: 1850 U.S. Census, Cape Girardeau Co., MO.
 - **census** (1860, Byrd Township, Cape Girardeau County, Missouri) — "Same Jacob/Phebe family; adds John M, George W, Jacob L (infant); Daniel M now age 19."
@@ -2011,8 +3858,8 @@ _(group key: `slinkard-daniel-heirs`)_
 - 1876 — resided Bollinger / Cape Girardeau region, Missouri (PROVEN)
 
 ### 📚 Evidence
-- **marriage** (1 Apr 1837, Cape Girardeau County, Missouri) — "Jacob Slinkard m. Phebe Hubble."
-  Citation: 1837 Cape Girardeau Co., MO marriage.
+- **marriage** (1 Apr 1837, Cape Girardeau County, Missouri) — "'Jacob Slinkard … Phoebe Hubble' — marriage recorded in Cape Girardeau marriage book."
+  Citation: 1837 Cape Girardeau Co., MO marriage record.
 - **census** (1876, Bollinger / Cape Girardeau region, Missouri) — "Phoebe Slinkard, Araminta Slinkard, George W Slinkard, John M Slinkard, Jacob L Slinkard, Robert L Slinkard, Marion B Slinkard."
   Citation: 1876 Missouri state census.
 
@@ -3585,7 +5432,7 @@ _(group key: `other`)_
 **Father** — UNKNOWN
 **Mother** — UNKNOWN
 **Spouse(s)** — REPLACED
-  - Jacob Bess Sr. (`jacob-bess-sr`) — REPLACED
+  - Jacob Bess (`jacob-bess-sr`) — REPLACED
     - _note:_ Placeholder for the hypothesis that Jacob Bess Sr.'s wife was an unidentified woman. Replaced by identification with Barbara Slinkard. Kept per no-delete rule.
 **Children** — UNKNOWN
 

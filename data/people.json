@@ -221,7 +221,8 @@
           "status": "PROVEN",
           "evidence": [
             "ev-1850-census-jacob-bess",
-            "ev-jacob-bess-partition-1868"
+            "ev-jacob-bess-partition-1868",
+            "ev-1869-jacob-bess-heirs-circuit-court"
           ]
         },
         {
@@ -347,7 +348,10 @@
       "tags": [
         "bess",
         "bess-mo",
-        "direct-line"
+        "direct-line",
+        "missouri",
+        "cape-girardeau",
+        "bollinger"
       ],
       "group": "bess-mo-cluster",
       "claims": [
@@ -378,7 +382,170 @@
           "status": "SUPPORTED",
           "evidence": [],
           "notes": "Same surname, same county of origin, correct timeframe — but no direct evidence. Do NOT assign father-son or any specific relationship without a record."
+        },
+        {
+          "predicate": "born",
+          "value": {
+            "date": "~1795-1800",
+            "place": "North Carolina"
+          },
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1830-census-jacob-bess"
+          ],
+          "notes": "Birth range from 1830 census tally (age 30-39, born ~1790-1800); birthplace from later self-report. Census-based, hence SUPPORTED only."
+        },
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Cape Girardeau County, Missouri",
+            "dateRange": "1823-1830"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed",
+            "ev-1830-census-jacob-bess"
+          ]
+        },
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Bollinger County, Missouri",
+            "date": "1860"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1860-jacob-bess-sr-daniel-bess-deed"
+          ]
+        },
+        {
+          "predicate": "died",
+          "value": {
+            "date": "before 13 Feb 1867",
+            "place": "Bollinger County, Missouri"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1867-jacob-bess-probate-matilda-admin"
+          ]
+        },
+        {
+          "predicate": "spouse-of",
+          "object": "barbara-slinkard",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed",
+            "ev-1823-jacob-slinkard-deceased-deed"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "edward-b-bess",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "daniel-r-bess",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "james-bess-son",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "matilda-bess",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "sarah-j-bess",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "barbara-bess-blaylock",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "mary-a-bess",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "adaline-bess-rhodes",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "father-of",
+          "object": "emanuel-bess",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ]
+        },
+        {
+          "predicate": "associated-with",
+          "object": "peter-bess-mo",
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1830-census-bess-crites-kinder-cluster-mo"
+          ],
+          "notes": "Same 1830 census page/neighborhood; relationship not stated."
+        },
+        {
+          "predicate": "associated-with",
+          "object": "john-bess-mo",
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1830-census-bess-crites-kinder-cluster-mo"
+          ],
+          "notes": "Same 1830 census page/neighborhood; relationship not stated."
+        },
+        {
+          "predicate": "associated-with",
+          "object": "frederick-bess-mo",
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1830-census-bess-crites-kinder-cluster-mo"
+          ],
+          "notes": "Same 1830 census page/neighborhood; relationship not stated."
         }
+      ],
+      "aka": [
+        "Jacob Best",
+        "Jacob Bess Senior"
+      ],
+      "notes": [
+        "Do not merge with Jacob Bess/Best of Lincoln County, North Carolina.",
+        "The word Senior in Missouri records refers to a local Missouri distinction from a younger Jacob Bess (likely Jacob Jr.), not the North Carolina elder Jacob.",
+        "Origin family remains unresolved. Use proof arguments for cluster/migration reasoning, not parent claims."
       ]
     },
     "michael-bess-mo": {
@@ -1486,7 +1653,8 @@
           "object": "jacob-bess-sr",
           "status": "SUPPORTED",
           "evidence": [
-            "ev-1850-census-jacob-bess"
+            "ev-1850-census-jacob-bess",
+            "ev-1869-jacob-bess-heirs-circuit-court"
           ]
         }
       ]
@@ -1637,7 +1805,8 @@
           "status": "STRONGLY SUPPORTED",
           "evidence": [
             "ev-1850-census-jacob-bess",
-            "ev-jacob-bess-probate"
+            "ev-jacob-bess-probate",
+            "ev-1869-jacob-bess-heirs-circuit-court"
           ],
           "notes": "1850 in Jacob's household; 1880 listed as 'sister' in Daniel Bess household."
         },
@@ -1766,7 +1935,8 @@
           "object": "jacob-bess-sr",
           "status": "PROVEN",
           "evidence": [
-            "ev-jacob-bess-partition-1868"
+            "ev-jacob-bess-partition-1868",
+            "ev-1869-jacob-bess-heirs-circuit-court"
           ]
         },
         {
@@ -1803,7 +1973,8 @@
           "object": "jacob-bess-sr",
           "status": "PROVEN",
           "evidence": [
-            "ev-jacob-bess-partition-1868"
+            "ev-jacob-bess-partition-1868",
+            "ev-1869-jacob-bess-heirs-circuit-court"
           ]
         }
       ],
@@ -1825,7 +1996,8 @@
           "object": "jacob-bess-sr",
           "status": "PROVEN",
           "evidence": [
-            "ev-jacob-bess-partition-1868"
+            "ev-jacob-bess-partition-1868",
+            "ev-1869-jacob-bess-heirs-circuit-court"
           ]
         }
       ],
@@ -2267,7 +2439,9 @@
           "predicate": "event",
           "value": "1816 apprenticeship indenture (master)",
           "status": "PROVEN",
-          "evidence": ["ev-jacob-bess-1816-indentured-apprentice"],
+          "evidence": [
+            "ev-jacob-bess-1816-indentured-apprentice"
+          ],
           "notes": "FamilySearch image 380 of 457, Image Group 007641006. Extract not yet transcribed — update when verbatim text is available."
         },
         {
@@ -3566,6 +3740,7 @@
       "id": "barbara-slinkard",
       "name": "Barbara Slinkard",
       "aka": [
+        "Barbary",
         "Barbary Best",
         "Barbary Bess"
       ],
@@ -3573,9 +3748,10 @@
         "direct-line",
         "slinkard",
         "best",
-        "bess"
+        "bess",
+        "missouri"
       ],
-      "group": "direct-line",
+      "group": "slinkard-direct",
       "claims": [
         {
           "predicate": "child-of",
@@ -3592,8 +3768,9 @@
           "predicate": "spouse-of",
           "object": "jacob-bess-sr",
           "marriageYear": "1814",
-          "status": "PROVEN (By Argument)",
+          "status": "PROVEN",
           "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed",
             "ev-jacob-miller-guardianship-barbara",
             "ev-1823-jacob-slinkard-deceased-deed",
             "ev-circuit-court-cape-jacob-miller-guardian",
@@ -3602,11 +3779,22 @@
           ],
           "justification": "Barbara Slinkard, identified as a minor daughter of Jacob Slinkard deceased via the circuit court guardian record, is the same individual as Barbary Best, wife of Jacob Best, based on her participation in the 1823 deed disposing of Jacob Slinkard's estate land, consistent geographic location (Cape Girardeau County), absence of any competing individual named Barbary in the cluster, and the standard Best/Bess surname variation documented throughout this line. No conflicting evidence has been identified.",
           "contradictionsChecked": "none found",
-          "notes": "Full proof argument: review/proof_arguments/barbara-slinkard-jacob-bess.md."
+          "notes": "Full proof argument: review/proof_arguments/barbara-slinkard-jacob-bess.md. Status promoted from \"PROVEN (By Argument)\" to PROVEN on addition of ev-1823-jacob-best-barbary-wife-deed, which directly names \"Jacob Best and Barbary his wife\". Justification and contradictionsChecked retained for history."
+        },
+        {
+          "predicate": "associated-with",
+          "object": "daniel-slinkard",
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ],
+          "notes": "Appears in same Slinkard-related 1823 deed group; exact relationship to Daniel Slinkard not stated in this extract."
         }
       ],
       "notes": [
-        "Distinct from Barbara Bess (m. Blaylock — Jacob Bess Sr.'s daughter) and from Barbary Bess (Levi's wife)."
+        "Distinct from Barbara Bess (m. Blaylock — Jacob Bess Sr.'s daughter) and from Barbary Bess (Levi's wife).",
+        "Do not confuse with Barbary/Barbara Bess, daughter of Jacob Bess Sr., who married Blaylock.",
+        "Do not confuse with Barbary, wife of Levi Bess."
       ]
     },
     "jacob-slinkard-mo": {
@@ -5561,6 +5749,283 @@
             "ev-marriage-index-elizabeth-bess-spencer"
           ]
         }
+      ]
+    },
+    "john-bess-mo": {
+      "id": "john-bess-mo",
+      "name": "John Bess",
+      "label": "John Bess (Missouri, 1830 cluster)",
+      "group": "bess-mo-cluster",
+      "tags": [
+        "bess",
+        "missouri",
+        "cape-girardeau"
+      ],
+      "claims": [
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Cape Girardeau County, Missouri",
+            "date": "1830"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1830-census-bess-crites-kinder-cluster-mo"
+          ]
+        },
+        {
+          "predicate": "associated-with",
+          "object": "jacob-bess-sr",
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1830-census-bess-crites-kinder-cluster-mo"
+          ],
+          "notes": "Same 1830 census page; relationship not stated."
+        }
+      ],
+      "notes": [
+        "Stub created from 1830 census cluster. Relationship to other MO Bess men UNKNOWN."
+      ]
+    },
+    "frederick-bess-mo": {
+      "id": "frederick-bess-mo",
+      "name": "Frederick Bess",
+      "label": "Frederick Bess (Missouri, 1830 cluster)",
+      "group": "bess-mo-cluster",
+      "tags": [
+        "bess",
+        "missouri",
+        "cape-girardeau"
+      ],
+      "claims": [
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Cape Girardeau County, Missouri",
+            "date": "1830"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1830-census-bess-crites-kinder-cluster-mo"
+          ]
+        },
+        {
+          "predicate": "associated-with",
+          "object": "jacob-bess-sr",
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1830-census-bess-crites-kinder-cluster-mo"
+          ],
+          "notes": "Same 1830 census page; relationship not stated."
+        }
+      ],
+      "notes": [
+        "Stub created from 1830 census cluster. Relationship to other MO Bess men UNKNOWN."
+      ]
+    },
+    "hannah-slinkard": {
+      "id": "hannah-slinkard",
+      "name": "Hannah Slinkard",
+      "label": "Hannah, wife of Daniel Slinkard",
+      "group": "slinkard-direct",
+      "tags": [
+        "slinkard",
+        "missouri"
+      ],
+      "claims": [
+        {
+          "predicate": "spouse-of",
+          "object": "daniel-slinkard",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ]
+        },
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Cape Girardeau County, Missouri",
+            "date": "1 Oct 1823"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ]
+        }
+      ],
+      "notes": [
+        "Stub from 1823 deed extract naming \"Daniel Slinkard and Hannah his wife\"."
+      ]
+    },
+    "john-best-mo": {
+      "id": "john-best-mo",
+      "name": "John Best",
+      "label": "John Best (Missouri, 1823 deed)",
+      "group": "bess-mo-cluster",
+      "tags": [
+        "bess",
+        "missouri",
+        "cape-girardeau"
+      ],
+      "claims": [
+        {
+          "predicate": "spouse-of",
+          "object": "caty-best",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ]
+        },
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Cape Girardeau County, Missouri",
+            "date": "1 Oct 1823"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ]
+        },
+        {
+          "predicate": "associated-with",
+          "object": "jacob-bess-sr",
+          "status": "SUPPORTED",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ],
+          "notes": "Co-grantor in 1823 Slinkard-associated deed; relationship not stated."
+        }
+      ],
+      "notes": [
+        "Stub from 1823 deed extract naming \"John Best and Caty his wife\". Do not merge with NC John Best individuals."
+      ]
+    },
+    "caty-best": {
+      "id": "caty-best",
+      "name": "Caty Best",
+      "label": "Caty, wife of John Best (Missouri, 1823 deed)",
+      "group": "bess-mo-cluster",
+      "tags": [
+        "bess",
+        "missouri",
+        "cape-girardeau"
+      ],
+      "claims": [
+        {
+          "predicate": "spouse-of",
+          "object": "john-best-mo",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ]
+        },
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Cape Girardeau County, Missouri",
+            "date": "1 Oct 1823"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1823-jacob-best-barbary-wife-deed"
+          ]
+        }
+      ],
+      "notes": [
+        "Stub from 1823 deed extract."
+      ]
+    },
+    "daniel-r-bess": {
+      "id": "daniel-r-bess",
+      "name": "Daniel R. Bess",
+      "label": "Daniel R. Bess (son of Jacob Bess Sr.)",
+      "group": "bess-mo-children",
+      "tags": [
+        "bess",
+        "missouri",
+        "bollinger"
+      ],
+      "claims": [
+        {
+          "predicate": "child-of",
+          "object": "jacob-bess-sr",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ],
+          "notes": "Named in 1869 heirs court record. 1860 deed from Jacob Bess Sr. is consistent but not by itself a kinship statement."
+        },
+        {
+          "predicate": "resided",
+          "value": {
+            "place": "Bollinger County, Missouri",
+            "date": "1860"
+          },
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1860-jacob-bess-sr-daniel-bess-deed"
+          ]
+        }
+      ],
+      "notes": [
+        "Stub from 1869 heirs record and 1860 deed."
+      ]
+    },
+    "sarah-j-bess": {
+      "id": "sarah-j-bess",
+      "name": "Sarah J. Bess",
+      "label": "Sarah Bess (heir of Jacob Bess Sr.)",
+      "group": "bess-mo-children",
+      "tags": [
+        "bess",
+        "missouri",
+        "bollinger"
+      ],
+      "claims": [
+        {
+          "predicate": "child-of",
+          "object": "jacob-bess-sr",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ],
+          "notes": "Named in 1869 heirs court record."
+        }
+      ],
+      "notes": [
+        "Stub from 1869 heirs record."
+      ]
+    },
+    "adaline-bess-rhodes": {
+      "id": "adaline-bess-rhodes",
+      "name": "Adaline Bess",
+      "label": "Adaline Bess (Rhodes line, heir of Jacob Bess Sr.)",
+      "aka": [
+        "Adeline Bess",
+        "Adaline Rhodes",
+        "Adeline Rhodes"
+      ],
+      "group": "bess-mo-children",
+      "tags": [
+        "bess",
+        "rhodes",
+        "missouri",
+        "bollinger"
+      ],
+      "claims": [
+        {
+          "predicate": "child-of",
+          "object": "jacob-bess-sr",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1869-jacob-bess-heirs-circuit-court"
+          ],
+          "notes": "Named via the Rhodes line in the 1869 heirs court record."
+        }
+      ],
+      "notes": [
+        "Stub from 1869 heirs record. Married into Rhodes line."
       ]
     }
   }
