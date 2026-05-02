@@ -2266,9 +2266,9 @@
         {
           "predicate": "event",
           "value": "1816 apprenticeship indenture (master)",
-          "status": "SUPPORTED",
-          "evidence": [],
-          "notes": "Source document not yet entered into evidence.json. Kept SUPPORTED until evidence ID is attached."
+          "status": "PROVEN",
+          "evidence": ["ev-1816-jacob-bess-apprenticeship-nc"],
+          "notes": "FamilySearch image 380 of 457, Image Group 007641006. Extract not yet transcribed — update when verbatim text is available."
         },
         {
           "predicate": "event",

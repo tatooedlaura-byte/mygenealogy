@@ -1094,6 +1094,17 @@
       "doesNotProve": ["Catherine is John's wife (household co-residence only; 1850 census did not record relationships)", "Listed individuals are John's children (household only)", "Any connection to Jacob Bess Sr. or the Cape Girardeau/Bollinger Bess line"]
     },
 
+    "ev-1816-jacob-bess-apprenticeship-nc": {
+      "id": "ev-1816-jacob-bess-apprenticeship-nc",
+      "type": "court",
+      "date": "1816",
+      "location": "Lincoln County, North Carolina",
+      "extract": "[Extract not yet transcribed — see image 380 of 457, Image Group 007641006]",
+      "citation": "\"Lincoln, North Carolina, United States records,\" images, FamilySearch (https://www.familysearch.org/ark:/61903/3:1:3QS7-99G8-Y9F6-9?view=explore : May 2, 2026), image 380 of 457; Image Group Number: 007641006.",
+      "proves": ["Jacob Bess (elder, NC) was present in Lincoln County, North Carolina by 1816", "Jacob Bess served as master in an apprenticeship indenture"],
+      "doesNotProve": ["That this Jacob Bess is the same individual as Jacob Bess Sr. of Missouri", "Any family relationship between NC Jacob Bess and MO Jacob Bess Sr.", "Jacob Bess's parents or children"]
+    },
+
     "ev-1850-jacob-bess-cluster-analysis": {
       "id": "ev-1850-jacob-bess-cluster-analysis",
       "type": "analysis",
