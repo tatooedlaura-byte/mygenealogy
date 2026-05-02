@@ -86,7 +86,8 @@
         {"predicate": "father-of", "object": "rhoda-b-bess", "status": "PROVEN", "evidence": ["ev-1880-census-roddi-bess"]},
         {"predicate": "father-of", "object": "hugh-kidd-bess", "status": "PROVEN", "evidence": []},
         {"predicate": "father-of", "object": "edward-bess-jr", "status": "PROVEN", "evidence": []},
-        {"predicate": "father-of", "object": "nelly-bess", "status": "PROVEN", "evidence": []}
+        {"predicate": "father-of", "object": "nelly-bess", "status": "PROVEN", "evidence": []},
+        {"predicate": "possibly-same-as", "value": "Edward Bess in Jacob's 1850 census household (age ~15)", "status": "SUPPORTED", "notes": "Likely the same person but not yet explicitly proven"}
       ],
       "summary": "Securely documented son of Jacob Bess Sr. Multiple deeds prove marriage to Jane. Strongest evidence for Jane's maiden name is the death record of son Albert Ransom Bess."
     },
@@ -102,96 +103,17 @@
     "jacob-bess-sr": {
       "id": "jacob-bess-sr", "name": "Jacob Bess", "label": "Jacob Bess Sr. (Missouri)", "tags": ["direct-line", "missouri"], "group": "direct-line",
       "claims": [
-        {"predicate": "born", "value": "~1798", "status": "PROVEN", "notes": "From 1850 census age"},
-        {"predicate": "born-in", "value": "North Carolina", "status": "PROVEN", "notes": "From 1850 census"},
+        {"predicate": "born", "value": "~1798", "status": "SUPPORTED", "notes": "From 1850 census age — estimated, not a birth record"},
+        {"predicate": "born-in", "value": "North Carolina", "status": "SUPPORTED", "notes": "From 1850 census — self-reported birthplace"},
         {"predicate": "resided", "value": "Cape Girardeau County, Missouri", "status": "PROVEN"}
-      ]
-    },
-
-    "matilda-bess-mo": {
-      "id": "matilda-bess-mo", "name": "Matilda Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "spouse-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship not explicitly stated"}
-      ]
-    },
-
-    "emanuel-bess-mo": {
-      "id": "emanuel-bess-mo", "name": "Emanuel Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
-      ]
-    },
-
-    "barbary-bess-mo": {
-      "id": "barbary-bess-mo", "name": "Barbary Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"},
-        {"predicate": "possibly-same-as", "object": "barbara-bess-blaylock", "status": "SUPPORTED", "notes": "Barbary in 1850 likely Barbara who later married Blaylock"}
-      ]
-    },
-
-    "jacob-bess-jr-mo": {
-      "id": "jacob-bess-jr-mo", "name": "Jacob Bess Jr.", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
-      ]
-    },
-
-    "edward-bess-mo": {
-      "id": "edward-bess-mo", "name": "Edward Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"},
-        {"predicate": "possibly-same-as", "object": "edward-b-bess", "status": "SUPPORTED", "notes": "1850 household Edward (age ~15) likely same person as later Edward B. Bess, but not explicitly proven yet"}
-      ]
-    },
-
-    "daniel-bess-mo": {
-      "id": "daniel-bess-mo", "name": "Daniel Bess", "tags": ["missouri", "bess-mo-jacob-household"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
-      ]
-    },
-
-    "sarah-bess-mo": {
-      "id": "sarah-bess-mo", "name": "Sarah Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
-      ]
-    },
-
-    "catherine-bess-mo": {
-      "id": "catherine-bess-mo", "name": "Catherine Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
-      ]
-    },
-
-    "adaline-bess-mo": {
-      "id": "adaline-bess-mo", "name": "Adaline Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
-      ]
-    },
-
-    "mary-a-bess-mo": {
-      "id": "mary-a-bess-mo", "name": "Mary A. Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
-      ]
-    },
-
-    "james-bess-mo": {
-      "id": "james-bess-mo", "name": "James Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
-      "claims": [
-        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
       ]
     },
 
     "michael-bess-mo": {
       "id": "michael-bess-mo", "name": "Michael Bess", "label": "Michael Bess (Missouri)", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
       "claims": [
-        {"predicate": "born", "value": "~1794", "status": "PROVEN", "notes": "1850 census age"},
-        {"predicate": "born-in", "value": "North Carolina", "status": "PROVEN", "notes": "1850 census"},
+        {"predicate": "born", "value": "~1794", "status": "SUPPORTED", "notes": "1850 census age — estimated, not a birth record"},
+        {"predicate": "born-in", "value": "North Carolina", "status": "SUPPORTED", "notes": "1850 census — self-reported birthplace"},
         {"predicate": "resided", "value": "Cape Girardeau County, Missouri", "status": "PROVEN"},
         {"predicate": "associated-with", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "Same county, same time, same birthplace"},
         {"predicate": "associated-with", "object": "peter-bess-mo", "status": "SUPPORTED"}
@@ -243,8 +165,8 @@
     "peter-bess-mo": {
       "id": "peter-bess-mo", "name": "Peter Bess", "label": "Peter Bess (Missouri)", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
       "claims": [
-        {"predicate": "born", "value": "~1797", "status": "PROVEN", "notes": "1850 census age"},
-        {"predicate": "born-in", "value": "North Carolina", "status": "PROVEN", "notes": "1850 census"},
+        {"predicate": "born", "value": "~1797", "status": "SUPPORTED", "notes": "1850 census age — estimated, not a birth record"},
+        {"predicate": "born-in", "value": "North Carolina", "status": "SUPPORTED", "notes": "1850 census — self-reported birthplace"},
         {"predicate": "resided", "value": "Cape Girardeau County, Missouri", "status": "PROVEN"},
         {"predicate": "associated-with", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "Same county, same timeframe, same NC origin"}
       ]
@@ -593,11 +515,12 @@
     },
 
     "barbara-bess-blaylock": {
-      "id": "barbara-bess-blaylock", "name": "Barbara (Barbary) Bess", "aka": ["Barbara Blaylock"], "tags": ["bess", "bess-mo-children", "blaylock"], "group": "bess-mo-children",
+      "id": "barbara-bess-blaylock", "name": "Barbara (Barbary) Bess", "aka": ["Barbara Blaylock", "Barbary Bess"], "tags": ["bess", "bess-mo-children", "blaylock"], "group": "bess-mo-children",
       "claims": [
         {"predicate": "born", "value": {"date": "~1830", "place": "Missouri"}, "status": "SUPPORTED", "evidence": ["ev-1850-census-jacob-bess"]},
         {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "evidence": ["ev-jacob-bess-partition-1868"]},
-        {"predicate": "spouse-of", "value": "Mr. Blaylock", "status": "SUPPORTED", "evidence": ["ev-jacob-bess-partition-1868"], "notes": "Given name unknown."}
+        {"predicate": "spouse-of", "value": "Mr. Blaylock", "status": "SUPPORTED", "evidence": ["ev-jacob-bess-partition-1868"], "notes": "Given name unknown."},
+        {"predicate": "possibly-same-as", "value": "Barbary Bess in Jacob's 1850 census household", "status": "SUPPORTED", "notes": "Barbary in 1850 household (age ~20) likely same person as Barbara who later married Blaylock; not yet proven"}
       ],
       "notes": ["Distinct from Barbara Slinkard (Jacob Bess Sr.'s wife) and from Barbary Bess (Levi's wife)."]
     },
