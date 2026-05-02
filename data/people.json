@@ -4463,10 +4463,32 @@
           "evidence": [
             "ev-1838-daniel-slinkard-probate"
           ]
+        },
+        {
+          "predicate": "spouse-of",
+          "object": "melinda-slinkard",
+          "status": "SUPPORTED",
+          "evidence": [],
+          "notes": "Downgraded from PROVEN: no evidence record attached"
         }
       ],
       "notes": [
         "Distinct from David Slinkard (1816 minor)."
+      ]
+    },
+    "melinda-slinkard": {
+      "id": "melinda-slinkard",
+      "name": "Melinda Slinkard",
+      "tags": ["slinkard", "slinkard-daniel-heirs"],
+      "group": "slinkard-daniel-heirs",
+      "claims": [
+        {
+          "predicate": "spouse-of",
+          "object": "david-slinkard-b",
+          "status": "SUPPORTED",
+          "evidence": [],
+          "notes": "Downgraded from PROVEN: no evidence record attached"
+        }
       ]
     },
     "ramon-slinkard": {
@@ -5102,6 +5124,15 @@
           "evidence": [
             "ev-ransom-estes-will"
           ]
+        },
+        {
+          "predicate": "child-of",
+          "object": "daniel-slinkard",
+          "status": "PROVEN",
+          "evidence": [
+            "ev-1838-daniel-slinkard-probate"
+          ],
+          "notes": "Named in Daniel Slinkard's 1838 probate as heir."
         }
       ]
     },
