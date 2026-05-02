@@ -150,6 +150,41 @@
       ]
     },
 
+    "sarah-bess-mo": {
+      "id": "sarah-bess-mo", "name": "Sarah Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
+      ]
+    },
+
+    "catherine-bess-mo": {
+      "id": "catherine-bess-mo", "name": "Catherine Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
+      ]
+    },
+
+    "adaline-bess-mo": {
+      "id": "adaline-bess-mo", "name": "Adaline Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
+      ]
+    },
+
+    "mary-a-bess-mo": {
+      "id": "mary-a-bess-mo", "name": "Mary A. Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
+      ]
+    },
+
+    "james-bess-mo": {
+      "id": "james-bess-mo", "name": "James Bess", "tags": ["missouri", "bess-mo-jacob-probate"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "child-of", "object": "jacob-bess-sr", "status": "PROVEN", "notes": "Named in probate/partition record"}
+      ]
+    },
+
     "unknown-wife-implied": {
       "id": "unknown-wife-implied", "name": "(Unknown wife — implied, replaced)", "tags": ["bess", "rejected"], "group": "other",
       "claims": [
