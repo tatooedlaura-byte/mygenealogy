@@ -1688,6 +1688,44 @@
         "That any of these Bess men were brothers, cousins, or otherwise kin"
       ],
       "notes": "Companion to existing ev-1830-census-jacob-bess (same census). This record captures the cluster context; the other captures Jacob’s household tally."
+    },
+
+    "ev-1810-ky-frederick-slinker-census": {
+      "id": "ev-1810-ky-frederick-slinker-census",
+      "type": "census",
+      "date": "6 Aug 1810",
+      "location": "Green County, Kentucky",
+      "extract": "Fredk Slinker household: male 45+, female 45+, males under 10 (2), male 10–15 (1), male 16–25 (1), females under 10 (1), females 10–15 (2), female 16–25 (1).",
+      "citation": "1810 U.S. Census, Green County, Kentucky; household of Fredk Slinker.",
+      "proves": [
+        "Frederick Slinker resided in Green County, Kentucky in 1810",
+        "Household includes males and females in age ranges consistent with a father and children"
+      ],
+      "doesNotProve": [
+        "That this Frederick Slinker is connected to the Missouri Slinkard family",
+        "Names of any household members",
+        "That Slinker (KY) and Slinkard (MO) are the same family",
+        "Any family relationship to Daniel Slinkard, Jacob Slinkard, or other Missouri Slinkards"
+      ]
+    },
+
+    "ev-1820-ky-frederick-slinker-census": {
+      "id": "ev-1820-ky-frederick-slinker-census",
+      "type": "census",
+      "date": "7 Aug 1820",
+      "location": "Green County, Kentucky",
+      "extract": "Frederick Slinker household: male 45+, female 45+, male 10–15 (1), females under 10 (1), females 16–25 (2), female 26–44 (1).",
+      "citation": "1820 U.S. Census, Green County, Kentucky; household of Frederick Slinker.",
+      "proves": [
+        "Frederick Slinker resided in Green County, Kentucky in 1820",
+        "Household structure shows children transitioning toward adulthood between 1810 and 1820"
+      ],
+      "doesNotProve": [
+        "That this Frederick Slinker is connected to the Missouri Slinkard family",
+        "Names of any household members",
+        "That Slinker (KY) and Slinkard (MO) are the same family",
+        "Any family relationship to Daniel Slinkard, Jacob Slinkard, or other Missouri Slinkards"
+      ]
     }
   }
 }

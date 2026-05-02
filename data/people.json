@@ -861,6 +861,32 @@
         }
       ]
     },
+    "frederick-slinker-ky": {
+      "id": "frederick-slinker-ky",
+      "name": "Frederick Slinker",
+      "group": "slinkard-origin-hypothesis",
+      "tags": ["kentucky", "green-county", "pre-missouri"],
+      "claims": [
+        {
+          "predicate": "resided",
+          "value": {"place": "Green County, Kentucky", "date": "1810"},
+          "status": "PROVEN",
+          "evidence": ["ev-1810-ky-frederick-slinker-census"]
+        },
+        {
+          "predicate": "resided",
+          "value": {"place": "Green County, Kentucky", "date": "1820"},
+          "status": "PROVEN",
+          "evidence": ["ev-1820-ky-frederick-slinker-census"]
+        }
+      ],
+      "notes": [
+        "Possible origin-family member for Missouri Slinkard group; relationship not proven.",
+        "Do not merge with Missouri Slinkard individuals without direct evidence.",
+        "Do not assign as father of Daniel Slinkard, Jacob Slinkard, or any Missouri Slinkard without a direct record."
+      ]
+    },
+
     "unknown-wife-implied": {
       "id": "unknown-wife-implied",
       "name": "(Unknown wife — implied, replaced)",
