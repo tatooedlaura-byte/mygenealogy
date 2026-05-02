@@ -187,6 +187,59 @@
       ]
     },
 
+    "michael-bess-mo": {
+      "id": "michael-bess-mo", "name": "Michael Bess", "label": "Michael Bess (Missouri)", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "born", "value": "~1794", "status": "PROVEN", "notes": "1850 census age"},
+        {"predicate": "born-in", "value": "North Carolina", "status": "PROVEN", "notes": "1850 census"},
+        {"predicate": "resided", "value": "Cape Girardeau County, Missouri", "status": "PROVEN"},
+        {"predicate": "associated-with", "object": "jacob-bess-sr", "status": "SUPPORTED", "notes": "Same county, same time, same birthplace"},
+        {"predicate": "associated-with", "object": "peter-bess-mo", "status": "SUPPORTED"}
+      ]
+    },
+
+    "elizabeth-bess-michael-wife": {
+      "id": "elizabeth-bess-michael-wife", "name": "Elizabeth Bess", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "michael-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship not explicitly stated"}
+      ]
+    },
+
+    "christopher-j-bess-mo": {
+      "id": "christopher-j-bess-mo", "name": "Christopher J. Bess", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "michael-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "cynthia-bess-mo": {
+      "id": "cynthia-bess-mo", "name": "Cynthia Bess", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "michael-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "eleanor-bess-mo": {
+      "id": "eleanor-bess-mo", "name": "Eleanor Bess", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "michael-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "mary-c-bess-mo": {
+      "id": "mary-c-bess-mo", "name": "Mary C. Bess", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "michael-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
+    "sarah-m-bess-mo": {
+      "id": "sarah-m-bess-mo", "name": "Sarah M. Bess", "tags": ["missouri", "bess-mo-michael-household"], "group": "bess-mo-cluster",
+      "claims": [
+        {"predicate": "household-member-of", "object": "michael-bess-mo", "status": "SUPPORTED", "notes": "1850 census household; relationship inferred"}
+      ]
+    },
+
     "peter-bess-mo": {
       "id": "peter-bess-mo", "name": "Peter Bess", "label": "Peter Bess (Missouri)", "tags": ["missouri", "bess-mo-peter-household"], "group": "bess-mo-cluster",
       "claims": [
