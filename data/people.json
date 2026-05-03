@@ -6063,6 +6063,102 @@
       "notes": [
         "Stub from 1869 heirs record. Married into Rhodes line."
       ]
+    },
+
+    "james-slinkard-1836": {
+      "id": "james-slinkard-1836",
+      "name": "James H Slinkard",
+      "approxBirth": 1835,
+      "group": "slinkard-mo",
+      "tags": [
+        "slinkard",
+        "missouri",
+        "mcdonald"
+      ],
+      "claims": [
+        {
+          "predicate": "born",
+          "object": "~1835",
+          "status": "SUPPORTED",
+          "evidence": ["ev-1860-mcdonald-mo-census"],
+          "notes": "Age derived from 1860 census. Self-reported."
+        },
+        {
+          "predicate": "born-in",
+          "object": "Tennessee",
+          "status": "SUPPORTED",
+          "evidence": ["ev-1860-mcdonald-mo-census"],
+          "notes": "Birthplace per 1860 census (self-reported). An 1850 Jas Slinkard age 14 in Missouri is a possible earlier appearance — if so, birthplace may be Missouri, not Tennessee. Preferred: Tennessee per 1860."
+        },
+        {
+          "predicate": "resided",
+          "object": "McDonald County, Missouri",
+          "status": "PROVEN",
+          "evidence": ["ev-1860-mcdonald-mo-census"]
+        },
+        {
+          "predicate": "spouse-of",
+          "object": "sarah-slinkard",
+          "status": "PROVEN",
+          "evidence": ["ev-1860-mcdonald-mo-census"]
+        },
+        {
+          "predicate": "father-of",
+          "object": "thomas-w-slinkard",
+          "status": "PROVEN",
+          "evidence": ["ev-1860-mcdonald-mo-census"]
+        }
+      ],
+      "notes": [
+        "Parents unknown — do NOT assign parents without direct evidence.",
+        "No established connection to Daniel Slinkard or the Bollinger County Slinkard family.",
+        "No established connection to the Bess family.",
+        "1850 Jas Slinkard (age 14) is a candidate early appearance — SUPPORTED only; not merged."
+      ]
+    },
+
+    "sarah-slinkard": {
+      "id": "sarah-slinkard",
+      "name": "Sarah Slinkard",
+      "group": "slinkard-mo",
+      "tags": [
+        "slinkard",
+        "missouri",
+        "mcdonald"
+      ],
+      "claims": [
+        {
+          "predicate": "spouse-of",
+          "object": "james-slinkard-1836",
+          "status": "PROVEN",
+          "evidence": ["ev-1860-mcdonald-mo-census"]
+        }
+      ],
+      "notes": [
+        "Stub. Maiden name unknown. Appears as wife in 1860 McDonald County census household of James H Slinkard."
+      ]
+    },
+
+    "thomas-w-slinkard": {
+      "id": "thomas-w-slinkard",
+      "name": "Thomas W Slinkard",
+      "group": "slinkard-mo",
+      "tags": [
+        "slinkard",
+        "missouri",
+        "mcdonald"
+      ],
+      "claims": [
+        {
+          "predicate": "child-of",
+          "object": "james-slinkard-1836",
+          "status": "PROVEN",
+          "evidence": ["ev-1860-mcdonald-mo-census"]
+        }
+      ],
+      "notes": [
+        "Stub. Listed in 1860 McDonald County census household of James H Slinkard."
+      ]
     }
   }
 }

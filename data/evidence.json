@@ -1726,6 +1726,26 @@
         "That Slinker (KY) and Slinkard (MO) are the same family",
         "Any family relationship to Daniel Slinkard, Jacob Slinkard, or other Missouri Slinkards"
       ]
+    },
+
+    "ev-1860-mcdonald-mo-census": {
+      "id": "ev-1860-mcdonald-mo-census",
+      "type": "census",
+      "date": "1860",
+      "location": "McDonald County, Missouri",
+      "extract": "PLACEHOLDER — 1860 U.S. Census, McDonald County, Missouri. James H Slinkard household. Exact transcription not yet entered.",
+      "citation": "1860 U.S. Census, McDonald County, Missouri; household of James H Slinkard. [Full citation pending]",
+      "proves": [
+        "James H Slinkard resided in McDonald County, Missouri in 1860",
+        "James H Slinkard was married (wife Sarah listed in household)",
+        "Thomas W Slinkard was a member of the household"
+      ],
+      "doesNotProve": [
+        "Birthplace of James H Slinkard is certain — census birthplace is self-reported",
+        "Any connection to Daniel Slinkard or the Bollinger County Slinkard family",
+        "Any connection to the Bess family"
+      ],
+      "notes": "PLACEHOLDER — full transcription and image citation needed. Update when record is located."
     }
   }
 }
